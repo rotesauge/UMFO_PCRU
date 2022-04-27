@@ -1651,7 +1651,7 @@
 			<Metadata name="Document.АвансовыйОтчет.Attribute.НазначениеАванса" id="fa2cf655-4388-4865-b00a-c003cf3b9acc"/>
 		</Metadata>
 		<Metadata name="Document.АвансовыйОтчет.Form.ФормаСписка" id="0dfdd0ae-60e7-4efc-889f-2be3e602285e" configVersion="c0be2573a86a3e8a99dd6f4089835e894f529148"/>
-		<Metadata name="Document.АвансовыйОтчет.Form.ФормаСписка.Form" id="0dfdd0ae-60e7-4efc-889f-2be3e602285e.0" configVersion="5897ab5dfb0d1e62d68a2d181e8a958087a856eb"/>
+		<Metadata name="Document.АвансовыйОтчет.Form.ФормаСписка.Form" id="0dfdd0ae-60e7-4efc-889f-2be3e602285e.0" configVersion="66a25c8b90547827151f553a766e3b5815a7573c"/>
 		<Metadata name="Document.АктОбОказанииПроизводственныхУслуг" id="8c88f1c2-a05d-45a7-bbf5-d14f0e6d9216" configVersion="aecb12e6c5a883cdb854fe46b2e5d06dc3de374e"/>
 		<Metadata name="Document.БНФОАвизоРасчетыПодотчетныеЛицаВходящее" id="1088447e-b875-40c1-b4ce-8ded3e789607" configVersion="fe61b08d7a171e83e2f1fd0d33c772ed4aae847a"/>
 		<Metadata name="Document.БНФОВводНачальныхОстатков" id="ac4806bf-9bb3-46f5-be38-e2c18a56af58" configVersion="c85c4fc8115e5bd1be2cb3cad1c69f0cf62daf75">
