@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Catalog uuid="7c1632f5-57d0-426c-be43-41e0a9444980">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Резервы" category="Object">
+				<xr:TypeId>6ab7b8e8-b6f9-4276-81ea-bcbf11d8bc8b</xr:TypeId>
+				<xr:ValueId>ff13fd4f-c9aa-4a45-a5b8-640d2af8bac3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Резервы" category="Ref">
+				<xr:TypeId>0897883d-6ad7-4f2c-b128-1eca9304304b</xr:TypeId>
+				<xr:ValueId>c84511b0-9965-4e4e-bf7f-309a7ecbf74d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Резервы" category="Selection">
+				<xr:TypeId>93f344ed-8113-4a83-b3d6-dfa694b7b6a0</xr:TypeId>
+				<xr:ValueId>e2fb8c9c-cd19-4aef-87bf-fdc7fea05c94</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Резервы" category="List">
+				<xr:TypeId>b2f684c6-b5b4-455b-a303-04e1ab7a4481</xr:TypeId>
+				<xr:ValueId>69a18b76-76a3-4831-aad6-484b37d32e48</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Резервы" category="Manager">
+				<xr:TypeId>f26191e6-7cae-4743-a59d-70d06a884445</xr:TypeId>
+				<xr:ValueId>9d1b60cb-e8b9-4320-8b18-26e607309d51</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Резервы</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

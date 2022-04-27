@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Enum uuid="f54ff7ed-4cc8-46f1-ab73-1cca9c5d63c2">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СостоянияКонтрагентаБЭД" category="Ref">
+				<xr:TypeId>ed03d51c-b1dc-4544-8904-645aa4c68742</xr:TypeId>
+				<xr:ValueId>d3035342-e246-48f3-9ed6-1709896d89c1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СостоянияКонтрагентаБЭД" category="Manager">
+				<xr:TypeId>19ceb3a4-18ed-4370-b2eb-4c37d555f07e</xr:TypeId>
+				<xr:ValueId>578adefc-ad3f-43e2-9c0a-a3bc97c967e3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СостоянияКонтрагентаБЭД" category="List">
+				<xr:TypeId>75e71286-711e-43c3-a351-186cf2fe0b59</xr:TypeId>
+				<xr:ValueId>39c37696-7f93-47a9-9d96-bb8459b76107</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СостоянияКонтрагентаБЭД</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="e784314a-f240-4723-8617-b88794355940">
+				<InternalInfo/>
+				<Properties>
+					<Name>Подключен</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

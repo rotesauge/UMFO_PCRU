@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Constant uuid="5dc1300f-32c0-433d-9a0f-63b59080fa0a">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ИспользуетсяОСНО" category="Manager">
+				<xr:TypeId>e609f88a-fc88-4927-82d1-bda6e1add94a</xr:TypeId>
+				<xr:ValueId>fd4407ae-9b87-46be-a39d-ab518058953e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ИспользуетсяОСНО" category="ValueManager">
+				<xr:TypeId>25a3fbbf-f15a-4a3b-8556-51d00e0b2cf1</xr:TypeId>
+				<xr:ValueId>0032071c-8e97-4b76-b6c1-069cabd9e810</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ИспользуетсяОСНО" category="ValueKey">
+				<xr:TypeId>40516b61-4bab-567a-9545-71562ea18d35</xr:TypeId>
+				<xr:ValueId>669cf33e-1116-5f72-b63e-ecd53c976f36</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИспользуетсяОСНО</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Catalog uuid="d3008cf5-90bf-4f1c-ab52-165abec06023">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.НаправленияИспользованияПрибыли" category="Object">
+				<xr:TypeId>759e24d0-df69-464c-ac54-80efc46dc28e</xr:TypeId>
+				<xr:ValueId>dfb84627-06a6-4b14-945b-cb33c1da9b55</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.НаправленияИспользованияПрибыли" category="Ref">
+				<xr:TypeId>04b8eddb-49a4-4b16-bdf2-344e4f9ffa96</xr:TypeId>
+				<xr:ValueId>b71f5ec7-af2c-45ef-9b2e-e56b7c479a3f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.НаправленияИспользованияПрибыли" category="Selection">
+				<xr:TypeId>793a4732-ddd6-4a61-bc6e-d7ff4ffc12f2</xr:TypeId>
+				<xr:ValueId>79c385b3-ec8d-4855-af5d-556b6d847e7f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.НаправленияИспользованияПрибыли" category="List">
+				<xr:TypeId>8d06e874-6fb1-4a15-99a8-4aff99a3dec2</xr:TypeId>
+				<xr:ValueId>e88b97c1-9cf7-4797-9492-df63bc58b4bf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.НаправленияИспользованияПрибыли" category="Manager">
+				<xr:TypeId>b97549bd-c27c-4e22-b51f-9507871db056</xr:TypeId>
+				<xr:ValueId>3c26f38f-ce64-4b38-bcf8-c6ad32e89fd5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НаправленияИспользованияПрибыли</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

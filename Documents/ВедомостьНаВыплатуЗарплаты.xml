@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Document uuid="5ad6accb-53f7-4279-a351-e60e89cf12af">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВедомостьНаВыплатуЗарплаты" category="Object">
+				<xr:TypeId>356bce41-13b8-49ca-84ca-d91503d41be9</xr:TypeId>
+				<xr:ValueId>b68c86dd-5e61-491a-a994-37b05dfbc467</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВедомостьНаВыплатуЗарплаты" category="Ref">
+				<xr:TypeId>2b305b7e-95b9-491f-b8ba-85848d58abe5</xr:TypeId>
+				<xr:ValueId>274b3de4-6a9c-4a8c-8ad8-68edd5b5e8f0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВедомостьНаВыплатуЗарплаты" category="Selection">
+				<xr:TypeId>76c8ad9d-d0c0-49ee-8004-4c8b76e12f3e</xr:TypeId>
+				<xr:ValueId>e0ee17d8-97c0-4dbd-8ff8-830565b43814</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВедомостьНаВыплатуЗарплаты" category="List">
+				<xr:TypeId>973c8209-29b0-4420-a121-ce0fef751dae</xr:TypeId>
+				<xr:ValueId>49ae92fa-2f4d-4c7e-974a-7edace13e3c6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВедомостьНаВыплатуЗарплаты" category="Manager">
+				<xr:TypeId>186250fd-9890-433c-ab50-3b9452125f8e</xr:TypeId>
+				<xr:ValueId>c6a79d42-bfcf-411e-a7c6-20dc9f46c504</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВедомостьНаВыплатуЗарплаты</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

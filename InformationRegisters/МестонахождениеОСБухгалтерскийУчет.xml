@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<InformationRegister uuid="89db47c2-5bc5-4b56-aeab-e4f3008918f1">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.МестонахождениеОСБухгалтерскийУчет" category="Record">
+				<xr:TypeId>2210dee1-cc47-4571-838f-1e30250ba753</xr:TypeId>
+				<xr:ValueId>942fb58b-e7e7-4694-9659-4b3720d5e55d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.МестонахождениеОСБухгалтерскийУчет" category="Manager">
+				<xr:TypeId>b8db5d03-71ee-4dca-8c93-3783396630d4</xr:TypeId>
+				<xr:ValueId>f91d31de-a216-44cd-8f76-b09fa467eceb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.МестонахождениеОСБухгалтерскийУчет" category="Selection">
+				<xr:TypeId>c192b1c2-6c02-4314-9263-ee5111ea046b</xr:TypeId>
+				<xr:ValueId>b9893b85-1607-401b-ae1a-8058aa656b05</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.МестонахождениеОСБухгалтерскийУчет" category="List">
+				<xr:TypeId>aa9a37b4-833c-4cf3-babc-2724908fcab9</xr:TypeId>
+				<xr:ValueId>55cbaf84-57a6-45d3-a767-732ffb53a92d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.МестонахождениеОСБухгалтерскийУчет" category="RecordSet">
+				<xr:TypeId>44c95f13-51d2-4959-89c4-cae5186ae647</xr:TypeId>
+				<xr:ValueId>01b1261f-b776-4196-83b4-b1d76cb92b80</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.МестонахождениеОСБухгалтерскийУчет" category="RecordKey">
+				<xr:TypeId>cfa0b910-17c0-4034-b681-d776e36c3d6f</xr:TypeId>
+				<xr:ValueId>d4296c48-720e-4afc-9f4d-b29da8f3b2ad</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.МестонахождениеОСБухгалтерскийУчет" category="RecordManager">
+				<xr:TypeId>09a61682-9b74-463f-b0f6-15232d05e05e</xr:TypeId>
+				<xr:ValueId>e279e612-9281-4d64-a31e-7c12acdeabd6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>МестонахождениеОСБухгалтерскийУчет</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>0270334b-9414-42bf-a4b5-cb7fe1f8892a</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>RecorderPosition</InformationRegisterPeriodicity>
+			<WriteMode>RecorderSubordinate</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="0910a734-95ff-4e37-9f44-947aadeefe8e">
+				<InternalInfo/>
+				<Properties>
+					<Name>Местонахождение</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>3ca0d90e-7cb0-455e-8ace-9cb63607a7a8</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПодразделенияОрганизаций</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="76ca6a7b-33e4-4973-a518-3f1cb64cd14c">
+				<InternalInfo/>
+				<Properties>
+					<Name>ОсновноеСредство</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>d4f95b46-b2a9-4cca-a1ea-c781910a0a82</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ОсновныеСредства</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

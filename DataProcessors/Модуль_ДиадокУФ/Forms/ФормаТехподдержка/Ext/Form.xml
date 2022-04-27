@@ -1,0 +1,612 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Техническая поддержка</v8:content>
+		</v8:item>
+	</Title>
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoTitle>false</AutoTitle>
+	<Customizable>false</Customizable>
+	<CommandBarLocation>Bottom</CommandBarLocation>
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<HorizontalAlign>Right</HorizontalAlign>
+		<Autofill>false</Autofill>
+		<ChildItems>
+			<Button name="ФормаСкачатьПодключаемыйМодуль" id="477">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.СкачатьПодключаемыйМодуль</CommandName>
+				<ExtendedTooltip name="ФормаСкачатьПодключаемыйМодульРасширеннаяПодсказка" id="478"/>
+			</Button>
+			<Button name="ФормаСкопироватьТехИнформацию" id="475">
+				<Type>CommandBarButton</Type>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>Form.Command.СкопироватьТехИнформацию</CommandName>
+				<ExtendedTooltip name="ФормаСкопироватьТехИнформациюРасширеннаяПодсказка" id="476"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="OnClose">ПриЗакрытии</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаТехническаяПоддержка" id="331">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Техническая поддержка (группа)</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Инструменты технической поддержки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Representation>NormalSeparation</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаТехническаяПоддержкаРасширеннаяПодсказка" id="332"/>
+			<ChildItems>
+				<LabelDecoration name="Декорация2" id="479">
+					<ContextMenu name="Декорация2КонтекстноеМеню" id="480"/>
+					<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="481"/>
+				</LabelDecoration>
+				<UsualGroup name="ГруппаОсновная" id="240">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа основная</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа основная</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаОсновнаяРасширеннаяПодсказка" id="241"/>
+					<ChildItems>
+						<LabelDecoration name="Декорация3" id="482">
+							<Width>5</Width>
+							<ContextMenu name="Декорация3КонтекстноеМеню" id="483"/>
+							<ExtendedTooltip name="Декорация3РасширеннаяПодсказка" id="484"/>
+						</LabelDecoration>
+						<UsualGroup name="ГруппаЛевая" id="220">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа левая</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа левая</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаЛеваяРасширеннаяПодсказка" id="221"/>
+							<ChildItems>
+								<UsualGroup name="ГруппаРуководствоПользователя" id="224">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа руководство пользователя</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа руководство пользователя</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>AlwaysHorizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаРуководствоПользователяРасширеннаяПодсказка" id="225"/>
+									<ChildItems>
+										<PictureDecoration name="КартинкаРуководствоПользователя" id="226">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Картинка руководство пользователя</v8:content>
+												</v8:item>
+											</Title>
+											<Hyperlink>true</Hyperlink>
+											<Picture>
+												<xr:Abs>Picture.png</xr:Abs>
+												<xr:LoadTransparent>false</xr:LoadTransparent>
+											</Picture>
+											<ContextMenu name="КартинкаРуководствоПользователяКонтекстноеМеню" id="227"/>
+											<ExtendedTooltip name="КартинкаРуководствоПользователяРасширеннаяПодсказка" id="228"/>
+											<Events>
+												<Event name="Click">КартинкаРуководствоПользователяНажатие</Event>
+											</Events>
+										</PictureDecoration>
+										<LabelDecoration name="НадписьРуководствоПользователя" id="229">
+											<Font ref="style:NormalTextFont" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Руководство пользователя</v8:content>
+												</v8:item>
+											</Title>
+											<Hyperlink>true</Hyperlink>
+											<ContextMenu name="НадписьРуководствоПользователяКонтекстноеМеню" id="230"/>
+											<ExtendedTooltip name="НадписьРуководствоПользователяРасширеннаяПодсказка" id="231"/>
+											<Events>
+												<Event name="Click">НадписьРуководствоПользователяНажатие</Event>
+											</Events>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаТехническаяИнформация" id="232">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа техническая информация</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа руководство пользователя</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>AlwaysHorizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаТехническаяИнформацияРасширеннаяПодсказка" id="233"/>
+									<ChildItems>
+										<PictureDecoration name="КартинкаТехническаяИнформация" id="234">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Картинка техническая информация</v8:content>
+												</v8:item>
+											</Title>
+											<Hyperlink>true</Hyperlink>
+											<Picture>
+												<xr:Abs>Picture.png</xr:Abs>
+												<xr:LoadTransparent>false</xr:LoadTransparent>
+											</Picture>
+											<ContextMenu name="КартинкаТехническаяИнформацияКонтекстноеМеню" id="235"/>
+											<ExtendedTooltip name="КартинкаТехническаяИнформацияРасширеннаяПодсказка" id="236"/>
+											<Events>
+												<Event name="Click">КартинкаТехническаяИнформацияНажатие</Event>
+											</Events>
+										</PictureDecoration>
+										<LabelDecoration name="НадписьТехническаяИнформация" id="237">
+											<Font ref="style:NormalTextFont" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Техническая информация</v8:content>
+												</v8:item>
+											</Title>
+											<Hyperlink>true</Hyperlink>
+											<ContextMenu name="НадписьТехническаяИнформацияКонтекстноеМеню" id="238"/>
+											<ExtendedTooltip name="НадписьТехническаяИнформацияРасширеннаяПодсказка" id="239"/>
+											<Events>
+												<Event name="Click">НадписьТехническаяИнформацияНажатие</Event>
+											</Events>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаДиагностика" id="154">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Диагностика</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа диагностика</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Horizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаДиагностикаРасширеннаяПодсказка" id="202"/>
+									<ChildItems>
+										<PictureDecoration name="КартинкаПровестиДиагностику" id="175">
+											<Width>2</Width>
+											<Height>1</Height>
+											<Hyperlink>true</Hyperlink>
+											<Picture>
+												<xr:Abs>Picture.png</xr:Abs>
+												<xr:LoadTransparent>false</xr:LoadTransparent>
+											</Picture>
+											<FileDragMode>AsFile</FileDragMode>
+											<ContextMenu name="КартинкаПровестиДиагностикуКонтекстноеМеню" id="176"/>
+											<ExtendedTooltip name="КартинкаПровестиДиагностикуРасширеннаяПодсказка" id="203"/>
+											<Events>
+												<Event name="Click">КартинкаПровестиДиагностикуНажатие</Event>
+											</Events>
+										</PictureDecoration>
+										<LabelDecoration name="НадписьПровестиДиагностику" id="169">
+											<Font ref="style:NormalTextFont" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Провести диагностику</v8:content>
+												</v8:item>
+											</Title>
+											<Hyperlink>true</Hyperlink>
+											<ContextMenu name="НадписьПровестиДиагностикуКонтекстноеМеню" id="170"/>
+											<ExtendedTooltip name="НадписьПровестиДиагностикуРасширеннаяПодсказка" id="204"/>
+											<Events>
+												<Event name="Click">НадписьПровестиДиагностикуНажатие</Event>
+											</Events>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+						<LabelDecoration name="Декорация4" id="485">
+							<Width>5</Width>
+							<ContextMenu name="Декорация4КонтекстноеМеню" id="486"/>
+							<ExtendedTooltip name="Декорация4РасширеннаяПодсказка" id="487"/>
+						</LabelDecoration>
+						<UsualGroup name="ГруппаПравая" id="222">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа правая</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа левая</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаПраваяРасширеннаяПодсказка" id="223"/>
+							<ChildItems>
+								<UsualGroup name="ГруппаТехподдержкаОнлайнКонсультант" id="156">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Онлайн-консультант</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа техподдержка онлайн консультант</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Horizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаТехподдержкаОнлайнКонсультантРасширеннаяПодсказка" id="193"/>
+									<ChildItems>
+										<PictureDecoration name="КартинкаОнлайнКонсультант" id="163">
+											<Width>2</Width>
+											<Height>1</Height>
+											<Hyperlink>true</Hyperlink>
+											<Picture>
+												<xr:Abs>Picture.png</xr:Abs>
+												<xr:LoadTransparent>false</xr:LoadTransparent>
+											</Picture>
+											<FileDragMode>AsFile</FileDragMode>
+											<ContextMenu name="КартинкаОнлайнКонсультантКонтекстноеМеню" id="164"/>
+											<ExtendedTooltip name="КартинкаОнлайнКонсультантРасширеннаяПодсказка" id="194"/>
+											<Events>
+												<Event name="Click">КартинкаОнлайнКонсультантНажатие</Event>
+											</Events>
+										</PictureDecoration>
+										<LabelDecoration name="НадписьОнлайнКонсультант" id="160">
+											<Font ref="style:NormalTextFont" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Онлайн-консультант</v8:content>
+												</v8:item>
+											</Title>
+											<Hyperlink>true</Hyperlink>
+											<ContextMenu name="НадписьОнлайнКонсультантКонтекстноеМеню" id="161"/>
+											<ExtendedTooltip name="НадписьОнлайнКонсультантРасширеннаяПодсказка" id="195"/>
+											<Events>
+												<Event name="Click">НадписьОнлайнКонсультантНажатие</Event>
+											</Events>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаТехподдержкаEmail" id="178">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>E-mail</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа техподдержка email</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Horizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаТехподдержкаEmailРасширеннаяПодсказка" id="196"/>
+									<ChildItems>
+										<PictureDecoration name="КартинкаEmail" id="180">
+											<Width>2</Width>
+											<Height>1</Height>
+											<Hyperlink>true</Hyperlink>
+											<Picture>
+												<xr:Abs>Picture.png</xr:Abs>
+												<xr:LoadTransparent>false</xr:LoadTransparent>
+											</Picture>
+											<FileDragMode>AsFile</FileDragMode>
+											<ContextMenu name="КартинкаEmailКонтекстноеМеню" id="181"/>
+											<ExtendedTooltip name="КартинкаEmailРасширеннаяПодсказка" id="197"/>
+											<Events>
+												<Event name="Click">КартинкаEmailНажатие</Event>
+											</Events>
+										</PictureDecoration>
+										<LabelDecoration name="НадписьНаписатьПисьмо" id="183">
+											<Font ref="style:NormalTextFont" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Написать в техподдержку</v8:content>
+												</v8:item>
+											</Title>
+											<Hyperlink>true</Hyperlink>
+											<ContextMenu name="НадписьНаписатьПисьмоКонтекстноеМеню" id="184"/>
+											<ExtendedTooltip name="НадписьНаписатьПисьмоРасширеннаяПодсказка" id="198"/>
+											<Events>
+												<Event name="Click">НадписьНаписатьПисьмоНажатие</Event>
+											</Events>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаТехподдержкаУдаленноеПодключение" id="152">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Удаленное подключение</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа техподдержка удаленное подключение</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Horizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаТехподдержкаУдаленноеПодключениеРасширеннаяПодсказка" id="199"/>
+									<ChildItems>
+										<PictureDecoration name="КартинкаУдаленноеПодключениеVNC" id="172">
+											<Width>2</Width>
+											<Height>1</Height>
+											<Hyperlink>true</Hyperlink>
+											<Picture>
+												<xr:Abs>Picture.png</xr:Abs>
+												<xr:LoadTransparent>false</xr:LoadTransparent>
+											</Picture>
+											<FileDragMode>AsFile</FileDragMode>
+											<ContextMenu name="КартинкаУдаленноеПодключениеVNCКонтекстноеМеню" id="173"/>
+											<ExtendedTooltip name="КартинкаУдаленноеПодключениеVNCРасширеннаяПодсказка" id="200"/>
+											<Events>
+												<Event name="Click">КартинкаУдаленноеПодключениеVNCНажатие</Event>
+											</Events>
+										</PictureDecoration>
+										<LabelDecoration name="НадписьУдаленноеПодключениеVNC" id="166">
+											<Font ref="style:NormalTextFont" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Дистанционная помощь</v8:content>
+												</v8:item>
+											</Title>
+											<Hyperlink>true</Hyperlink>
+											<ContextMenu name="НадписьУдаленноеПодключениеVNCКонтекстноеМеню" id="167"/>
+											<ExtendedTooltip name="НадписьУдаленноеПодключениеVNCРасширеннаяПодсказка" id="201"/>
+											<Events>
+												<Event name="Click">НадписьУдаленноеПодключениеVNCНажатие</Event>
+											</Events>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+						<LabelDecoration name="Декорация5" id="488">
+							<Width>5</Width>
+							<ContextMenu name="Декорация5КонтекстноеМеню" id="489"/>
+							<ExtendedTooltip name="Декорация5РасширеннаяПодсказка" id="490"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаТелефоны" id="250">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа телефоны</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Телефоны технической поддержки</v8:content>
+						</v8:item>
+					</ToolTip>
+					<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+					<Group>Vertical</Group>
+					<HorizontalAlign>Right</HorizontalAlign>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаТелефоныРасширеннаяПодсказка" id="251"/>
+					<ChildItems>
+						<LabelDecoration name="Декорация1" id="252">
+							<ContextMenu name="Декорация1КонтекстноеМеню" id="253"/>
+							<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="254"/>
+						</LabelDecoration>
+						<LabelDecoration name="Декорация7" id="496">
+							<ContextMenu name="Декорация7КонтекстноеМеню" id="497"/>
+							<ExtendedTooltip name="Декорация7РасширеннаяПодсказка" id="498"/>
+						</LabelDecoration>
+						<UsualGroup name="ГруппаТелефонТехподдержки" id="242">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа телефон техподдержки</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа телефон техподдержки</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаТелефонТехподдержкиРасширеннаяПодсказка" id="243"/>
+							<ChildItems>
+								<PictureDecoration name="КартинкаТелефонТехподдержки" id="244">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Картинка телефон техподдержки</v8:content>
+										</v8:item>
+									</Title>
+									<Picture>
+										<xr:Abs>Picture.png</xr:Abs>
+										<xr:LoadTransparent>false</xr:LoadTransparent>
+									</Picture>
+									<ContextMenu name="КартинкаТелефонТехподдержкиКонтекстноеМеню" id="245"/>
+									<ExtendedTooltip name="КартинкаТелефонТехподдержкиРасширеннаяПодсказка" id="246"/>
+								</PictureDecoration>
+								<LabelDecoration name="НадписьТелефонТехподдержки" id="247">
+									<Font ref="style:NormalTextFont" kind="StyleItem"/>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Телефон техподдержки</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="НадписьТелефонТехподдержкиКонтекстноеМеню" id="248"/>
+									<ExtendedTooltip name="НадписьТелефонТехподдержкиРасширеннаяПодсказка" id="249"/>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаЗаказатьОбратныйЗвонок" id="491">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Заказать обратный звонок (группа)</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Заказать обратный звонок</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаЗаказатьОбратныйЗвонокРасширеннаяПодсказка" id="492"/>
+							<ChildItems>
+								<LabelDecoration name="НадписьЗаказатьОбратныйЗвонок" id="258">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Заказать обратный звонок</v8:content>
+										</v8:item>
+									</Title>
+									<Hyperlink>true</Hyperlink>
+									<ContextMenu name="НадписьЗаказатьОбратныйЗвонокКонтекстноеМеню" id="259"/>
+									<ExtendedTooltip name="НадписьЗаказатьОбратныйЗвонокРасширеннаяПодсказка" id="260"/>
+									<Events>
+										<Event name="Click">НадписьЗаказатьОбратныйЗвонокНажатие</Event>
+									</Events>
+								</LabelDecoration>
+								<LabelDecoration name="Декорация6" id="493">
+									<Width>3</Width>
+									<ContextMenu name="Декорация6КонтекстноеМеню" id="494"/>
+									<ExtendedTooltip name="Декорация6РасширеннаяПодсказка" id="495"/>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.Модуль_ДиадокУФ</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="Организация" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Организация</v8:content>
+				</v8:item>
+			</Title>
+			<Type/>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="СкопироватьТехИнформацию" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Скопировать тех. информацию</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Скопировать информацию для технической поддержки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.SaveFile</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>СкопироватьТехИнформацию</Action>
+			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="СкачатьПодключаемыйМодуль" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Скачать ПМ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Скачать подключаемый модуль</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СкачатьПодключаемыйМодуль</Action>
+		</Command>
+	</Commands>
+</Form>

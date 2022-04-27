@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Document uuid="3b5001d6-d3aa-47b1-bd7b-bf0722c12ca7">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.АЭ_ЗаявкаНаПривлечениеЗайма" category="Object">
+				<xr:TypeId>a4e29ea7-4c04-4042-abd6-228056be9e4e</xr:TypeId>
+				<xr:ValueId>314dea97-f85f-49af-ba33-f8b577f15591</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.АЭ_ЗаявкаНаПривлечениеЗайма" category="Ref">
+				<xr:TypeId>d5437ccc-bbfe-4a92-8775-b3030250c4dd</xr:TypeId>
+				<xr:ValueId>97df9aa0-5800-42b9-a002-805ca3f5d81c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.АЭ_ЗаявкаНаПривлечениеЗайма" category="Selection">
+				<xr:TypeId>5cc664e7-8a63-4a3b-8a1c-87bc79ae70b7</xr:TypeId>
+				<xr:ValueId>d7c9c325-873c-4818-9e7d-fae92062f305</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.АЭ_ЗаявкаНаПривлечениеЗайма" category="List">
+				<xr:TypeId>aded04e5-74fe-45c7-99ec-2426784cce19</xr:TypeId>
+				<xr:ValueId>675c252e-49cd-463f-aaa3-fd9d380c8a22</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.АЭ_ЗаявкаНаПривлечениеЗайма" category="Manager">
+				<xr:TypeId>aaa70953-4a34-424d-a6bc-39726065d76b</xr:TypeId>
+				<xr:ValueId>b2f96b75-e138-42d3-a5c2-de00b416873b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>АЭ_ЗаявкаНаПривлечениеЗайма</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

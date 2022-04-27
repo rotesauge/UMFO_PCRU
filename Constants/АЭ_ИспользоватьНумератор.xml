@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Constant uuid="c2211d7d-867c-4cdd-b54d-5131622c32f4">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.АЭ_ИспользоватьНумератор" category="Manager">
+				<xr:TypeId>4e00c916-29b7-4b00-a67b-67e8c0fbb8a5</xr:TypeId>
+				<xr:ValueId>b060b4a1-7d3a-4df0-aed1-b7cd31058e44</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.АЭ_ИспользоватьНумератор" category="ValueManager">
+				<xr:TypeId>0c7306cd-05d0-400a-bce6-016716cdfd9a</xr:TypeId>
+				<xr:ValueId>b3c085aa-798c-4866-adea-24f8ef69c7c1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.АЭ_ИспользоватьНумератор" category="ValueKey">
+				<xr:TypeId>30abf21e-9866-519b-a6c3-da3677ad6480</xr:TypeId>
+				<xr:ValueId>d45c1c19-c216-53a3-ad7e-2577090d684a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>АЭ_ИспользоватьНумератор</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<InformationRegister uuid="f17069ea-26fd-44a9-bcba-c84188a1fc40">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ПараметрыАмортизацииОСБухгалтерскийУчет" category="Record">
+				<xr:TypeId>e96e00b6-01b6-42c3-98e0-e7207087a333</xr:TypeId>
+				<xr:ValueId>f1735ee1-df1c-42ef-94dd-a6394a8577c3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ПараметрыАмортизацииОСБухгалтерскийУчет" category="Manager">
+				<xr:TypeId>033eb27d-9394-4799-9021-eef1e23c605a</xr:TypeId>
+				<xr:ValueId>545acfeb-66ca-4d15-aff6-5bb70295e7f6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ПараметрыАмортизацииОСБухгалтерскийУчет" category="Selection">
+				<xr:TypeId>206c5254-20db-4997-99bf-d57fc6298bb6</xr:TypeId>
+				<xr:ValueId>f2131402-e4fe-411b-b621-f8e80dbd4864</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ПараметрыАмортизацииОСБухгалтерскийУчет" category="List">
+				<xr:TypeId>d2dd9e8a-c8f2-4564-9afe-70c8e4237579</xr:TypeId>
+				<xr:ValueId>2e4464da-1533-4df1-ac67-7dcf3d276e2a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ПараметрыАмортизацииОСБухгалтерскийУчет" category="RecordSet">
+				<xr:TypeId>9c613812-7e70-4f8f-8089-a76cc5a85fd3</xr:TypeId>
+				<xr:ValueId>31d3816f-6454-4a21-a60d-e543a94a55a3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ПараметрыАмортизацииОСБухгалтерскийУчет" category="RecordKey">
+				<xr:TypeId>88515a81-a1db-4e27-9e41-5b13f0fd285f</xr:TypeId>
+				<xr:ValueId>c5d5a5f0-ba0b-4b01-b955-0c6413f24664</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ПараметрыАмортизацииОСБухгалтерскийУчет" category="RecordManager">
+				<xr:TypeId>bd344caf-5178-4f66-8d31-4b844c30947c</xr:TypeId>
+				<xr:ValueId>3ab53550-adec-4be5-8465-1fbc4d3c6ade</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПараметрыАмортизацииОСБухгалтерскийУчет</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>0234b93c-a86c-40c8-8b95-1cfeb665f245</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>RecorderPosition</InformationRegisterPeriodicity>
+			<WriteMode>RecorderSubordinate</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="64b0eaa9-6ed8-4db4-b7ae-eeed0cd19225">
+				<InternalInfo/>
+				<Properties>
+					<Name>СрокПолезногоИспользования</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>e862d4c5-0a5b-4473-a824-5e5bad58e44b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>4</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="c56db243-c3c0-4df5-978b-9162ade41a09">
+				<InternalInfo/>
+				<Properties>
+					<Name>ОсновноеСредство</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>bb526836-4e3e-487d-bd6f-f027cc25c784</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ОсновныеСредства</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

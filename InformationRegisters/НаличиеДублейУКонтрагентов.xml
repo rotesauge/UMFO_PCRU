@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<InformationRegister uuid="ac3d80d5-f159-483d-9d73-bdbb84b04a18">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.НаличиеДублейУКонтрагентов" category="Record">
+				<xr:TypeId>c2f3ebab-6264-47cf-9148-a129201bec14</xr:TypeId>
+				<xr:ValueId>5e8e0104-1128-4a0b-8550-95cf902e4c62</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.НаличиеДублейУКонтрагентов" category="Manager">
+				<xr:TypeId>7c0b370f-2871-4be7-8183-58142dc05313</xr:TypeId>
+				<xr:ValueId>768668c9-e49e-45a5-b661-87381a5dbcb6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.НаличиеДублейУКонтрагентов" category="Selection">
+				<xr:TypeId>ff1f4071-30de-478a-8bfa-e973fad7d508</xr:TypeId>
+				<xr:ValueId>8a6c551c-a01b-42f6-a8ca-6859b86c2a72</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.НаличиеДублейУКонтрагентов" category="List">
+				<xr:TypeId>29432b42-58f3-4728-a375-df877f441bc5</xr:TypeId>
+				<xr:ValueId>6f540743-43f3-41a9-a63b-4dcf6f5feb9a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.НаличиеДублейУКонтрагентов" category="RecordSet">
+				<xr:TypeId>7e26adff-a05c-4f24-874e-1dab614f8c87</xr:TypeId>
+				<xr:ValueId>fd67cb85-521d-4834-8278-38b66bdc4dd3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.НаличиеДублейУКонтрагентов" category="RecordKey">
+				<xr:TypeId>5399052a-0e4d-4717-86d6-1777ebf18a18</xr:TypeId>
+				<xr:ValueId>e4349be5-1269-4406-a0e3-6897c631ff2e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.НаличиеДублейУКонтрагентов" category="RecordManager">
+				<xr:TypeId>c0a6a8de-275b-4be1-b145-26f898ba8d13</xr:TypeId>
+				<xr:ValueId>fd07be0f-1513-4af9-a004-60c2461b76ca</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НаличиеДублейУКонтрагентов</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Dimension uuid="1ac46a82-6d21-41eb-a052-a78eb9c86c27">
+				<InternalInfo/>
+				<Properties>
+					<Name>ИНН</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>12</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="78cf480c-dbbf-414c-b898-1efdc469d3fe">
+				<InternalInfo/>
+				<Properties>
+					<Name>Контрагент</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="e2d05db5-93aa-46c0-bd04-b8d0c1ab5ee2">
+				<InternalInfo/>
+				<Properties>
+					<Name>КПП</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>9</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

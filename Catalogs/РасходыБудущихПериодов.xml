@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Catalog uuid="1517c40e-f99d-4ba2-8f3d-971bd84444fe">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.РасходыБудущихПериодов" category="Object">
+				<xr:TypeId>e58b6281-5992-46ab-8139-c95c0fc13f5c</xr:TypeId>
+				<xr:ValueId>1aaa4e98-c9c6-4d1b-bc46-5f7afa40e56b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.РасходыБудущихПериодов" category="Ref">
+				<xr:TypeId>7366e3e1-069c-4572-94b2-f00446f7249b</xr:TypeId>
+				<xr:ValueId>e6b7ef15-53db-4ca6-aed3-4378cb7ae61e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.РасходыБудущихПериодов" category="Selection">
+				<xr:TypeId>bc8b9a33-0bc4-4cd7-a3f6-7934cdf4125c</xr:TypeId>
+				<xr:ValueId>a16e9701-b639-4938-b31b-7db002d8ac60</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.РасходыБудущихПериодов" category="List">
+				<xr:TypeId>5da9e9f3-5949-49e9-9f91-6ae5371a2fb7</xr:TypeId>
+				<xr:ValueId>755e4861-d171-4fea-a0ea-2f6a77a09e88</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.РасходыБудущихПериодов" category="Manager">
+				<xr:TypeId>4690e1fa-c5ea-4eea-972b-296f6fc2b110</xr:TypeId>
+				<xr:ValueId>3481261e-1082-4204-9878-2b0c986c2984</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>РасходыБудущихПериодов</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

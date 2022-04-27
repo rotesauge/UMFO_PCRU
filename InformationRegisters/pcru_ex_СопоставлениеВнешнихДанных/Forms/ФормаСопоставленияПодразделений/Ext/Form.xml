@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаЗаполнить" id="25">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Заполнить</CommandName>
+				<ExtendedTooltip name="ФормаЗаполнитьРасширеннаяПодсказка" id="26"/>
+			</Button>
+			<Button name="ФормаЗаполнитьИзПосдеднегоДокументаОтражениеЗарплаты" id="27">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ЗаполнитьИзПосдеднегоДокументаОтражениеЗарплаты</CommandName>
+				<ExtendedTooltip name="ФормаЗаполнитьИзПосдеднегоДокументаОтражениеЗарплатыРасширеннаяПодсказка" id="28"/>
+			</Button>
+			<Button name="ФормаЗаписать" id="23">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Записать</CommandName>
+				<ExtendedTooltip name="ФормаЗаписатьРасширеннаяПодсказка" id="24"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<Table name="ТАблицаСопоставления" id="1">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<FileDragMode>AsFile</FileDragMode>
+			<DataPath>ТАблицаСопоставления</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ТАблицаСопоставленияКонтекстноеМеню" id="2"/>
+			<AutoCommandBar name="ТАблицаСопоставленияКоманднаяПанель" id="3"/>
+			<ExtendedTooltip name="ТАблицаСопоставленияРасширеннаяПодсказка" id="4"/>
+			<SearchStringAddition name="ТАблицаСопоставленияСтрокаПоиска" id="5">
+				<AdditionSource>
+					<Item>ТАблицаСопоставления</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТАблицаСопоставленияСтрокаПоискаКонтекстноеМеню" id="6"/>
+				<ExtendedTooltip name="ТАблицаСопоставленияСтрокаПоискаРасширеннаяПодсказка" id="7"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ТАблицаСопоставленияСостояниеПросмотра" id="8">
+				<AdditionSource>
+					<Item>ТАблицаСопоставления</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТАблицаСопоставленияСостояниеПросмотраКонтекстноеМеню" id="9"/>
+				<ExtendedTooltip name="ТАблицаСопоставленияСостояниеПросмотраРасширеннаяПодсказка" id="10"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ТАблицаСопоставленияУправлениеПоиском" id="11">
+				<AdditionSource>
+					<Item>ТАблицаСопоставления</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ТАблицаСопоставленияУправлениеПоискомКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="ТАблицаСопоставленияУправлениеПоискомРасширеннаяПодсказка" id="13"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<InputField name="ТАблицаСопоставленияНаименование" id="14">
+					<DataPath>ТАблицаСопоставления.Наименование</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТАблицаСопоставленияНаименованиеКонтекстноеМеню" id="15"/>
+					<ExtendedTooltip name="ТАблицаСопоставленияНаименованиеРасширеннаяПодсказка" id="16"/>
+				</InputField>
+				<InputField name="ТАблицаСопоставленияКод" id="17">
+					<DataPath>ТАблицаСопоставления.Код</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТАблицаСопоставленияКодКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="ТАблицаСопоставленияКодРасширеннаяПодсказка" id="19"/>
+				</InputField>
+				<InputField name="ТАблицаСопоставленияПодразделение" id="20">
+					<DataPath>ТАблицаСопоставления.Подразделение</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТАблицаСопоставленияПодразделениеКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="ТАблицаСопоставленияПодразделениеРасширеннаяПодсказка" id="22"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="ТАблицаСопоставления" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Т аблица сопоставления</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Наименование" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Наименование</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Код" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Код</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Подразделение" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Подразделение</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПодразделенияОрганизаций</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Заполнить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Заполнить</Action>
+		</Command>
+		<Command name="Записать" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Записать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Записать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Записать</Action>
+		</Command>
+		<Command name="ЗаполнитьИзПосдеднегоДокументаОтражениеЗарплаты" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить из посдеднего документа отражение зарплаты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить из посдеднего документа отражение зарплаты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьИзПосдеднегоДокументаОтражениеЗарплаты</Action>
+		</Command>
+	</Commands>
+</Form>

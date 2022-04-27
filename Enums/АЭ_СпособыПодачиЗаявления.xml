@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Enum uuid="42872dc0-cf34-4129-9d0b-69a989379704">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.АЭ_СпособыПодачиЗаявления" category="Ref">
+				<xr:TypeId>34f830dc-62d5-49f2-b70f-dc0ab08b1efe</xr:TypeId>
+				<xr:ValueId>fe8a6fec-7eda-4046-851c-661a5db60008</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.АЭ_СпособыПодачиЗаявления" category="Manager">
+				<xr:TypeId>25ca1722-9d93-4d51-a809-c74a81a9b79a</xr:TypeId>
+				<xr:ValueId>de2109e6-cf46-41f6-aef0-160f650b9f61</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.АЭ_СпособыПодачиЗаявления" category="List">
+				<xr:TypeId>85b58b15-8bc4-4b00-9e93-af323d95e1ce</xr:TypeId>
+				<xr:ValueId>a1a64e5f-ed20-4b5d-9691-9cebaaab3847</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>АЭ_СпособыПодачиЗаявления</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

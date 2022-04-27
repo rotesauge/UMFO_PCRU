@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Constant uuid="a00567ad-0f6d-4f73-89ba-6b1874b300c4">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ИспользоватьДокументыРеализации" category="Manager">
+				<xr:TypeId>e9d88a2d-45c4-4386-977d-d137b172f674</xr:TypeId>
+				<xr:ValueId>b79f0d96-b5e5-4f18-bb60-e26267ffe6ad</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ИспользоватьДокументыРеализации" category="ValueManager">
+				<xr:TypeId>76762473-0cf6-4192-a1c1-3335563656ce</xr:TypeId>
+				<xr:ValueId>7f3d6134-0f30-4650-b48c-5ddcbb1b7bf6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ИспользоватьДокументыРеализации" category="ValueKey">
+				<xr:TypeId>cd3f7315-aff4-5b1e-aa43-2f751bad9def</xr:TypeId>
+				<xr:ValueId>d6ba416d-260c-5fea-a47a-5dada01b5de5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИспользоватьДокументыРеализации</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

@@ -1,0 +1,813 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<Pages name="ГруппаСтраницы" id="176">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа страницы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ГруппаСтраницыРасширеннаяПодсказка" id="177"/>
+			<ChildItems>
+				<Page name="ГруппаОсновныеНастройки" id="178">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Основные настройки</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа основные настройки</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаОсновныеНастройкиРасширеннаяПодсказка" id="179"/>
+					<ChildItems>
+						<Table name="ЗаменяемыеЗначения" id="88">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<DataPath>Объект.ЗаменяемыеЗначения</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ЗаменяемыеЗначенияКонтекстноеМеню" id="89"/>
+							<AutoCommandBar name="ЗаменяемыеЗначенияКоманднаяПанель" id="90">
+								<ChildItems>
+									<Button name="ФормаЗаменяемыеЗначенияВключитьВсе" id="153">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ЗаменяемыеЗначенияВключитьВсе</CommandName>
+										<ExtendedTooltip name="ФормаЗаменяемыеЗначенияВключитьВсеРасширеннаяПодсказка" id="154"/>
+									</Button>
+									<Button name="ФормаЗаменяемыеЗначенияВыключитьВсе" id="155">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ЗаменяемыеЗначенияВыключитьВсе</CommandName>
+										<ExtendedTooltip name="ФормаЗаменяемыеЗначенияВыключитьВсеРасширеннаяПодсказка" id="156"/>
+									</Button>
+									<Button name="ЗаменяемыеЗначенияНайтиСсылки" id="157">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.НайтиСсылки</CommandName>
+										<ExtendedTooltip name="ЗаменяемыеЗначенияНайтиСсылкиРасширеннаяПодсказка" id="158"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="ЗаменяемыеЗначенияРасширеннаяПодсказка" id="91"/>
+							<SearchStringAddition name="ЗаменяемыеЗначенияСтрокаПоиска" id="92">
+								<AdditionSource>
+									<Item>ЗаменяемыеЗначения</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ЗаменяемыеЗначенияСтрокаПоискаКонтекстноеМеню" id="95"/>
+								<ExtendedTooltip name="ЗаменяемыеЗначенияСтрокаПоискаРасширеннаяПодсказка" id="96"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ЗаменяемыеЗначенияСостояниеПросмотра" id="97">
+								<AdditionSource>
+									<Item>ЗаменяемыеЗначения</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ЗаменяемыеЗначенияСостояниеПросмотраКонтекстноеМеню" id="100"/>
+								<ExtendedTooltip name="ЗаменяемыеЗначенияСостояниеПросмотраРасширеннаяПодсказка" id="101"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ЗаменяемыеЗначенияУправлениеПоиском" id="102">
+								<AdditionSource>
+									<Item>ЗаменяемыеЗначения</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ЗаменяемыеЗначенияУправлениеПоискомКонтекстноеМеню" id="105"/>
+								<ExtendedTooltip name="ЗаменяемыеЗначенияУправлениеПоискомРасширеннаяПодсказка" id="106"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="Selection">ЗаменяемыеЗначенияВыбор</Event>
+								<Event name="BeforeEditEnd">ЗаменяемыеЗначенияПередОкончаниемРедактирования</Event>
+								<Event name="OnActivateRow">ЗаменяемыеЗначенияПриАктивизацииСтроки</Event>
+								<Event name="OnStartEdit">ЗаменяемыеЗначенияПриНачалеРедактирования</Event>
+							</Events>
+							<ChildItems>
+								<LabelField name="ЗаменяемыеЗначенияНомерСтроки" id="107">
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ЗаменяемыеЗначенияНомерСтрокиКонтекстноеМеню" id="108"/>
+									<ExtendedTooltip name="ЗаменяемыеЗначенияНомерСтрокиРасширеннаяПодсказка" id="109"/>
+								</LabelField>
+								<CheckBoxField name="ЗаменяемыеЗначенияВыбран" id="119">
+									<DataPath>Объект.ЗаменяемыеЗначения.Выбран</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ЗаменяемыеЗначенияВыбранКонтекстноеМеню" id="120"/>
+									<ExtendedTooltip name="ЗаменяемыеЗначенияВыбранРасширеннаяПодсказка" id="121"/>
+									<Events>
+										<Event name="OnChange">ЗаменяемыеЗначенияВыбранПриИзменении</Event>
+									</Events>
+								</CheckBoxField>
+								<InputField name="ЗаменяемыеЗначенияЧтоЗаменять" id="113">
+									<DataPath>Объект.ЗаменяемыеЗначения.ЧтоЗаменять</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ЗаменяемыеЗначенияЧтоЗаменятьКонтекстноеМеню" id="114"/>
+									<ExtendedTooltip name="ЗаменяемыеЗначенияЧтоЗаменятьРасширеннаяПодсказка" id="115"/>
+									<Events>
+										<Event name="OnChange">ЗаменяемыеЗначенияЧтоЗаменятьПриИзменении</Event>
+									</Events>
+								</InputField>
+								<InputField name="ЗаменяемыеЗначенияНаЧтоЗаменять" id="116">
+									<DataPath>Объект.ЗаменяемыеЗначения.НаЧтоЗаменять</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ЗаменяемыеЗначенияНаЧтоЗаменятьКонтекстноеМеню" id="117"/>
+									<ExtendedTooltip name="ЗаменяемыеЗначенияНаЧтоЗаменятьРасширеннаяПодсказка" id="118"/>
+									<Events>
+										<Event name="StartChoice">ЗаменяемыеЗначенияНаЧтоЗаменятьНачалоВыбора</Event>
+									</Events>
+								</InputField>
+							</ChildItems>
+						</Table>
+						<UsualGroup name="НастройкиЗамены" id="86">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Настройки замены</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Настройки замены</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Horizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="НастройкиЗаменыРасширеннаяПодсказка" id="87"/>
+							<ChildItems>
+								<CheckBoxField name="РежимЗагрузка" id="80">
+									<DataPath>Объект.РежимЗагрузка</DataPath>
+									<TitleLocation>Right</TitleLocation>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="РежимЗагрузкаКонтекстноеМеню" id="81"/>
+									<ExtendedTooltip name="РежимЗагрузкаРасширеннаяПодсказка" id="82"/>
+								</CheckBoxField>
+								<CheckBoxField name="ОтключитьИспользованиеИтогов" id="83">
+									<DataPath>Объект.ОтключитьИспользованиеИтогов</DataPath>
+									<TitleLocation>Right</TitleLocation>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ОтключитьИспользованиеИтоговКонтекстноеМеню" id="84"/>
+									<ExtendedTooltip name="ОтключитьИспользованиеИтоговРасширеннаяПодсказка" id="85"/>
+								</CheckBoxField>
+								<CheckBoxField name="ПометитьНаУдалениеЗаменяемуюСсылку" id="166">
+									<DataPath>Объект.ПометитьНаУдалениеЗаменяемыеСсылки</DataPath>
+									<TitleLocation>Right</TitleLocation>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ПометитьНаУдалениеЗаменяемуюСсылкуКонтекстноеМеню" id="167"/>
+									<ExtendedTooltip name="ПометитьНаУдалениеЗаменяемуюСсылкуРасширеннаяПодсказка" id="168"/>
+								</CheckBoxField>
+							</ChildItems>
+						</UsualGroup>
+						<Table name="ДанныеЗаменыПоСтроке" id="122">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<DataPath>ДанныеЗаменыПоСтроке</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ДанныеЗаменыПоСтрокеКонтекстноеМеню" id="123"/>
+							<AutoCommandBar name="ДанныеЗаменыПоСтрокеКоманднаяПанель" id="124">
+								<Autofill>false</Autofill>
+								<ChildItems>
+									<Button name="ВыполнитьЗамену" id="161">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ВыполнитьЗамену</CommandName>
+										<ExtendedTooltip name="ВыполнитьЗаменуРасширеннаяПодсказка" id="162"/>
+									</Button>
+									<Button name="ДанныеЗаменыПоСтрокеДанныеЗаменыПоСтрокеВключитьВсе" id="172">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ДанныеЗаменыПоСтрокеВключитьВсе</CommandName>
+										<ExtendedTooltip name="ДанныеЗаменыПоСтрокеДанныеЗаменыПоСтрокеВключитьВсеРасширеннаяПодсказка" id="173"/>
+									</Button>
+									<Button name="ДанныеЗаменыПоСтрокеДанныеЗаменыПоСтрокеВыключитьВсе" id="174">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ДанныеЗаменыПоСтрокеВыключитьВсе</CommandName>
+										<ExtendedTooltip name="ДанныеЗаменыПоСтрокеДанныеЗаменыПоСтрокеВыключитьВсеРасширеннаяПодсказка" id="175"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="ДанныеЗаменыПоСтрокеРасширеннаяПодсказка" id="125"/>
+							<SearchStringAddition name="ДанныеЗаменыПоСтрокеСтрокаПоиска" id="126">
+								<AdditionSource>
+									<Item>ДанныеЗаменыПоСтроке</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ДанныеЗаменыПоСтрокеСтрокаПоискаКонтекстноеМеню" id="129"/>
+								<ExtendedTooltip name="ДанныеЗаменыПоСтрокеСтрокаПоискаРасширеннаяПодсказка" id="130"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ДанныеЗаменыПоСтрокеСостояниеПросмотра" id="131">
+								<AdditionSource>
+									<Item>ДанныеЗаменыПоСтроке</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ДанныеЗаменыПоСтрокеСостояниеПросмотраКонтекстноеМеню" id="134"/>
+								<ExtendedTooltip name="ДанныеЗаменыПоСтрокеСостояниеПросмотраРасширеннаяПодсказка" id="135"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ДанныеЗаменыПоСтрокеУправлениеПоиском" id="136">
+								<AdditionSource>
+									<Item>ДанныеЗаменыПоСтроке</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ДанныеЗаменыПоСтрокеУправлениеПоискомКонтекстноеМеню" id="139"/>
+								<ExtendedTooltip name="ДанныеЗаменыПоСтрокеУправлениеПоискомРасширеннаяПодсказка" id="140"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<CheckBoxField name="ДанныеЗаменыПоСтрокеВыбран" id="150">
+									<DataPath>ДанныеЗаменыПоСтроке.Выбран</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ДанныеЗаменыПоСтрокеВыбранКонтекстноеМеню" id="151"/>
+									<ExtendedTooltip name="ДанныеЗаменыПоСтрокеВыбранРасширеннаяПодсказка" id="152"/>
+									<Events>
+										<Event name="OnChange">ДанныеЗаменыПоСтрокеВыбранПриИзменении</Event>
+									</Events>
+								</CheckBoxField>
+								<InputField name="ДанныеЗаменыПоСтрокеЧтоЗаменять" id="147">
+									<DataPath>ДанныеЗаменыПоСтроке.ЧтоЗаменять</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<OpenButton>true</OpenButton>
+									<ContextMenu name="ДанныеЗаменыПоСтрокеЧтоЗаменятьКонтекстноеМеню" id="148"/>
+									<ExtendedTooltip name="ДанныеЗаменыПоСтрокеЧтоЗаменятьРасширеннаяПодсказка" id="149"/>
+								</InputField>
+								<InputField name="ДанныеЗаменыПоСтрокеГдеЗаменятьПредставление" id="169">
+									<DataPath>ДанныеЗаменыПоСтроке.ГдеЗаменятьПредставление</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ДанныеЗаменыПоСтрокеГдеЗаменятьПредставлениеКонтекстноеМеню" id="170"/>
+									<ExtendedTooltip name="ДанныеЗаменыПоСтрокеГдеЗаменятьПредставлениеРасширеннаяПодсказка" id="171"/>
+								</InputField>
+								<InputField name="ДанныеЗаменыПоСтрокеПредставлениеМетаданных" id="144">
+									<DataPath>ДанныеЗаменыПоСтроке.ПредставлениеМетаданных</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ДанныеЗаменыПоСтрокеПредставлениеМетаданныхКонтекстноеМеню" id="145"/>
+									<ExtendedTooltip name="ДанныеЗаменыПоСтрокеПредставлениеМетаданныхРасширеннаяПодсказка" id="146"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаОтбор" id="180">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отбор "Где заменять"</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа отбор</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаОтборРасширеннаяПодсказка" id="181"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаПериодОтбора" id="226">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа период отбора</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа период отбора</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Horizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаПериодОтбораРасширеннаяПодсказка" id="227"/>
+							<ChildItems>
+								<InputField name="ДатаНачалаОтбора" id="220">
+									<DataPath>Объект.ДатаНачалаОтбора</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Период с</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ДатаНачалаОтбораКонтекстноеМеню" id="221"/>
+									<ExtendedTooltip name="ДатаНачалаОтбораРасширеннаяПодсказка" id="222"/>
+								</InputField>
+								<InputField name="ДатаКонцаОтбора" id="223">
+									<DataPath>Объект.ДатаКонцаОтбора</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>по</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ДатаКонцаОтбораКонтекстноеМеню" id="224"/>
+									<ExtendedTooltip name="ДатаКонцаОтбораРасширеннаяПодсказка" id="225"/>
+								</InputField>
+								<Button name="ВыбратьПериод" id="228">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ВыбратьПериод</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>...</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="ВыбратьПериодРасширеннаяПодсказка" id="229"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<Table name="МетаданныеПоиска" id="182">
+							<Representation>Tree</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<DataPath>Объект.МетаданныеПоиска</DataPath>
+							<ContextMenu name="МетаданныеПоискаКонтекстноеМеню" id="183"/>
+							<AutoCommandBar name="МетаданныеПоискаКоманднаяПанель" id="184">
+								<Autofill>false</Autofill>
+								<ChildItems>
+									<Button name="МетаданныеПоискаЗаполнитьДерево" id="216">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ЗаполнитьДерево</CommandName>
+										<ExtendedTooltip name="МетаданныеПоискаЗаполнитьДеревоРасширеннаяПодсказка" id="217"/>
+									</Button>
+									<Button name="МетаданныеПоискаМетаданныеПоискаВключитьВсе" id="212">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.МетаданныеПоискаВключитьВсе</CommandName>
+										<Picture>
+											<xr:Ref>StdPicture.CheckAll</xr:Ref>
+											<xr:LoadTransparent>true</xr:LoadTransparent>
+										</Picture>
+										<ExtendedTooltip name="МетаданныеПоискаМетаданныеПоискаВключитьВсеРасширеннаяПодсказка" id="213"/>
+									</Button>
+									<Button name="МетаданныеПоискаМетаданныеПоискаВыключитьВсе" id="214">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.МетаданныеПоискаВыключитьВсе</CommandName>
+										<ExtendedTooltip name="МетаданныеПоискаМетаданныеПоискаВыключитьВсеРасширеннаяПодсказка" id="215"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="МетаданныеПоискаРасширеннаяПодсказка" id="185"/>
+							<SearchStringAddition name="МетаданныеПоискаСтрокаПоиска" id="186">
+								<AdditionSource>
+									<Item>МетаданныеПоиска</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="МетаданныеПоискаСтрокаПоискаКонтекстноеМеню" id="189"/>
+								<ExtendedTooltip name="МетаданныеПоискаСтрокаПоискаРасширеннаяПодсказка" id="190"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="МетаданныеПоискаСостояниеПросмотра" id="191">
+								<AdditionSource>
+									<Item>МетаданныеПоиска</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="МетаданныеПоискаСостояниеПросмотраКонтекстноеМеню" id="194"/>
+								<ExtendedTooltip name="МетаданныеПоискаСостояниеПросмотраРасширеннаяПодсказка" id="195"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="МетаданныеПоискаУправлениеПоиском" id="196">
+								<AdditionSource>
+									<Item>МетаданныеПоиска</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="МетаданныеПоискаУправлениеПоискомКонтекстноеМеню" id="199"/>
+								<ExtendedTooltip name="МетаданныеПоискаУправлениеПоискомРасширеннаяПодсказка" id="200"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<CheckBoxField name="МетаданныеПоискаВыбран" id="201">
+									<DataPath>Объект.МетаданныеПоиска.Выбран</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="МетаданныеПоискаВыбранКонтекстноеМеню" id="202"/>
+									<ExtendedTooltip name="МетаданныеПоискаВыбранРасширеннаяПодсказка" id="203"/>
+									<Events>
+										<Event name="OnChange">МетаданныеПоискаВыбранПриИзменении</Event>
+									</Events>
+								</CheckBoxField>
+								<InputField name="МетаданныеПоискаСиноним" id="209">
+									<DataPath>Объект.МетаданныеПоиска.Синоним</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="МетаданныеПоискаСинонимКонтекстноеМеню" id="210"/>
+									<ExtendedTooltip name="МетаданныеПоискаСинонимРасширеннаяПодсказка" id="211"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+		<ProgressBarField name="Индикатор" id="71">
+			<DataPath>Индикатор</DataPath>
+			<TitleLocation>None</TitleLocation>
+			<ContextMenu name="ИндикаторКонтекстноеМеню" id="72"/>
+			<ExtendedTooltip name="ИндикаторРасширеннаяПодсказка" id="73"/>
+		</ProgressBarField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ПоискИЗаменаЗначений</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<Columns>
+				<AdditionalColumns table="Объект.МетаданныеПоиска">
+					<Column name="Выбран" id="1">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Выбран</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:boolean</v8:Type>
+						</Type>
+					</Column>
+					<Column name="ПолноеИмя" id="2">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Полное имя</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:string</v8:Type>
+							<v8:StringQualifiers>
+								<v8:Length>0</v8:Length>
+								<v8:AllowedLength>Variable</v8:AllowedLength>
+							</v8:StringQualifiers>
+						</Type>
+					</Column>
+					<Column name="Синоним" id="3">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Синоним</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:string</v8:Type>
+							<v8:StringQualifiers>
+								<v8:Length>0</v8:Length>
+								<v8:AllowedLength>Variable</v8:AllowedLength>
+							</v8:StringQualifiers>
+						</Type>
+					</Column>
+				</AdditionalColumns>
+			</Columns>
+		</Attribute>
+		<Attribute name="Индикатор" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Индикатор</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="АдресТзСтарыхПредопределенныхДанных" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес тз старых предопределенных данных</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ДанныеЗаменыПоСтроке" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Данные замены по строке</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="ГдеЗаменять" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Где заменять</v8:content>
+						</v8:item>
+					</Title>
+					<Type/>
+				</Column>
+				<Column name="ПредставлениеМетаданных" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Представление метаданных</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ЧтоЗаменять" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Что заменять</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Column>
+				<Column name="Выбран" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выбран</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ГдеЗаменятьПредставление" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Где заменять</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>v8:ValueListType</v8:Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="АдресТзНайденныхСсылок" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес тз найденных ссылок</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="АдресВспомогательныеДанные" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес вспомогательные данные</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ЗаменяемыеЗначенияВключитьВсе" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Включить все</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заменяемые значения включить все</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.CheckAll</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ЗаменяемыеЗначенияВключитьВсе</Action>
+			<Representation>Picture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ЗаменяемыеЗначенияВыключитьВсе" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выключить все</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заменяемые значения выключить все</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.UncheckAll</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ЗаменяемыеЗначенияВыключитьВсе</Action>
+			<Representation>Picture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ВыполнитьЗамену" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить замену значений</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить замену</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.GenerateReport</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>КнопкаВыполнитьНажатие</Action>
+			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="НайтиСсылки" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Найти ссылки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Найти ссылки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.SearchControl</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>НайтиСсылки</Action>
+			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ДанныеЗаменыПоСтрокеВключитьВсе" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Включить все</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заменяемые значения включить все</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.CheckAll</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ДанныеЗаменыПоСтрокеВключитьВсе</Action>
+			<Representation>Picture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ДанныеЗаменыПоСтрокеВыключитьВсе" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выключить все</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заменяемые значения выключить все</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.UncheckAll</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ДанныеЗаменыПоСтрокеВыключитьВсе</Action>
+			<Representation>Picture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ЗаполнитьДерево" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить дерево</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить дерево</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.GenerateReport</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ЗаполнитьДерево</Action>
+			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="МетаданныеПоискаВключитьВсе" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Включить все</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Метаданные поиска включить все</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.CheckAll</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>МетаданныеПоискаВключитьВсе</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="МетаданныеПоискаВыключитьВсе" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Включить все</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Метаданные поиска включить все</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.UncheckAll</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>МетаданныеПоискаВыключитьВсе</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ВыбратьПериод" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбрать период</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбрать период</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыбратьПериод</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+	</Commands>
+</Form>

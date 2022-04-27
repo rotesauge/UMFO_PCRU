@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Enum uuid="f147b412-ecd1-4430-95bf-e2ac3383eb6d">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ДвиженияЦелевыхСредств" category="Ref">
+				<xr:TypeId>4da433a1-a44a-4057-9f1f-eb441f71784e</xr:TypeId>
+				<xr:ValueId>0a472cf7-b45e-4000-b5ea-94e981192a9e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ДвиженияЦелевыхСредств" category="Manager">
+				<xr:TypeId>c1c98408-1603-4186-bae0-323e68b40dbf</xr:TypeId>
+				<xr:ValueId>cc575532-76d3-4b2f-a4f4-0686029a2fab</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ДвиженияЦелевыхСредств" category="List">
+				<xr:TypeId>2baac3de-0717-498f-994e-a7e6d5a7a34b</xr:TypeId>
+				<xr:ValueId>b4829011-604d-45c8-ae6a-d219ad8ba4d5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ДвиженияЦелевыхСредств</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

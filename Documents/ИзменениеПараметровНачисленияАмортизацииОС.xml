@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Document uuid="69cdf656-2520-4ab3-bab7-1ae88bad49d9">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ИзменениеПараметровНачисленияАмортизацииОС" category="Object">
+				<xr:TypeId>3707d612-c588-4e16-8e91-e554dea0057e</xr:TypeId>
+				<xr:ValueId>7b4bfc41-d696-4cfd-81da-720f652ea81a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ИзменениеПараметровНачисленияАмортизацииОС" category="Ref">
+				<xr:TypeId>0ad35d01-e88a-4c98-a6a2-41ff3493659e</xr:TypeId>
+				<xr:ValueId>52adcea7-4995-479a-b954-c669fd9cb250</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ИзменениеПараметровНачисленияАмортизацииОС" category="Selection">
+				<xr:TypeId>89f98985-edb2-4a8b-9551-e85401acf453</xr:TypeId>
+				<xr:ValueId>4d9ede3b-19e5-4eb6-880f-b434d27b3498</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ИзменениеПараметровНачисленияАмортизацииОС" category="List">
+				<xr:TypeId>65095010-3a49-4d61-8676-d4c1cc242027</xr:TypeId>
+				<xr:ValueId>c417d5f3-f864-49ec-8e03-f4862fbf0b95</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ИзменениеПараметровНачисленияАмортизацииОС" category="Manager">
+				<xr:TypeId>ce0f6260-dcea-4e71-b8d2-09f1352dcd61</xr:TypeId>
+				<xr:ValueId>d0adbac0-e014-43d9-85db-0f341973cd43</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИзменениеПараметровНачисленияАмортизацииОС</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

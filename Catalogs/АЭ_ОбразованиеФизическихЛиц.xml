@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Catalog uuid="0f0f8464-8c9c-43da-8420-714cc1876b95">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.АЭ_ОбразованиеФизическихЛиц" category="Object">
+				<xr:TypeId>3586feb0-55c4-4b05-b33a-aa3864cc98cd</xr:TypeId>
+				<xr:ValueId>d16b26a8-1fde-42fd-b83f-ca877d33dd59</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.АЭ_ОбразованиеФизическихЛиц" category="Ref">
+				<xr:TypeId>53094db5-3766-4f56-804d-382d5e293ecc</xr:TypeId>
+				<xr:ValueId>27bcbec2-217b-4df0-8a6e-4b7173dd8497</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.АЭ_ОбразованиеФизическихЛиц" category="Selection">
+				<xr:TypeId>103dd809-1c7c-464d-8a0d-0edb01cbbf84</xr:TypeId>
+				<xr:ValueId>482c3a83-6f06-4d4a-beeb-7cb4f931ac1b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.АЭ_ОбразованиеФизическихЛиц" category="List">
+				<xr:TypeId>fe2bb4c1-0338-4ef7-a6bc-140a31afdcbe</xr:TypeId>
+				<xr:ValueId>aba7dd88-2acf-455e-ab98-8856cf5c3685</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.АЭ_ОбразованиеФизическихЛиц" category="Manager">
+				<xr:TypeId>7e46a5f2-b94b-423d-9c55-128ccf7004b6</xr:TypeId>
+				<xr:ValueId>82a13739-7e01-47d4-b368-c42ac58b6b33</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>АЭ_ОбразованиеФизическихЛиц</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Catalog uuid="5ea29651-1620-46bd-8fcc-61836e86f1e6">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.АЭ_ВидыСтавок" category="Object">
+				<xr:TypeId>aa0f3245-b198-4d5f-a217-64347c99d453</xr:TypeId>
+				<xr:ValueId>6516e252-5d2e-4ba4-9be9-62e9b1a71958</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.АЭ_ВидыСтавок" category="Ref">
+				<xr:TypeId>890e30eb-1289-45ab-9cd9-e7ae219497ae</xr:TypeId>
+				<xr:ValueId>406bb0d7-7a96-4c5c-be61-4506878acd39</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.АЭ_ВидыСтавок" category="Selection">
+				<xr:TypeId>e33352bb-be4c-41db-a415-ef595dfaf7ad</xr:TypeId>
+				<xr:ValueId>038dc7c8-f2e7-47f1-8465-25f71d5c2856</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.АЭ_ВидыСтавок" category="List">
+				<xr:TypeId>3e782fb8-34c5-45ea-a5bd-387f3e3afd67</xr:TypeId>
+				<xr:ValueId>97744b6b-eb14-4759-be8c-f5366dcb94c6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.АЭ_ВидыСтавок" category="Manager">
+				<xr:TypeId>a05b8ff6-41bd-4551-a583-64d6fde373c1</xr:TypeId>
+				<xr:ValueId>f0d19e75-18b0-4639-9b1d-dc15f6d29c5f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>АЭ_ВидыСтавок</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

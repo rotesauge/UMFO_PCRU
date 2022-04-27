@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Document uuid="16529eec-f84d-4129-bfda-f06e6bc015e5">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.БНФООткрытиеСчетовАналитическогоУчета" category="Object">
+				<xr:TypeId>ac95ed3f-a078-4ba9-9f4b-6a95bf4839e5</xr:TypeId>
+				<xr:ValueId>9d812374-37ce-44bf-bbac-db27f6897f87</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.БНФООткрытиеСчетовАналитическогоУчета" category="Ref">
+				<xr:TypeId>977b2e66-deda-4d87-8214-7ebaeab76024</xr:TypeId>
+				<xr:ValueId>6da90586-d519-451e-ba0a-1a8279f7186b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.БНФООткрытиеСчетовАналитическогоУчета" category="Selection">
+				<xr:TypeId>f846840a-5581-487e-a9d3-1e9f9b1bb34b</xr:TypeId>
+				<xr:ValueId>8b6a87d0-2e25-46fc-989d-3a15f5ea1718</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.БНФООткрытиеСчетовАналитическогоУчета" category="List">
+				<xr:TypeId>e0d5fb8d-4924-40d8-a3d3-36ff415c20e6</xr:TypeId>
+				<xr:ValueId>7ab4ca37-728e-46e2-ba0e-ad4336424406</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.БНФООткрытиеСчетовАналитическогоУчета" category="Manager">
+				<xr:TypeId>baec44f2-b7f2-4475-877a-5fbc8c0fba48</xr:TypeId>
+				<xr:ValueId>37a3c307-cc67-4e4e-b3ee-080459eecaee</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БНФООткрытиеСчетовАналитическогоУчета</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="ec6bc45f-e97c-4d35-bee9-c957a681b9bc">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.БНФООткрытиеСчетовАналитическогоУчета.СчетаУчета" category="TabularSection">
+						<xr:TypeId>2344ec51-8ed1-46c9-9412-8111adea9036</xr:TypeId>
+						<xr:ValueId>2a5205fc-b502-4bea-b861-54f034bf76ba</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.БНФООткрытиеСчетовАналитическогоУчета.СчетаУчета" category="TabularSectionRow">
+						<xr:TypeId>01502330-ec6c-4172-903f-ace5c6a6037a</xr:TypeId>
+						<xr:ValueId>8cb22366-f59d-4c31-95df-0ebff16ae0c4</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>СчетаУчета</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="c16eb2b6-d283-45f0-9259-cc7bcb037cb0">
+						<InternalInfo/>
+						<Properties>
+							<Name>ОбъектУчета</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:Characteristic.БНФОВидыАналитикСчетовАналитическогоУчета</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="6dfc1064-0191-44e6-958c-6dfe70d29ea7">
+						<InternalInfo/>
+						<Properties>
+							<Name>ВидСчетаУчета</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:EnumRef.БНФОВидыСчетовРеглУчета</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="026204de-94b5-4869-bc1e-44a4a52fe115">
+						<InternalInfo/>
+						<Properties>
+							<Name>ШаблонОткрытия</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.БНФОШаблоныОткрытияСчетовАналитическогоУчета</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="8f69b2b8-f85f-4e5d-84f0-87fc251139b0">
+						<InternalInfo/>
+						<Properties>
+							<Name>СчетАналитическогоУчета</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.БНФОСчетаАналитическогоУчета</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="ed94b56a-fb21-4129-a0c9-8c88bd8b3657">
+						<InternalInfo/>
+						<Properties>
+							<Name>Аналитика1</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:Characteristic.БНФОВидыАналитикСчетовАналитическогоУчета</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="afe997c5-8ec0-40bf-9bef-f2f259423ad7">
+						<InternalInfo/>
+						<Properties>
+							<Name>Аналитика2</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:Characteristic.БНФОВидыАналитикСчетовАналитическогоУчета</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="30bdd5b4-653e-40dd-b684-d1d18e511966">
+						<InternalInfo/>
+						<Properties>
+							<Name>СчетУчета</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:ChartOfAccountsRef.БНФОБанковский</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="add6370d-a70e-4dfa-90ae-5e198cbe1b62">
+						<InternalInfo/>
+						<Properties>
+							<Name>Код</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>11</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="f0b7cc9f-90f8-4f84-8478-093e8a731985">
+						<InternalInfo/>
+						<Properties>
+							<Name>КлючСтроки</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>5</v8:Digits>
+									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="565be732-4992-447e-9015-20f4e3fbb495">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.БНФООткрытиеСчетовАналитическогоУчета.ВидыАналитик" category="TabularSection">
+						<xr:TypeId>8a7dc085-4b9a-444e-935f-01ead7f3b660</xr:TypeId>
+						<xr:ValueId>df669164-dd5d-4c92-bea0-ba72df1a05e3</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.БНФООткрытиеСчетовАналитическогоУчета.ВидыАналитик" category="TabularSectionRow">
+						<xr:TypeId>e7bc2a5d-e31e-4c42-87df-95f953576158</xr:TypeId>
+						<xr:ValueId>3d41951d-fdf6-4fa9-9784-9bab01c97484</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ВидыАналитик</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="f8d88075-5e46-4096-922b-eb124e6e1b5a">
+						<InternalInfo/>
+						<Properties>
+							<Name>КлючСтроки</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>5</v8:Digits>
+									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="a9d01c0f-8293-4e97-b060-c74a60b4d7e3">
+						<InternalInfo/>
+						<Properties>
+							<Name>КлючеваяАналитика</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="6b8cfce8-8e2e-4583-b879-8c05b5886428">
+						<InternalInfo/>
+						<Properties>
+							<Name>ВидАналитики</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:ChartOfCharacteristicTypesRef.БНФОВидыАналитикСчетовАналитическогоУчета</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="206f13d7-931e-4608-9cbb-a4e74912f4cf">
+						<InternalInfo/>
+						<Properties>
+							<Name>ЗначениеАналитики</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:Characteristic.БНФОВидыАналитикСчетовАналитическогоУчета</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

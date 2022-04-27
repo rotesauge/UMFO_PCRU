@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Catalog uuid="a221763c-8878-4342-b554-411cf9b34209">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.БНФОВидыУбытковПеренесенныхНаБудущее" category="Object">
+				<xr:TypeId>e333a28e-de16-435a-bd8c-4b4819e2b3da</xr:TypeId>
+				<xr:ValueId>58d16e36-2caa-4128-8a6a-613665dbbdc3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.БНФОВидыУбытковПеренесенныхНаБудущее" category="Ref">
+				<xr:TypeId>15f7700f-2108-4409-9c8c-e2deaea3c19a</xr:TypeId>
+				<xr:ValueId>ced97159-a7dd-4e66-bfbe-1bf4f71b3573</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.БНФОВидыУбытковПеренесенныхНаБудущее" category="Selection">
+				<xr:TypeId>92a2ba34-6b56-46dc-8b36-db3547a35a0f</xr:TypeId>
+				<xr:ValueId>7b9512d0-2877-47ce-9a9f-34fca7c29c20</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.БНФОВидыУбытковПеренесенныхНаБудущее" category="List">
+				<xr:TypeId>944ad064-4079-4892-8588-cd524d5dab4d</xr:TypeId>
+				<xr:ValueId>f3e0b18b-3799-40e1-9596-866b62694614</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.БНФОВидыУбытковПеренесенныхНаБудущее" category="Manager">
+				<xr:TypeId>b9e8fc79-dbe6-454e-b09b-d5dc7b9fb874</xr:TypeId>
+				<xr:ValueId>8468d8f8-71f6-43a9-8c68-7c1361d08c37</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БНФОВидыУбытковПеренесенныхНаБудущее</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

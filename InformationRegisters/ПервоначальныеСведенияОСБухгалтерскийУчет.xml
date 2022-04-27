@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<InformationRegister uuid="3e63bfb1-bda9-49ac-85f2-c3b65e862fdf">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ПервоначальныеСведенияОСБухгалтерскийУчет" category="Record">
+				<xr:TypeId>6fa9a630-2e9a-4d51-bd7d-d4fd0ba4a5c8</xr:TypeId>
+				<xr:ValueId>07a4715e-3b97-409b-bf00-6a03c18bf641</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ПервоначальныеСведенияОСБухгалтерскийУчет" category="Manager">
+				<xr:TypeId>64bf7964-de2e-4ffd-a6e8-4de5b1643569</xr:TypeId>
+				<xr:ValueId>f58c0a18-7e83-4069-81a9-3dfa7d113b48</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ПервоначальныеСведенияОСБухгалтерскийУчет" category="Selection">
+				<xr:TypeId>e4a6b3b7-d33b-4c4d-bd21-fa86bf451f8d</xr:TypeId>
+				<xr:ValueId>60f6a2d1-5e42-4f4a-9d85-748fa989803d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ПервоначальныеСведенияОСБухгалтерскийУчет" category="List">
+				<xr:TypeId>2766358c-8abc-4fab-990e-64ac10a3e930</xr:TypeId>
+				<xr:ValueId>b5cdf120-5b1f-4b4a-9c45-7112e1ebea2a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ПервоначальныеСведенияОСБухгалтерскийУчет" category="RecordSet">
+				<xr:TypeId>21ca78dc-f489-44c3-b74f-f5bbd1e79c17</xr:TypeId>
+				<xr:ValueId>307ca379-8a81-41a5-a768-92ceb2b8a19f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ПервоначальныеСведенияОСБухгалтерскийУчет" category="RecordKey">
+				<xr:TypeId>c027db24-6bec-4bd6-8c74-42fbd5f215c1</xr:TypeId>
+				<xr:ValueId>e0da825c-3e37-4265-a8b9-c3a9708fc881</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ПервоначальныеСведенияОСБухгалтерскийУчет" category="RecordManager">
+				<xr:TypeId>dc27fb61-e250-4470-a635-25c147a0b11c</xr:TypeId>
+				<xr:ValueId>4fc9dac4-0294-4a3d-9b46-57b7505e8e47</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПервоначальныеСведенияОСБухгалтерскийУчет</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>55e3c565-5b81-44d6-8e41-0417cd29b6f8</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>RecorderPosition</InformationRegisterPeriodicity>
+			<WriteMode>RecorderSubordinate</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="a4b948fe-f326-4725-99ba-5648a7b3a794">
+				<InternalInfo/>
+				<Properties>
+					<Name>ИнвентарныйНомер</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>2e310300-69f8-4406-b1ca-e1026c6837bb</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>9</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="5f8b8698-4b4d-491d-98c0-5cd3cbb0f257">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПервоначальнаяСтоимость</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>d207f96a-dbb0-4ecd-be76-2941352c80cd</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="d67f193f-0656-4e3d-b706-c2914868fb4e">
+				<InternalInfo/>
+				<Properties>
+					<Name>ОсновноеСредство</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>58274ae7-3a18-43e3-b3c8-d2de6c4ac8e8</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ОсновныеСредства</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

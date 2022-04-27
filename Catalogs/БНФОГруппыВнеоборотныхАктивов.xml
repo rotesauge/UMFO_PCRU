@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Catalog uuid="dce58cac-a136-47ba-b81d-38755af99812">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.БНФОГруппыВнеоборотныхАктивов" category="Object">
+				<xr:TypeId>87abab6e-636f-41c9-83ff-65ea1e85016d</xr:TypeId>
+				<xr:ValueId>d4a3075b-a9ef-4fdc-a021-cc0ce277b16a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.БНФОГруппыВнеоборотныхАктивов" category="Ref">
+				<xr:TypeId>a7a97407-6d4c-4720-9a75-a150107f9079</xr:TypeId>
+				<xr:ValueId>e507a374-9427-4bea-b488-ab390994691a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.БНФОГруппыВнеоборотныхАктивов" category="Selection">
+				<xr:TypeId>55786b8d-07b9-4665-9453-cf623319e5a1</xr:TypeId>
+				<xr:ValueId>23f669fd-f624-413c-81f1-8e71d3bc496a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.БНФОГруппыВнеоборотныхАктивов" category="List">
+				<xr:TypeId>95311919-b1e4-42b1-9d67-cd8cd0952169</xr:TypeId>
+				<xr:ValueId>26c6f318-0113-49f4-b542-89fcfe3fe034</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.БНФОГруппыВнеоборотныхАктивов" category="Manager">
+				<xr:TypeId>b115295d-5514-4504-ac84-6f751d530b08</xr:TypeId>
+				<xr:ValueId>37643673-7beb-4bf2-a4cb-367ed8b6ae86</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БНФОГруппыВнеоборотныхАктивов</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

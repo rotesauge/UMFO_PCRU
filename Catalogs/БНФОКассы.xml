@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Catalog uuid="dc5c34dd-4c62-48dc-b1d5-536a2a0e4d4f">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.БНФОКассы" category="Object">
+				<xr:TypeId>3d7306ac-aa07-41ae-975e-1007b1b5d23a</xr:TypeId>
+				<xr:ValueId>b2436ae1-40cd-43e6-bb01-9c9f9795daa5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.БНФОКассы" category="Ref">
+				<xr:TypeId>fe831bf3-5c49-4831-9096-344502bc627a</xr:TypeId>
+				<xr:ValueId>3b8ae55f-6c6b-4678-9680-d0f6829f0a6b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.БНФОКассы" category="Selection">
+				<xr:TypeId>5618da83-c399-4679-b6c4-fe3986bc09d3</xr:TypeId>
+				<xr:ValueId>fabf6f6d-2de6-481c-bbd1-0de87d581a32</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.БНФОКассы" category="List">
+				<xr:TypeId>5cf857fb-d61d-407d-adac-6afa41e73d38</xr:TypeId>
+				<xr:ValueId>44939889-80da-4906-be12-a270dadd6d5f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.БНФОКассы" category="Manager">
+				<xr:TypeId>089122d5-734d-49ff-b7ca-f675f497ddb3</xr:TypeId>
+				<xr:ValueId>f6725099-06d6-49f9-9f01-668e1f6ac90c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БНФОКассы</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

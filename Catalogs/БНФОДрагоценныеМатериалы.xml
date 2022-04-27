@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Catalog uuid="ee9d0011-c003-4224-8be7-527174cc632e">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.БНФОДрагоценныеМатериалы" category="Object">
+				<xr:TypeId>2186d55a-bb02-4509-a607-53578c475a39</xr:TypeId>
+				<xr:ValueId>7e793c00-e8d4-4659-8062-3785302d3687</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.БНФОДрагоценныеМатериалы" category="Ref">
+				<xr:TypeId>f319948d-2bcb-4a61-b042-9d27969bb75a</xr:TypeId>
+				<xr:ValueId>0648f69e-2d93-4e9c-835d-79c0f93560b8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.БНФОДрагоценныеМатериалы" category="Selection">
+				<xr:TypeId>6be62189-8653-4ca0-b38b-53c87d2a5606</xr:TypeId>
+				<xr:ValueId>f3135c5a-537b-4dd2-92c9-f994a5513747</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.БНФОДрагоценныеМатериалы" category="List">
+				<xr:TypeId>9bb7c163-ae1f-4799-9fb1-651374784965</xr:TypeId>
+				<xr:ValueId>e72cfa48-46d5-42b4-a844-589a9d1bebe6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.БНФОДрагоценныеМатериалы" category="Manager">
+				<xr:TypeId>d3b5971e-c456-4bdb-b683-5c9ec2cfd374</xr:TypeId>
+				<xr:ValueId>862b181d-f58e-4a18-8dc5-058a09bd9c6c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БНФОДрагоценныеМатериалы</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

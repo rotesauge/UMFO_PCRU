@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Catalog uuid="cfb00277-4679-40e3-924f-862ffd303cdb">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.БНФОГруппыФинансовогоУчетаФинансовыхИнструментов" category="Object">
+				<xr:TypeId>4bd78fe2-926d-4229-8053-e70943e6a4d8</xr:TypeId>
+				<xr:ValueId>7244e28f-d2e3-4abc-b2d6-1b99f99aedb8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.БНФОГруппыФинансовогоУчетаФинансовыхИнструментов" category="Ref">
+				<xr:TypeId>cb62ed4d-f11b-4b80-ab4d-8c5bec2f035f</xr:TypeId>
+				<xr:ValueId>a8009b27-b4b9-4997-8381-0145584eb16e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.БНФОГруппыФинансовогоУчетаФинансовыхИнструментов" category="Selection">
+				<xr:TypeId>9a639366-d80a-4fa6-a9a4-ed729aaeed08</xr:TypeId>
+				<xr:ValueId>b4707e75-0f1b-4b1e-8d03-58efd06cee5e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.БНФОГруппыФинансовогоУчетаФинансовыхИнструментов" category="List">
+				<xr:TypeId>327edb3e-0682-47c3-8053-71d927b31a03</xr:TypeId>
+				<xr:ValueId>dea9d05c-adde-4935-88ca-617a1e201f1d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.БНФОГруппыФинансовогоУчетаФинансовыхИнструментов" category="Manager">
+				<xr:TypeId>bf80d6cd-e970-4543-aece-df572f6439f9</xr:TypeId>
+				<xr:ValueId>de6c6ed6-21db-4df3-8cc7-4208da06caef</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БНФОГруппыФинансовогоУчетаФинансовыхИнструментов</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Document uuid="ddfcac83-8d51-4602-8da1-3965af4068ce">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.РегистрУчета" category="Object">
+				<xr:TypeId>c687b169-cdc9-40d4-a23e-45ae7749d34e</xr:TypeId>
+				<xr:ValueId>4439b252-2f31-4446-8cec-bcaac72a169c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.РегистрУчета" category="Ref">
+				<xr:TypeId>fb6e3258-99ad-4d00-bd2c-2fa590baf66a</xr:TypeId>
+				<xr:ValueId>80947725-e014-4252-bc58-ec43f5e8f3c7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.РегистрУчета" category="Selection">
+				<xr:TypeId>568d1b34-63d6-475d-a4d8-e8a5aa73bc74</xr:TypeId>
+				<xr:ValueId>52688d27-edd2-4c98-811f-5fd7b5a8ca8d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.РегистрУчета" category="List">
+				<xr:TypeId>ae94e6f4-5784-447b-9469-8b641b7dd411</xr:TypeId>
+				<xr:ValueId>4e6cbb90-acbb-4cec-8ec2-9272bfb01678</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.РегистрУчета" category="Manager">
+				<xr:TypeId>b6a448fa-e73b-4ac8-b0fa-4e31aa1a26bc</xr:TypeId>
+				<xr:ValueId>4b792d93-cda8-4474-a634-6d119e36db6e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>РегистрУчета</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Command uuid="9b15c811-4268-4150-a7f4-713ecc6ffca9">
+				<InternalInfo/>
+				<Properties>
+					<Name>БНФООСведенияОВыданныхВыписках</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Group>FormNavigationPanelGoTo</Group>
+				</Properties>
+			</Command>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

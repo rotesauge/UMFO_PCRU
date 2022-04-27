@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<InformationRegister uuid="f4bec8a4-0f73-4bd3-9d72-033976ff53b1">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.БНФОАналитикаСчетовАналитическогоУчета" category="Record">
+				<xr:TypeId>babf550e-a596-49c8-8551-461999de45ca</xr:TypeId>
+				<xr:ValueId>f9065b58-4ecd-46f3-8972-acc7a028e274</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.БНФОАналитикаСчетовАналитическогоУчета" category="Manager">
+				<xr:TypeId>151a8b1b-641b-4415-b625-94e36c0e2f5d</xr:TypeId>
+				<xr:ValueId>43acf5c9-8645-4dac-8502-e781c6c65d4b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.БНФОАналитикаСчетовАналитическогоУчета" category="Selection">
+				<xr:TypeId>555f0f91-0dfa-41ca-b819-f8e32fd65901</xr:TypeId>
+				<xr:ValueId>0926600a-0a50-4011-8ed0-da8d711f2566</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.БНФОАналитикаСчетовАналитическогоУчета" category="List">
+				<xr:TypeId>9e1cfa07-b90d-4a68-8c44-3498cb70bf87</xr:TypeId>
+				<xr:ValueId>1c331928-f336-4eef-b3a8-46964bdb4631</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.БНФОАналитикаСчетовАналитическогоУчета" category="RecordSet">
+				<xr:TypeId>8fc09020-dc5f-4b22-a221-133f43757146</xr:TypeId>
+				<xr:ValueId>e5f7bb94-8925-475f-ae83-4a9462cf8ef4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.БНФОАналитикаСчетовАналитическогоУчета" category="RecordKey">
+				<xr:TypeId>3e63f5aa-48ab-4acd-a2ce-7bc51d75cdf7</xr:TypeId>
+				<xr:ValueId>39837e84-a0fe-4515-9232-50c7726fcbbd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.БНФОАналитикаСчетовАналитическогоУчета" category="RecordManager">
+				<xr:TypeId>c790a84a-1e3c-4f60-83d6-ed8352079f8d</xr:TypeId>
+				<xr:ValueId>fb6e1b54-f772-43bd-86c3-1751db7b6258</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БНФОАналитикаСчетовАналитическогоУчета</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="dbf0b933-6247-4961-8a7d-009b04f78013">
+				<InternalInfo/>
+				<Properties>
+					<Name>КлючАналитики</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.БНФОКлючиАналитикиУчетаСчетовАналитическогоУчета</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="8a5f9234-7c3e-4fc1-ac47-7d08aa062663">
+				<InternalInfo/>
+				<Properties>
+					<Name>Аналитика2</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:Characteristic.БНФОВидыАналитикСчетовАналитическогоУчета</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="9184758d-fdc9-4e8a-bb17-5895e7323eb3">
+				<InternalInfo/>
+				<Properties>
+					<Name>Аналитика1</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:Characteristic.БНФОВидыАналитикСчетовАналитическогоУчета</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="a2e0fa6d-4991-469f-834d-3a2743dfce7c">
+				<InternalInfo/>
+				<Properties>
+					<Name>Аналитика3</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:Characteristic.БНФОВидыАналитикСчетовАналитическогоУчета</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

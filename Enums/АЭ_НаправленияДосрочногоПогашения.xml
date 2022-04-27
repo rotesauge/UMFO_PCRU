@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Enum uuid="80a4b108-c9dd-4aed-9a97-cc63f44ee24d">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.АЭ_НаправленияДосрочногоПогашения" category="Ref">
+				<xr:TypeId>ac31f4ec-99b9-4f67-8894-56208276ba7d</xr:TypeId>
+				<xr:ValueId>92449433-5d44-4f78-87a6-a9c4d938efc2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.АЭ_НаправленияДосрочногоПогашения" category="Manager">
+				<xr:TypeId>8631daca-695d-4397-b3aa-612ac4ff1f61</xr:TypeId>
+				<xr:ValueId>f5c2c17f-f55b-4689-b37d-ca3c152e7fdd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.АЭ_НаправленияДосрочногоПогашения" category="List">
+				<xr:TypeId>0e1d44e5-0b0b-4368-98ab-8222dafd89a1</xr:TypeId>
+				<xr:ValueId>a432d15a-0723-461c-ace3-489efe5c982b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>АЭ_НаправленияДосрочногоПогашения</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>f20e3881-f8e6-49bd-bbff-79b77ca73427</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

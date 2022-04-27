@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Constant uuid="317f1096-152f-4eba-856b-d46f5b10cb8b">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.АЭ_ИспользоватьСогласование" category="Manager">
+				<xr:TypeId>968dcd7a-30a2-46f4-b9fd-f23a5c026b82</xr:TypeId>
+				<xr:ValueId>fac7a1eb-59aa-4ec0-91f0-33dd8a95e7a7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.АЭ_ИспользоватьСогласование" category="ValueManager">
+				<xr:TypeId>cf78b086-2b83-45e0-b844-99056e7f3b00</xr:TypeId>
+				<xr:ValueId>48fd0029-74f1-4f7f-a908-c27b74b9adec</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.АЭ_ИспользоватьСогласование" category="ValueKey">
+				<xr:TypeId>7b555420-9b57-58e8-bec7-edf9a4ab867f</xr:TypeId>
+				<xr:ValueId>c9ed975f-8c4a-57dd-8e52-6a26eef700f4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>АЭ_ИспользоватьСогласование</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

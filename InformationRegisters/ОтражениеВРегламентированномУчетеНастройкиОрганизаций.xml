@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<InformationRegister uuid="a5b5dcb7-ad8c-46ae-81b9-131c21414617">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ОтражениеВРегламентированномУчетеНастройкиОрганизаций" category="Record">
+				<xr:TypeId>2b898ffc-b88a-43a1-8d32-466ff8189de3</xr:TypeId>
+				<xr:ValueId>71bae801-bb99-41dc-a141-6b2073483ffa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ОтражениеВРегламентированномУчетеНастройкиОрганизаций" category="Manager">
+				<xr:TypeId>ca222551-b0be-487e-987c-4e0afd8959be</xr:TypeId>
+				<xr:ValueId>f2e9c061-7fc6-4f65-9e69-47c9937b0b1c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ОтражениеВРегламентированномУчетеНастройкиОрганизаций" category="Selection">
+				<xr:TypeId>8111b447-1104-4fc4-8a7c-c9b7e7fc4dca</xr:TypeId>
+				<xr:ValueId>a9641e1c-8cb9-46fd-9fc8-0b21e044822a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ОтражениеВРегламентированномУчетеНастройкиОрганизаций" category="List">
+				<xr:TypeId>a55c4ffe-0095-4fb3-899e-a788cdb083a5</xr:TypeId>
+				<xr:ValueId>ee4f49aa-ab57-4a97-b38b-4cc5645c3bd0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ОтражениеВРегламентированномУчетеНастройкиОрганизаций" category="RecordSet">
+				<xr:TypeId>76946eff-b7e6-4a6a-abb5-b1425f694ea3</xr:TypeId>
+				<xr:ValueId>d5a6c68f-3e87-4a19-aef8-5fccff4c0cf8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ОтражениеВРегламентированномУчетеНастройкиОрганизаций" category="RecordKey">
+				<xr:TypeId>379a1266-a59f-4657-8f53-ab2fa5016e02</xr:TypeId>
+				<xr:ValueId>8f455a9e-60cb-48da-8a5a-d3787cf7b410</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ОтражениеВРегламентированномУчетеНастройкиОрганизаций" category="RecordManager">
+				<xr:TypeId>5534970d-18a4-448a-b504-01f048f67bfb</xr:TypeId>
+				<xr:ValueId>00f2c970-c8e2-449b-999c-4b6502ed94e7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОтражениеВРегламентированномУчетеНастройкиОрганизаций</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="1ede3f97-73cb-429b-bb8b-731695c1697c">
+				<InternalInfo/>
+				<Properties>
+					<Name>ФормироватьПроводкиВКонцеПериода</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

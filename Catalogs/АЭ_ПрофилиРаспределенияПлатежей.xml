@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Catalog uuid="e6d7bba7-2afd-4a1b-9e7b-b53e98b6555d">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.АЭ_ПрофилиРаспределенияПлатежей" category="Object">
+				<xr:TypeId>bad392c5-aca6-4c37-a816-fa18d297d98c</xr:TypeId>
+				<xr:ValueId>727c7d34-0067-4115-98c2-b8208ddf4934</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.АЭ_ПрофилиРаспределенияПлатежей" category="Ref">
+				<xr:TypeId>16d1c954-deb0-4fd8-a375-daaf7eb59243</xr:TypeId>
+				<xr:ValueId>998eda48-d27b-4cdc-a5a4-0de30a85a40e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.АЭ_ПрофилиРаспределенияПлатежей" category="Selection">
+				<xr:TypeId>54ce7859-4aed-406f-99d1-02e2e63fcf4e</xr:TypeId>
+				<xr:ValueId>c68f3999-58d4-4449-a0c3-d5259fe47ed6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.АЭ_ПрофилиРаспределенияПлатежей" category="List">
+				<xr:TypeId>7230327e-ea64-44a4-a495-eeb50b9c925e</xr:TypeId>
+				<xr:ValueId>6f4c43ab-f14e-46ce-a006-c3304b8c0389</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.АЭ_ПрофилиРаспределенияПлатежей" category="Manager">
+				<xr:TypeId>41a436f7-bf7d-4936-8b53-1bc166f50641</xr:TypeId>
+				<xr:ValueId>eb1c2a12-a1e4-49a1-96ec-346687578151</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>АЭ_ПрофилиРаспределенияПлатежей</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>3a819b93-3667-4715-a074-b927ae92e070</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Enum uuid="c3e75aa0-c024-4795-9d45-2e5ca72fcf65">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.БНФОВидыКорректировокСтоимостиЦенныхБумаг" category="Ref">
+				<xr:TypeId>6709156f-7be4-4ab6-95c8-314159ed2c09</xr:TypeId>
+				<xr:ValueId>41591ab0-b75d-4b6b-ad81-0e0404ee854e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.БНФОВидыКорректировокСтоимостиЦенныхБумаг" category="Manager">
+				<xr:TypeId>891f0088-a0c2-4e6d-aa92-139918b89cf6</xr:TypeId>
+				<xr:ValueId>67be225e-a343-4bbb-b8ca-1bafa6dd2bf1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.БНФОВидыКорректировокСтоимостиЦенныхБумаг" category="List">
+				<xr:TypeId>a49be42c-e5a3-4bf4-ad64-3bb5774487c0</xr:TypeId>
+				<xr:ValueId>669d06a8-e3ec-4d73-8e2b-80bab0d05aa3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БНФОВидыКорректировокСтоимостиЦенныхБумаг</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

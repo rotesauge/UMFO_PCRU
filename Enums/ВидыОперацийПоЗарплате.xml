@@ -1,0 +1,506 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Enum uuid="c478b080-29c7-428c-a0e7-5786ca938825">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыОперацийПоЗарплате" category="Ref">
+				<xr:TypeId>b619e67a-d66a-4182-81e3-3170dc936306</xr:TypeId>
+				<xr:ValueId>d7972f05-e972-4fe3-bbf9-dd33136b6027</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыОперацийПоЗарплате" category="Manager">
+				<xr:TypeId>f80fa301-7d22-4550-b938-f99ed675e472</xr:TypeId>
+				<xr:ValueId>6aee4ca3-8fca-4d30-9161-bb4f4943bb70</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыОперацийПоЗарплате" category="List">
+				<xr:TypeId>9a672d0e-4494-47f2-a01a-d30eb07e56aa</xr:TypeId>
+				<xr:ValueId>f06c027a-88c2-47f5-855e-36f996b6694a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыОперацийПоЗарплате</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="fb01e0af-94b3-427a-a945-8c6acc2783e9">
+				<InternalInfo/>
+				<Properties>
+					<Name>АлиментыПрочиеИсполнительныеЛисты</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f927c2b3-9d64-4462-b363-964f83c87e34">
+				<InternalInfo/>
+				<Properties>
+					<Name>АлиментыПрочиеИсполнительныеЛистыКонтрагенты</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="1dee4938-0e46-44f7-83a0-1167432ac0d6">
+				<InternalInfo/>
+				<Properties>
+					<Name>ВозвратИзлишнеВыплаченныхСуммВследствиеСчетныхОшибок</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5008cc2f-7939-4f04-b2de-a1a32ccaeb58">
+				<InternalInfo/>
+				<Properties>
+					<Name>ВозмещениеУщерба</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="846122c6-b3de-421f-beb1-be1930ebc6be">
+				<InternalInfo/>
+				<Properties>
+					<Name>ВознаграждениеПлатежногоАгента</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c269cf10-f9a0-4723-9311-276acf82b2f8">
+				<InternalInfo/>
+				<Properties>
+					<Name>ВознаграждениеПлатежногоАгентаКонтрагенты</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e6d2d718-618c-4abb-8248-f60e15883a4a">
+				<InternalInfo/>
+				<Properties>
+					<Name>ВыплатыБывшимСотрудникам</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="1808c640-0bb7-4677-8b51-82d95a2c254e">
+				<InternalInfo/>
+				<Properties>
+					<Name>Депонирование</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b3956b0e-63fa-4ce8-927b-4cbc77ae41f6">
+				<InternalInfo/>
+				<Properties>
+					<Name>Дивиденды</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="4fe42b3d-d594-4262-9a50-5646a44a30bc">
+				<InternalInfo/>
+				<Properties>
+					<Name>ДивидендыСотрудников</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="8e54bbdc-dd8b-4087-96e6-0d92fb10a586">
+				<InternalInfo/>
+				<Properties>
+					<Name>ДобровольныеВзносыВНПФ</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6216b9a1-2798-416c-873d-8950cc24485d">
+				<InternalInfo/>
+				<Properties>
+					<Name>ДоговорАвторскогоЗаказа</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b00c9e24-f570-493b-a86a-076a4c5a003b">
+				<InternalInfo/>
+				<Properties>
+					<Name>ДоговорРаботыУслуги</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d0c1e85e-7a32-47ec-b4b8-7b4e3b02cef1">
+				<InternalInfo/>
+				<Properties>
+					<Name>ДоходыКонтрагентов</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="930432aa-c75e-44af-bb1e-9e17babb7263">
+				<InternalInfo/>
+				<Properties>
+					<Name>ДСВ</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="4afbc886-5532-41db-b9e3-336b11dd2b19">
+				<InternalInfo/>
+				<Properties>
+					<Name>ЕжегодныйОтпуск</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f050333a-793a-478b-bbbb-018a9fc547c4">
+				<InternalInfo/>
+				<Properties>
+					<Name>ЕжегодныйОтпускОценочныеОбязательства</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="369b6b61-cb6b-4060-97ab-c608718aabb9">
+				<InternalInfo/>
+				<Properties>
+					<Name>ЕжегодныйОтпускОценочныеОбязательстваИРезервы</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e1588aea-2bee-485c-abd5-6b548f141f55">
+				<InternalInfo/>
+				<Properties>
+					<Name>ЕжегодныйОтпускРезервы</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="76eb01cd-fc0a-4849-88d4-6e6b2b16ef41">
+				<InternalInfo/>
+				<Properties>
+					<Name>КомпенсацияЕжегодногоОтпуска</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="1810a433-f079-4862-931f-735f5008122c">
+				<InternalInfo/>
+				<Properties>
+					<Name>КомпенсацияЕжегодногоОтпускаОценочныеОбязательства</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="1f6e67dc-f16b-4a77-b6db-3eb38bc34bd6">
+				<InternalInfo/>
+				<Properties>
+					<Name>КомпенсацияЗаЗадержкуЗарплаты</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="27cead44-a7da-453a-9e09-61d5b57e80e4">
+				<InternalInfo/>
+				<Properties>
+					<Name>МатериальнаяПомощь</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="579a8991-370e-447f-9d42-5c9cde032702">
+				<InternalInfo/>
+				<Properties>
+					<Name>НатуральныйДоход</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ea318894-c920-4d96-8203-19ebec4848a3">
+				<InternalInfo/>
+				<Properties>
+					<Name>НачисленоДоход</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="dbbd99ef-732c-44e7-9b91-8fecb6de7030">
+				<InternalInfo/>
+				<Properties>
+					<Name>НачисленоПроцентовПоЗайму</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="56f46644-eb67-4dec-8b7e-a597092eb608">
+				<InternalInfo/>
+				<Properties>
+					<Name>НачисленоСдельноДоход</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="880ee567-1152-40af-8016-e7e9054ca769">
+				<InternalInfo/>
+				<Properties>
+					<Name>НДФЛ</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="34a30f64-506a-4308-a22c-661cd1c02216">
+				<InternalInfo/>
+				<Properties>
+					<Name>НДФЛДоначисленныйПоРезультатамПроверки</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="8762bed9-a076-4145-96d7-7ec3e5a03da0">
+				<InternalInfo/>
+				<Properties>
+					<Name>НДФЛДоходыКонтрагентов</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="1d07437d-b461-4900-8d02-542da1db0402">
+				<InternalInfo/>
+				<Properties>
+					<Name>НДФЛПередачаЗадолженностиВНалоговыйОрган</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="48bb4210-3f36-4d7e-86d0-171dbfb7d43b">
+				<InternalInfo/>
+				<Properties>
+					<Name>НДФЛПрочиеРасчетыСПерсоналом</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="4386ab0d-ef42-4913-ba5f-6165347e57fc">
+				<InternalInfo/>
+				<Properties>
+					<Name>НДФЛРасчетыСБывшимиСотрудниками</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e7ffa724-b0ee-424a-8a32-e1a24205b61e">
+				<InternalInfo/>
+				<Properties>
+					<Name>НФДЛДивиденды</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="11fb57a5-4f8a-4c80-a802-6cc61de24314">
+				<InternalInfo/>
+				<Properties>
+					<Name>НФДЛДивидендыСотрудникам</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a7ee63df-f7d1-4a5e-8093-1f843334aabc">
+				<InternalInfo/>
+				<Properties>
+					<Name>ОценкаОбязательстваИФормированиеРезервов</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="56a54ab1-0960-4a1a-83a8-1b8dc00bb3ca">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПогашениеЗаймов</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="1655d135-d9b5-4444-983b-240a0ea2d145">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПособиеНаПогребение</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ad2ea410-0ab1-4fd6-91ca-dd9a81726041">
+				<InternalInfo/>
+				<Properties>
+					<Name>Профвзносы</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="2e729ceb-6e85-44e4-b54e-41dfb3a9ef0c">
+				<InternalInfo/>
+				<Properties>
+					<Name>УдержаниеПоПрочимОперациямСРаботниками</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b0926e29-516b-47de-8dc8-f3477709690a">
+				<InternalInfo/>
+				<Properties>
+					<Name>ФСС</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c97f83bf-665a-4ce8-8b60-0024d22f7ba2">
+				<InternalInfo/>
+				<Properties>
+					<Name>ФФОМС</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="fd08caef-244f-42f4-ba4e-f3d8e7236380">
+				<InternalInfo/>
+				<Properties>
+					<Name>ФССНС</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a9b65742-7e60-4537-b3ce-38bce604e5f3">
+				<InternalInfo/>
+				<Properties>
+					<Name>ТФОМС</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="dc548f70-277f-477c-b5aa-1b0206f928b4">
+				<InternalInfo/>
+				<Properties>
+					<Name>РасходыПоСтрахованиюФССНС</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="7a458ad4-c42f-4708-8195-319e59af8a8f">
+				<InternalInfo/>
+				<Properties>
+					<Name>РасходыПоСтрахованиюФСС</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="bbfabd7f-09c0-4ac4-876f-04087ee4841d">
+				<InternalInfo/>
+				<Properties>
+					<Name>РасходыПоСтрахованиюБюджет</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="fbd24bca-3295-44f5-bb3d-c062c7c75f47">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПФРСтраховаяЧасть</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f5e28ea0-0b32-4d70-883a-f5a12e4ecf9d">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПФРПоСуммарномуТарифу</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b5d8e8bf-325d-466d-b4c7-3ff3a446ca26">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПФРНакопительнаяЧасть</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="bff8eb89-5ea2-4102-b0fa-935aee00414a">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПФРЗаЗанятыхНаТяжелыхИПрочихРаботахСпецОценка</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="725dde0b-c3bc-471d-a8d0-4661a6f518a2">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПФРЗаЗанятыхНаТяжелыхИПрочихРаботахБезСпецОценки</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="7a37a7c1-c886-4800-8f94-10a23b69cd98">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПФРЗаЗанятыхНаТяжелыхИПрочихРаботах</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="8d768bd7-a5fd-4fac-85cf-3652f5d36e22">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПФРЗаЗанятыхНаПодземныхИВредныхРаботахСпецОценка</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="1d759e25-66bf-440c-b658-12405e0ce1a0">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПФРЗаЗанятыхНаПодземныхИВредныхРаботахБезСпецОценки</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="51ba6822-de0e-4547-b943-c8eaae40ab03">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПФРЗаЗанятыхНаПодземныхИВредныхРаботах</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="33b72706-4323-4525-a0fe-803919c0c9c7">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПФРДоПредельнойВеличины</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d4968944-2d30-4d45-b133-c13b1a7d6fa4">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПФРДополнительныйТарифШахтеры</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ca172081-25e2-4f3e-ae9e-d0a922a0d686">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПФРДополнительныйТарифЛЭ</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="27bd8fb6-3e8c-4eb3-867d-fc7d4d1ae965">
+				<InternalInfo/>
+				<Properties>
+					<Name>УдержаниеНеизрасходованныхПодотчетныхСумм</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Enum uuid="c4f97aeb-6655-48f0-8631-14337cef1914">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.БНФОКлассыДепозитовРазмещенныхСредств" category="Ref">
+				<xr:TypeId>94ba4453-f623-4e6c-9d4c-cfb4dd13b499</xr:TypeId>
+				<xr:ValueId>820b5107-c0ec-4eb7-afb8-5d9d011791a3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.БНФОКлассыДепозитовРазмещенныхСредств" category="Manager">
+				<xr:TypeId>887a8837-2181-4dba-adc8-f14ca3f3e677</xr:TypeId>
+				<xr:ValueId>f444f361-fd0b-4346-b1a6-67dec1043344</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.БНФОКлассыДепозитовРазмещенныхСредств" category="List">
+				<xr:TypeId>7a079255-b20b-4d8a-8206-026dcda19d3d</xr:TypeId>
+				<xr:ValueId>b0ae122b-89ae-461c-afda-196afb88023c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БНФОКлассыДепозитовРазмещенныхСредств</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="bd4eefde-dc0c-4d4d-bd74-c9a8322165f3">
+				<InternalInfo/>
+				<Properties>
+					<Name>СделкиОбратногоРепо</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c56387c8-aaea-4f5f-9856-b558c9c6fde9">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПрочиеРазмещенныеСредства</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

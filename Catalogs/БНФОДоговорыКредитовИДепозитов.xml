@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Catalog uuid="a34429c1-9666-4464-b504-08e02d725f0e">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.БНФОДоговорыКредитовИДепозитов" category="Object">
+				<xr:TypeId>23c5b8ab-ac4a-4300-a284-9ca8cd8ba506</xr:TypeId>
+				<xr:ValueId>892f0a9f-19a7-4025-b207-6c3b485bf0d7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.БНФОДоговорыКредитовИДепозитов" category="Ref">
+				<xr:TypeId>0cd68150-a70c-4fd4-9667-0a07d98aaeb6</xr:TypeId>
+				<xr:ValueId>86a0a20f-a1f1-478a-ad93-cbb2db586b97</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.БНФОДоговорыКредитовИДепозитов" category="Selection">
+				<xr:TypeId>9b1211be-df3d-4956-8850-5557b9a41af8</xr:TypeId>
+				<xr:ValueId>d5aee7c7-a80a-481d-836d-2ff6db25fbcf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.БНФОДоговорыКредитовИДепозитов" category="List">
+				<xr:TypeId>98572685-a5e1-432b-a05e-fc36aeb45986</xr:TypeId>
+				<xr:ValueId>ac6b1e08-4fd0-47b9-bfe3-472ae32c34d0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.БНФОДоговорыКредитовИДепозитов" category="Manager">
+				<xr:TypeId>9be7f6ee-0153-419f-9fc6-08d14414cc8c</xr:TypeId>
+				<xr:ValueId>e068091d-89e5-4af4-a7ba-c9d5abb50c03</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БНФОДоговорыКредитовИДепозитов</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<DescriptionLength>100</DescriptionLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="7cbddb39-48e4-461b-a63c-876199d2fcf9">
+				<InternalInfo/>
+				<Properties>
+					<Name>ГруппаФинансовогоУчетаРасчетовПоПрочимРасходам</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.БНФОГруппыФинансовогоУчетаФинансовыхИнструментов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="fc11e61a-6090-448b-9338-cd134f98ffc4">
+				<InternalInfo/>
+				<Properties>
+					<Name>ХарактерДоговора</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.БНФОХарактерДоговораКредитовИДепозитов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="efe760da-0f79-4d51-ba49-7a5d14c1bfc3">
+				<InternalInfo/>
+				<Properties>
+					<Name>ГруппаФинансовогоУчетаКорректировок</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.БНФОГруппыФинансовогоУчетаФинансовыхИнструментов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="44e3a7c6-b4b6-4dc4-afcf-4bb27288c18c">
+				<InternalInfo/>
+				<Properties>
+					<Name>ГруппаФинансовогоУчетаНачисленияПроцентов</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.БНФОГруппыФинансовогоУчетаФинансовыхИнструментов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="eaa2197e-962a-4e05-b17d-9d3ed3714366">
+				<InternalInfo/>
+				<Properties>
+					<Name>ТипКомиссии</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.БНФОТипыКомиссииКредитовИДепозитов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="bfccfd0a-6dbc-48b1-9402-0b450b3b88cc">
+				<InternalInfo/>
+				<Properties>
+					<Name>ФормаОплаты</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ФормыОплаты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="0af39635-e587-491c-b471-7545c2730f88">
+				<InternalInfo/>
+				<Properties>
+					<Name>КлассДепозита</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.БНФОКлассыДепозитовРазмещенныхСредств</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a83e087a-54ab-4b8c-b2c9-83d3f5e1d918">
+				<InternalInfo/>
+				<Properties>
+					<Name>ГруппаФинансовогоДосрочноеВыбытие</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.БНФОГруппыФинансовогоУчетаФинансовыхИнструментов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="cc2de0b6-09c3-456f-bc74-d596fda642b7">
+				<InternalInfo/>
+				<Properties>
+					<Name>ТипСрочности</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.БНФОТипыСрочностиКредитовИДепозитов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="772322bb-c432-456c-9c14-8f0e7e318e12">
+				<InternalInfo/>
+				<Properties>
+					<Name>ГруппаФинансовогоУчетаРезервовПодОбесценение</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.БНФОГруппыФинансовогоУчетаФинансовыхИнструментов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="da4ff606-6c79-4f0e-8b41-97fbe45701b9">
+				<InternalInfo/>
+				<Properties>
+					<Name>ГруппаФинансовогоУчетаРасчетовПоПрочимДоходам</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.БНФОГруппыФинансовогоУчетаФинансовыхИнструментов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="48718d73-d46b-4e70-abd9-cbbf5f88d447">
+				<InternalInfo/>
+				<Properties>
+					<Name>ГруппаФинансовогоУчетаОсновногоДолга</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.БНФОГруппыФинансовогоУчетаФинансовыхИнструментов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="89f68946-7928-47cb-8892-3da3a24d53f4">
+				<InternalInfo/>
+				<Properties>
+					<Name>ГруппаФинансовогоУчетаПогашенияИмуществом</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.БНФОГруппыФинансовогоУчетаФинансовыхИнструментов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3328a584-e3e8-4c83-879e-a7cfa22c490f">
+				<InternalInfo/>
+				<Properties>
+					<Name>Комментарий</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2bd21be6-d3e4-4db7-ae4c-daa66224f02e">
+				<InternalInfo/>
+				<Properties>
+					<Name>ВалютаВзаиморасчетов</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="dc70656d-ba55-478e-b7b2-86e85466c6c0">
+				<InternalInfo/>
+				<Properties>
+					<Name>Номер</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>30</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d0157d95-f512-451b-9d3a-732a0f89782b">
+				<InternalInfo/>
+				<Properties>
+					<Name>Организация</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="95fcf691-b838-415a-86df-3a9c8b663b60">
+				<InternalInfo/>
+				<Properties>
+					<Name>ГруппаФинансовогоУчетаРасчетовПоПроцентам</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.БНФОГруппыФинансовогоУчетаФинансовыхИнструментов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="881b082f-b0ec-4e4b-93c5-4d511a043bab">
+				<InternalInfo/>
+				<Properties>
+					<Name>Дата</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="57bab604-a3c0-4dd6-8997-fc04e554d91b">
+				<InternalInfo/>
+				<Properties>
+					<Name>Ответственный</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f93ee58a-e77d-4a19-b0ec-0a9cd2361184">
+				<InternalInfo/>
+				<Properties>
+					<Name>ГруппаФинансовогоУчетаНачисленияПрочихРасходов</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.БНФОГруппыФинансовогоУчетаФинансовыхИнструментов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b8cce18c-f35a-424f-9437-9977a4e735e6">
+				<InternalInfo/>
+				<Properties>
+					<Name>Контрагент</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8c546678-bf4a-4169-a213-c783b6b951da">
+				<InternalInfo/>
+				<Properties>
+					<Name>ГруппаФинансовогоУчетаНачисленияПрочихДоходов</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.БНФОГруппыФинансовогоУчетаФинансовыхИнструментов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4854a741-4ae4-492b-8aaf-9972c423792e">
+				<InternalInfo/>
+				<Properties>
+					<Name>ДоговорКонтрагента</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e206656e-7722-4f79-9073-d1e933a4ffea">
+				<Properties>
+					<Name>pcru_ex_ProductType</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Pcru ex product type</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>20</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="0cde763d-793e-45c9-8a4d-5dda82cefac2">
+				<Properties>
+					<Name>pcru_ex_СвязанныйКонтракт</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Pcru ex связанный контракт</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.БНФОДоговорыКредитовИДепозитов</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Form>ФормаЭлемента</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

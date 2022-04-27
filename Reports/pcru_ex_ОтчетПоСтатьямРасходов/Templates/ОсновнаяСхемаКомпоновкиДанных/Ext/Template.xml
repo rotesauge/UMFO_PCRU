@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Сумма</dataPath>
+			<field>Сумма</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Получатель</dataPath>
+			<field>Получатель</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получатель</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипЗатрат</dataPath>
+			<field>ТипЗатрат</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтатьяРасходов</dataPath>
+			<field>СтатьяРасходов</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статья расходов</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидОперации</dataPath>
+			<field>ВидОперации</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаВх</dataPath>
+			<field>ДатаВх</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата вх</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	СписаниеСРасчетногоСчетапкру_РаспределениеЗатрат.Ссылка.ВидОперации КАК ВидОперации,
+	СписаниеСРасчетногоСчетапкру_РаспределениеЗатрат.Ссылка.Контрагент КАК Контрагент,
+	СписаниеСРасчетногоСчетапкру_РаспределениеЗатрат.Ссылка.ДатаВходящегоДокумента КАК ДатаВходящегоДокумента,
+	СписаниеСРасчетногоСчетапкру_РаспределениеЗатрат.пкру_СтатьяРасходов КАК пкру_СтатьяРасходов,
+	СписаниеСРасчетногоСчетапкру_РаспределениеЗатрат.ТипЗатрат КАК ТипЗатрат,
+	СписаниеСРасчетногоСчетапкру_РаспределениеЗатрат.Сумма КАК Сумма,
+	СписаниеСРасчетногоСчетапкру_РаспределениеЗатрат.Ссылка КАК Ссылка,
+	1 КАК ПорядокСортировки
+ПОМЕСТИТЬ ВременнаяТаблица
+ИЗ
+	Документ.СписаниеСРасчетногоСчета.пкру_РаспределениеЗатрат КАК СписаниеСРасчетногоСчетапкру_РаспределениеЗатрат
+ГДЕ
+	СписаниеСРасчетногоСчетапкру_РаспределениеЗатрат.Ссылка.Проведен
+	И СписаниеСРасчетногоСчетапкру_РаспределениеЗатрат.Ссылка.Дата &gt;= &amp;Дата1
+	И СписаниеСРасчетногоСчетапкру_РаспределениеЗатрат.Ссылка.Дата &lt;= &amp;Дата2
+	И СписаниеСРасчетногоСчетапкру_РаспределениеЗатрат.Ссылка.ВидОперации &lt;&gt; &amp;ВидОперации
+	И ВЫБОР
+			КОГДА &amp;СчетБанк = ЗНАЧЕНИЕ(Справочник.БНФОСчетаАналитическогоУчета.ПустаяСсылка)
+				ТОГДА ИСТИНА
+			ИНАЧЕ СписаниеСРасчетногоСчетапкру_РаспределениеЗатрат.Ссылка.СчетБанк = &amp;СчетБанк
+		КОНЕЦ
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	СписаниеСРасчетногоСчета.ВидОперации,
+	СписаниеСРасчетногоСчета.Контрагент,
+	СписаниеСРасчетногоСчета.ДатаВходящегоДокумента,
+	СписаниеСРасчетногоСчета.pcru_ex_СтатьяДоходовРасходов,
+	СписаниеСРасчетногоСчета.БНФОСубконтоДт3,
+	СписаниеСРасчетногоСчета.СуммаДокумента,
+	СписаниеСРасчетногоСчета.Ссылка,
+	1 КАК ПорядокСортировки
+ИЗ
+	Документ.СписаниеСРасчетногоСчета КАК СписаниеСРасчетногоСчета
+ГДЕ
+	СписаниеСРасчетногоСчета.Проведен
+	И СписаниеСРасчетногоСчета.Дата &gt;= &amp;Дата1
+	И СписаниеСРасчетногоСчета.ВидОперации &lt;&gt; &amp;ВидОперации
+	И СписаниеСРасчетногоСчета.Дата &lt;= &amp;Дата2
+	И НЕ СписаниеСРасчетногоСчета.Ссылка В
+				(ВЫБРАТЬ
+					РаспределениеЗатрат.Ссылка КАК Ссылка
+				ИЗ
+					Документ.СписаниеСРасчетногоСчета.пкру_РаспределениеЗатрат КАК РаспределениеЗатрат
+				ГДЕ
+					РаспределениеЗатрат.Ссылка.Дата &gt;= &amp;Дата1
+					И РаспределениеЗатрат.Ссылка.Дата &lt;= &amp;Дата2)
+	И ВЫБОР
+			КОГДА &amp;СчетБанк = ЗНАЧЕНИЕ(Справочник.БНФОСчетаАналитическогоУчета.ПустаяСсылка)
+				ТОГДА ИСТИНА
+			ИНАЧЕ СписаниеСРасчетногоСчета.СчетБанк = &amp;СчетБанк
+		КОНЕЦ
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ПоступлениеНаРасчетныйСчетпкру_РаспределениеЗатрат.Ссылка.ВидОперации КАК ВидОперации,
+	ПоступлениеНаРасчетныйСчетпкру_РаспределениеЗатрат.Ссылка.Контрагент КАК Контрагент,
+	ПоступлениеНаРасчетныйСчетпкру_РаспределениеЗатрат.Ссылка.ДатаВходящегоДокумента КАК ДатаВходящегоДокумента,
+	ПоступлениеНаРасчетныйСчетпкру_РаспределениеЗатрат.пкру_СтатьяРасходов КАК пкру_СтатьяРасходов,
+	ПоступлениеНаРасчетныйСчетпкру_РаспределениеЗатрат.ТипЗатрат КАК ТипЗатрат,
+	-ПоступлениеНаРасчетныйСчетпкру_РаспределениеЗатрат.Сумма КАК Сумма,
+	ПоступлениеНаРасчетныйСчетпкру_РаспределениеЗатрат.Ссылка КАК Ссылка,
+	2 КАК ПорядокСортировки
+ИЗ
+	Документ.ПоступлениеНаРасчетныйСчет.пкру_РаспределениеЗатрат КАК ПоступлениеНаРасчетныйСчетпкру_РаспределениеЗатрат
+ГДЕ
+	ПоступлениеНаРасчетныйСчетпкру_РаспределениеЗатрат.Ссылка.Проведен
+	И ПоступлениеНаРасчетныйСчетпкру_РаспределениеЗатрат.Ссылка.Дата &gt;= &amp;Дата1
+	И ПоступлениеНаРасчетныйСчетпкру_РаспределениеЗатрат.Ссылка.Дата &lt;= &amp;Дата2
+	//И ПоступлениеНаРасчетныйСчетпкру_РаспределениеЗатрат.Ссылка.ВидОперации &lt;&gt; &amp;ВидОперации
+	И ВЫБОР
+			КОГДА &amp;СчетБанк = ЗНАЧЕНИЕ(Справочник.БНФОСчетаАналитическогоУчета.ПустаяСсылка)
+				ТОГДА ИСТИНА
+			ИНАЧЕ ПоступлениеНаРасчетныйСчетпкру_РаспределениеЗатрат.Ссылка.СчетБанк = &amp;СчетБанк
+		КОНЕЦ
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВременнаяТаблица.пкру_СтатьяРасходов КАК СтатьяРасходов,
+	ВременнаяТаблица.ТипЗатрат КАК ТипЗатрат,
+	ВременнаяТаблица.ВидОперации КАК ВидОперации,
+	ВременнаяТаблица.Контрагент КАК Получатель,
+	ВременнаяТаблица.ДатаВходящегоДокумента КАК ДатаВх,
+	ВременнаяТаблица.Сумма КАК Сумма,
+	ВременнаяТаблица.ПорядокСортировки КАК ПорядокСортировки
+ИЗ
+	ВременнаяТаблица КАК ВременнаяТаблица
+ГДЕ
+	ВЫБОР
+			КОГДА &amp;ТипЗатрат = ЗНАЧЕНИЕ(Справочник.БНФОСубконто.ПустаяСсылка)
+				ТОГДА ИСТИНА
+			ИНАЧЕ ВременнаяТаблица.ТипЗатрат = &amp;ТипЗатрат
+		КОНЕЦ
+	И ВЫБОР
+			КОГДА &amp;СтатьяРасходов = ЗНАЧЕНИЕ(Справочник.ПрочиедоходыиРасходы.ПустаяСсылка)
+				ТОГДА ИСТИНА
+			ИНАЧЕ ВременнаяТаблица.пкру_СтатьяРасходов = &amp;СтатьяРасходов
+		КОНЕЦ
+УПОРЯДОЧИТЬ ПО
+	ПорядокСортировки
+	</query>
+	</dataSet>
+	<totalField>
+		<dataPath>Сумма</dataPath>
+		<expression>Сумма(Сумма)</expression>
+	</totalField>
+	<parameter>
+		<name>ВидОперации</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Вид операции</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:EnumRef.ВидыОперацийСписаниеДенежныхСредств</v8:Type>
+		</valueType>
+		<value xsi:type="dcscor:DesignTimeValue">Перечисление.ВидыОперацийСписаниеДенежныхСредств.ПереводНаДругойСчет</value>
+		<useRestriction>false</useRestriction>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>Дата1</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата1</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>Дата2</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата2</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>СчетБанк</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Счет банк</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.БНФОСчетаАналитическогоУчета</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>СтатьяРасходов</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Статья расходов</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.ПрочиеДоходыИРасходы</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>ТипЗатрат</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Тип затрат</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.БНФОСубконто</v8:Type>
+			<v8:TypeSet xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:Characteristic.БНФОВидыСубконтоБанковские</v8:TypeSet>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
+		<use>Always</use>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВидОперации</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаВх</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Получатель</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СтатьяРасходов</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТипЗатрат</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Сумма</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>СчетБанк</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:Field">ПараметрыДанных.СчетБанк</dcscor:value>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>ДатаВх</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+			</dcsset:order>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МакетОформления</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">Зеленый</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>СтатьяРасходов</dcsset:field>
+						<dcsset:groupType>Hierarchy</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>ТипЗатрат</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+					</dcsset:item>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Document uuid="2ec27ecf-ce94-4605-a6c5-816cac155f28">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПередачаНМА" category="Object">
+				<xr:TypeId>8e068f16-d994-4698-b318-a85b4da9b2e9</xr:TypeId>
+				<xr:ValueId>ea0a2040-6d85-49b6-a8ad-12b976b04800</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПередачаНМА" category="Ref">
+				<xr:TypeId>1cd37789-0eca-4f89-9dd3-2a09163796c7</xr:TypeId>
+				<xr:ValueId>eda55804-7776-4aa4-83b1-5a6f8b839bd4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПередачаНМА" category="Selection">
+				<xr:TypeId>09d4ac7b-01c5-4353-8f7a-cf9fa4142e18</xr:TypeId>
+				<xr:ValueId>6b347528-a42b-4dab-8b84-7a0f39a0492b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПередачаНМА" category="List">
+				<xr:TypeId>20e74905-26fa-470b-bdd7-6cc1ee414406</xr:TypeId>
+				<xr:ValueId>31130909-8c9e-4373-8ee8-a76300ae0423</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПередачаНМА" category="Manager">
+				<xr:TypeId>128b56ea-877c-41ec-b17d-e886d54de9a9</xr:TypeId>
+				<xr:ValueId>c5831f0d-c712-459f-b914-ac9e53b57e6d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПередачаНМА</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

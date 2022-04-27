@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Enum uuid="d20622ff-e9e6-46b0-be1d-56cc0a12a1be">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.УдалитьПрименяемыеСистемыНалогообложения" category="Ref">
+				<xr:TypeId>602b726c-f85a-4655-8796-8589032bb06a</xr:TypeId>
+				<xr:ValueId>48d00676-b5c3-45fa-a04c-fd4aaabd0239</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.УдалитьПрименяемыеСистемыНалогообложения" category="Manager">
+				<xr:TypeId>a721e2e0-75f6-4903-9d5e-2bf1b2ad3053</xr:TypeId>
+				<xr:ValueId>f5c1fd1e-4319-4fee-9601-ea0c85c6e8eb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.УдалитьПрименяемыеСистемыНалогообложения" category="List">
+				<xr:TypeId>47a714e4-e5ce-4682-ad3e-261f66e5542c</xr:TypeId>
+				<xr:ValueId>246cd74c-f54c-4347-9b88-81270f297b3b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>УдалитьПрименяемыеСистемыНалогообложения</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<InformationRegister uuid="75c56eb7-5fc4-4e6d-9ee5-4fa50e89bfe3">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.БНФОСоответствиеСчетовАналитическогоУчетаИАналитики" category="Record">
+				<xr:TypeId>85238054-2be7-48c4-aa51-56e72ba9df23</xr:TypeId>
+				<xr:ValueId>4aa6270e-cd62-4b21-aefa-6273a73d5951</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.БНФОСоответствиеСчетовАналитическогоУчетаИАналитики" category="Manager">
+				<xr:TypeId>cb075067-92aa-41f7-add6-731473696411</xr:TypeId>
+				<xr:ValueId>5d3aaf71-12f2-43f2-baeb-1a8700f8cec1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.БНФОСоответствиеСчетовАналитическогоУчетаИАналитики" category="Selection">
+				<xr:TypeId>4a46eed2-cfe7-4e9f-9141-2ecb7ef82a16</xr:TypeId>
+				<xr:ValueId>b9f26e27-63c2-48ef-b196-1e93cc9b7e6e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.БНФОСоответствиеСчетовАналитическогоУчетаИАналитики" category="List">
+				<xr:TypeId>609911fd-e5e7-469f-8d6e-1617f5e77cf4</xr:TypeId>
+				<xr:ValueId>11d6b4af-2000-48ee-9152-1cbf99d74f20</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.БНФОСоответствиеСчетовАналитическогоУчетаИАналитики" category="RecordSet">
+				<xr:TypeId>a426b959-e916-4092-bf51-e029ceff8ab9</xr:TypeId>
+				<xr:ValueId>ceb6bac5-427d-421f-8091-ffe8a8e1bd4f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.БНФОСоответствиеСчетовАналитическогоУчетаИАналитики" category="RecordKey">
+				<xr:TypeId>459d199c-4e9b-4278-86c1-7391fa46e704</xr:TypeId>
+				<xr:ValueId>614c9cfe-5f87-4164-93e8-0d831e4cb903</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.БНФОСоответствиеСчетовАналитическогоУчетаИАналитики" category="RecordManager">
+				<xr:TypeId>32839461-2b49-4b64-a356-ed7a1387b8fd</xr:TypeId>
+				<xr:ValueId>347abbcf-ea77-4c14-8479-604975385e84</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БНФОСоответствиеСчетовАналитическогоУчетаИАналитики</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="c900611c-05a0-4b2c-80fa-9c52ffbd513f">
+				<InternalInfo/>
+				<Properties>
+					<Name>СчетАналитическогоУчета</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.БНФОСчетаАналитическогоУчета</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="590c9fca-ad32-4754-819a-fef51f9c4594">
+				<InternalInfo/>
+				<Properties>
+					<Name>Аналитика</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.БНФОКлючиАналитикиУчетаСчетовАналитическогоУчета</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

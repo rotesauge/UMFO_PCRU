@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Constant uuid="64d96512-c615-4366-955f-cc14cb85b8f8">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ОсновнаяСистемаНалогообложения" category="Manager">
+				<xr:TypeId>d6c6d490-995b-4396-8d04-f2b8b149d4a0</xr:TypeId>
+				<xr:ValueId>9c0d5615-f897-42c8-b7df-a346cf530a46</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ОсновнаяСистемаНалогообложения" category="ValueManager">
+				<xr:TypeId>a6193fcc-7b99-4289-b866-57fa356b4a23</xr:TypeId>
+				<xr:ValueId>2547509e-cf93-4c83-9bb0-830b784ae2b7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ОсновнаяСистемаНалогообложения" category="ValueKey">
+				<xr:TypeId>d9fc76b1-cc95-5f93-bb0c-0e71da0453b3</xr:TypeId>
+				<xr:ValueId>708ff392-8246-5743-ad8b-dae7e7902905</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОсновнаяСистемаНалогообложения</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Type>
+				<v8:Type>cfg:EnumRef.СистемыНалогообложения</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

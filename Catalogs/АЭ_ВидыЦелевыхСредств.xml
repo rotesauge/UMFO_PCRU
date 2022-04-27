@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Catalog uuid="5f1b7d84-a1f7-4f6a-9bc3-f985910e549a">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.АЭ_ВидыЦелевыхСредств" category="Object">
+				<xr:TypeId>a12e451d-4c8d-4091-ba79-8c954a0ba166</xr:TypeId>
+				<xr:ValueId>442aa0c8-b40a-4e25-873e-c2fa5a833ca6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.АЭ_ВидыЦелевыхСредств" category="Ref">
+				<xr:TypeId>7f82060b-9776-4cce-9c32-9e3373bf83f3</xr:TypeId>
+				<xr:ValueId>7c828bd2-cc7d-494d-8fac-b582e5599eb2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.АЭ_ВидыЦелевыхСредств" category="Selection">
+				<xr:TypeId>b73f9951-e7ab-465f-a865-a56f8276291a</xr:TypeId>
+				<xr:ValueId>4a43b3ef-1419-41ad-bf72-37277234d3fd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.АЭ_ВидыЦелевыхСредств" category="List">
+				<xr:TypeId>f46d44f9-677f-430f-a018-552ecb818dfb</xr:TypeId>
+				<xr:ValueId>59c183f9-4eb6-4c76-a195-c1ce84dbd423</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.АЭ_ВидыЦелевыхСредств" category="Manager">
+				<xr:TypeId>f07456c8-1a5f-4d51-b0ed-6b2d63f2c314</xr:TypeId>
+				<xr:ValueId>79fade4e-8fe5-4a04-961b-319097e5542c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>АЭ_ВидыЦелевыхСредств</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

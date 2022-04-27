@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Enum uuid="dc714b7b-0071-4408-adf2-2728e8cf6b39">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.БНФОСпособыФормированияРезервногоФонда" category="Ref">
+				<xr:TypeId>8402c753-1415-47a9-97aa-4ae65f5764ce</xr:TypeId>
+				<xr:ValueId>a4223526-c105-4217-9b1c-8e27dac0f3da</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.БНФОСпособыФормированияРезервногоФонда" category="Manager">
+				<xr:TypeId>6d5392f6-2b19-4c65-a18c-e8ecff1ade54</xr:TypeId>
+				<xr:ValueId>288dc15e-e542-465c-853b-2d4739d6b6f5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.БНФОСпособыФормированияРезервногоФонда" category="List">
+				<xr:TypeId>15faea39-6524-44a6-bf43-fc01a4dd1737</xr:TypeId>
+				<xr:ValueId>1bf1d15e-b679-4182-9bb1-fa46630a9928</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БНФОСпособыФормированияРезервногоФонда</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

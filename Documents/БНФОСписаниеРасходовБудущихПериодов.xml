@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Document uuid="d1d5071d-d020-4f7f-ab0b-c88aee5833a8">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.БНФОСписаниеРасходовБудущихПериодов" category="Object">
+				<xr:TypeId>07715ceb-7b5f-4c4f-a4dd-eea027814b32</xr:TypeId>
+				<xr:ValueId>e6d0f517-67d3-4e29-837a-a67a0e9a7fe9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.БНФОСписаниеРасходовБудущихПериодов" category="Ref">
+				<xr:TypeId>7c7cb43d-43c6-4ee2-976e-15603bb7602a</xr:TypeId>
+				<xr:ValueId>460931c3-a570-4edf-9c52-ddca15d19f88</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.БНФОСписаниеРасходовБудущихПериодов" category="Selection">
+				<xr:TypeId>803f2ba5-e442-40e6-bc06-3d177ba40206</xr:TypeId>
+				<xr:ValueId>0daf4bc3-ef6e-454b-9e23-099c2b7280e1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.БНФОСписаниеРасходовБудущихПериодов" category="List">
+				<xr:TypeId>f69fc488-b323-46ec-8252-83f4f09ff053</xr:TypeId>
+				<xr:ValueId>f27dbf8d-05e3-4bd8-a5ca-23cbf1bc0b26</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.БНФОСписаниеРасходовБудущихПериодов" category="Manager">
+				<xr:TypeId>82033724-3b53-435d-ada3-ebc82c3bae86</xr:TypeId>
+				<xr:ValueId>6ea88a58-814e-486c-97b1-cb99d7012fd5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БНФОСписаниеРасходовБудущихПериодов</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>16a14e68-1f33-4da0-aa6f-883e654cf7f0</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаДокумента</Form>
+			<TabularSection uuid="b1f1dbbf-1a8c-4a27-8990-6dc74d1c89fa">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.БНФОСписаниеРасходовБудущихПериодов.Состав" category="TabularSection">
+						<xr:TypeId>20278cbe-3648-4426-b38c-8e58e26617f0</xr:TypeId>
+						<xr:ValueId>06a06101-da6a-4225-a8d9-1ba752facba8</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.БНФОСписаниеРасходовБудущихПериодов.Состав" category="TabularSectionRow">
+						<xr:TypeId>cfad24e6-e747-4c12-9163-d69f0a6715fe</xr:TypeId>
+						<xr:ValueId>f4ac67de-afb3-41f4-9f77-7cece101414f</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Состав</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>fe76fc22-ed4d-4175-80d0-a636beb5e76f</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

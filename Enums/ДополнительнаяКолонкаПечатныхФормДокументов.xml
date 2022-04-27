@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Enum uuid="0f3b51e8-0c64-4e56-8d97-bdca116557a9">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ДополнительнаяКолонкаПечатныхФормДокументов" category="Ref">
+				<xr:TypeId>17c6c170-012d-4bf6-9a47-a4210052cd42</xr:TypeId>
+				<xr:ValueId>6d7928df-2793-48ee-b403-4d4ab8b4ace6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ДополнительнаяКолонкаПечатныхФормДокументов" category="Manager">
+				<xr:TypeId>b9e43f87-ac18-4854-bc10-08712855aee4</xr:TypeId>
+				<xr:ValueId>cad930ac-4c3b-463b-bc35-ec7d8b3a4cf7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ДополнительнаяКолонкаПечатныхФормДокументов" category="List">
+				<xr:TypeId>44c55310-9d91-4464-8523-b46d82cf5d78</xr:TypeId>
+				<xr:ValueId>8c0cd4ba-77ec-4307-bc44-8b75cd52c20e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ДополнительнаяКолонкаПечатныхФормДокументов</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Catalog uuid="a654a3d7-0676-4cd0-a4bd-f8a4544a9d9c">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.БНФОШаблоныОткрытияСчетовАналитическогоУчета" category="Object">
+				<xr:TypeId>54de9233-8605-4fdf-b793-0723ddae5012</xr:TypeId>
+				<xr:ValueId>8d16cce4-8653-42b0-8c77-962d8a4dc65f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.БНФОШаблоныОткрытияСчетовАналитическогоУчета" category="Ref">
+				<xr:TypeId>c4a437d0-97c8-4b54-8794-bdb0c54fe956</xr:TypeId>
+				<xr:ValueId>eb4088a9-c599-48a3-97d9-e93fe537a9df</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.БНФОШаблоныОткрытияСчетовАналитическогоУчета" category="Selection">
+				<xr:TypeId>eadd605c-9cf0-4811-9898-a253d5f01a98</xr:TypeId>
+				<xr:ValueId>c6e89f73-cc82-41c1-9dcc-26bb320f5caa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.БНФОШаблоныОткрытияСчетовАналитическогоУчета" category="List">
+				<xr:TypeId>ad36cd7d-8dfa-44b5-80c0-01373dc55351</xr:TypeId>
+				<xr:ValueId>5b43e293-23be-4e40-b6ef-58cf8a9ccaa1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.БНФОШаблоныОткрытияСчетовАналитическогоУчета" category="Manager">
+				<xr:TypeId>28abf28d-f915-412f-a966-24837038439d</xr:TypeId>
+				<xr:ValueId>a8d855d0-cdf7-479c-96ce-2dd6a664587c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БНФОШаблоныОткрытияСчетовАналитическогоУчета</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://schemas.xmlsoap.org/wsdl/"
+		xmlns:soap12bind="http://schemas.xmlsoap.org/wsdl/soap12/"
+		xmlns:soapbind="http://schemas.xmlsoap.org/wsdl/soap/"
+		xmlns:tns="urn:microsoft-dynamics-schemas/codeunit/_x0031_CExchange"
+		xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy"
+		xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+		xmlns:xsd1="urn:microsoft-dynamics-schemas/codeunit/_x0031_CExchange"
+		targetNamespace="urn:microsoft-dynamics-schemas/codeunit/_x0031_CExchange">
+	<types>
+		<schema xmlns="http://www.w3.org/2001/XMLSchema"
+				elementFormDefault="qualified"
+				targetNamespace="urn:microsoft-dynamics-schemas/codeunit/_x0031_CExchange">
+			<element name="GetCorrespondence">
+				<complexType>
+					<sequence>
+						<element minOccurs="1"
+								maxOccurs="1"
+								name="debitP"
+								type="xsd:string"/>
+						<default:element xmlns:default="http://www.w3.org/2001/XMLSchema"
+								minOccurs="1"
+								maxOccurs="1"
+								name="creditP"
+								type="default:string"/>
+						<element minOccurs="1"
+								maxOccurs="1"
+								name="dateP"
+								type="xsd:date"/>
+						<default:element xmlns:default="http://www.w3.org/2001/XMLSchema"
+								minOccurs="1"
+								maxOccurs="1"
+								name="strNoP"
+								type="default:int"/>
+					</sequence>
+				</complexType>
+			</element>
+			<default:element xmlns:default="http://www.w3.org/2001/XMLSchema"
+					name="GetCorrespondence_Result">
+				<default:complexType>
+					<default:sequence>
+						<default:element minOccurs="1"
+								maxOccurs="1"
+								name="return_value"
+								type="default:string"/>
+					</default:sequence>
+				</default:complexType>
+			</default:element>
+			<element name="GetCorrespondenceCount">
+				<complexType>
+					<sequence>
+						<element minOccurs="1"
+								maxOccurs="1"
+								name="debitP"
+								type="xsd:string"/>
+						<default:element xmlns:default="http://www.w3.org/2001/XMLSchema"
+								minOccurs="1"
+								maxOccurs="1"
+								name="creditP"
+								type="default:string"/>
+						<element minOccurs="1"
+								maxOccurs="1"
+								name="dateP"
+								type="xsd:date"/>
+					</sequence>
+				</complexType>
+			</element>
+			<default:element xmlns:default="http://www.w3.org/2001/XMLSchema"
+					name="GetCorrespondenceCount_Result">
+				<default:complexType>
+					<default:sequence>
+						<default:element minOccurs="1"
+								maxOccurs="1"
+								name="return_value"
+								type="default:int"/>
+					</default:sequence>
+				</default:complexType>
+			</default:element>
+			<element name="GetCorrespondenceVat">
+				<complexType>
+					<sequence>
+						<element minOccurs="1"
+								maxOccurs="1"
+								name="debitP"
+								type="xsd:string"/>
+						<default:element xmlns:default="http://www.w3.org/2001/XMLSchema"
+								minOccurs="1"
+								maxOccurs="1"
+								name="creditP"
+								type="default:string"/>
+						<element minOccurs="1"
+								maxOccurs="1"
+								name="dateP"
+								type="xsd:date"/>
+						<default:element xmlns:default="http://www.w3.org/2001/XMLSchema"
+								minOccurs="1"
+								maxOccurs="1"
+								name="strNoP"
+								type="default:int"/>
+					</sequence>
+				</complexType>
+			</element>
+			<default:element xmlns:default="http://www.w3.org/2001/XMLSchema"
+					name="GetCorrespondenceVat_Result">
+				<default:complexType>
+					<default:sequence>
+						<default:element minOccurs="1"
+								maxOccurs="1"
+								name="return_value"
+								type="default:string"/>
+					</default:sequence>
+				</default:complexType>
+			</default:element>
+			<element name="GetContractInfo">
+				<complexType>
+					<sequence>
+						<element minOccurs="1"
+								maxOccurs="1"
+								name="contractNoP"
+								type="xsd:string"/>
+					</sequence>
+				</complexType>
+			</element>
+			<default:element xmlns:default="http://www.w3.org/2001/XMLSchema"
+					name="GetContractInfo_Result">
+				<default:complexType>
+					<default:sequence>
+						<default:element minOccurs="1"
+								maxOccurs="1"
+								name="return_value"
+								type="default:string"/>
+					</default:sequence>
+				</default:complexType>
+			</default:element>
+		</schema>
+	</types>
+	<message name="GetCorrespondence">
+		<part name="parameters"
+				element="tns:GetCorrespondence"/>
+	</message>
+	<message name="GetCorrespondence_Result">
+		<part name="parameters"
+				element="tns:GetCorrespondence_Result"/>
+	</message>
+	<message name="GetCorrespondenceCount">
+		<part name="parameters"
+				element="tns:GetCorrespondenceCount"/>
+	</message>
+	<message name="GetCorrespondenceCount_Result">
+		<part name="parameters"
+				element="tns:GetCorrespondenceCount_Result"/>
+	</message>
+	<message name="GetCorrespondenceVat">
+		<part name="parameters"
+				element="tns:GetCorrespondenceVat"/>
+	</message>
+	<message name="GetCorrespondenceVat_Result">
+		<part name="parameters"
+				element="tns:GetCorrespondenceVat_Result"/>
+	</message>
+	<message name="GetContractInfo">
+		<part name="parameters"
+				element="tns:GetContractInfo"/>
+	</message>
+	<message name="GetContractInfo_Result">
+		<part name="parameters"
+				element="tns:GetContractInfo_Result"/>
+	</message>
+	<portType name="_x0031_CExchange_Port">
+		<operation name="GetCorrespondence">
+			<input name="GetCorrespondence"
+					message="tns:GetCorrespondence"/>
+			<output name="GetCorrespondence_Result"
+					message="tns:GetCorrespondence_Result"/>
+		</operation>
+		<operation name="GetCorrespondenceCount">
+			<input name="GetCorrespondenceCount"
+					message="tns:GetCorrespondenceCount"/>
+			<output name="GetCorrespondenceCount_Result"
+					message="tns:GetCorrespondenceCount_Result"/>
+		</operation>
+		<operation name="GetCorrespondenceVat">
+			<input name="GetCorrespondenceVat"
+					message="tns:GetCorrespondenceVat"/>
+			<output name="GetCorrespondenceVat_Result"
+					message="tns:GetCorrespondenceVat_Result"/>
+		</operation>
+		<operation name="GetContractInfo">
+			<input name="GetContractInfo"
+					message="tns:GetContractInfo"/>
+			<output name="GetContractInfo_Result"
+					message="tns:GetContractInfo_Result"/>
+		</operation>
+	</portType>
+	<binding name="_x0031_CExchange_Binding"
+			type="tns:_x0031_CExchange_Port">
+		<soapbind:binding style="document"
+				transport="http://schemas.xmlsoap.org/soap/http"/>
+		<operation name="GetCorrespondence">
+			<soapbind:operation style="document"
+					soapAction="urn:microsoft-dynamics-schemas/codeunit/_x0031_CExchange:GetCorrespondence"/>
+			<input>
+				<soapbind:body use="literal"/>
+			</input>
+			<output>
+				<soapbind:body use="literal"/>
+			</output>
+		</operation>
+		<operation name="GetCorrespondenceCount">
+			<soapbind:operation style="document"
+					soapAction="urn:microsoft-dynamics-schemas/codeunit/_x0031_CExchange:GetCorrespondenceCount"/>
+			<input>
+				<soapbind:body use="literal"/>
+			</input>
+			<output>
+				<soapbind:body use="literal"/>
+			</output>
+		</operation>
+		<operation name="GetCorrespondenceVat">
+			<soapbind:operation style="document"
+					soapAction="urn:microsoft-dynamics-schemas/codeunit/_x0031_CExchange:GetCorrespondenceVat"/>
+			<input>
+				<soapbind:body use="literal"/>
+			</input>
+			<output>
+				<soapbind:body use="literal"/>
+			</output>
+		</operation>
+		<operation name="GetContractInfo">
+			<soapbind:operation style="document"
+					soapAction="urn:microsoft-dynamics-schemas/codeunit/_x0031_CExchange:GetContractInfo"/>
+			<input>
+				<soapbind:body use="literal"/>
+			</input>
+			<output>
+				<soapbind:body use="literal"/>
+			</output>
+		</operation>
+	</binding>
+	<service name="_x0031_CExchange">
+		<port name="_x0031_CExchange_Port"
+				binding="tns:_x0031_CExchange_Binding">
+			<soapbind:address location="http://ruspbsql01:7085/PC_EXT/WS/Proficredit%20X/Codeunit/_x0031_CExchange"/>
+		</port>
+	</service>
+</definitions>

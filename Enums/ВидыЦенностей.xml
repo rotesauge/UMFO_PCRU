@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Enum uuid="bfb67d7e-e19c-4312-9051-9dc0d960a678">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыЦенностей" category="Ref">
+				<xr:TypeId>bbd7701a-8149-4652-b2bd-f73af739cb8f</xr:TypeId>
+				<xr:ValueId>cb3ead40-3bb4-4270-9e6a-6c9ec4eb8daf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыЦенностей" category="Manager">
+				<xr:TypeId>1609c035-d738-41b2-84b4-6c99a7ff4b89</xr:TypeId>
+				<xr:ValueId>15aea853-9704-4b0b-bfce-852649f62974</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыЦенностей" category="List">
+				<xr:TypeId>0784193f-a63b-4a14-a471-52d5615f0710</xr:TypeId>
+				<xr:ValueId>fefca8a6-3a30-445a-8fc3-408132179f9c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыЦенностей</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="e839ff06-bd31-4683-aa0b-4960b88da245">
+				<InternalInfo/>
+				<Properties>
+					<Name>КомандировочныеРасходы</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6239e687-c427-40c8-b27f-7f0de748b597">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПосредническиеУслуги</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="2840bb79-b31f-4507-ab28-4ec73ab87f64">
+				<InternalInfo/>
+				<Properties>
+					<Name>Материалы</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="279c7373-dd53-4cd7-8e02-c6e0a52656b0">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПрочиеРаботыИУслуги</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f4de9808-2627-4283-b80f-7baab2a0f007">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПредставительскиеРасходы</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6971eb4f-9fa5-4572-9e71-936ff5d3faa0">
+				<InternalInfo/>
+				<Properties>
+					<Name>НалоговыйАгентАренда</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="0b82e39f-87bc-45a2-b665-abe733d556ac">
+				<InternalInfo/>
+				<Properties>
+					<Name>ТаможенныеПлатежи</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="74a45aa3-0800-436e-8d49-4499800ea93c">
+				<InternalInfo/>
+				<Properties>
+					<Name>НалоговыйАгентИностранцы</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f546d94b-fbd9-4ab7-85ec-7b6146833527">
+				<InternalInfo/>
+				<Properties>
+					<Name>Товары</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="979dc6db-3be5-416d-9dfc-7f414dc377c3">
+				<InternalInfo/>
+				<Properties>
+					<Name>Оборудование</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

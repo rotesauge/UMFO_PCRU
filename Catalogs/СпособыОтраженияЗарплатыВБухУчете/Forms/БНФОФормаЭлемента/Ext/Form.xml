@@ -1,0 +1,1264 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen" callType="After">pcru_ex_ПриОткрытииПосле</Event>
+		<Event name="OnCreateAtServer" callType="Override">pcru_ex_ПриСозданииНаСервереВместо</Event>
+		<Event name="BeforeWriteAtServer" callType="Override">pcru_ex_ПередЗаписьюНаСервереВместо</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Наименование" id="1">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<Pages name="Страницы" id="25">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="26"/>
+			<ChildItems>
+				<Page name="ОСН" id="27">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Основная сумма</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ОСН</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<ExtendedTooltip name="ОСНРасширеннаяПодсказка" id="28"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаСчетСубконтоДт_Осн" id="65">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ДТ</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа счет субконто дт осн</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>StrongSeparation</Representation>
+							<ExtendedTooltip name="ГруппаСчетСубконтоДт_ОснРасширеннаяПодсказка" id="66"/>
+							<ChildItems>
+								<InputField name="pcru_ex_СчДТ_ОСН" id="39">
+									<DataPath>Объект.pcru_ex_СчДТ_ОСН</DataPath>
+									<ContextMenu name="pcru_ex_СчДТ_ОСНКонтекстноеМеню" id="40"/>
+									<ExtendedTooltip name="pcru_ex_СчДТ_ОСНРасширеннаяПодсказка" id="41"/>
+								</InputField>
+								<InputField name="pcru_ex_СубконтоДТ1_ОСН" id="45">
+									<DataPath>Объект.pcru_ex_СубконтоДТ1_ОСН</DataPath>
+									<ContextMenu name="pcru_ex_СубконтоДТ1_ОСНКонтекстноеМеню" id="46"/>
+									<ExtendedTooltip name="pcru_ex_СубконтоДТ1_ОСНРасширеннаяПодсказка" id="47"/>
+								</InputField>
+								<InputField name="pcru_ex_СубконтоДТ2_ОСН" id="48">
+									<DataPath>Объект.pcru_ex_СубконтоДТ2_ОСН</DataPath>
+									<ContextMenu name="pcru_ex_СубконтоДТ2_ОСНКонтекстноеМеню" id="49"/>
+									<ExtendedTooltip name="pcru_ex_СубконтоДТ2_ОСНРасширеннаяПодсказка" id="50"/>
+								</InputField>
+								<InputField name="pcru_ex_СубконтоДТ3_ОСН" id="51">
+									<DataPath>Объект.pcru_ex_СубконтоДТ3_ОСН</DataPath>
+									<ContextMenu name="pcru_ex_СубконтоДТ3_ОСНКонтекстноеМеню" id="52"/>
+									<ExtendedTooltip name="pcru_ex_СубконтоДТ3_ОСНРасширеннаяПодсказка" id="53"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаСуммаДт_Осн" id="416">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сумма</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа сумма дт осн</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<ExtendedTooltip name="ГруппаСуммаДт_ОснРасширеннаяПодсказка" id="417"/>
+							<ChildItems>
+								<CheckBoxField name="pcru_ex_Сумму_В_НУ_ОСН_Дт" id="418">
+									<DataPath>Объект.pcru_ex_Сумму_В_НУ_ОСН_Дт</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="pcru_ex_Сумму_В_НУ_ОСН_ДтКонтекстноеМеню" id="419"/>
+									<ExtendedTooltip name="pcru_ex_Сумму_В_НУ_ОСН_ДтРасширеннаяПодсказка" id="420"/>
+								</CheckBoxField>
+								<CheckBoxField name="pcru_ex_Сумму_В_ПР_ОСН_Дт" id="421">
+									<DataPath>Объект.pcru_ex_Сумму_В_ПР_ОСН_Дт</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="pcru_ex_Сумму_В_ПР_ОСН_ДтКонтекстноеМеню" id="422"/>
+									<ExtendedTooltip name="pcru_ex_Сумму_В_ПР_ОСН_ДтРасширеннаяПодсказка" id="423"/>
+								</CheckBoxField>
+								<CheckBoxField name="pcru_ex_Сумму_В_ВР_ОСН_Дт" id="424">
+									<DataPath>Объект.pcru_ex_Сумму_В_ВР_ОСН_Дт</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="pcru_ex_Сумму_В_ВР_ОСН_ДтКонтекстноеМеню" id="425"/>
+									<ExtendedTooltip name="pcru_ex_Сумму_В_ВР_ОСН_ДтРасширеннаяПодсказка" id="426"/>
+								</CheckBoxField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаСчетСубконтоКт_Осн" id="69">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>КТ</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа счет субконто кт осн</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>StrongSeparation</Representation>
+							<ExtendedTooltip name="ГруппаСчетСубконтоКт_ОснРасширеннаяПодсказка" id="70"/>
+							<ChildItems>
+								<InputField name="pcru_ex_СчКТ_ОСН" id="42">
+									<DataPath>Объект.pcru_ex_СчКТ_ОСН</DataPath>
+									<ContextMenu name="pcru_ex_СчКТ_ОСНКонтекстноеМеню" id="43"/>
+									<ExtendedTooltip name="pcru_ex_СчКТ_ОСНРасширеннаяПодсказка" id="44"/>
+								</InputField>
+								<InputField name="pcru_ex_СубконтоКТ1_ОСН" id="54">
+									<DataPath>Объект.pcru_ex_СубконтоКТ1_ОСН</DataPath>
+									<ContextMenu name="pcru_ex_СубконтоКТ1_ОСНКонтекстноеМеню" id="55"/>
+									<ExtendedTooltip name="pcru_ex_СубконтоКТ1_ОСНРасширеннаяПодсказка" id="56"/>
+								</InputField>
+								<InputField name="pcru_ex_СубконтоКТ3_ОСН" id="60">
+									<DataPath>Объект.pcru_ex_СубконтоКТ2_ОСН</DataPath>
+									<ContextMenu name="pcru_ex_СубконтоКТ3_ОСНКонтекстноеМеню" id="61"/>
+									<ExtendedTooltip name="pcru_ex_СубконтоКТ3_ОСНРасширеннаяПодсказка" id="62"/>
+								</InputField>
+								<InputField name="pcru_ex_СубконтоКТ2_ОСН" id="57">
+									<DataPath>Объект.pcru_ex_СубконтоКТ3_ОСН</DataPath>
+									<ContextMenu name="pcru_ex_СубконтоКТ2_ОСНКонтекстноеМеню" id="58"/>
+									<ExtendedTooltip name="pcru_ex_СубконтоКТ2_ОСНРасширеннаяПодсказка" id="59"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаСуммаКт_Осн" id="321">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сумма</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа сумма кт осн</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>NormalSeparation</Representation>
+							<ExtendedTooltip name="ГруппаСуммаКт_ОснРасширеннаяПодсказка" id="322"/>
+							<ChildItems>
+								<CheckBoxField name="pcru_ex_Сумму_В_НУ_ОСН_Кт" id="427">
+									<DataPath>Объект.pcru_ex_Сумму_В_НУ_ОСН_Кт</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="pcru_ex_Сумму_В_НУ_ОСН_КтКонтекстноеМеню" id="428"/>
+									<ExtendedTooltip name="pcru_ex_Сумму_В_НУ_ОСН_КтРасширеннаяПодсказка" id="429"/>
+								</CheckBoxField>
+								<CheckBoxField name="pcru_ex_Сумму_В_ПР_ОСН_Кт" id="430">
+									<DataPath>Объект.pcru_ex_Сумму_В_ПР_ОСН_Кт</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="pcru_ex_Сумму_В_ПР_ОСН_КтКонтекстноеМеню" id="431"/>
+									<ExtendedTooltip name="pcru_ex_Сумму_В_ПР_ОСН_КтРасширеннаяПодсказка" id="432"/>
+								</CheckBoxField>
+								<CheckBoxField name="pcru_ex_Сумму_В_ВР_ОСН_Кт" id="433">
+									<DataPath>Объект.pcru_ex_Сумму_В_ВР_ОСН_Кт</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="pcru_ex_Сумму_В_ВР_ОСН_КтКонтекстноеМеню" id="434"/>
+									<ExtendedTooltip name="pcru_ex_Сумму_В_ВР_ОСН_КтРасширеннаяПодсказка" id="435"/>
+								</CheckBoxField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="ПФРДоПредельнойВеличины" id="29">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ПФР до предельной величины</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ОСН</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<ExtendedTooltip name="ПФРДоПредельнойВеличиныРасширеннаяПодсказка" id="30"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаСчетСубконтоДт_ДоПредельнойВеличины" id="71">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ДТ</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа счет субконто дт до предельной величины</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>StrongSeparation</Representation>
+							<ExtendedTooltip name="ГруппаСчетСубконтоДт_ДоПредельнойВеличиныРасширеннаяПодсказка" id="72"/>
+							<ChildItems>
+								<InputField name="pcru_ex_СчДТ_ПФРДоПредельнойВеличины" id="111">
+									<DataPath>Объект.pcru_ex_СчДТ_ПФРДоПредельнойВеличины</DataPath>
+									<ContextMenu name="pcru_ex_СчДТ_ПФРДоПредельнойВеличиныКонтекстноеМеню" id="112"/>
+									<ExtendedTooltip name="pcru_ex_СчДТ_ПФРДоПредельнойВеличиныРасширеннаяПодсказка" id="113"/>
+								</InputField>
+								<InputField name="pcru_ex_СубконтоДТ1_ПФРДоПредельнойВеличины" id="231">
+									<DataPath>Объект.pcru_ex_СубконтоДТ1_ПФРДоПредельнойВеличины</DataPath>
+									<ContextMenu name="pcru_ex_СубконтоДТ1_ПФРДоПредельнойВеличиныКонтекстноеМеню" id="232"/>
+									<ExtendedTooltip name="pcru_ex_СубконтоДТ1_ПФРДоПредельнойВеличиныРасширеннаяПодсказка" id="233"/>
+								</InputField>
+								<InputField name="pcru_ex_СубконтоДТ2_ПФРДоПредельнойВеличины" id="234">
+									<DataPath>Объект.pcru_ex_СубконтоДТ2_ПФРДоПредельнойВеличины</DataPath>
+									<ContextMenu name="pcru_ex_СубконтоДТ2_ПФРДоПредельнойВеличиныКонтекстноеМеню" id="235"/>
+									<ExtendedTooltip name="pcru_ex_СубконтоДТ2_ПФРДоПредельнойВеличиныРасширеннаяПодсказка" id="236"/>
+								</InputField>
+								<InputField name="pcru_ex_СубконтоДТ3_ПФРДоПредельнойВеличины" id="237">
+									<DataPath>Объект.pcru_ex_СубконтоДТ3_ПФРДоПредельнойВеличины</DataPath>
+									<ContextMenu name="pcru_ex_СубконтоДТ3_ПФРДоПредельнойВеличиныКонтекстноеМеню" id="238"/>
+									<ExtendedTooltip name="pcru_ex_СубконтоДТ3_ПФРДоПредельнойВеличиныРасширеннаяПодсказка" id="239"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаСуммаДт_ДоПредельнойВеличины" id="436">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сумма</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа сумма дт до предельной величины</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<ExtendedTooltip name="ГруппаСуммаДт_ДоПредельнойВеличиныРасширеннаяПодсказка" id="437"/>
+							<ChildItems>
+								<CheckBoxField name="pcru_ex_Сумму_В_НУ_ПФРДоПредельнойВеличины_Дт" id="440">
+									<DataPath>Объект.pcru_ex_Сумму_В_НУ_ПФРДоПредельнойВеличины_Дт</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="pcru_ex_Сумму_В_НУ_ПФРДоПредельнойВеличины_ДтКонтекстноеМеню" id="441"/>
+									<ExtendedTooltip name="pcru_ex_Сумму_В_НУ_ПФРДоПредельнойВеличины_ДтРасширеннаяПодсказка" id="442"/>
+								</CheckBoxField>
+								<CheckBoxField name="pcru_ex_Сумму_В_ПР_ПФРДоПредельнойВеличины_Дт" id="443">
+									<DataPath>Объект.pcru_ex_Сумму_В_ПР_ПФРДоПредельнойВеличины_Дт</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="pcru_ex_Сумму_В_ПР_ПФРДоПредельнойВеличины_ДтКонтекстноеМеню" id="444"/>
+									<ExtendedTooltip name="pcru_ex_Сумму_В_ПР_ПФРДоПредельнойВеличины_ДтРасширеннаяПодсказка" id="445"/>
+								</CheckBoxField>
+								<CheckBoxField name="pcru_ex_Сумму_В_ВР_ПФРДоПредельнойВеличины_Дт" id="446">
+									<DataPath>Объект.pcru_ex_Сумму_В_ВР_ПФРДоПредельнойВеличины_Дт</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="pcru_ex_Сумму_В_ВР_ПФРДоПредельнойВеличины_ДтКонтекстноеМеню" id="447"/>
+									<ExtendedTooltip name="pcru_ex_Сумму_В_ВР_ПФРДоПредельнойВеличины_ДтРасширеннаяПодсказка" id="448"/>
+								</CheckBoxField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаСчетСубконтоКт_ДоПредельнойВеличины" id="75">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>КТ</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа счет субконто кт до предельной величины</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>StrongSeparation</Representation>
+							<ExtendedTooltip name="ГруппаСчетСубконтоКт_ДоПредельнойВеличиныРасширеннаяПодсказка" id="76"/>
+							<ChildItems>
+								<InputField name="pcru_ex_СчКТ_ПФРДоПредельнойВеличины" id="114">
+									<DataPath>Объект.pcru_ex_СчКТ_ПФРДоПредельнойВеличины</DataPath>
+									<ContextMenu name="pcru_ex_СчКТ_ПФРДоПредельнойВеличиныКонтекстноеМеню" id="115"/>
+									<ExtendedTooltip name="pcru_ex_СчКТ_ПФРДоПредельнойВеличиныРасширеннаяПодсказка" id="116"/>
+								</InputField>
+								<InputField name="pcru_ex_СубконтоКТ1_ПФРДоПредельнойВеличины" id="240">
+									<DataPath>Объект.pcru_ex_СубконтоКТ1_ПФРДоПредельнойВеличины</DataPath>
+									<ContextMenu name="pcru_ex_СубконтоКТ1_ПФРДоПредельнойВеличиныКонтекстноеМеню" id="241"/>
+									<ExtendedTooltip name="pcru_ex_СубконтоКТ1_ПФРДоПредельнойВеличиныРасширеннаяПодсказка" id="242"/>
+								</InputField>
+								<InputField name="pcru_ex_СубконтоКТ2_ПФРДоПредельнойВеличины" id="243">
+									<DataPath>Объект.pcru_ex_СубконтоКТ2_ПФРДоПредельнойВеличины</DataPath>
+									<ContextMenu name="pcru_ex_СубконтоКТ2_ПФРДоПредельнойВеличиныКонтекстноеМеню" id="244"/>
+									<ExtendedTooltip name="pcru_ex_СубконтоКТ2_ПФРДоПредельнойВеличиныРасширеннаяПодсказка" id="245"/>
+								</InputField>
+								<InputField name="pcru_ex_СубконтоКТ3_ПФРДоПредельнойВеличины" id="246">
+									<DataPath>Объект.pcru_ex_СубконтоКТ3_ПФРДоПредельнойВеличины</DataPath>
+									<ContextMenu name="pcru_ex_СубконтоКТ3_ПФРДоПредельнойВеличиныКонтекстноеМеню" id="247"/>
+									<ExtendedTooltip name="pcru_ex_СубконтоКТ3_ПФРДоПредельнойВеличиныРасширеннаяПодсказка" id="248"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаСуммаКт_ДоПредельнойВеличины" id="438">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сумма</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа сумма кт до предельной величины</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<ExtendedTooltip name="ГруппаСуммаКт_ДоПредельнойВеличиныРасширеннаяПодсказка" id="439"/>
+							<ChildItems>
+								<CheckBoxField name="pcru_ex_Сумму_В_НУ_ПФРДоПредельнойВеличины_Кт" id="449">
+									<DataPath>Объект.pcru_ex_Сумму_В_НУ_ПФРДоПредельнойВеличины_Кт</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="pcru_ex_Сумму_В_НУ_ПФРДоПредельнойВеличины_КтКонтекстноеМеню" id="450"/>
+									<ExtendedTooltip name="pcru_ex_Сумму_В_НУ_ПФРДоПредельнойВеличины_КтРасширеннаяПодсказка" id="451"/>
+								</CheckBoxField>
+								<CheckBoxField name="pcru_ex_Сумму_В_ПР_ПФРДоПредельнойВеличины_Кт" id="452">
+									<DataPath>Объект.pcru_ex_Сумму_В_ПР_ПФРДоПредельнойВеличины_Кт</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="pcru_ex_Сумму_В_ПР_ПФРДоПредельнойВеличины_КтКонтекстноеМеню" id="453"/>
+									<ExtendedTooltip name="pcru_ex_Сумму_В_ПР_ПФРДоПредельнойВеличины_КтРасширеннаяПодсказка" id="454"/>
+								</CheckBoxField>
+								<CheckBoxField name="pcru_ex_Сумму_В_ВР_ПФРДоПредельнойВеличины_Кт" id="455">
+									<DataPath>Объект.pcru_ex_Сумму_В_ВР_ПФРДоПредельнойВеличины_Кт</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="pcru_ex_Сумму_В_ВР_ПФРДоПредельнойВеличины_КтКонтекстноеМеню" id="456"/>
+									<ExtendedTooltip name="pcru_ex_Сумму_В_ВР_ПФРДоПредельнойВеличины_КтРасширеннаяПодсказка" id="457"/>
+								</CheckBoxField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="ПФРСПревышения" id="31">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ПФР с превышения</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ОСН</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<ExtendedTooltip name="ПФРСПревышенияРасширеннаяПодсказка" id="32"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаСчетСубконтоДт_ПФРСПревышения" id="79">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ДТ</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа счет субконто дт ПФРСПревышения</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>StrongSeparation</Representation>
+							<ExtendedTooltip name="ГруппаСчетСубконтоДт_ПФРСПревышенияРасширеннаяПодсказка" id="80"/>
+							<ChildItems>
+								<InputField name="pcru_ex_СчДТ_ПФРСПревышения" id="135">
+									<DataPath>Объект.pcru_ex_СчДТ_ПФРСПревышения</DataPath>
+									<ContextMenu name="pcru_ex_СчДТ_ПФРСПревышенияКонтекстноеМеню" id="136"/>
+									<ExtendedTooltip name="pcru_ex_СчДТ_ПФРСПревышенияРасширеннаяПодсказка" id="137"/>
+								</InputField>
+								<InputField name="pcru_ex_СубконтоДТ1_ПФРСПревышения" id="249">
+									<DataPath>Объект.pcru_ex_СубконтоДТ1_ПФРСПревышения</DataPath>
+									<ContextMenu name="pcru_ex_СубконтоДТ1_ПФРСПревышенияКонтекстноеМеню" id="250"/>
+									<ExtendedTooltip name="pcru_ex_СубконтоДТ1_ПФРСПревышенияРасширеннаяПодсказка" id="251"/>
+								</InputField>
+								<InputField name="pcru_ex_СубконтоДТ2_ПФРСПревышения" id="252">
+									<DataPath>Объект.pcru_ex_СубконтоДТ2_ПФРСПревышения</DataPath>
+									<ContextMenu name="pcru_ex_СубконтоДТ2_ПФРСПревышенияКонтекстноеМеню" id="253"/>
+									<ExtendedTooltip name="pcru_ex_СубконтоДТ2_ПФРСПревышенияРасширеннаяПодсказка" id="254"/>
+								</InputField>
+								<InputField name="pcru_ex_СубконтоДТ3_ПФРСПревышения" id="255">
+									<DataPath>Объект.pcru_ex_СубконтоДТ3_ПФРСПревышения</DataPath>
+									<ContextMenu name="pcru_ex_СубконтоДТ3_ПФРСПревышенияКонтекстноеМеню" id="256"/>
+									<ExtendedTooltip name="pcru_ex_СубконтоДТ3_ПФРСПревышенияРасширеннаяПодсказка" id="257"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаСуммаДт_ПФРСПревышения" id="458">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сумма</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа сумма дт ПФРСПревышения</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<ExtendedTooltip name="ГруппаСуммаДт_ПФРСПревышенияРасширеннаяПодсказка" id="459"/>
+							<ChildItems>
+								<CheckBoxField name="pcru_ex_Сумму_В_НУ_ПФРСПревышения_Дт" id="471">
+									<DataPath>Объект.pcru_ex_Сумму_В_НУ_ПФРСПревышения_Дт</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="pcru_ex_Сумму_В_НУ_ПФРСПревышения_ДтКонтекстноеМеню" id="472"/>
+									<ExtendedTooltip name="pcru_ex_Сумму_В_НУ_ПФРСПревышения_ДтРасширеннаяПодсказка" id="473"/>
+								</CheckBoxField>
+								<CheckBoxField name="pcru_ex_Сумму_В_ПР_ПФРСПревышения_Дт" id="474">
+									<DataPath>Объект.pcru_ex_Сумму_В_ПР_ПФРСПревышения_Дт</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="pcru_ex_Сумму_В_ПР_ПФРСПревышения_ДтКонтекстноеМеню" id="475"/>
+									<ExtendedTooltip name="pcru_ex_Сумму_В_ПР_ПФРСПревышения_ДтРасширеннаяПодсказка" id="476"/>
+								</CheckBoxField>
+								<CheckBoxField name="pcru_ex_Сумму_В_ВР_ПФРСПревышения_Дт" id="477">
+									<DataPath>Объект.pcru_ex_Сумму_В_ВР_ПФРСПревышения_Дт</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="pcru_ex_Сумму_В_ВР_ПФРСПревышения_ДтКонтекстноеМеню" id="478"/>
+									<ExtendedTooltip name="pcru_ex_Сумму_В_ВР_ПФРСПревышения_ДтРасширеннаяПодсказка" id="479"/>
+								</CheckBoxField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаСчетСубконтоКт_ПФРСПревышения" id="83">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>КТ</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа счет субконто кт ПФРСПревышения</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>StrongSeparation</Representation>
+							<ExtendedTooltip name="ГруппаСчетСубконтоКт_ПФРСПревышенияРасширеннаяПодсказка" id="84"/>
+							<ChildItems>
+								<InputField name="pcru_ex_СчКТ_ПФРСПревышения" id="138">
+									<DataPath>Объект.pcru_ex_СчКТ_ПФРСПревышения</DataPath>
+									<ContextMenu name="pcru_ex_СчКТ_ПФРСПревышенияКонтекстноеМеню" id="139"/>
+									<ExtendedTooltip name="pcru_ex_СчКТ_ПФРСПревышенияРасширеннаяПодсказка" id="140"/>
+								</InputField>
+								<InputField name="pcru_ex_СубконтоКТ1_ПФРСПревышения" id="258">
+									<DataPath>Объект.pcru_ex_СубконтоКТ1_ПФРСПревышения</DataPath>
+									<ContextMenu name="pcru_ex_СубконтоКТ1_ПФРСПревышенияКонтекстноеМеню" id="259"/>
+									<ExtendedTooltip name="pcru_ex_СубконтоКТ1_ПФРСПревышенияРасширеннаяПодсказка" id="260"/>
+								</InputField>
+								<InputField name="pcru_ex_СубконтоКТ2_ПФРСПревышения" id="261">
+									<DataPath>Объект.pcru_ex_СубконтоКТ2_ПФРСПревышения</DataPath>
+									<ContextMenu name="pcru_ex_СубконтоКТ2_ПФРСПревышенияКонтекстноеМеню" id="262"/>
+									<ExtendedTooltip name="pcru_ex_СубконтоКТ2_ПФРСПревышенияРасширеннаяПодсказка" id="263"/>
+								</InputField>
+								<InputField name="pcru_ex_СубконтоКТ3_ПФРСПревышения" id="264">
+									<DataPath>Объект.pcru_ex_СубконтоКТ3_ПФРСПревышения</DataPath>
+									<ContextMenu name="pcru_ex_СубконтоКТ3_ПФРСПревышенияКонтекстноеМеню" id="265"/>
+									<ExtendedTooltip name="pcru_ex_СубконтоКТ3_ПФРСПревышенияРасширеннаяПодсказка" id="266"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаСуммаКт_ПФРСПревышения" id="460">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сумма</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа сумма кт ПФРСПревышения</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<ExtendedTooltip name="ГруппаСуммаКт_ПФРСПревышенияРасширеннаяПодсказка" id="461"/>
+							<ChildItems>
+								<CheckBoxField name="pcru_ex_Сумму_В_НУ_ПФРСПревышения_Кт" id="462">
+									<DataPath>Объект.pcru_ex_Сумму_В_НУ_ПФРСПревышения_Кт</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="pcru_ex_Сумму_В_НУ_ПФРСПревышения_КтКонтекстноеМеню" id="463"/>
+									<ExtendedTooltip name="pcru_ex_Сумму_В_НУ_ПФРСПревышения_КтРасширеннаяПодсказка" id="464"/>
+								</CheckBoxField>
+								<CheckBoxField name="pcru_ex_Сумму_В_ПР_ПФРСПревышения_Кт" id="465">
+									<DataPath>Объект.pcru_ex_Сумму_В_ПР_ПФРСПревышения_Кт</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="pcru_ex_Сумму_В_ПР_ПФРСПревышения_КтКонтекстноеМеню" id="466"/>
+									<ExtendedTooltip name="pcru_ex_Сумму_В_ПР_ПФРСПревышения_КтРасширеннаяПодсказка" id="467"/>
+								</CheckBoxField>
+								<CheckBoxField name="pcru_ex_Сумму_В_ВР_ПФРСПревышения_Кт" id="468">
+									<DataPath>Объект.pcru_ex_Сумму_В_ВР_ПФРСПревышения_Кт</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="pcru_ex_Сумму_В_ВР_ПФРСПревышения_КтКонтекстноеМеню" id="469"/>
+									<ExtendedTooltip name="pcru_ex_Сумму_В_ВР_ПФРСПревышения_КтРасширеннаяПодсказка" id="470"/>
+								</CheckBoxField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="ФСС" id="33">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ФСС</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ОСН</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<ExtendedTooltip name="ФССРасширеннаяПодсказка" id="34"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаСчетСубконтоДт_ФСС" id="87">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ДТ</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа счет субконто дт ФСС</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>StrongSeparation</Representation>
+							<ExtendedTooltip name="ГруппаСчетСубконтоДт_ФССРасширеннаяПодсказка" id="88"/>
+							<ChildItems>
+								<InputField name="pcru_ex_СчДТ_ФСС" id="159">
+									<DataPath>Объект.pcru_ex_СчДТ_ФСС</DataPath>
+									<ContextMenu name="pcru_ex_СчДТ_ФССКонтекстноеМеню" id="160"/>
+									<ExtendedTooltip name="pcru_ex_СчДТ_ФССРасширеннаяПодсказка" id="161"/>
+								</InputField>
+								<InputField name="pcru_ex_СубконтоДТ1_ФСС" id="267">
+									<DataPath>Объект.pcru_ex_СубконтоДТ1_ФСС</DataPath>
+									<ContextMenu name="pcru_ex_СубконтоДТ1_ФССКонтекстноеМеню" id="268"/>
+									<ExtendedTooltip name="pcru_ex_СубконтоДТ1_ФССРасширеннаяПодсказка" id="269"/>
+								</InputField>
+								<InputField name="pcru_ex_СубконтоДТ2_ФСС" id="270">
+									<DataPath>Объект.pcru_ex_СубконтоДТ2_ФСС</DataPath>
+									<ContextMenu name="pcru_ex_СубконтоДТ2_ФССКонтекстноеМеню" id="271"/>
+									<ExtendedTooltip name="pcru_ex_СубконтоДТ2_ФССРасширеннаяПодсказка" id="272"/>
+								</InputField>
+								<InputField name="pcru_ex_СубконтоДТ3_ФСС" id="273">
+									<DataPath>Объект.pcru_ex_СубконтоДТ3_ФСС</DataPath>
+									<ContextMenu name="pcru_ex_СубконтоДТ3_ФССКонтекстноеМеню" id="274"/>
+									<ExtendedTooltip name="pcru_ex_СубконтоДТ3_ФССРасширеннаяПодсказка" id="275"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаСуммаДт_ФСС" id="480">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сумма</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа сумма дт ФСС</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<ExtendedTooltip name="ГруппаСуммаДт_ФССРасширеннаяПодсказка" id="481"/>
+							<ChildItems>
+								<CheckBoxField name="pcru_ex_Сумму_В_НУ_ФСС_Дт" id="484">
+									<DataPath>Объект.pcru_ex_Сумму_В_НУ_ФСС_Дт</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="pcru_ex_Сумму_В_НУ_ФСС_ДтКонтекстноеМеню" id="485"/>
+									<ExtendedTooltip name="pcru_ex_Сумму_В_НУ_ФСС_ДтРасширеннаяПодсказка" id="486"/>
+								</CheckBoxField>
+								<CheckBoxField name="pcru_ex_Сумму_В_ПР_ФСС_Дт" id="487">
+									<DataPath>Объект.pcru_ex_Сумму_В_ПР_ФСС_Дт</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="pcru_ex_Сумму_В_ПР_ФСС_ДтКонтекстноеМеню" id="488"/>
+									<ExtendedTooltip name="pcru_ex_Сумму_В_ПР_ФСС_ДтРасширеннаяПодсказка" id="489"/>
+								</CheckBoxField>
+								<CheckBoxField name="pcru_ex_Сумму_В_ВР_ФСС_Дт" id="490">
+									<DataPath>Объект.pcru_ex_Сумму_В_ВР_ФСС_Дт</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="pcru_ex_Сумму_В_ВР_ФСС_ДтКонтекстноеМеню" id="491"/>
+									<ExtendedTooltip name="pcru_ex_Сумму_В_ВР_ФСС_ДтРасширеннаяПодсказка" id="492"/>
+								</CheckBoxField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаСчетСубконтоКт_ФСС" id="91">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>КТ</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа счет субконто кт ФСС</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>StrongSeparation</Representation>
+							<ExtendedTooltip name="ГруппаСчетСубконтоКт_ФССРасширеннаяПодсказка" id="92"/>
+							<ChildItems>
+								<InputField name="pcru_ex_СчКТ_ФСС" id="162">
+									<DataPath>Объект.pcru_ex_СчКТ_ФСС</DataPath>
+									<ContextMenu name="pcru_ex_СчКТ_ФССКонтекстноеМеню" id="163"/>
+									<ExtendedTooltip name="pcru_ex_СчКТ_ФССРасширеннаяПодсказка" id="164"/>
+								</InputField>
+								<InputField name="pcru_ex_СубконтоКТ1_ФСС" id="276">
+									<DataPath>Объект.pcru_ex_СубконтоКТ1_ФСС</DataPath>
+									<ContextMenu name="pcru_ex_СубконтоКТ1_ФССКонтекстноеМеню" id="277"/>
+									<ExtendedTooltip name="pcru_ex_СубконтоКТ1_ФССРасширеннаяПодсказка" id="278"/>
+								</InputField>
+								<InputField name="pcru_ex_СубконтоКТ2_ФСС" id="279">
+									<DataPath>Объект.pcru_ex_СубконтоКТ2_ФСС</DataPath>
+									<ContextMenu name="pcru_ex_СубконтоКТ2_ФССКонтекстноеМеню" id="280"/>
+									<ExtendedTooltip name="pcru_ex_СубконтоКТ2_ФССРасширеннаяПодсказка" id="281"/>
+								</InputField>
+								<InputField name="pcru_ex_СубконтоКТ3_ФСС" id="282">
+									<DataPath>Объект.pcru_ex_СубконтоКТ3_ФСС</DataPath>
+									<ContextMenu name="pcru_ex_СубконтоКТ3_ФССКонтекстноеМеню" id="283"/>
+									<ExtendedTooltip name="pcru_ex_СубконтоКТ3_ФССРасширеннаяПодсказка" id="284"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаСуммаКт_ФСС" id="482">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сумма</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа сумма кт ФСС</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<ExtendedTooltip name="ГруппаСуммаКт_ФССРасширеннаяПодсказка" id="483"/>
+							<ChildItems>
+								<CheckBoxField name="pcru_ex_Сумму_В_НУ_ФСС_Кт" id="493">
+									<DataPath>Объект.pcru_ex_Сумму_В_НУ_ФСС_Кт</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="pcru_ex_Сумму_В_НУ_ФСС_КтКонтекстноеМеню" id="494"/>
+									<ExtendedTooltip name="pcru_ex_Сумму_В_НУ_ФСС_КтРасширеннаяПодсказка" id="495"/>
+								</CheckBoxField>
+								<CheckBoxField name="pcru_ex_Сумму_В_ПР_ФСС_Кт" id="496">
+									<DataPath>Объект.pcru_ex_Сумму_В_ПР_ФСС_Кт</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="pcru_ex_Сумму_В_ПР_ФСС_КтКонтекстноеМеню" id="497"/>
+									<ExtendedTooltip name="pcru_ex_Сумму_В_ПР_ФСС_КтРасширеннаяПодсказка" id="498"/>
+								</CheckBoxField>
+								<CheckBoxField name="pcru_ex_Сумму_В_ВР_ФСС_Кт" id="499">
+									<DataPath>Объект.pcru_ex_Сумму_В_ВР_ФСС_Кт</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="pcru_ex_Сумму_В_ВР_ФСС_КтКонтекстноеМеню" id="500"/>
+									<ExtendedTooltip name="pcru_ex_Сумму_В_ВР_ФСС_КтРасширеннаяПодсказка" id="501"/>
+								</CheckBoxField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="ФССНесчастныеСлучаи" id="35">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ФСС несчастные случаи</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ОСН</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<ExtendedTooltip name="ФССНесчастныеСлучаиРасширеннаяПодсказка" id="36"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаСчетСубконтоДт_ФССНесчастныеСлучаи" id="95">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ДТ</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа счет субконто дт ФССНесчастные случаи</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>StrongSeparation</Representation>
+							<ExtendedTooltip name="ГруппаСчетСубконтоДт_ФССНесчастныеСлучаиРасширеннаяПодсказка" id="96"/>
+							<ChildItems>
+								<InputField name="pcru_ex_СчДТ_ФССНесчастныеСлучаи" id="183">
+									<DataPath>Объект.pcru_ex_СчДТ_ФССНесчастныеСлучаи</DataPath>
+									<ContextMenu name="pcru_ex_СчДТ_ФССНесчастныеСлучаиКонтекстноеМеню" id="184"/>
+									<ExtendedTooltip name="pcru_ex_СчДТ_ФССНесчастныеСлучаиРасширеннаяПодсказка" id="185"/>
+								</InputField>
+								<InputField name="pcru_ex_СубконтоДТ1_ФССНесчастныеСлучаи" id="285">
+									<DataPath>Объект.pcru_ex_СубконтоДТ1_ФССНесчастныеСлучаи</DataPath>
+									<ContextMenu name="pcru_ex_СубконтоДТ1_ФССНесчастныеСлучаиКонтекстноеМеню" id="286"/>
+									<ExtendedTooltip name="pcru_ex_СубконтоДТ1_ФССНесчастныеСлучаиРасширеннаяПодсказка" id="287"/>
+								</InputField>
+								<InputField name="pcru_ex_СубконтоДТ2_ФССНесчастныеСлучаи" id="288">
+									<DataPath>Объект.pcru_ex_СубконтоДТ2_ФССНесчастныеСлучаи</DataPath>
+									<ContextMenu name="pcru_ex_СубконтоДТ2_ФССНесчастныеСлучаиКонтекстноеМеню" id="289"/>
+									<ExtendedTooltip name="pcru_ex_СубконтоДТ2_ФССНесчастныеСлучаиРасширеннаяПодсказка" id="290"/>
+								</InputField>
+								<InputField name="pcru_ex_СубконтоДТ3_ФССНесчастныеСлучаи" id="291">
+									<DataPath>Объект.pcru_ex_СубконтоДТ3_ФССНесчастныеСлучаи</DataPath>
+									<ContextMenu name="pcru_ex_СубконтоДТ3_ФССНесчастныеСлучаиКонтекстноеМеню" id="292"/>
+									<ExtendedTooltip name="pcru_ex_СубконтоДТ3_ФССНесчастныеСлучаиРасширеннаяПодсказка" id="293"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаСуммаДт_ФССНесчастныеСлучаи" id="502">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сумма</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа сумма дт ФССНесчастные случаи</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<ExtendedTooltip name="ГруппаСуммаДт_ФССНесчастныеСлучаиРасширеннаяПодсказка" id="503"/>
+							<ChildItems>
+								<CheckBoxField name="pcru_ex_Сумму_В_НУ_ФССНесчастныеСлучаи_Дт" id="515">
+									<DataPath>Объект.pcru_ex_Сумму_В_НУ_ФССНесчастныеСлучаи_Дт</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="pcru_ex_Сумму_В_НУ_ФССНесчастныеСлучаи_ДтКонтекстноеМеню" id="516"/>
+									<ExtendedTooltip name="pcru_ex_Сумму_В_НУ_ФССНесчастныеСлучаи_ДтРасширеннаяПодсказка" id="517"/>
+								</CheckBoxField>
+								<CheckBoxField name="pcru_ex_Сумму_В_ПР_ФССНесчастныеСлучаи_Дт" id="518">
+									<DataPath>Объект.pcru_ex_Сумму_В_ПР_ФССНесчастныеСлучаи_Дт</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="pcru_ex_Сумму_В_ПР_ФССНесчастныеСлучаи_ДтКонтекстноеМеню" id="519"/>
+									<ExtendedTooltip name="pcru_ex_Сумму_В_ПР_ФССНесчастныеСлучаи_ДтРасширеннаяПодсказка" id="520"/>
+								</CheckBoxField>
+								<CheckBoxField name="pcru_ex_Сумму_В_ВР_ФССНесчастныеСлучаи_Дт" id="521">
+									<DataPath>Объект.pcru_ex_Сумму_В_ВР_ФССНесчастныеСлучаи_Дт</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="pcru_ex_Сумму_В_ВР_ФССНесчастныеСлучаи_ДтКонтекстноеМеню" id="522"/>
+									<ExtendedTooltip name="pcru_ex_Сумму_В_ВР_ФССНесчастныеСлучаи_ДтРасширеннаяПодсказка" id="523"/>
+								</CheckBoxField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаСчетСубконтоКт_ФССНесчастныеСлучаи" id="99">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>КТ</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа счет субконто кт ФССНесчастные случаи</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>StrongSeparation</Representation>
+							<ExtendedTooltip name="ГруппаСчетСубконтоКт_ФССНесчастныеСлучаиРасширеннаяПодсказка" id="100"/>
+							<ChildItems>
+								<InputField name="pcru_ex_СчКТ_ФССНесчастныеСлучаи" id="186">
+									<DataPath>Объект.pcru_ex_СчКТ_ФССНесчастныеСлучаи</DataPath>
+									<ContextMenu name="pcru_ex_СчКТ_ФССНесчастныеСлучаиКонтекстноеМеню" id="187"/>
+									<ExtendedTooltip name="pcru_ex_СчКТ_ФССНесчастныеСлучаиРасширеннаяПодсказка" id="188"/>
+								</InputField>
+								<InputField name="pcru_ex_СубконтоКТ1_ФССНесчастныеСлучаи" id="294">
+									<DataPath>Объект.pcru_ex_СубконтоКТ1_ФССНесчастныеСлучаи</DataPath>
+									<ContextMenu name="pcru_ex_СубконтоКТ1_ФССНесчастныеСлучаиКонтекстноеМеню" id="295"/>
+									<ExtendedTooltip name="pcru_ex_СубконтоКТ1_ФССНесчастныеСлучаиРасширеннаяПодсказка" id="296"/>
+								</InputField>
+								<InputField name="pcru_ex_СубконтоКТ2_ФССНесчастныеСлучаи" id="297">
+									<DataPath>Объект.pcru_ex_СубконтоКТ2_ФССНесчастныеСлучаи</DataPath>
+									<ContextMenu name="pcru_ex_СубконтоКТ2_ФССНесчастныеСлучаиКонтекстноеМеню" id="298"/>
+									<ExtendedTooltip name="pcru_ex_СубконтоКТ2_ФССНесчастныеСлучаиРасширеннаяПодсказка" id="299"/>
+								</InputField>
+								<InputField name="pcru_ex_СубконтоКТ3_ФССНесчастныеСлучаи" id="300">
+									<DataPath>Объект.pcru_ex_СубконтоКТ3_ФССНесчастныеСлучаи</DataPath>
+									<ContextMenu name="pcru_ex_СубконтоКТ3_ФССНесчастныеСлучаиКонтекстноеМеню" id="301"/>
+									<ExtendedTooltip name="pcru_ex_СубконтоКТ3_ФССНесчастныеСлучаиРасширеннаяПодсказка" id="302"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаСуммаКт_ФССНесчастныеСлучаи" id="504">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сумма</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа сумма кт ФССНесчастные случаи</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<ExtendedTooltip name="ГруппаСуммаКт_ФССНесчастныеСлучаиРасширеннаяПодсказка" id="505"/>
+							<ChildItems>
+								<CheckBoxField name="pcru_ex_Сумму_В_НУ_ФССНесчастныеСлучаи_Кт" id="506">
+									<DataPath>Объект.pcru_ex_Сумму_В_НУ_ФССНесчастныеСлучаи_Кт</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="pcru_ex_Сумму_В_НУ_ФССНесчастныеСлучаи_КтКонтекстноеМеню" id="507"/>
+									<ExtendedTooltip name="pcru_ex_Сумму_В_НУ_ФССНесчастныеСлучаи_КтРасширеннаяПодсказка" id="508"/>
+								</CheckBoxField>
+								<CheckBoxField name="pcru_ex_Сумму_В_ПР_ФССНесчастныеСлучаи_Кт" id="509">
+									<DataPath>Объект.pcru_ex_Сумму_В_ПР_ФССНесчастныеСлучаи_Кт</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="pcru_ex_Сумму_В_ПР_ФССНесчастныеСлучаи_КтКонтекстноеМеню" id="510"/>
+									<ExtendedTooltip name="pcru_ex_Сумму_В_ПР_ФССНесчастныеСлучаи_КтРасширеннаяПодсказка" id="511"/>
+								</CheckBoxField>
+								<CheckBoxField name="pcru_ex_Сумму_В_ВР_ФССНесчастныеСлучаи_Кт" id="512">
+									<DataPath>Объект.pcru_ex_Сумму_В_ВР_ФССНесчастныеСлучаи_Кт</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="pcru_ex_Сумму_В_ВР_ФССНесчастныеСлучаи_КтКонтекстноеМеню" id="513"/>
+									<ExtendedTooltip name="pcru_ex_Сумму_В_ВР_ФССНесчастныеСлучаи_КтРасширеннаяПодсказка" id="514"/>
+								</CheckBoxField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="ФФОМС" id="37">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ФФОМС</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ОСН</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<ExtendedTooltip name="ФФОМСРасширеннаяПодсказка" id="38"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаСчетСубконтоДт_ФФОМС" id="103">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ДТ</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа счет субконто дт ФФОМС</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>StrongSeparation</Representation>
+							<ExtendedTooltip name="ГруппаСчетСубконтоДт_ФФОМСРасширеннаяПодсказка" id="104"/>
+							<ChildItems>
+								<InputField name="pcru_ex_СчДТ_ФФОМС" id="210">
+									<DataPath>Объект.pcru_ex_СчДТ_ФФОМС</DataPath>
+									<ContextMenu name="pcru_ex_СчДТ_ФФОМСКонтекстноеМеню" id="211"/>
+									<ExtendedTooltip name="pcru_ex_СчДТ_ФФОМСРасширеннаяПодсказка" id="212"/>
+								</InputField>
+								<InputField name="pcru_ex_СубконтоДТ1_ФФОМС" id="303">
+									<DataPath>Объект.pcru_ex_СубконтоДТ1_ФФОМС</DataPath>
+									<ContextMenu name="pcru_ex_СубконтоДТ1_ФФОМСКонтекстноеМеню" id="304"/>
+									<ExtendedTooltip name="pcru_ex_СубконтоДТ1_ФФОМСРасширеннаяПодсказка" id="305"/>
+								</InputField>
+								<InputField name="pcru_ex_СубконтоДТ2_ФФОМС" id="306">
+									<DataPath>Объект.pcru_ex_СубконтоДТ2_ФФОМС</DataPath>
+									<ContextMenu name="pcru_ex_СубконтоДТ2_ФФОМСКонтекстноеМеню" id="307"/>
+									<ExtendedTooltip name="pcru_ex_СубконтоДТ2_ФФОМСРасширеннаяПодсказка" id="308"/>
+								</InputField>
+								<InputField name="pcru_ex_СубконтоДТ3_ФФОМС" id="309">
+									<DataPath>Объект.pcru_ex_СубконтоДТ3_ФФОМС</DataPath>
+									<ContextMenu name="pcru_ex_СубконтоДТ3_ФФОМСКонтекстноеМеню" id="310"/>
+									<ExtendedTooltip name="pcru_ex_СубконтоДТ3_ФФОМСРасширеннаяПодсказка" id="311"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаСуммаДт_ФФОМС" id="524">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сумма</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа сумма дт ФФОМС</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<ExtendedTooltip name="ГруппаСуммаДт_ФФОМСРасширеннаяПодсказка" id="525"/>
+							<ChildItems>
+								<CheckBoxField name="pcru_ex_Сумму_В_НУ_ФФОМС_Дт" id="528">
+									<DataPath>Объект.pcru_ex_Сумму_В_НУ_ФФОМС_Дт</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="pcru_ex_Сумму_В_НУ_ФФОМС_ДтКонтекстноеМеню" id="529"/>
+									<ExtendedTooltip name="pcru_ex_Сумму_В_НУ_ФФОМС_ДтРасширеннаяПодсказка" id="530"/>
+								</CheckBoxField>
+								<CheckBoxField name="pcru_ex_Сумму_В_ПР_ФФОМС_Дт" id="531">
+									<DataPath>Объект.pcru_ex_Сумму_В_ПР_ФФОМС_Дт</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="pcru_ex_Сумму_В_ПР_ФФОМС_ДтКонтекстноеМеню" id="532"/>
+									<ExtendedTooltip name="pcru_ex_Сумму_В_ПР_ФФОМС_ДтРасширеннаяПодсказка" id="533"/>
+								</CheckBoxField>
+								<CheckBoxField name="pcru_ex_Сумму_В_ВР_ФФОМС_Дт" id="534">
+									<DataPath>Объект.pcru_ex_Сумму_В_ВР_ФФОМС_Дт</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="pcru_ex_Сумму_В_ВР_ФФОМС_ДтКонтекстноеМеню" id="535"/>
+									<ExtendedTooltip name="pcru_ex_Сумму_В_ВР_ФФОМС_ДтРасширеннаяПодсказка" id="536"/>
+								</CheckBoxField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаСчетСубконтоКт_ФФОМС" id="107">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>КТ</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа счет субконто кт ФФОМС</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>StrongSeparation</Representation>
+							<ExtendedTooltip name="ГруппаСчетСубконтоКт_ФФОМСРасширеннаяПодсказка" id="108"/>
+							<ChildItems>
+								<InputField name="pcru_ex_СчКТ_ФФОМС" id="213">
+									<DataPath>Объект.pcru_ex_СчКТ_ФФОМС</DataPath>
+									<ContextMenu name="pcru_ex_СчКТ_ФФОМСКонтекстноеМеню" id="214"/>
+									<ExtendedTooltip name="pcru_ex_СчКТ_ФФОМСРасширеннаяПодсказка" id="215"/>
+								</InputField>
+								<InputField name="pcru_ex_СубконтоКТ1_ФФОМС" id="312">
+									<DataPath>Объект.pcru_ex_СубконтоКТ1_ФФОМС</DataPath>
+									<ContextMenu name="pcru_ex_СубконтоКТ1_ФФОМСКонтекстноеМеню" id="313"/>
+									<ExtendedTooltip name="pcru_ex_СубконтоКТ1_ФФОМСРасширеннаяПодсказка" id="314"/>
+								</InputField>
+								<InputField name="pcru_ex_СубконтоКТ2_ФФОМС" id="315">
+									<DataPath>Объект.pcru_ex_СубконтоКТ2_ФФОМС</DataPath>
+									<ContextMenu name="pcru_ex_СубконтоКТ2_ФФОМСКонтекстноеМеню" id="316"/>
+									<ExtendedTooltip name="pcru_ex_СубконтоКТ2_ФФОМСРасширеннаяПодсказка" id="317"/>
+								</InputField>
+								<InputField name="pcru_ex_СубконтоКТ3_ФФОМС" id="318">
+									<DataPath>Объект.pcru_ex_СубконтоКТ3_ФФОМС</DataPath>
+									<ContextMenu name="pcru_ex_СубконтоКТ3_ФФОМСКонтекстноеМеню" id="319"/>
+									<ExtendedTooltip name="pcru_ex_СубконтоКТ3_ФФОМСРасширеннаяПодсказка" id="320"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаСуммаКт_ФФОМС" id="526">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сумма</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа сумма кт ФФОМС</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<ExtendedTooltip name="ГруппаСуммаКт_ФФОМСРасширеннаяПодсказка" id="527"/>
+							<ChildItems>
+								<CheckBoxField name="pcru_ex_Сумму_В_НУ_ФФОМС_Кт" id="537">
+									<DataPath>Объект.pcru_ex_Сумму_В_НУ_ФФОМС_Кт</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="pcru_ex_Сумму_В_НУ_ФФОМС_КтКонтекстноеМеню" id="538"/>
+									<ExtendedTooltip name="pcru_ex_Сумму_В_НУ_ФФОМС_КтРасширеннаяПодсказка" id="539"/>
+								</CheckBoxField>
+								<CheckBoxField name="pcru_ex_Сумму_В_ПР_ФФОМС_Кт" id="540">
+									<DataPath>Объект.pcru_ex_Сумму_В_ПР_ФФОМС_Кт</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="pcru_ex_Сумму_В_ПР_ФФОМС_КтКонтекстноеМеню" id="541"/>
+									<ExtendedTooltip name="pcru_ex_Сумму_В_ПР_ФФОМС_КтРасширеннаяПодсказка" id="542"/>
+								</CheckBoxField>
+								<CheckBoxField name="pcru_ex_Сумму_В_ВР_ФФОМС_Кт" id="543">
+									<DataPath>Объект.pcru_ex_Сумму_В_ВР_ФФОМС_Кт</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="pcru_ex_Сумму_В_ВР_ФФОМС_КтКонтекстноеМеню" id="544"/>
+									<ExtendedTooltip name="pcru_ex_Сумму_В_ВР_ФФОМС_КтРасширеннаяПодсказка" id="545"/>
+								</CheckBoxField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаДопСведения" id="387">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дополнительные сведения</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа доп сведения</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаДопСведенияРасширеннаяПодсказка" id="388"/>
+					<ChildItems>
+						<Table name="ДопСведения" id="6">
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<DataPath>ДопСведения</DataPath>
+							<RowPictureDataPath>ДопСведения.DefaultPicture</RowPictureDataPath>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<ContextMenu name="ДопСведенияКонтекстноеМеню" id="7"/>
+							<AutoCommandBar name="ДопСведенияКоманднаяПанель" id="8"/>
+							<ExtendedTooltip name="ДопСведенияРасширеннаяПодсказка" id="9"/>
+							<SearchStringAddition name="ДопСведенияСтрокаПоиска" id="10">
+								<AdditionSource>
+									<Item>ДопСведения</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ДопСведенияСтрокаПоискаКонтекстноеМеню" id="11"/>
+								<ExtendedTooltip name="ДопСведенияСтрокаПоискаРасширеннаяПодсказка" id="12"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ДопСведенияСостояниеПросмотра" id="13">
+								<AdditionSource>
+									<Item>ДопСведения</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ДопСведенияСостояниеПросмотраКонтекстноеМеню" id="14"/>
+								<ExtendedTooltip name="ДопСведенияСостояниеПросмотраРасширеннаяПодсказка" id="15"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ДопСведенияУправлениеПоиском" id="16">
+								<AdditionSource>
+									<Item>ДопСведения</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ДопСведенияУправлениеПоискомКонтекстноеМеню" id="17"/>
+								<ExtendedTooltip name="ДопСведенияУправлениеПоискомРасширеннаяПодсказка" id="18"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ДопСведенияЗначение" id="19">
+									<DataPath>ДопСведения.Значение</DataPath>
+									<ContextMenu name="ДопСведенияЗначениеКонтекстноеМеню" id="20"/>
+									<ExtendedTooltip name="ДопСведенияЗначениеРасширеннаяПодсказка" id="21"/>
+								</LabelField>
+								<LabelField name="ДопСведенияСвойство" id="22">
+									<DataPath>ДопСведения.Свойство</DataPath>
+									<ContextMenu name="ДопСведенияСвойствоКонтекстноеМеню" id="23"/>
+									<ExtendedTooltip name="ДопСведенияСвойствоРасширеннаяПодсказка" id="24"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаДополнительныеРеквизиты" id="414">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа дополнительные реквизиты</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаДополнительныеРеквизитыExtendedTooltip" id="415"/>
+					<ChildItems>
+						<Table name="ДополнительныеРеквизиты" id="389">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<DataPath>Объект.ДополнительныеРеквизиты</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ДополнительныеРеквизитыКонтекстноеМеню" id="390"/>
+							<AutoCommandBar name="ДополнительныеРеквизитыКоманднаяПанель" id="391"/>
+							<ExtendedTooltip name="ДополнительныеРеквизитыРасширеннаяПодсказка" id="392"/>
+							<SearchStringAddition name="ДополнительныеРеквизитыСтрокаПоиска" id="393">
+								<AdditionSource>
+									<Item>ДополнительныеРеквизиты</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ДополнительныеРеквизитыСтрокаПоискаКонтекстноеМеню" id="394"/>
+								<ExtendedTooltip name="ДополнительныеРеквизитыСтрокаПоискаРасширеннаяПодсказка" id="395"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ДополнительныеРеквизитыСостояниеПросмотра" id="396">
+								<AdditionSource>
+									<Item>ДополнительныеРеквизиты</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ДополнительныеРеквизитыСостояниеПросмотраКонтекстноеМеню" id="397"/>
+								<ExtendedTooltip name="ДополнительныеРеквизитыСостояниеПросмотраРасширеннаяПодсказка" id="398"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ДополнительныеРеквизитыУправлениеПоиском" id="399">
+								<AdditionSource>
+									<Item>ДополнительныеРеквизиты</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ДополнительныеРеквизитыУправлениеПоискомКонтекстноеМеню" id="400"/>
+								<ExtendedTooltip name="ДополнительныеРеквизитыУправлениеПоискомРасширеннаяПодсказка" id="401"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ДополнительныеРеквизитыНомерСтроки" id="402">
+									<DataPath>Объект.ДополнительныеРеквизиты.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ДополнительныеРеквизитыНомерСтрокиКонтекстноеМеню" id="403"/>
+									<ExtendedTooltip name="ДополнительныеРеквизитыНомерСтрокиРасширеннаяПодсказка" id="404"/>
+								</LabelField>
+								<InputField name="ДополнительныеРеквизитыСвойство" id="405">
+									<DataPath>Объект.ДополнительныеРеквизиты.Свойство</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ДополнительныеРеквизитыСвойствоКонтекстноеМеню" id="406"/>
+									<ExtendedTooltip name="ДополнительныеРеквизитыСвойствоРасширеннаяПодсказка" id="407"/>
+								</InputField>
+								<InputField name="ДополнительныеРеквизитыЗначение" id="408">
+									<DataPath>Объект.ДополнительныеРеквизиты.Значение</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ДополнительныеРеквизитыЗначениеКонтекстноеМеню" id="409"/>
+									<ExtendedTooltip name="ДополнительныеРеквизитыЗначениеРасширеннаяПодсказка" id="410"/>
+								</InputField>
+								<InputField name="ДополнительныеРеквизитыТекстоваяСтрока" id="411">
+									<DataPath>Объект.ДополнительныеРеквизиты.ТекстоваяСтрока</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ДополнительныеРеквизитыТекстоваяСтрокаКонтекстноеМеню" id="412"/>
+									<ExtendedTooltip name="ДополнительныеРеквизитыТекстоваяСтрокаРасширеннаяПодсказка" id="413"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1000001">
+			<Type>
+				<v8:Type>cfg:CatalogObject.СпособыОтраженияЗарплатыВБухУчете</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ДопСведения" id="1000002">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Доп сведения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	РегистрСведенийДополнительныеСведения.Свойство,
+	РегистрСведенийДополнительныеСведения.Значение
+ИЗ
+	РегистрСведений.ДополнительныеСведения КАК РегистрСведенийДополнительныеСведения
+	где 
+	РегистрСведенийДополнительныеСведения.Объект = &amp;Объект
+	</QueryText>
+				<MainTable>InformationRegister.ДополнительныеСведения</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+	</Attributes>
+	<BaseForm version="2.11">
+		<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+		<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+		<ChildItems>
+			<InputField name="Наименование" id="1">
+				<DataPath>Объект.Description</DataPath>
+				<EditMode>EnterOnInput</EditMode>
+				<ContextMenu name="НаименованиеКонтекстноеМеню" id="2"/>
+				<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="3"/>
+			</InputField>
+		</ChildItems>
+		<Attributes>
+			<Attribute name="Объект" id="1000001">
+				<Type>
+					<v8:Type>cfg:CatalogObject.СпособыОтраженияЗарплатыВБухУчете</v8:Type>
+				</Type>
+				<MainAttribute>true</MainAttribute>
+				<SavedData>true</SavedData>
+			</Attribute>
+		</Attributes>
+	</BaseForm>
+</Form>

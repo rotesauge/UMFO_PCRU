@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Enum uuid="a078e22c-b75d-4dc2-8be0-7c134d492d13">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.АЭ_ГруппыСчетовПоЗаймам" category="Ref">
+				<xr:TypeId>f3060a8c-2b1e-4f25-ae8c-6b36ed3cd097</xr:TypeId>
+				<xr:ValueId>1bcd1f5e-7f72-494d-b5eb-be4cb5763d05</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.АЭ_ГруппыСчетовПоЗаймам" category="Manager">
+				<xr:TypeId>580b0fe3-2a66-4123-81f3-bbbc717306d0</xr:TypeId>
+				<xr:ValueId>0bf92528-34e9-4569-babe-9a913b3b3316</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.АЭ_ГруппыСчетовПоЗаймам" category="List">
+				<xr:TypeId>15099644-9e59-49ba-bd38-d801db4bc6fe</xr:TypeId>
+				<xr:ValueId>1719c85c-bf68-4fd4-a213-449c2467d43d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>АЭ_ГруппыСчетовПоЗаймам</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Enum uuid="beb7ed08-c813-4deb-9f9d-77fd5464fb97">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СпособыЗачетаАвансов" category="Ref">
+				<xr:TypeId>ebcdae17-f946-4f5c-889b-b0084c2520f3</xr:TypeId>
+				<xr:ValueId>a5d238f7-20fe-4f27-97e4-c76d98562e3c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СпособыЗачетаАвансов" category="Manager">
+				<xr:TypeId>ae940f2b-7919-4fbc-a6b8-535512fa820a</xr:TypeId>
+				<xr:ValueId>8786c6bb-85a1-42ef-8adb-d20f6763bea3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СпособыЗачетаАвансов" category="List">
+				<xr:TypeId>4b051d89-f36e-4552-a32e-3ad38a643a2c</xr:TypeId>
+				<xr:ValueId>7aefef65-597c-451a-88eb-c67932c80978</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СпособыЗачетаАвансов</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="011e93c9-3ea7-4926-9b89-fb7f896c147f">
+				<InternalInfo/>
+				<Properties>
+					<Name>Автоматически</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

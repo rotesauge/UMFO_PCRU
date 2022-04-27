@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Enum uuid="8bce9948-47bf-42ad-a2f7-b73ca65aafd5">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.АЭ_ВидыОперацийПогашениеПоЗаймамПредоставленным" category="Ref">
+				<xr:TypeId>ef7889e9-a63c-403d-96f5-b77ee8939681</xr:TypeId>
+				<xr:ValueId>c9d13485-1749-42bc-bf54-ccda4fc13257</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.АЭ_ВидыОперацийПогашениеПоЗаймамПредоставленным" category="Manager">
+				<xr:TypeId>5cc2d3f1-0f1f-47aa-a0eb-f4a3e1e4bc53</xr:TypeId>
+				<xr:ValueId>7ac1a608-2fb9-44f5-a124-55ec83a40511</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.АЭ_ВидыОперацийПогашениеПоЗаймамПредоставленным" category="List">
+				<xr:TypeId>e2ce409d-adf9-4280-8c17-865658b9bf0a</xr:TypeId>
+				<xr:ValueId>b4a58e78-0a63-44d3-81b9-a9e42ae3a574</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>АЭ_ВидыОперацийПогашениеПоЗаймамПредоставленным</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>b08a5e19-8abb-403a-8942-0fea2caf54ce</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Document uuid="e6ac03da-57a0-404c-80e5-af42b140c710">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ИзменениеГрафиковАмортизацииОС" category="Object">
+				<xr:TypeId>9c56750a-7690-47c2-b84a-bb771f30dd43</xr:TypeId>
+				<xr:ValueId>9fab1e50-d68f-435f-a42f-73fd2aba224b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ИзменениеГрафиковАмортизацииОС" category="Ref">
+				<xr:TypeId>88f05e1d-2db5-463c-b792-3caa3c604e9c</xr:TypeId>
+				<xr:ValueId>2dd3af1e-af0f-4d42-88fd-584c2994b953</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ИзменениеГрафиковАмортизацииОС" category="Selection">
+				<xr:TypeId>c40c5bac-52b4-4256-8ccc-a092203186b6</xr:TypeId>
+				<xr:ValueId>e893020d-80c9-4ea9-9b07-13577fff6876</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ИзменениеГрафиковАмортизацииОС" category="List">
+				<xr:TypeId>eadbc6ea-e417-4ba1-8104-9f9073472617</xr:TypeId>
+				<xr:ValueId>0375a255-b836-4fca-8cf8-2be2d6ec2809</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ИзменениеГрафиковАмортизацииОС" category="Manager">
+				<xr:TypeId>971d50fa-8d26-4092-aa48-cab5eae5d565</xr:TypeId>
+				<xr:ValueId>626a6fe7-f905-4942-87ce-3b2613fdc514</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИзменениеГрафиковАмортизацииОС</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Enum uuid="712384d1-fe80-4d21-9778-b06dfd972329">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.МетодыНачисленияАмортизации" category="Ref">
+				<xr:TypeId>d5906bb9-ca13-437c-a8af-7c675c7b9e62</xr:TypeId>
+				<xr:ValueId>d5449f36-637d-4e09-b41e-70f74cff24f1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.МетодыНачисленияАмортизации" category="Manager">
+				<xr:TypeId>0497ab38-df7b-418b-b593-008f58702811</xr:TypeId>
+				<xr:ValueId>6598c948-4e09-4dd3-93bc-7d4ade9b928c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.МетодыНачисленияАмортизации" category="List">
+				<xr:TypeId>756b8c6f-949e-4b26-950c-4d40f4643853</xr:TypeId>
+				<xr:ValueId>2d05efff-e25d-4bee-831f-301a86c7bd53</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>МетодыНачисленияАмортизации</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="63c26509-0178-4365-b83b-14631f468cfd">
+				<InternalInfo/>
+				<Properties>
+					<Name>Линейный</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="8abd3cce-46d3-4a71-bc16-17b60e48e11e">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПоЕНАОФ</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

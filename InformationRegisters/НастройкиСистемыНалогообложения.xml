@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<InformationRegister uuid="c278e87d-3619-49fe-ba94-b2bdf14ba417">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.НастройкиСистемыНалогообложения" category="Record">
+				<xr:TypeId>d8aa3b2f-94c0-43da-8409-893ec74fd5a3</xr:TypeId>
+				<xr:ValueId>332404bd-2db1-4712-93ba-a45399aac47f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.НастройкиСистемыНалогообложения" category="Manager">
+				<xr:TypeId>ce79fd56-237d-42a0-b1ea-1846d39d535b</xr:TypeId>
+				<xr:ValueId>1baf893b-7d48-48c9-8a20-b4c2f5272c92</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.НастройкиСистемыНалогообложения" category="Selection">
+				<xr:TypeId>63836a36-76a4-4ac0-9d20-f7aa0b470ce0</xr:TypeId>
+				<xr:ValueId>d424dd72-5c8b-45d0-90b6-f596936186b4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.НастройкиСистемыНалогообложения" category="List">
+				<xr:TypeId>ecc36997-0aab-4931-8f17-1de7a54035db</xr:TypeId>
+				<xr:ValueId>41d08faf-2e22-4207-aff0-760b5af027d0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.НастройкиСистемыНалогообложения" category="RecordSet">
+				<xr:TypeId>350bdf11-c71b-4298-84c8-00537bf9940b</xr:TypeId>
+				<xr:ValueId>bbc093e7-9e94-4e3a-b852-e46b86bd0121</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.НастройкиСистемыНалогообложения" category="RecordKey">
+				<xr:TypeId>3911738c-432e-430a-bf6b-087a247892c7</xr:TypeId>
+				<xr:ValueId>2da37158-7e9c-4fc3-b7c0-929abd916124</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.НастройкиСистемыНалогообложения" category="RecordManager">
+				<xr:TypeId>0070f448-c3e2-40b1-bbdf-279c15bc730d</xr:TypeId>
+				<xr:ValueId>58b8e254-9713-4433-8645-40e6d4897e78</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НастройкиСистемыНалогообложения</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Month</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="fdcf76c6-6947-456a-8172-01c24a5fc3a2">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПлательщикНДФЛ</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="0e609145-a70c-4c61-9f58-5aaec5c7fcd6">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПлательщикНалогаНаПрибыль</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="d983550b-120e-46b0-a131-36e58b23293c">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПрименяетсяУСНДоходыМинусРасходы</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="978692c5-00eb-4216-a8c4-8eb1e07dc8ac">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПрименяетсяУСНПатент</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="5b4937bc-3193-4b05-a9f3-7cebf1d2e7ab">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПрименяетсяУСН</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

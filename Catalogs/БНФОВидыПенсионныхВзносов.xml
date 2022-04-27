@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Catalog uuid="d7478134-7255-4706-8175-1e42fa1150ab">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.БНФОВидыПенсионныхВзносов" category="Object">
+				<xr:TypeId>8c0e397d-4a63-4e5f-bed3-dd0e39071028</xr:TypeId>
+				<xr:ValueId>d988ceaa-12d5-4ca4-a91e-fba054a9391a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.БНФОВидыПенсионныхВзносов" category="Ref">
+				<xr:TypeId>e99aa503-e0c0-4356-b626-47dfe1964b61</xr:TypeId>
+				<xr:ValueId>ae2ade71-8424-4187-bb2a-1834b5fe2582</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.БНФОВидыПенсионныхВзносов" category="Selection">
+				<xr:TypeId>2149ad1a-2460-4574-9009-dc8e63225b15</xr:TypeId>
+				<xr:ValueId>f4df7bf4-fa39-4f8c-9e71-847c27eb0d6f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.БНФОВидыПенсионныхВзносов" category="List">
+				<xr:TypeId>d6240aa5-0a7f-41f7-bb1d-f302dc861c54</xr:TypeId>
+				<xr:ValueId>7bbee29b-c6d4-4c97-9333-ed149cd077cb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.БНФОВидыПенсионныхВзносов" category="Manager">
+				<xr:TypeId>f7cb6778-c901-4987-9733-e6bb71694fb8</xr:TypeId>
+				<xr:ValueId>c1aa1716-da7d-406e-8cc6-44d94d9c761c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БНФОВидыПенсионныхВзносов</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

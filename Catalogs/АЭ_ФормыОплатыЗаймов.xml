@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Catalog uuid="640a13f2-7887-4c40-b3d3-b32eb48ef9e6">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.АЭ_ФормыОплатыЗаймов" category="Object">
+				<xr:TypeId>2824363d-4cca-4c71-a5b8-734ec7c53819</xr:TypeId>
+				<xr:ValueId>264edfbe-cd69-460a-a535-9faaef40ff57</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.АЭ_ФормыОплатыЗаймов" category="Ref">
+				<xr:TypeId>ab7ede97-cd1b-4910-9a3b-3547204a1159</xr:TypeId>
+				<xr:ValueId>f8b72b4c-ed01-4f07-8f48-cc7445c5bf68</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.АЭ_ФормыОплатыЗаймов" category="Selection">
+				<xr:TypeId>6a19a3f3-1bb0-462d-b28f-9b7f71b14fc0</xr:TypeId>
+				<xr:ValueId>a14c52d8-851b-4e46-893f-000506e8c595</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.АЭ_ФормыОплатыЗаймов" category="List">
+				<xr:TypeId>cd2e2065-fa92-49fd-b741-f09e17bd402c</xr:TypeId>
+				<xr:ValueId>6be83eba-b949-4980-a3e6-b38ca43ab2b1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.АЭ_ФормыОплатыЗаймов" category="Manager">
+				<xr:TypeId>9162fb8d-9216-4c45-bcae-28b4d64156fb</xr:TypeId>
+				<xr:ValueId>1f48c2d3-b6af-46f1-a249-b5da69db4989</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>АЭ_ФормыОплатыЗаймов</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

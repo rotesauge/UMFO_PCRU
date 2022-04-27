@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="ValueChoice">ВыборЗначения</Event>
+		<Event name="ChoiceProcessing">ОбработкаВыбора</Event>
+		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="ТипЗадания" id="4">
+			<DataPath>Объект.ТипЗадания</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ТипЗаданияКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ТипЗаданияРасширеннаяПодсказка" id="6"/>
+			<Events>
+				<Event name="OnChange">ТипЗаданияПриИзменении</Event>
+			</Events>
+		</InputField>
+		<InputField name="ДатаНачалаВыполненияПлан" id="7">
+			<DataPath>Объект.ДатаНачалаВыполненияПлан</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДатаНачалаВыполненияПланКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ДатаНачалаВыполненияПланРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<CheckBoxField name="ВыполнятьВФоне" id="61">
+			<DataPath>Объект.ВыполнятьВФоне</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ВыполнятьВФонеКонтекстноеМеню" id="62"/>
+			<ExtendedTooltip name="ВыполнятьВФонеРасширеннаяПодсказка" id="63"/>
+		</CheckBoxField>
+		<UsualGroup name="Группа1" id="41">
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="42"/>
+			<ChildItems>
+				<InputField name="Статус" id="64">
+					<DataPath>Объект.Статус</DataPath>
+					<ContextMenu name="СтатусКонтекстноеМеню" id="65"/>
+					<ExtendedTooltip name="СтатусРасширеннаяПодсказка" id="66"/>
+				</InputField>
+				<InputField name="Результат" id="13">
+					<DataPath>Объект.Результат</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="РезультатКонтекстноеМеню" id="14"/>
+					<ExtendedTooltip name="РезультатРасширеннаяПодсказка" id="15"/>
+				</InputField>
+				<CheckBoxField name="Выполнено" id="10">
+					<DataPath>Объект.Выполнено</DataPath>
+					<Visible>false</Visible>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ВыполненоКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="ВыполненоРасширеннаяПодсказка" id="12"/>
+				</CheckBoxField>
+				<CheckBoxField name="Ошибка" id="47">
+					<DataPath>Объект.Ошибка</DataPath>
+					<Visible>false</Visible>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ОшибкаКонтекстноеМеню" id="48"/>
+					<ExtendedTooltip name="ОшибкаРасширеннаяПодсказка" id="49"/>
+				</CheckBoxField>
+				<CheckBoxField name="Выполняется" id="50">
+					<DataPath>Объект.Выполняется</DataPath>
+					<Visible>false</Visible>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ВыполняетсяКонтекстноеМеню" id="51"/>
+					<ExtendedTooltip name="ВыполняетсяРасширеннаяПодсказка" id="52"/>
+				</CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа3" id="53">
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="54"/>
+			<ChildItems>
+				<InputField name="ДатаНачалаВыполненияФакт" id="55">
+					<DataPath>Объект.ДатаНачалаВыполненияФакт</DataPath>
+					<ContextMenu name="ДатаНачалаВыполненияФактКонтекстноеМеню" id="56"/>
+					<ExtendedTooltip name="ДатаНачалаВыполненияФактРасширеннаяПодсказка" id="57"/>
+				</InputField>
+				<InputField name="ДатаОкончанияВыполненияФакт" id="58">
+					<DataPath>Объект.ДатаОкончанияВыполненияФакт</DataPath>
+					<ContextMenu name="ДатаОкончанияВыполненияФактКонтекстноеМеню" id="59"/>
+					<ExtendedTooltip name="ДатаОкончанияВыполненияФактРасширеннаяПодсказка" id="60"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаСписокПроводок" id="45">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа список проводок</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа список проводок</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаСписокПроводокРасширеннаяПодсказка" id="46"/>
+			<ChildItems>
+				<UsualGroup name="Группа2" id="43">
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="44"/>
+					<ChildItems>
+						<InputField name="НачалоПериода" id="16">
+							<DataPath>Объект.НачалоПериода</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="НачалоПериодаКонтекстноеМеню" id="17"/>
+							<ExtendedTooltip name="НачалоПериодаРасширеннаяПодсказка" id="18"/>
+						</InputField>
+						<InputField name="КонецПериода" id="19">
+							<DataPath>Объект.КонецПериода</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="КонецПериодаКонтекстноеМеню" id="20"/>
+							<ExtendedTooltip name="КонецПериодаРасширеннаяПодсказка" id="21"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<Table name="ПроводкиДляЗагрузки" id="22">
+					<Representation>List</Representation>
+					<MultipleChoice>true</MultipleChoice>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>Объект.ПроводкиДляЗагрузки</DataPath>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="ПроводкиДляЗагрузкиКонтекстноеМеню" id="23"/>
+					<AutoCommandBar name="ПроводкиДляЗагрузкиКоманднаяПанель" id="24"/>
+					<ExtendedTooltip name="ПроводкиДляЗагрузкиРасширеннаяПодсказка" id="25"/>
+					<SearchStringAddition name="ПроводкиДляЗагрузкиСтрокаПоиска" id="26">
+						<AdditionSource>
+							<Item>ПроводкиДляЗагрузки</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ПроводкиДляЗагрузкиСтрокаПоискаКонтекстноеМеню" id="27"/>
+						<ExtendedTooltip name="ПроводкиДляЗагрузкиСтрокаПоискаРасширеннаяПодсказка" id="28"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="ПроводкиДляЗагрузкиСостояниеПросмотра" id="29">
+						<AdditionSource>
+							<Item>ПроводкиДляЗагрузки</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ПроводкиДляЗагрузкиСостояниеПросмотраКонтекстноеМеню" id="30"/>
+						<ExtendedTooltip name="ПроводкиДляЗагрузкиСостояниеПросмотраРасширеннаяПодсказка" id="31"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="ПроводкиДляЗагрузкиУправлениеПоиском" id="32">
+						<AdditionSource>
+							<Item>ПроводкиДляЗагрузки</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="ПроводкиДляЗагрузкиУправлениеПоискомКонтекстноеМеню" id="33"/>
+						<ExtendedTooltip name="ПроводкиДляЗагрузкиУправлениеПоискомРасширеннаяПодсказка" id="34"/>
+					</SearchControlAddition>
+					<Events>
+						<Event name="ChoiceProcessing">ПроводкиДляЗагрузкиОбработкаВыбора</Event>
+					</Events>
+					<ChildItems>
+						<LabelField name="ПроводкиДляЗагрузкиНомерСтроки" id="35">
+							<DataPath>Объект.ПроводкиДляЗагрузки.LineNumber</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ПроводкиДляЗагрузкиНомерСтрокиКонтекстноеМеню" id="36"/>
+							<ExtendedTooltip name="ПроводкиДляЗагрузкиНомерСтрокиРасширеннаяПодсказка" id="37"/>
+						</LabelField>
+						<InputField name="ПроводкиДляЗагрузкиНастройкаПроводокNAV" id="38">
+							<DataPath>Объект.ПроводкиДляЗагрузки.НастройкаПроводокNAV</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<QuickChoice>false</QuickChoice>
+							<ContextMenu name="ПроводкиДляЗагрузкиНастройкаПроводокNAVКонтекстноеМеню" id="39"/>
+							<ExtendedTooltip name="ПроводкиДляЗагрузкиНастройкаПроводокNAVРасширеннаяПодсказка" id="40"/>
+							<Events>
+								<Event name="ChoiceProcessing">ПроводкиДляЗагрузкиНастройкаПроводокNAVОбработкаВыбора</Event>
+							</Events>
+						</InputField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.pcru_ex_ЗапланированноеВыполнениеРегламентныхЗаданий</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

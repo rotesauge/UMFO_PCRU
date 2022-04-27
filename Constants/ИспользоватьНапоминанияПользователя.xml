@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Constant uuid="3d57a043-ef69-459c-852e-ab981e35aae1">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ИспользоватьНапоминанияПользователя" category="Manager">
+				<xr:TypeId>f5157f5c-6f78-4251-a93b-530158d935c5</xr:TypeId>
+				<xr:ValueId>f98ef091-df0f-463a-a0de-52bd8624549a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ИспользоватьНапоминанияПользователя" category="ValueManager">
+				<xr:TypeId>210ad08b-0824-43a6-8fc4-78a377bb5501</xr:TypeId>
+				<xr:ValueId>2509157e-4c9f-4726-a1ab-851dea93b38e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ИспользоватьНапоминанияПользователя" category="ValueKey">
+				<xr:TypeId>ed378ebf-65c3-5437-a78c-c2dad8ec93d0</xr:TypeId>
+				<xr:ValueId>ba1ce7b9-44df-53a0-94d5-635be9b7f3d9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИспользоватьНапоминанияПользователя</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

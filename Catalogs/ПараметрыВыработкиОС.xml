@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Catalog uuid="4aa0872f-beac-4a58-b10e-8c4652ce7aec">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПараметрыВыработкиОС" category="Object">
+				<xr:TypeId>e5a0900c-15f9-4839-aa72-130ee2c6d9bd</xr:TypeId>
+				<xr:ValueId>ac0b4dc1-0889-4f71-9fe0-86dd82f5ed6d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПараметрыВыработкиОС" category="Ref">
+				<xr:TypeId>d1f8fccc-d6dd-46c7-b6d3-76afed5937a7</xr:TypeId>
+				<xr:ValueId>7cb7ea9d-1508-4982-b4f1-478a8ab8ff32</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПараметрыВыработкиОС" category="Selection">
+				<xr:TypeId>f5be9875-7599-40ca-962c-f5ad18118c2b</xr:TypeId>
+				<xr:ValueId>6a540e0c-7c3e-4a1f-aca5-9e12eb194786</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПараметрыВыработкиОС" category="List">
+				<xr:TypeId>1935719f-5548-46b1-9e68-c1dc60dfbef5</xr:TypeId>
+				<xr:ValueId>c4f940c6-5415-4b2f-a90f-3ee1c573ee42</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПараметрыВыработкиОС" category="Manager">
+				<xr:TypeId>902c08cc-aa2a-4418-be5b-dfbbf8450e42</xr:TypeId>
+				<xr:ValueId>913d5c47-bdee-4a7d-8c2c-0c93bad0cf5d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПараметрыВыработкиОС</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="fe755b2e-16cf-4e02-a8c0-e7df87dd61b0">
+				<InternalInfo/>
+				<Properties>
+					<Name>ЕдиницаИзмерения</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.КлассификаторЕдиницИзмерения</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<WSReference uuid="4918eeff-bc05-4a39-a788-cde33f918b7d">
+		<InternalInfo>
+			<xr:GeneratedType name="WSReferenceManager.pcru_ex_WSNAV" category="Manager">
+				<xr:TypeId>56a043d4-6b46-4e2f-8cc9-cd42220e1de7</xr:TypeId>
+				<xr:ValueId>20ea16a4-4d7e-485d-8dd0-b98dc1c042e5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>pcru_ex_WSNAV</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Pcru ex WSNAV</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<LocationURL>http://ruspbsql01:7085/PC_EXT/WS/Proficredit X/Codeunit/_x0031_CExchange</LocationURL>
+		</Properties>
+	</WSReference>
+</MetaDataObject>

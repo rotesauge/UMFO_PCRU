@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Catalog uuid="30398c60-72e5-45ca-9228-685c9c4eb52f">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.БНФОВидыРегламентныхОпераций" category="Object">
+				<xr:TypeId>b8aa33e2-9f95-4f5a-9851-d5b26b996ddc</xr:TypeId>
+				<xr:ValueId>e53a2a9e-3eec-49a2-b30b-f16b4c726168</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.БНФОВидыРегламентныхОпераций" category="Ref">
+				<xr:TypeId>e000f3ef-e88f-408a-aef2-b5f8f5f54383</xr:TypeId>
+				<xr:ValueId>fcf77aa3-dc9b-4384-b24b-4f20d63571a7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.БНФОВидыРегламентныхОпераций" category="Selection">
+				<xr:TypeId>aee333ae-2e9a-4ca3-8164-68c4a5f159bc</xr:TypeId>
+				<xr:ValueId>850a3ce4-af08-4c09-8ba2-cfcd2f0ee0bb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.БНФОВидыРегламентныхОпераций" category="List">
+				<xr:TypeId>1e29ddc8-2829-48a2-bdcd-848ba149c017</xr:TypeId>
+				<xr:ValueId>ecafc25d-037a-4a6f-99e1-7e1040372ae2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.БНФОВидыРегламентныхОпераций" category="Manager">
+				<xr:TypeId>9aebf521-40ea-42b2-8525-ace8203056a6</xr:TypeId>
+				<xr:ValueId>d0ba4d9a-7fca-4dd3-afd2-e7c3f5ef5c31</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БНФОВидыРегламентныхОпераций</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>ae2e60aa-87b5-4a6d-acbc-51adac97154f</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

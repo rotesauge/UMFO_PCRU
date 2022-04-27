@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Constant uuid="c40ec420-795d-4ded-a204-2a0cbd43b670">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.УдалитьОсновнаяСистемаНалогообложения" category="Manager">
+				<xr:TypeId>39c87606-8b80-4ab7-bbc5-4392e2504b8e</xr:TypeId>
+				<xr:ValueId>89199c4d-a50a-4062-a862-ce9f7d55d739</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.УдалитьОсновнаяСистемаНалогообложения" category="ValueManager">
+				<xr:TypeId>aa8eedbe-6510-4a4c-9727-109bd9d0fef1</xr:TypeId>
+				<xr:ValueId>6947b069-611b-4420-a0aa-475bdc244605</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.УдалитьОсновнаяСистемаНалогообложения" category="ValueKey">
+				<xr:TypeId>72b8216f-c4ff-5885-b17d-173456445145</xr:TypeId>
+				<xr:ValueId>0ca719f2-944a-5777-bf3c-3899261f777f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>УдалитьОсновнаяСистемаНалогообложения</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Type>
+				<v8:Type>cfg:EnumRef.СистемыНалогообложения</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Catalog uuid="3b66fe7c-531d-4f37-aa24-76ade6417d14">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.БНФОУчетныеКомпонентыИнформационныхСистем" category="Object">
+				<xr:TypeId>aaa55121-8b25-4f2b-8d99-d7e5ff991cdf</xr:TypeId>
+				<xr:ValueId>d3341888-e9f9-4235-806a-4093622ae248</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.БНФОУчетныеКомпонентыИнформационныхСистем" category="Ref">
+				<xr:TypeId>14e9ef79-9adc-4c0e-a214-0536ebea1141</xr:TypeId>
+				<xr:ValueId>ae8fb045-d660-4b77-9a1c-044dbe66ba9c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.БНФОУчетныеКомпонентыИнформационныхСистем" category="Selection">
+				<xr:TypeId>08253afe-50c6-41df-a4f5-f73640a80070</xr:TypeId>
+				<xr:ValueId>6a008a7a-eddd-40d0-a6c8-28af4afea534</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.БНФОУчетныеКомпонентыИнформационныхСистем" category="List">
+				<xr:TypeId>98de788b-4b06-49c7-9413-390ad16ec525</xr:TypeId>
+				<xr:ValueId>de6ed8e2-f847-45fd-8c09-7fcb64c97b09</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.БНФОУчетныеКомпонентыИнформационныхСистем" category="Manager">
+				<xr:TypeId>83863fbe-27b4-4837-86ec-afa46d328122</xr:TypeId>
+				<xr:ValueId>e356279a-dd78-4aad-a069-3b2a127317e8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БНФОУчетныеКомпонентыИнформационныхСистем</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

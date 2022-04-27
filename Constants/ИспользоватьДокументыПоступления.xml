@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Constant uuid="3d251143-502a-4f9a-8954-89e1508f08dc">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ИспользоватьДокументыПоступления" category="Manager">
+				<xr:TypeId>666d159d-4693-4fb9-987c-b235c83089fb</xr:TypeId>
+				<xr:ValueId>a33487e7-b028-4649-b17f-32216b00d8b0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ИспользоватьДокументыПоступления" category="ValueManager">
+				<xr:TypeId>94f857f4-3328-48d2-b2de-4d4d3fcb1772</xr:TypeId>
+				<xr:ValueId>63b550ab-5a92-439d-9d3f-a3ff3bba1693</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ИспользоватьДокументыПоступления" category="ValueKey">
+				<xr:TypeId>56cebf5a-3c6e-5e21-b1c7-b7e35681e2b9</xr:TypeId>
+				<xr:ValueId>c636bd7c-5dbc-5199-a068-e592cc8e41b2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИспользоватьДокументыПоступления</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

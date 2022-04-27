@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Enum uuid="4fedf795-95da-4ff8-954a-2b3d65047639">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.БНФОВидыАрендованныхАктивов" category="Ref">
+				<xr:TypeId>f0e4e9ec-e749-4fe5-b251-41c2314062dc</xr:TypeId>
+				<xr:ValueId>335bfc3e-2a8f-46ce-a58f-eb219b6f3d7f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.БНФОВидыАрендованныхАктивов" category="Manager">
+				<xr:TypeId>0f24027b-a531-4698-b5d0-f51fe227d20f</xr:TypeId>
+				<xr:ValueId>59da9534-8a0a-4652-b857-9d032517b46f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.БНФОВидыАрендованныхАктивов" category="List">
+				<xr:TypeId>861d3bd2-c493-461e-8352-e6a9a021450f</xr:TypeId>
+				<xr:ValueId>59c8a183-7438-4807-96b6-e1b9b8fa480d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БНФОВидыАрендованныхАктивов</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

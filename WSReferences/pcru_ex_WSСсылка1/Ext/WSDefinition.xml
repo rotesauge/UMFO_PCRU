@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://schemas.xmlsoap.org/wsdl/"
+		xmlns:soap12bind="http://schemas.xmlsoap.org/wsdl/soap12/"
+		xmlns:soapbind="http://schemas.xmlsoap.org/wsdl/soap/"
+		xmlns:tns="http://ruspbpacc01/DocumentWorkflow"
+		xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy"
+		xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+		xmlns:xsd1="http://ruspbpacc01/DocumentWorkflow"
+		name="Pcru_DocumentWorkflow"
+		targetNamespace="http://ruspbpacc01/DocumentWorkflow">
+	<types>
+		<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+				xmlns:xs1="http://ruspbpacc01/DocumentWorkflow"
+				targetNamespace="http://ruspbpacc01/DocumentWorkflow"
+				elementFormDefault="qualified">
+			<xs:element name="NewDocument">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="ParamsStruct"
+								type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="NewDocumentResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="return"
+								type="xs:string"
+								nillable="true"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="GetDocStatus">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="ID"
+								type="xs:string"
+								nillable="true"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="GetDocStatusResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="return"
+								type="xs:string"
+								nillable="true"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="NewContragent">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Params"
+								type="xs:string"
+								nillable="true"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="NewContragentResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="return"
+								type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="GetLists">
+				<xs:complexType>
+					<xs:sequence/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="GetListsResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="return"
+								type="xs:string"
+								nillable="true"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="NewCostCentr">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Name"
+								type="xs:string"
+								nillable="true"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="NewCostCentrResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="return"
+								type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="NewCostItem">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Name"
+								type="xs:string"
+								nillable="true"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="NewCostItemResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="return"
+								type="xs:string"
+								nillable="true"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:schema>
+	</types>
+	<message name="NewDocumentRequestMessage">
+		<part name="parameters"
+				element="tns:NewDocument"/>
+	</message>
+	<message name="NewDocumentResponseMessage">
+		<part name="parameters"
+				element="tns:NewDocumentResponse"/>
+	</message>
+	<message name="GetDocStatusRequestMessage">
+		<part name="parameters"
+				element="tns:GetDocStatus"/>
+	</message>
+	<message name="GetDocStatusResponseMessage">
+		<part name="parameters"
+				element="tns:GetDocStatusResponse"/>
+	</message>
+	<message name="NewContragentRequestMessage">
+		<part name="parameters"
+				element="tns:NewContragent"/>
+	</message>
+	<message name="NewContragentResponseMessage">
+		<part name="parameters"
+				element="tns:NewContragentResponse"/>
+	</message>
+	<message name="GetListsRequestMessage">
+		<part name="parameters"
+				element="tns:GetLists"/>
+	</message>
+	<message name="GetListsResponseMessage">
+		<part name="parameters"
+				element="tns:GetListsResponse"/>
+	</message>
+	<message name="NewCostCentrRequestMessage">
+		<part name="parameters"
+				element="tns:NewCostCentr"/>
+	</message>
+	<message name="NewCostCentrResponseMessage">
+		<part name="parameters"
+				element="tns:NewCostCentrResponse"/>
+	</message>
+	<message name="NewCostItemRequestMessage">
+		<part name="parameters"
+				element="tns:NewCostItem"/>
+	</message>
+	<message name="NewCostItemResponseMessage">
+		<part name="parameters"
+				element="tns:NewCostItemResponse"/>
+	</message>
+	<portType name="Pcru_DocumentWorkflowPortType">
+		<operation name="NewDocument">
+			<input name="NewDocumentRequest"
+					message="tns:NewDocumentRequestMessage"/>
+			<output name="NewDocumentResponse"
+					message="tns:NewDocumentResponseMessage"/>
+		</operation>
+		<operation name="GetDocStatus">
+			<input name="GetDocStatusRequest"
+					message="tns:GetDocStatusRequestMessage"/>
+			<output name="GetDocStatusResponse"
+					message="tns:GetDocStatusResponseMessage"/>
+		</operation>
+		<operation name="NewContragent">
+			<input name="NewContragentRequest"
+					message="tns:NewContragentRequestMessage"/>
+			<output name="NewContragentResponse"
+					message="tns:NewContragentResponseMessage"/>
+		</operation>
+		<operation name="GetLists">
+			<input name="GetListsRequest"
+					message="tns:GetListsRequestMessage"/>
+			<output name="GetListsResponse"
+					message="tns:GetListsResponseMessage"/>
+		</operation>
+		<operation name="NewCostCentr">
+			<input name="NewCostCentrRequest"
+					message="tns:NewCostCentrRequestMessage"/>
+			<output name="NewCostCentrResponse"
+					message="tns:NewCostCentrResponseMessage"/>
+		</operation>
+		<operation name="NewCostItem">
+			<input name="NewCostItemRequest"
+					message="tns:NewCostItemRequestMessage"/>
+			<output name="NewCostItemResponse"
+					message="tns:NewCostItemResponseMessage"/>
+		</operation>
+	</portType>
+	<binding name="Pcru_DocumentWorkflowSoapBinding"
+			type="tns:Pcru_DocumentWorkflowPortType">
+		<soapbind:binding style="document"
+				transport="http://schemas.xmlsoap.org/soap/http"/>
+		<operation name="NewDocument">
+			<soapbind:operation style="document"
+					soapAction="http://ruspbpacc01/DocumentWorkflow#Pcru_DocumentWorkflow:NewDocument"/>
+			<input>
+				<soapbind:body use="literal"/>
+			</input>
+			<output>
+				<soapbind:body use="literal"/>
+			</output>
+		</operation>
+		<operation name="GetDocStatus">
+			<soapbind:operation style="document"
+					soapAction="http://ruspbpacc01/DocumentWorkflow#Pcru_DocumentWorkflow:GetDocStatus"/>
+			<input>
+				<soapbind:body use="literal"/>
+			</input>
+			<output>
+				<soapbind:body use="literal"/>
+			</output>
+		</operation>
+		<operation name="NewContragent">
+			<soapbind:operation style="document"
+					soapAction="http://ruspbpacc01/DocumentWorkflow#Pcru_DocumentWorkflow:NewContragent"/>
+			<input>
+				<soapbind:body use="literal"/>
+			</input>
+			<output>
+				<soapbind:body use="literal"/>
+			</output>
+		</operation>
+		<operation name="GetLists">
+			<soapbind:operation style="document"
+					soapAction="http://ruspbpacc01/DocumentWorkflow#Pcru_DocumentWorkflow:GetLists"/>
+			<input>
+				<soapbind:body use="literal"/>
+			</input>
+			<output>
+				<soapbind:body use="literal"/>
+			</output>
+		</operation>
+		<operation name="NewCostCentr">
+			<soapbind:operation style="document"
+					soapAction="http://ruspbpacc01/DocumentWorkflow#Pcru_DocumentWorkflow:NewCostCentr"/>
+			<input>
+				<soapbind:body use="literal"/>
+			</input>
+			<output>
+				<soapbind:body use="literal"/>
+			</output>
+		</operation>
+		<operation name="NewCostItem">
+			<soapbind:operation style="document"
+					soapAction="http://ruspbpacc01/DocumentWorkflow#Pcru_DocumentWorkflow:NewCostItem"/>
+			<input>
+				<soapbind:body use="literal"/>
+			</input>
+			<output>
+				<soapbind:body use="literal"/>
+			</output>
+		</operation>
+	</binding>
+	<binding name="Pcru_DocumentWorkflowSoap12Binding"
+			type="tns:Pcru_DocumentWorkflowPortType">
+		<soap12bind:binding style="document"
+				transport="http://schemas.xmlsoap.org/soap/http"/>
+		<operation name="NewDocument">
+			<soap12bind:operation style="document"
+					soapAction="http://ruspbpacc01/DocumentWorkflow#Pcru_DocumentWorkflow:NewDocument"/>
+			<input>
+				<soap12bind:body use="literal"/>
+			</input>
+			<output>
+				<soap12bind:body use="literal"/>
+			</output>
+		</operation>
+		<operation name="GetDocStatus">
+			<soap12bind:operation style="document"
+					soapAction="http://ruspbpacc01/DocumentWorkflow#Pcru_DocumentWorkflow:GetDocStatus"/>
+			<input>
+				<soap12bind:body use="literal"/>
+			</input>
+			<output>
+				<soap12bind:body use="literal"/>
+			</output>
+		</operation>
+		<operation name="NewContragent">
+			<soap12bind:operation style="document"
+					soapAction="http://ruspbpacc01/DocumentWorkflow#Pcru_DocumentWorkflow:NewContragent"/>
+			<input>
+				<soap12bind:body use="literal"/>
+			</input>
+			<output>
+				<soap12bind:body use="literal"/>
+			</output>
+		</operation>
+		<operation name="GetLists">
+			<soap12bind:operation style="document"
+					soapAction="http://ruspbpacc01/DocumentWorkflow#Pcru_DocumentWorkflow:GetLists"/>
+			<input>
+				<soap12bind:body use="literal"/>
+			</input>
+			<output>
+				<soap12bind:body use="literal"/>
+			</output>
+		</operation>
+		<operation name="NewCostCentr">
+			<soap12bind:operation style="document"
+					soapAction="http://ruspbpacc01/DocumentWorkflow#Pcru_DocumentWorkflow:NewCostCentr"/>
+			<input>
+				<soap12bind:body use="literal"/>
+			</input>
+			<output>
+				<soap12bind:body use="literal"/>
+			</output>
+		</operation>
+		<operation name="NewCostItem">
+			<soap12bind:operation style="document"
+					soapAction="http://ruspbpacc01/DocumentWorkflow#Pcru_DocumentWorkflow:NewCostItem"/>
+			<input>
+				<soap12bind:body use="literal"/>
+			</input>
+			<output>
+				<soap12bind:body use="literal"/>
+			</output>
+		</operation>
+	</binding>
+	<service name="Pcru_DocumentWorkflow">
+		<port name="Pcru_DocumentWorkflowSoap"
+				binding="tns:Pcru_DocumentWorkflowSoapBinding">
+			<documentation> 
+				<wsi:Claim xmlns:wsi="http://ws-i.org/schemas/conformanceClaim/"
+						conformsTo="http://ws-i.org/profiles/basic/1.1"/>
+			</documentation>
+			<soapbind:address location="http://ruspbpacc01/DOCMNG_TEST/ws/DocumentWorkflow.1cws"/>
+		</port>
+		<port name="Pcru_DocumentWorkflowSoap12"
+				binding="tns:Pcru_DocumentWorkflowSoap12Binding">
+			<soap12bind:address location="http://ruspbpacc01/DOCMNG_TEST/ws/DocumentWorkflow.1cws"/>
+		</port>
+	</service>
+</definitions>

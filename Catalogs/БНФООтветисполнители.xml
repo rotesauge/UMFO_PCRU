@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Catalog uuid="f7f20d04-2001-47f8-9436-a8eb36e7f38a">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.БНФООтветисполнители" category="Object">
+				<xr:TypeId>50b72edf-ccb5-4b37-8890-4e748ef6d900</xr:TypeId>
+				<xr:ValueId>3bcea49c-412b-4701-924c-d50cb8c410e8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.БНФООтветисполнители" category="Ref">
+				<xr:TypeId>cd1b31c4-7129-4ebc-9ee6-f1c3b0f6ed4d</xr:TypeId>
+				<xr:ValueId>c6d91c9e-494a-4214-a995-532a1c1809d8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.БНФООтветисполнители" category="Selection">
+				<xr:TypeId>1ea2bf26-c4ec-441e-8958-2a4e1959f86d</xr:TypeId>
+				<xr:ValueId>c7ab45d3-2c58-4eab-b5b1-11d8907b18b3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.БНФООтветисполнители" category="List">
+				<xr:TypeId>7af36745-0f50-4f96-89bb-47407ce9013d</xr:TypeId>
+				<xr:ValueId>9bb9ca9d-1a80-4e54-b393-9ecc80d65d5f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.БНФООтветисполнители" category="Manager">
+				<xr:TypeId>55638c6d-15a7-4332-9f64-20261e72ce30</xr:TypeId>
+				<xr:ValueId>99be8edf-7814-4dcf-b86b-b5c145c628ec</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БНФООтветисполнители</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

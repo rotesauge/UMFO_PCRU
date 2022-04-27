@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Constant uuid="268c37ad-d324-46a7-837f-ef9b9a017e0c">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ИспользоватьКонтрольныеЗнакиГИСМ" category="Manager">
+				<xr:TypeId>74d13589-476d-46a8-b0c7-8823c4c503e0</xr:TypeId>
+				<xr:ValueId>d62c9fd7-8f2d-46ed-816e-d291beab9a1b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ИспользоватьКонтрольныеЗнакиГИСМ" category="ValueManager">
+				<xr:TypeId>912f6efa-00e5-4b63-b33a-9a0e986dc5c3</xr:TypeId>
+				<xr:ValueId>6ab55c69-84e7-4cf0-9419-4526cf44805b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ИспользоватьКонтрольныеЗнакиГИСМ" category="ValueKey">
+				<xr:TypeId>38f98612-e4e1-5ea2-bfb3-875ce6e49124</xr:TypeId>
+				<xr:ValueId>9889752a-020b-5b67-ba92-1b819e8726f6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИспользоватьКонтрольныеЗнакиГИСМ</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<CommandBarLocation>Bottom</CommandBarLocation>
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<HorizontalAlign>Right</HorizontalAlign>
+		<Autofill>false</Autofill>
+		<ChildItems>
+			<Button name="ФормаСопоставитьПовторитьСоздание" id="28">
+				<Type>CommandBarButton</Type>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>Form.Command.СопоставитьПовторитьСоздание</CommandName>
+				<ExtendedTooltip name="ФормаСопоставитьПовторитьСозданиеРасширеннаяПодсказка" id="57"/>
+			</Button>
+			<Button name="ФормаЗакрыть" id="53">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.StandardCommand.Close</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Отмена</v8:content>
+					</v8:item>
+				</Title>
+				<ExtendedTooltip name="ФормаЗакрытьРасширеннаяПодсказка" id="58"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<Table name="НоменклатураДляСопоставленияДерево" id="1">
+			<Representation>Tree</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<InitialTreeView>ExpandAllLevels</InitialTreeView>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<FileDragMode>AsFile</FileDragMode>
+			<DataPath>НоменклатураДляСопоставленияДерево</DataPath>
+			<SearchStringLocation>None</SearchStringLocation>
+			<ViewStatusLocation>None</ViewStatusLocation>
+			<SearchControlLocation>None</SearchControlLocation>
+			<ContextMenu name="НоменклатураДляСопоставленияДеревоКонтекстноеМеню" id="2"/>
+			<AutoCommandBar name="НоменклатураДляСопоставленияДеревоКоманднаяПанель" id="3">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="НоменклатураДляСопоставленияДеревоРасширеннаяПодсказка" id="59"/>
+			<SearchStringAddition name="НоменклатураДляСопоставленияДеревоСтрокаПоиска" id="60">
+				<AdditionSource>
+					<Item>НоменклатураДляСопоставленияДерево</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="НоменклатураДляСопоставленияДеревоСтрокаПоискаКонтекстноеМеню" id="61"/>
+				<ExtendedTooltip name="НоменклатураДляСопоставленияДеревоСтрокаПоискаРасширеннаяПодсказка" id="62"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="НоменклатураДляСопоставленияДеревоСостояниеПросмотра" id="63">
+				<AdditionSource>
+					<Item>НоменклатураДляСопоставленияДерево</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="НоменклатураДляСопоставленияДеревоСостояниеПросмотраКонтекстноеМеню" id="64"/>
+				<ExtendedTooltip name="НоменклатураДляСопоставленияДеревоСостояниеПросмотраРасширеннаяПодсказка" id="65"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="НоменклатураДляСопоставленияДеревоУправлениеПоиском" id="66">
+				<AdditionSource>
+					<Item>НоменклатураДляСопоставленияДерево</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="НоменклатураДляСопоставленияДеревоУправлениеПоискомКонтекстноеМеню" id="67"/>
+				<ExtendedTooltip name="НоменклатураДляСопоставленияДеревоУправлениеПоискомРасширеннаяПодсказка" id="68"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<InputField name="НоменклатураДляСопоставленияДеревоПоставщик" id="14">
+					<DataPath>НоменклатураДляСопоставленияДерево.Контрагент</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НоменклатураДляСопоставленияДеревоПоставщикКонтекстноеМеню" id="15"/>
+					<ExtendedTooltip name="НоменклатураДляСопоставленияДеревоПоставщикРасширеннаяПодсказка" id="69"/>
+				</InputField>
+				<InputField name="НоменклатураДляСопоставленияДеревоКодЭД" id="47">
+					<DataPath>НоменклатураДляСопоставленияДерево.КодЭД</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НоменклатураДляСопоставленияДеревоКодЭДКонтекстноеМеню" id="48"/>
+					<ExtendedTooltip name="НоменклатураДляСопоставленияДеревоКодЭДРасширеннаяПодсказка" id="70"/>
+				</InputField>
+				<InputField name="НоменклатураДляСопоставленияДеревоАртикулЭД" id="50">
+					<DataPath>НоменклатураДляСопоставленияДерево.АртикулЭД</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НоменклатураДляСопоставленияДеревоАртикулЭДКонтекстноеМеню" id="51"/>
+					<ExtendedTooltip name="НоменклатураДляСопоставленияДеревоАртикулЭДРасширеннаяПодсказка" id="71"/>
+				</InputField>
+				<InputField name="НоменклатураДляСопоставленияДеревоНоменклатураИзЭД" id="17">
+					<DataPath>НоменклатураДляСопоставленияДерево.НоменклатураЭД</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НоменклатураДляСопоставленияДеревоНоменклатураИзЭДКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="НоменклатураДляСопоставленияДеревоНоменклатураИзЭДРасширеннаяПодсказка" id="72"/>
+				</InputField>
+				<InputField name="НоменклатураДляСопоставленияДеревоНоменклатура" id="20">
+					<DataPath>НоменклатураДляСопоставленияДерево.Номенклатура</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ContextMenu name="НоменклатураДляСопоставленияДеревоНоменклатураКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="НоменклатураДляСопоставленияДеревоНоменклатураРасширеннаяПодсказка" id="73"/>
+				</InputField>
+				<InputField name="НоменклатураДляСопоставленияДеревоНоменклатураПоставщика" id="55">
+					<DataPath>НоменклатураДляСопоставленияДерево.НоменклатураПоставщика</DataPath>
+					<Visible>false</Visible>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НоменклатураДляСопоставленияДеревоНоменклатураПоставщикаКонтекстноеМеню" id="56"/>
+					<ExtendedTooltip name="НоменклатураДляСопоставленияДеревоНоменклатураПоставщикаРасширеннаяПодсказка" id="74"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.Модуль_ДиадокУФ_5_38_24</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="НоменклатураДляСопоставленияДерево" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номенклатура для сопоставления дерево</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTree</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Контрагент" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Контрагент</v8:content>
+						</v8:item>
+					</Title>
+					<Type/>
+				</Column>
+				<Column name="НоменклатураЭД" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номенклатура ЭД</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Номенклатура" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номенклатура</v8:content>
+						</v8:item>
+					</Title>
+					<Type/>
+				</Column>
+				<Column name="КодЭД" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Код ЭД</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="АртикулЭД" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Артикул ЭД</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="НоменклатураПоставщика" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номенклатура поставщика</v8:content>
+						</v8:item>
+					</Title>
+					<Type/>
+				</Column>
+				<Column name="КлючСтроки" id="7">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ключ строки</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="АдресНоменклатураДляСопоставления" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес номенклатура для сопоставления</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="СопоставитьПовторитьСоздание" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сопоставить номенклатуру и продолжить создание документов</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сопоставить повторить создание</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СопоставитьПовторитьСоздание</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+	</Commands>
+	<Parameters>
+		<Parameter name="НоменклатураДляСопоставленияМассивСтруктур">
+			<Type/>
+		</Parameter>
+	</Parameters>
+</Form>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Catalog uuid="ad462dbd-e14d-41f8-8aa8-c034d71ac32b">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.БНФОНазначенияПодотчетныхСредств" category="Object">
+				<xr:TypeId>6a14a3bb-0199-4622-8aad-b4c32fc1aadb</xr:TypeId>
+				<xr:ValueId>b5c62950-b607-47ff-b621-b74d55691694</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.БНФОНазначенияПодотчетныхСредств" category="Ref">
+				<xr:TypeId>4809a3db-22a5-45ec-86ab-887c7bf7231f</xr:TypeId>
+				<xr:ValueId>eac47342-a00c-4a1b-83c6-79c3f6b30b2d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.БНФОНазначенияПодотчетныхСредств" category="Selection">
+				<xr:TypeId>942f9f7b-d459-4397-9ea4-3cdffd1ed7fa</xr:TypeId>
+				<xr:ValueId>c987e345-6839-42d0-8e34-ea8df0e417df</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.БНФОНазначенияПодотчетныхСредств" category="List">
+				<xr:TypeId>ae4ec474-0189-4f4f-a9dc-3bc9d140b919</xr:TypeId>
+				<xr:ValueId>dc685bd5-a4cb-41f5-bf51-7ed9fc7e335e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.БНФОНазначенияПодотчетныхСредств" category="Manager">
+				<xr:TypeId>f62e7588-a8ae-43fe-8c94-1eb56f5796ad</xr:TypeId>
+				<xr:ValueId>ad868dd8-24e0-4189-a5b2-c34f18825e7a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БНФОНазначенияПодотчетныхСредств</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

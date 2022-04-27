@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Enum uuid="6742139c-ce3a-4163-9cec-c66dd57afb33">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.АЭ_ВидыНормированияПроцентовПоКонтролируемымСделам" category="Ref">
+				<xr:TypeId>91eead5e-0f1e-4586-a566-73937daa4144</xr:TypeId>
+				<xr:ValueId>5fd87a3d-4534-41a4-a48f-f01d4aa484ad</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.АЭ_ВидыНормированияПроцентовПоКонтролируемымСделам" category="Manager">
+				<xr:TypeId>e900f3e6-f145-4b68-9c39-0730aa00bc14</xr:TypeId>
+				<xr:ValueId>c4196fb9-9b1e-4b24-bd0a-4fcb5d4fcfd1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.АЭ_ВидыНормированияПроцентовПоКонтролируемымСделам" category="List">
+				<xr:TypeId>25386937-255d-4a91-83fa-3d4b0029d6fd</xr:TypeId>
+				<xr:ValueId>8d265055-184f-404a-9ebd-ee3d287bc199</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>АЭ_ВидыНормированияПроцентовПоКонтролируемымСделам</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

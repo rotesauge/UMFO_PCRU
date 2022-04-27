@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://schemas.xmlsoap.org/wsdl/"
+		xmlns:soap12bind="http://schemas.xmlsoap.org/wsdl/soap12/"
+		xmlns:soapbind="http://schemas.xmlsoap.org/wsdl/soap/"
+		xmlns:tns="http://ruspbpacc01/DocumentExchange"
+		xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy"
+		xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+		xmlns:xsd1="http://ruspbpacc01/DocumentExchange"
+		name="pcru_DocumentExchange"
+		targetNamespace="http://ruspbpacc01/DocumentExchange">
+	<types>
+		<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+				xmlns:xs1="http://ruspbpacc01/DocumentExchange"
+				targetNamespace="http://ruspbpacc01/DocumentExchange"
+				elementFormDefault="qualified">
+			<xs:element name="GetVacationsReserve">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="ExistsCodes"
+								type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="GetVacationsReserveResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="return"
+								type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="GetNaturalPerson">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Code"
+								type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="GetNaturalPersonResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="return"
+								type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="QueryToJSON">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Query"
+								type="xs:string"/>
+						<xs:element name="Parametrs"
+								type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="QueryToJSONResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="return"
+								type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="GetApplyingSlariesAccounting">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="ExistsCodes"
+								type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="GetApplyingSlariesAccountingResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="return"
+								type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="CreateMessage">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="вхСсылка"
+								type="xs:string"/>
+						<xs:element name="вхВидСообщения"
+								type="xs:string"/>
+						<xs:element name="вхОтправитель"
+								type="xs:string"/>
+						<xs:element name="вхТело"
+								type="xs:string"/>
+						<xs:element name="вхПользователь"
+								type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="CreateMessageResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="return"
+								type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ConfirmMessage">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="вхСсылка"
+								type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ConfirmMessageResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="return"
+								type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:schema>
+	</types>
+	<message name="GetVacationsReserveRequestMessage">
+		<part name="parameters"
+				element="tns:GetVacationsReserve"/>
+	</message>
+	<message name="GetVacationsReserveResponseMessage">
+		<part name="parameters"
+				element="tns:GetVacationsReserveResponse"/>
+	</message>
+	<message name="GetNaturalPersonRequestMessage">
+		<part name="parameters"
+				element="tns:GetNaturalPerson"/>
+	</message>
+	<message name="GetNaturalPersonResponseMessage">
+		<part name="parameters"
+				element="tns:GetNaturalPersonResponse"/>
+	</message>
+	<message name="QueryToJSONRequestMessage">
+		<part name="parameters"
+				element="tns:QueryToJSON"/>
+	</message>
+	<message name="QueryToJSONResponseMessage">
+		<part name="parameters"
+				element="tns:QueryToJSONResponse"/>
+	</message>
+	<message name="GetApplyingSlariesAccountingRequestMessage">
+		<part name="parameters"
+				element="tns:GetApplyingSlariesAccounting"/>
+	</message>
+	<message name="GetApplyingSlariesAccountingResponseMessage">
+		<part name="parameters"
+				element="tns:GetApplyingSlariesAccountingResponse"/>
+	</message>
+	<message name="CreateMessageRequestMessage">
+		<part name="parameters"
+				element="tns:CreateMessage"/>
+	</message>
+	<message name="CreateMessageResponseMessage">
+		<part name="parameters"
+				element="tns:CreateMessageResponse"/>
+	</message>
+	<message name="ConfirmMessageRequestMessage">
+		<part name="parameters"
+				element="tns:ConfirmMessage"/>
+	</message>
+	<message name="ConfirmMessageResponseMessage">
+		<part name="parameters"
+				element="tns:ConfirmMessageResponse"/>
+	</message>
+	<portType name="pcru_DocumentExchangePortType">
+		<operation name="GetVacationsReserve">
+			<input name="GetVacationsReserveRequest"
+					message="tns:GetVacationsReserveRequestMessage"/>
+			<output name="GetVacationsReserveResponse"
+					message="tns:GetVacationsReserveResponseMessage"/>
+		</operation>
+		<operation name="GetNaturalPerson">
+			<input name="GetNaturalPersonRequest"
+					message="tns:GetNaturalPersonRequestMessage"/>
+			<output name="GetNaturalPersonResponse"
+					message="tns:GetNaturalPersonResponseMessage"/>
+		</operation>
+		<operation name="QueryToJSON">
+			<input name="QueryToJSONRequest"
+					message="tns:QueryToJSONRequestMessage"/>
+			<output name="QueryToJSONResponse"
+					message="tns:QueryToJSONResponseMessage"/>
+		</operation>
+		<operation name="GetApplyingSlariesAccounting">
+			<input name="GetApplyingSlariesAccountingRequest"
+					message="tns:GetApplyingSlariesAccountingRequestMessage"/>
+			<output name="GetApplyingSlariesAccountingResponse"
+					message="tns:GetApplyingSlariesAccountingResponseMessage"/>
+		</operation>
+		<operation name="CreateMessage">
+			<input name="CreateMessageRequest"
+					message="tns:CreateMessageRequestMessage"/>
+			<output name="CreateMessageResponse"
+					message="tns:CreateMessageResponseMessage"/>
+		</operation>
+		<operation name="ConfirmMessage">
+			<input name="ConfirmMessageRequest"
+					message="tns:ConfirmMessageRequestMessage"/>
+			<output name="ConfirmMessageResponse"
+					message="tns:ConfirmMessageResponseMessage"/>
+		</operation>
+	</portType>
+	<binding name="pcru_DocumentExchangeSoapBinding"
+			type="tns:pcru_DocumentExchangePortType">
+		<soapbind:binding style="document"
+				transport="http://schemas.xmlsoap.org/soap/http"/>
+		<operation name="GetVacationsReserve">
+			<soapbind:operation style="document"
+					soapAction="http://ruspbpacc01/DocumentExchange#pcru_DocumentExchange:GetVacationsReserve"/>
+			<input>
+				<soapbind:body use="literal"/>
+			</input>
+			<output>
+				<soapbind:body use="literal"/>
+			</output>
+		</operation>
+		<operation name="GetNaturalPerson">
+			<soapbind:operation style="document"
+					soapAction="http://ruspbpacc01/DocumentExchange#pcru_DocumentExchange:GetNaturalPerson"/>
+			<input>
+				<soapbind:body use="literal"/>
+			</input>
+			<output>
+				<soapbind:body use="literal"/>
+			</output>
+		</operation>
+		<operation name="QueryToJSON">
+			<soapbind:operation style="document"
+					soapAction="http://ruspbpacc01/DocumentExchange#pcru_DocumentExchange:QueryToJSON"/>
+			<input>
+				<soapbind:body use="literal"/>
+			</input>
+			<output>
+				<soapbind:body use="literal"/>
+			</output>
+		</operation>
+		<operation name="GetApplyingSlariesAccounting">
+			<soapbind:operation style="document"
+					soapAction="http://ruspbpacc01/DocumentExchange#pcru_DocumentExchange:GetApplyingSlariesAccounting"/>
+			<input>
+				<soapbind:body use="literal"/>
+			</input>
+			<output>
+				<soapbind:body use="literal"/>
+			</output>
+		</operation>
+		<operation name="CreateMessage">
+			<soapbind:operation style="document"
+					soapAction="http://ruspbpacc01/DocumentExchange#pcru_DocumentExchange:CreateMessage"/>
+			<input>
+				<soapbind:body use="literal"/>
+			</input>
+			<output>
+				<soapbind:body use="literal"/>
+			</output>
+		</operation>
+		<operation name="ConfirmMessage">
+			<soapbind:operation style="document"
+					soapAction="http://ruspbpacc01/DocumentExchange#pcru_DocumentExchange:ConfirmMessage"/>
+			<input>
+				<soapbind:body use="literal"/>
+			</input>
+			<output>
+				<soapbind:body use="literal"/>
+			</output>
+		</operation>
+	</binding>
+	<binding name="pcru_DocumentExchangeSoap12Binding"
+			type="tns:pcru_DocumentExchangePortType">
+		<soap12bind:binding style="document"
+				transport="http://schemas.xmlsoap.org/soap/http"/>
+		<operation name="GetVacationsReserve">
+			<soap12bind:operation style="document"
+					soapAction="http://ruspbpacc01/DocumentExchange#pcru_DocumentExchange:GetVacationsReserve"/>
+			<input>
+				<soap12bind:body use="literal"/>
+			</input>
+			<output>
+				<soap12bind:body use="literal"/>
+			</output>
+		</operation>
+		<operation name="GetNaturalPerson">
+			<soap12bind:operation style="document"
+					soapAction="http://ruspbpacc01/DocumentExchange#pcru_DocumentExchange:GetNaturalPerson"/>
+			<input>
+				<soap12bind:body use="literal"/>
+			</input>
+			<output>
+				<soap12bind:body use="literal"/>
+			</output>
+		</operation>
+		<operation name="QueryToJSON">
+			<soap12bind:operation style="document"
+					soapAction="http://ruspbpacc01/DocumentExchange#pcru_DocumentExchange:QueryToJSON"/>
+			<input>
+				<soap12bind:body use="literal"/>
+			</input>
+			<output>
+				<soap12bind:body use="literal"/>
+			</output>
+		</operation>
+		<operation name="GetApplyingSlariesAccounting">
+			<soap12bind:operation style="document"
+					soapAction="http://ruspbpacc01/DocumentExchange#pcru_DocumentExchange:GetApplyingSlariesAccounting"/>
+			<input>
+				<soap12bind:body use="literal"/>
+			</input>
+			<output>
+				<soap12bind:body use="literal"/>
+			</output>
+		</operation>
+		<operation name="CreateMessage">
+			<soap12bind:operation style="document"
+					soapAction="http://ruspbpacc01/DocumentExchange#pcru_DocumentExchange:CreateMessage"/>
+			<input>
+				<soap12bind:body use="literal"/>
+			</input>
+			<output>
+				<soap12bind:body use="literal"/>
+			</output>
+		</operation>
+		<operation name="ConfirmMessage">
+			<soap12bind:operation style="document"
+					soapAction="http://ruspbpacc01/DocumentExchange#pcru_DocumentExchange:ConfirmMessage"/>
+			<input>
+				<soap12bind:body use="literal"/>
+			</input>
+			<output>
+				<soap12bind:body use="literal"/>
+			</output>
+		</operation>
+	</binding>
+	<service name="pcru_DocumentExchange">
+		<port name="pcru_DocumentExchangeSoap"
+				binding="tns:pcru_DocumentExchangeSoapBinding">
+			<documentation> 
+				<wsi:Claim xmlns:wsi="http://ws-i.org/schemas/conformanceClaim/"
+						conformsTo="http://ws-i.org/profiles/basic/1.1"/>
+			</documentation>
+			<soapbind:address location="http://ruspbpacc01/1c_zup/ws/DocumentExchange.1cws"/>
+		</port>
+		<port name="pcru_DocumentExchangeSoap12"
+				binding="tns:pcru_DocumentExchangeSoap12Binding">
+			<soap12bind:address location="http://ruspbpacc01/1c_zup/ws/DocumentExchange.1cws"/>
+		</port>
+	</service>
+</definitions>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Enum uuid="3bc59975-9df7-405e-8eca-9f0ea2cc0e34">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.БНФОВидыЗатратПриПоступленииАктивов" category="Ref">
+				<xr:TypeId>9e7d1180-7915-44a3-ab4e-b5485cc3c98b</xr:TypeId>
+				<xr:ValueId>52dcfb6c-fee8-4a5f-8249-5ac5511ed470</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.БНФОВидыЗатратПриПоступленииАктивов" category="Manager">
+				<xr:TypeId>53fc2854-1c39-4ea3-8339-0c91bf502fcf</xr:TypeId>
+				<xr:ValueId>1ed5a30f-e070-4497-b270-3cd2201e38f2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.БНФОВидыЗатратПриПоступленииАктивов" category="List">
+				<xr:TypeId>f1044928-1386-4921-b1c7-13b813305f79</xr:TypeId>
+				<xr:ValueId>40f1124b-de29-44c7-9e8c-78263d1d948f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БНФОВидыЗатратПриПоступленииАктивов</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

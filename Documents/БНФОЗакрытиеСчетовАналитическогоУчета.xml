@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Document uuid="c2641c16-15d5-4f63-874a-61aba337f2a9">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.БНФОЗакрытиеСчетовАналитическогоУчета" category="Object">
+				<xr:TypeId>fcfc4ef8-701f-48e9-8c2c-5d0000f82154</xr:TypeId>
+				<xr:ValueId>d4909111-0848-438c-b340-681119cc5971</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.БНФОЗакрытиеСчетовАналитическогоУчета" category="Ref">
+				<xr:TypeId>aadadf9e-b5c9-46eb-a10b-0ebd32a559fc</xr:TypeId>
+				<xr:ValueId>7302d20f-3714-44fb-911c-515b336febba</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.БНФОЗакрытиеСчетовАналитическогоУчета" category="Selection">
+				<xr:TypeId>93130fc0-2bb9-4e2e-a6d8-8b266592a17a</xr:TypeId>
+				<xr:ValueId>a78ee0c8-58d2-4fc4-82d7-0206c3e440d7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.БНФОЗакрытиеСчетовАналитическогоУчета" category="List">
+				<xr:TypeId>8075bbac-0083-44c9-ab24-c05a812285a2</xr:TypeId>
+				<xr:ValueId>068a7865-f9ee-4601-8f65-5634ba4837e6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.БНФОЗакрытиеСчетовАналитическогоУчета" category="Manager">
+				<xr:TypeId>0a979e37-740d-470a-8aff-06757bb91693</xr:TypeId>
+				<xr:ValueId>d3dd10de-68f3-4d8e-b234-6522a61177ba</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БНФОЗакрытиеСчетовАналитическогоУчета</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

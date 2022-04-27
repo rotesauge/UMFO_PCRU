@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Constant uuid="a7fd8a53-6a0b-4e4b-8555-a10a8b8cedc0">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.РежимИспользованияИнформационнойБазы" category="Manager">
+				<xr:TypeId>667e56b0-a08a-4878-a68a-462fb01940b7</xr:TypeId>
+				<xr:ValueId>9733689f-fb7b-4112-91e3-e891dd0bd0b7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.РежимИспользованияИнформационнойБазы" category="ValueManager">
+				<xr:TypeId>74319591-b731-42e8-9d2a-3d2e54429a43</xr:TypeId>
+				<xr:ValueId>66a62dc3-e9b1-4c89-ab50-72b1d420ffaf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.РежимИспользованияИнформационнойБазы" category="ValueKey">
+				<xr:TypeId>b061040b-6257-5d70-9272-35e74ceaf81f</xr:TypeId>
+				<xr:ValueId>a335ad26-057c-59fd-823b-6e1dc8f1c753</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>РежимИспользованияИнформационнойБазы</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Type>
+				<v8:Type>cfg:EnumRef.РежимыИспользованияИнформационнойБазы</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

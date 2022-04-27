@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<InformationRegister uuid="a19e4d9b-3202-47c9-95f7-16269357de0e">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СостоянияОСОрганизаций" category="Record">
+				<xr:TypeId>ca139578-8cad-4f42-a3e7-e92bb99398af</xr:TypeId>
+				<xr:ValueId>03696e72-bc44-4111-84ea-66b56ed7ed4d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СостоянияОСОрганизаций" category="Manager">
+				<xr:TypeId>defacbe1-b30c-4a71-91f0-83478934d3d8</xr:TypeId>
+				<xr:ValueId>f3190875-3a0c-4e50-af5a-2820bfdfa32f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СостоянияОСОрганизаций" category="Selection">
+				<xr:TypeId>c21952cc-516b-4c7e-9555-9c63cfd45188</xr:TypeId>
+				<xr:ValueId>97fc2299-2819-4505-9668-65ba5bb102d1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СостоянияОСОрганизаций" category="List">
+				<xr:TypeId>d1d6b58f-d3ca-405c-a5a3-8f75039c1dc0</xr:TypeId>
+				<xr:ValueId>33e2b782-1514-4523-8122-b424aa55b547</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СостоянияОСОрганизаций" category="RecordSet">
+				<xr:TypeId>d8526139-434b-4e6e-9a44-8650c2c633d7</xr:TypeId>
+				<xr:ValueId>929fefac-b6e9-45d0-9d23-504d4a1c7269</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СостоянияОСОрганизаций" category="RecordKey">
+				<xr:TypeId>376c26d1-ba79-4bb0-af82-cf53f80e1ffb</xr:TypeId>
+				<xr:ValueId>2311d325-7a16-43cc-90b6-4d1db39d833c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СостоянияОСОрганизаций" category="RecordManager">
+				<xr:TypeId>475d805d-34f8-48e4-88c8-2677028a568f</xr:TypeId>
+				<xr:ValueId>7df99e27-4897-4f08-a98e-08e4664aa9e2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СостоянияОСОрганизаций</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>81d0f5e3-9a47-4f24-8216-ec6e2e38e52a</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>RecorderPosition</InformationRegisterPeriodicity>
+			<WriteMode>RecorderSubordinate</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="dde1d701-6ec8-487d-8021-9c115021e37b">
+				<InternalInfo/>
+				<Properties>
+					<Name>ДатаСостояния</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>0443011c-ada9-46b6-b35c-e71159fa81fb</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="406865d4-a36e-4435-8087-692864608b4f">
+				<InternalInfo/>
+				<Properties>
+					<Name>Состояние</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>351df012-0217-4bdc-9ceb-09b5ee0e8eed</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.СостоянияОС</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="ceca557f-3763-48fc-8e5e-75c3a0dc9d89">
+				<InternalInfo/>
+				<Properties>
+					<Name>ОсновноеСредство</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>768bfa63-e219-4ac0-9622-492cedc484d6</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ОсновныеСредства</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Catalog uuid="888403c5-a52c-4877-8066-7a0db3c57860">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ГосКонтракты" category="Object">
+				<xr:TypeId>c71fd9cd-e438-48bf-ae1d-e01b00f6da50</xr:TypeId>
+				<xr:ValueId>08bf9a9f-8180-4803-ae5e-474157dbb278</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ГосКонтракты" category="Ref">
+				<xr:TypeId>349bd114-7ec2-4566-ada7-304cae99ca6a</xr:TypeId>
+				<xr:ValueId>85cebee1-f299-490e-be4b-f255fb026c89</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ГосКонтракты" category="Selection">
+				<xr:TypeId>45595fab-bd08-4ae7-b439-947e3e77814a</xr:TypeId>
+				<xr:ValueId>d972d9bc-7636-42cf-8ee2-1bc023faa8dc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ГосКонтракты" category="List">
+				<xr:TypeId>ac8f31d8-dcdc-4395-9636-23eaab030c85</xr:TypeId>
+				<xr:ValueId>4cfd0ac2-9a9e-4460-a753-2a38912d6692</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ГосКонтракты" category="Manager">
+				<xr:TypeId>ad702601-82df-4dd4-9adb-dab215287356</xr:TypeId>
+				<xr:ValueId>1bfbba6d-5a95-4deb-a156-5af0509431c2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ГосКонтракты</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

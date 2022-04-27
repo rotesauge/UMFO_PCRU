@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<InformationRegister uuid="8e4ebb76-1391-438e-9489-0e90bb8cb542">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ПакетыДокументовЭДО" category="Record">
+				<xr:TypeId>48518c10-bd1c-4239-988d-f15beb672f50</xr:TypeId>
+				<xr:ValueId>42adc01f-f850-431c-aed1-2f15f9e81d7a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ПакетыДокументовЭДО" category="Manager">
+				<xr:TypeId>6f667cd4-2d21-4ba9-b80f-b2e1da4bb556</xr:TypeId>
+				<xr:ValueId>cf1cfb46-3987-4883-a292-6dad20d30b6f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ПакетыДокументовЭДО" category="Selection">
+				<xr:TypeId>f49af7f6-dfca-4b9e-a07c-aa46d4758f8b</xr:TypeId>
+				<xr:ValueId>bfd0d6c2-5599-4e71-8174-1ba5b9e0f5e8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ПакетыДокументовЭДО" category="List">
+				<xr:TypeId>f7e5f242-ca3c-4316-988c-1edbe561a8d7</xr:TypeId>
+				<xr:ValueId>1c72f913-a07b-48a4-826c-9e14edbc0556</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ПакетыДокументовЭДО" category="RecordSet">
+				<xr:TypeId>a577051d-fa8e-4f2a-93a1-83bf8dc912f8</xr:TypeId>
+				<xr:ValueId>80c0305c-f4ea-48f1-a0db-6cb6f6277426</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ПакетыДокументовЭДО" category="RecordKey">
+				<xr:TypeId>d8826a8e-92a4-42b6-ba32-578e8f4a2f3e</xr:TypeId>
+				<xr:ValueId>9b5af9f6-1136-453c-9712-d0fa52b9a5b8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ПакетыДокументовЭДО" category="RecordManager">
+				<xr:TypeId>3071fadc-f908-4d51-8ed2-f846ae07a4f0</xr:TypeId>
+				<xr:ValueId>aac50a46-783a-4363-ae2a-ac8f6eb41ace</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПакетыДокументовЭДО</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>86f39e93-1d37-4198-aa49-2047ff538353</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="a4c5260b-88f9-4e96-ac4e-06117d97a5d4">
+				<InternalInfo/>
+				<Properties>
+					<Name>Дата</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>8d5557f6-d56c-467a-b17e-8f437b2c7e37</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Attribute uuid="98fefc2e-85f1-4c14-b1ca-88d65d8a5898">
+				<InternalInfo/>
+				<Properties>
+					<Name>КлючСортировки</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>53a1c020-478b-4ff9-a731-6442c9e80a3e</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>36</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Dimension uuid="c2d48eec-3586-4e75-8ad9-beb9064f3b9f">
+				<InternalInfo/>
+				<Properties>
+					<Name>ИдентификаторПакета</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>1a7b361d-5c37-4241-b14b-cd143d966787</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>v8:UUID</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Catalog uuid="c9d671f8-c603-430a-8812-7e073a09b7e2">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.БНФОПрисоединенныеФайлы" category="Object">
+				<xr:TypeId>22dbd668-7e89-43fb-9e64-c8dce24adb78</xr:TypeId>
+				<xr:ValueId>28c2c1b3-da74-45a5-8d55-cf28eb28f094</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.БНФОПрисоединенныеФайлы" category="Ref">
+				<xr:TypeId>724613d7-33ce-4f20-98d0-ec080db4afd9</xr:TypeId>
+				<xr:ValueId>ce7f741a-57b4-403b-bb4b-97e66638d861</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.БНФОПрисоединенныеФайлы" category="Selection">
+				<xr:TypeId>c2d8e789-c8e5-4cef-9192-28d64ab47e68</xr:TypeId>
+				<xr:ValueId>3bb1e57a-5e11-4dd7-a4dd-f8f63ab40c2c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.БНФОПрисоединенныеФайлы" category="List">
+				<xr:TypeId>03525b38-bdd2-46b4-a7c3-f3ae323dd92a</xr:TypeId>
+				<xr:ValueId>087a1995-a566-4264-acdd-9ad9c783f9e2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.БНФОПрисоединенныеФайлы" category="Manager">
+				<xr:TypeId>70149d1b-e057-48cd-ba11-cac0dd1a74bc</xr:TypeId>
+				<xr:ValueId>321fb1eb-137f-4cdf-8c51-41112fdfe664</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БНФОПрисоединенныеФайлы</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

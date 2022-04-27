@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Enum uuid="a80a7025-5964-4048-a7e9-66e8089b4852">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.АЭ_ПериодичностьПлатежа" category="Ref">
+				<xr:TypeId>e09ec10b-de88-476a-a41c-3e735e23f25d</xr:TypeId>
+				<xr:ValueId>5d591027-83d3-471b-a08e-10b111b31a74</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.АЭ_ПериодичностьПлатежа" category="Manager">
+				<xr:TypeId>d57f51a6-cdbc-45c6-8bb4-4550decf6c24</xr:TypeId>
+				<xr:ValueId>6919a81e-cf75-414b-be0c-6e7b7c3d92df</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.АЭ_ПериодичностьПлатежа" category="List">
+				<xr:TypeId>b8efe1fe-d47e-45b9-bf8b-4dd2db1d2f66</xr:TypeId>
+				<xr:ValueId>6f77f7db-0850-43bf-b3b9-891a8de5a9e6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>АЭ_ПериодичностьПлатежа</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<ChartOfCharacteristicTypes uuid="db907cfc-e5f2-4cb5-a0f6-6386df5cfdec">
+		<InternalInfo>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesObject.БНФОВидыАналитикСчетовАналитическогоУчета" category="Object">
+				<xr:TypeId>b9e7160b-37d8-4f21-94ea-2931d064008e</xr:TypeId>
+				<xr:ValueId>2e38874d-d0bd-4951-b530-67f3bd6e1608</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesRef.БНФОВидыАналитикСчетовАналитическогоУчета" category="Ref">
+				<xr:TypeId>b33d89ee-c8fe-421c-a58a-b808634e72ab</xr:TypeId>
+				<xr:ValueId>e1bf74f3-bc02-4bc6-91d2-692f9d3344fe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesSelection.БНФОВидыАналитикСчетовАналитическогоУчета" category="Selection">
+				<xr:TypeId>d9435b0e-09ec-4662-9910-f7253e93a496</xr:TypeId>
+				<xr:ValueId>59d5dc75-905b-49d3-8017-8fdfdee6f82b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesList.БНФОВидыАналитикСчетовАналитическогоУчета" category="List">
+				<xr:TypeId>68abad4e-c762-46dd-b185-a26c4aa51d00</xr:TypeId>
+				<xr:ValueId>97c4a9aa-a0de-416a-9aed-d35ca2db3d5c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="Characteristic.БНФОВидыАналитикСчетовАналитическогоУчета" category="Characteristic">
+				<xr:TypeId>d1583fea-7ef8-4138-b227-dc62d44e8e26</xr:TypeId>
+				<xr:ValueId>edb2b27e-1a90-49a8-a709-40cbe09c7301</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesManager.БНФОВидыАналитикСчетовАналитическогоУчета" category="Manager">
+				<xr:TypeId>5beff026-4ee1-4c0e-ade4-dcfcbcf69aa8</xr:TypeId>
+				<xr:ValueId>5c92e596-5ab6-4bb5-880e-bc2ec67020ec</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БНФОВидыАналитикСчетовАналитическогоУчета</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</ChartOfCharacteristicTypes>
+</MetaDataObject>

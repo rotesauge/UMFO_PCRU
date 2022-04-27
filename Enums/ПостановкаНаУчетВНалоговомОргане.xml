@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Enum uuid="f681dd0d-f97c-45d3-81d2-7a46898b11c4">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ПостановкаНаУчетВНалоговомОргане" category="Ref">
+				<xr:TypeId>3e647a29-f6d0-4228-aa34-68593a9134b3</xr:TypeId>
+				<xr:ValueId>03575750-11fe-4650-90b6-9192460a776e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ПостановкаНаУчетВНалоговомОргане" category="Manager">
+				<xr:TypeId>0cf3e923-bb95-455e-950a-3e9e9de8a277</xr:TypeId>
+				<xr:ValueId>da7c5263-987e-4de4-9f1e-80bf3fd0dd92</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ПостановкаНаУчетВНалоговомОргане" category="List">
+				<xr:TypeId>a30bf9ab-d75c-4d36-a25c-ac5f4f494f5f</xr:TypeId>
+				<xr:ValueId>3b931b5b-506e-4e17-96a6-5100bb4e6be1</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПостановкаНаУчетВНалоговомОргане</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Catalog uuid="52c140f9-51d4-4215-9f9f-52f00275a916">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СпособыОтраженияРасходовПоАмортизации" category="Object">
+				<xr:TypeId>75ec0813-9749-4371-97b4-816e77c2f16d</xr:TypeId>
+				<xr:ValueId>694d1732-0f4b-4774-9ddf-1389b0ef11f1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СпособыОтраженияРасходовПоАмортизации" category="Ref">
+				<xr:TypeId>0edda651-68be-49d6-bc2b-6e5eee0e0c50</xr:TypeId>
+				<xr:ValueId>e4ff528b-e304-4781-b2a5-89e29f6776e2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СпособыОтраженияРасходовПоАмортизации" category="Selection">
+				<xr:TypeId>bb74854f-6dde-42b5-aefc-ddcb537002de</xr:TypeId>
+				<xr:ValueId>32a9f75c-f84a-4f70-a3a5-53c5090b067b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СпособыОтраженияРасходовПоАмортизации" category="List">
+				<xr:TypeId>a77668fa-4f88-4204-8089-577e9164138a</xr:TypeId>
+				<xr:ValueId>dae9e7e4-7dc0-4ee3-8dbf-defe68bb434e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СпособыОтраженияРасходовПоАмортизации" category="Manager">
+				<xr:TypeId>01acfd4a-138e-4639-bc62-b3a741892343</xr:TypeId>
+				<xr:ValueId>885d3c5a-ad75-424e-bac8-0c85ebec07ee</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СпособыОтраженияРасходовПоАмортизации</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="74846636-119b-47e4-b964-23a376ebe56d">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.СпособыОтраженияРасходовПоАмортизации.БНФОСпособы" category="TabularSection">
+						<xr:TypeId>7c5393c4-6ce9-4aa8-8812-facd83b977ca</xr:TypeId>
+						<xr:ValueId>ba8e392c-a8d6-4b77-abe9-a1bf3f65e004</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.СпособыОтраженияРасходовПоАмортизации.БНФОСпособы" category="TabularSectionRow">
+						<xr:TypeId>1eb2c600-a2f0-4a49-a4bd-3c5ec628e7c6</xr:TypeId>
+						<xr:ValueId>78ab6efd-ee4b-434d-aaa4-d29b6c65d8f5</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>БНФОСпособы</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>8e1fa085-b392-4148-81d8-41ee3273f40a</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="24e0d3fb-3ba7-46b1-b23c-7b186710dced">
+						<InternalInfo/>
+						<Properties>
+							<Name>СтатьяЗатрат</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>dce4f0bc-0575-4b59-89dc-83f4dae26a98</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ПрочиеДоходыИРасходы</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="51a3044c-d79f-45de-89bb-587f7ae056a5">
+						<InternalInfo/>
+						<Properties>
+							<Name>ПодразделениеОрганизации</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>a7d0e615-00d9-47ff-8920-b1f94d8d8fcf</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ПодразделенияОрганизаций</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

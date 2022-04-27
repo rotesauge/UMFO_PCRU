@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Catalog uuid="14da0de5-8970-4c28-9d6c-b014e343277a">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.БНФОГруппыДоступаСчетовАналитическогоУчета" category="Object">
+				<xr:TypeId>c291bee5-dcb3-4533-a7db-e7aaf2606381</xr:TypeId>
+				<xr:ValueId>cdf38eb1-fd7b-462c-9428-0f05f1b350a0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.БНФОГруппыДоступаСчетовАналитическогоУчета" category="Ref">
+				<xr:TypeId>f7f94b31-ec6f-4ed7-aca6-ad5057e875b7</xr:TypeId>
+				<xr:ValueId>c7ce2159-530b-4824-8ec7-42129cb92106</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.БНФОГруппыДоступаСчетовАналитическогоУчета" category="Selection">
+				<xr:TypeId>ca740ff2-5541-4c22-8c20-929a68e0870f</xr:TypeId>
+				<xr:ValueId>30142b41-3cc8-4849-a5c7-978663d4c15a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.БНФОГруппыДоступаСчетовАналитическогоУчета" category="List">
+				<xr:TypeId>2b695972-0842-4ae2-8a60-5e298efa7781</xr:TypeId>
+				<xr:ValueId>bd4f09c3-e178-48f3-9a6f-ae70f4ca76a1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.БНФОГруппыДоступаСчетовАналитическогоУчета" category="Manager">
+				<xr:TypeId>a056fb99-9fd6-4915-ae4a-edf85b75eb5c</xr:TypeId>
+				<xr:ValueId>bf19032d-a445-4f0c-a72b-c34913a16fac</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БНФОГруппыДоступаСчетовАналитическогоУчета</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

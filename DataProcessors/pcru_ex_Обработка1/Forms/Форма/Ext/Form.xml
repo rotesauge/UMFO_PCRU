@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаКоманда1" id="1">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Команда1</CommandName>
+				<ExtendedTooltip name="ФормаКоманда1РасширеннаяПодсказка" id="2"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<Button name="Команда2" id="3">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.Команда2</CommandName>
+			<ExtendedTooltip name="Команда2РасширеннаяПодсказка" id="4"/>
+		</Button>
+		<InputField name="Дата1" id="17">
+			<DataPath>Дата1</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата 1</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="Дата1КонтекстноеМеню" id="18"/>
+			<ExtendedTooltip name="Дата1РасширеннаяПодсказка" id="19"/>
+		</InputField>
+		<InputField name="Дата2" id="14">
+			<DataPath>Дата2</DataPath>
+			<ContextMenu name="Дата2КонтекстноеМеню" id="15"/>
+			<ExtendedTooltip name="Дата2РасширеннаяПодсказка" id="16"/>
+		</InputField>
+		<Button name="Команда3" id="5">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ПолучитьДатуПодписания</CommandName>
+			<ExtendedTooltip name="Команда3РасширеннаяПодсказка" id="6"/>
+		</Button>
+		<Button name="Команда4" id="7">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.Команда4</CommandName>
+			<ExtendedTooltip name="Команда4РасширеннаяПодсказка" id="8"/>
+		</Button>
+		<InputField name="Адрес" id="9">
+			<DataPath>Адрес</DataPath>
+			<ContextMenu name="АдресКонтекстноеМеню" id="10"/>
+			<ExtendedTooltip name="АдресРасширеннаяПодсказка" id="11"/>
+		</InputField>
+		<Button name="ПроверитьАдрес" id="12">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ПроверитьАдрес</CommandName>
+			<ExtendedTooltip name="ПроверитьАдресРасширеннаяПодсказка" id="13"/>
+		</Button>
+		<Button name="УдалениеЗадвоенияМемОрдеров" id="20">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.УдалениеЗадвоенияМемОрдеров</CommandName>
+			<ExtendedTooltip name="УдалениеЗадвоенияМемОрдеровРасширеннаяПодсказка" id="21"/>
+		</Button>
+		<Button name="WSNAV" id="22">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.WSNAV</CommandName>
+			<ExtendedTooltip name="WSNAVРасширеннаяПодсказка" id="23"/>
+		</Button>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.pcru_ex_Обработка1</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="Адрес" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Дата1" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата1</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Дата2" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата 2</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Команда1" id="1">
+			<Action>Команда1</Action>
+		</Command>
+		<Command name="Команда2" id="2">
+			<Action>Команда2</Action>
+		</Command>
+		<Command name="ПолучитьДатуПодписания" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить дату подписания</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить дату подписания</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Команда3</Action>
+		</Command>
+		<Command name="Команда4" id="4">
+			<Action>Команда4</Action>
+		</Command>
+		<Command name="ПроверитьАдрес" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить адрес</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить адрес</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПроверитьАдрес</Action>
+		</Command>
+		<Command name="УдалениеЗадвоенияМемОрдеров" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удаление задвоения мем ордеров</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удаление задвоения мем ордеров</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УдалениеЗадвоенияМемОрдеров</Action>
+		</Command>
+		<Command name="WSNAV" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>WSNAV</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>WSNAV</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>WSNAV</Action>
+		</Command>
+	</Commands>
+</Form>

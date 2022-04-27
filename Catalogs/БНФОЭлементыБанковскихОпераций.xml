@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Catalog uuid="656b7d38-102d-4bfd-b55f-db471c08a0f7">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.БНФОЭлементыБанковскихОпераций" category="Object">
+				<xr:TypeId>7a409624-7a13-4f22-8d6f-834d356d46af</xr:TypeId>
+				<xr:ValueId>c7b0877d-1907-43e4-90d1-7ea299537b88</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.БНФОЭлементыБанковскихОпераций" category="Ref">
+				<xr:TypeId>c1de76aa-9e7a-4576-ae3d-127287caa2f7</xr:TypeId>
+				<xr:ValueId>69d17b96-e29b-478d-9fc1-515207f20d9b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.БНФОЭлементыБанковскихОпераций" category="Selection">
+				<xr:TypeId>f2023b15-1eef-4bbf-b4b1-1b10bd7a8226</xr:TypeId>
+				<xr:ValueId>36d6239a-ca92-40f8-9fa0-cf1c7d08cb10</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.БНФОЭлементыБанковскихОпераций" category="List">
+				<xr:TypeId>a3088ffe-5a7b-45ad-8a22-5f3eef387037</xr:TypeId>
+				<xr:ValueId>0a7ae723-71c9-4fb6-a2b4-e6e524cded14</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.БНФОЭлементыБанковскихОпераций" category="Manager">
+				<xr:TypeId>4611f689-ebbd-4ccc-a9e9-b9634c782c79</xr:TypeId>
+				<xr:ValueId>55648d03-b085-4337-bfd4-897897661e90</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БНФОЭлементыБанковскихОпераций</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

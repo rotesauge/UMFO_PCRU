@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Document uuid="6ee4e037-49ab-42bd-bc10-541074957563">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.БНФОМемориальныйОрдер" category="Object">
+				<xr:TypeId>ab39e2aa-55af-49ad-ac3f-6194ca4ae25e</xr:TypeId>
+				<xr:ValueId>4b356ec4-28c2-450e-89af-44f7553465ef</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.БНФОМемориальныйОрдер" category="Ref">
+				<xr:TypeId>7782d92e-00fb-4beb-a530-f35ef8b4dd57</xr:TypeId>
+				<xr:ValueId>a0ce226f-ee5f-43c2-890c-990248272e6a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.БНФОМемориальныйОрдер" category="Selection">
+				<xr:TypeId>f739a9a9-4c0a-43d9-a9dc-b190f2b99a2a</xr:TypeId>
+				<xr:ValueId>28bf437e-0193-4185-b08b-5cd813da8978</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.БНФОМемориальныйОрдер" category="List">
+				<xr:TypeId>5cdb3a32-924e-4beb-81db-dd4481df7b29</xr:TypeId>
+				<xr:ValueId>c692358f-6784-4f35-a8a0-3c858ed5d86e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.БНФОМемориальныйОрдер" category="Manager">
+				<xr:TypeId>8c158d9c-6885-48bc-8cd8-4a164b1abc67</xr:TypeId>
+				<xr:ValueId>03f4f963-5d73-4a8e-9d0c-263931e4e982</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БНФОМемориальныйОрдер</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="e18d79d4-1140-4207-80a4-c42f4127fdf8">
+				<InternalInfo/>
+				<Properties>
+					<Name>Комментарий</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>923c9ad2-07f6-42f1-b0ed-aecdded983a0</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="388091cc-da98-4cac-98d2-22aa867c604a">
+				<InternalInfo/>
+				<Properties>
+					<Name>СуммаОперации</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>3cbc3b57-47bb-42cf-85ec-0b826a169363</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

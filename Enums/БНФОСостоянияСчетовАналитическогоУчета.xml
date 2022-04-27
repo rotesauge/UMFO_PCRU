@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Enum uuid="488524bf-67ea-40f0-950f-32770139ea60">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.БНФОСостоянияСчетовАналитическогоУчета" category="Ref">
+				<xr:TypeId>46c33746-dcda-4026-b70f-39655f419409</xr:TypeId>
+				<xr:ValueId>846e2d4e-7f35-443a-a197-5b14e9e30a93</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.БНФОСостоянияСчетовАналитическогоУчета" category="Manager">
+				<xr:TypeId>f204306b-04f4-4941-8065-8108ab4355af</xr:TypeId>
+				<xr:ValueId>931d5350-7c76-4c89-a1d6-0eaf7b992624</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.БНФОСостоянияСчетовАналитическогоУчета" category="List">
+				<xr:TypeId>3f3d22d6-6f32-4876-be19-88da6091e785</xr:TypeId>
+				<xr:ValueId>b2951ddd-d018-4aa0-8438-c92f7b256b06</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БНФОСостоянияСчетовАналитическогоУчета</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

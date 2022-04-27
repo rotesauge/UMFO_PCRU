@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Enum uuid="4c32c46e-7aa8-415e-baa0-e53c97efdb0e">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.БНФОТипыСвязанныхСторон" category="Ref">
+				<xr:TypeId>f5ddc0d0-136f-4c56-b277-ba7b8fabc001</xr:TypeId>
+				<xr:ValueId>be104a5e-9725-4df2-a52a-e73276d1104b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.БНФОТипыСвязанныхСторон" category="Manager">
+				<xr:TypeId>75c81b31-0c69-4cac-a0f7-6eb4461d4b05</xr:TypeId>
+				<xr:ValueId>18fad6ae-77c7-41b5-9ce1-177c9908e67f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.БНФОТипыСвязанныхСторон" category="List">
+				<xr:TypeId>e4aa42d0-c448-4198-96eb-a9d26bc605e1</xr:TypeId>
+				<xr:ValueId>71f36338-144e-4bba-aad4-592dc7f8cad8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БНФОТипыСвязанныхСторон</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

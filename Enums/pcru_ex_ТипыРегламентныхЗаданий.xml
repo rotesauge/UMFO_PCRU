@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Enum uuid="725acef3-8852-4d84-9656-1801cd677fb8">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.pcru_ex_ТипыРегламентныхЗаданий" category="Ref">
+				<xr:TypeId>b6c64ad5-e7b7-4878-ba50-3ec81cf8eb0c</xr:TypeId>
+				<xr:ValueId>c5a4df12-72f9-41a9-a89f-a199a5ac5c32</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.pcru_ex_ТипыРегламентныхЗаданий" category="Manager">
+				<xr:TypeId>f31a7c22-4153-4972-ba0f-4958adda15e5</xr:TypeId>
+				<xr:ValueId>440c66ee-1a5a-45f5-8010-a7339e1032e2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.pcru_ex_ТипыРегламентныхЗаданий" category="List">
+				<xr:TypeId>1ca74508-abfd-459b-97e3-e8b632830716</xr:TypeId>
+				<xr:ValueId>99877653-7d2c-4420-8bc3-8a11cf7a28a9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>pcru_ex_ТипыРегламентныхЗаданий</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Pcru ex типы регламентных заданий</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="32388e07-782c-4a52-a5a1-71a26dd6bf80">
+				<Properties>
+					<Name>РеализацииПрошлыйМесяц</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Реализации прошлый месяц</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d47a06fc-0449-4241-b3ce-66d96a89d248">
+				<Properties>
+					<Name>ЗагрузкаИзНавВчера</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Загрузка из нав вчера</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d638c339-0473-435a-bb8b-ef291a5075e7">
+				<Properties>
+					<Name>ЗагрузкаКорректировокПрошлыйМесяц</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Загрузка корректировок прошлый месяц</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="acc9f969-c8d7-4a62-8dfe-b21d2dbcbc46">
+				<Properties>
+					<Name>ДогрузкаРезервовПрошлыйМесяц</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Догрузка резервов прошлый месяц</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="602f0aae-4167-4d65-816d-5e76ba64c354">
+				<Properties>
+					<Name>ЗагрузкаИзНавПрошлыйМесяцТолькоНовые</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Загрузка из нав прошлый месяц только новые</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6a97dbc2-2814-4985-8a50-45deac9c460f">
+				<Properties>
+					<Name>ДогрузкаРезервовПрошлыйМесяцТолькоНовые</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Догрузка резервов прошлый месяц только новые</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b1b61aab-375c-4267-9865-73660372aad8">
+				<Properties>
+					<Name>ЗагрузкаКорректировокПрошлыйМесяцТолькоНовые</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Загрузка корректировок прошлый месяц только новые</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="52aa7c86-f2db-44bf-97a3-01b621ccc3db">
+				<Properties>
+					<Name>СтандартныеПроводкиПрошлыйМесяц</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Стандартные проводки прошлый месяц</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b6c8777c-e8ad-4b60-9f21-18985d031178">
+				<Properties>
+					<Name>НестандартныеПроводкиПрошлыйМесяц</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Нестандартные проводки прошлый месяц</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ef54ab42-c6fc-445e-8fc0-cf59ddc42332">
+				<Properties>
+					<Name>ПроводкиИзСписка</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Проводки из списка</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="be8513c8-0239-44de-9128-6b880f58dfd1">
+				<Properties>
+					<Name>ЗагрузкаЗаймов</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Загрузка займов</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="7af26d59-a9dd-4565-af38-ae9c3453b47a">
+				<Properties>
+					<Name>ПересчетГрафиковЗаймов</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пересчет графиков займов</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ff310362-3c72-43c8-b041-ba4a611f7308">
+				<Properties>
+					<Name>ПриостановкаНачисленийПоЗаймам</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Приостановка начислений по займам</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="211e176b-bd03-47a1-a3b5-750c8116ca37">
+				<Properties>
+					<Name>ПересчетПроцентовПоЗаймам</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пересчет процентов по займам</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="fdee79ce-9a99-4e54-9aab-fd2849e7d1e6">
+				<Properties>
+					<Name>ЗагрузкаПлатежей</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Загрузка платежей</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

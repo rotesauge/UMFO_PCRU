@@ -1,0 +1,1147 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Width>200</Width>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Щапка" id="71">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Щапка</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Щапка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ЩапкаРасширеннаяПодсказка" id="72"/>
+			<ChildItems>
+				<InputField name="Дата1" id="1">
+					<DataPath>Дата1</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>С  </v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="Дата1КонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="Дата1РасширеннаяПодсказка" id="3"/>
+					<Events>
+						<Event name="OnChange">Дата1ПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="Дата2" id="4">
+					<DataPath>Дата2</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>По  </v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="Дата2КонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="Дата2РасширеннаяПодсказка" id="6"/>
+				</InputField>
+				<Button name="Сверить" id="38">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Сверить</CommandName>
+					<ExtendedTooltip name="СверитьРасширеннаяПодсказка" id="39"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<Pages name="страницы" id="73">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="страницыРасширеннаяПодсказка" id="74"/>
+			<ChildItems>
+				<Page name="СверкаСчетовСтр" id="75">
+					<Visible>false</Visible>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сверка счетов</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сверка счетов стр</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СверкаСчетовСтрРасширеннаяПодсказка" id="76"/>
+					<ChildItems>
+						<Table name="СверкаСчетов" id="7">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>СверкаСчетов</DataPath>
+							<CommandSet>
+								<ExcludedCommand>Add</ExcludedCommand>
+								<ExcludedCommand>CancelSearch</ExcludedCommand>
+								<ExcludedCommand>Change</ExcludedCommand>
+								<ExcludedCommand>Copy</ExcludedCommand>
+								<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+								<ExcludedCommand>Delete</ExcludedCommand>
+								<ExcludedCommand>EndEdit</ExcludedCommand>
+								<ExcludedCommand>Find</ExcludedCommand>
+								<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
+								<ExcludedCommand>MoveDown</ExcludedCommand>
+								<ExcludedCommand>MoveUp</ExcludedCommand>
+								<ExcludedCommand>OutputList</ExcludedCommand>
+								<ExcludedCommand>SearchEverywhere</ExcludedCommand>
+								<ExcludedCommand>SearchHistory</ExcludedCommand>
+								<ExcludedCommand>SelectAll</ExcludedCommand>
+								<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+								<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+								<ExcludedCommand>SortListAsc</ExcludedCommand>
+								<ExcludedCommand>SortListDesc</ExcludedCommand>
+							</CommandSet>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="СверкаСчетовКонтекстноеМеню" id="8"/>
+							<AutoCommandBar name="СверкаСчетовКоманднаяПанель" id="9">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
+							<ExtendedTooltip name="СверкаСчетовРасширеннаяПодсказка" id="10"/>
+							<SearchStringAddition name="СверкаСчетовСтрокаПоиска" id="11">
+								<AdditionSource>
+									<Item>СверкаСчетов</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СверкаСчетовСтрокаПоискаКонтекстноеМеню" id="12"/>
+								<ExtendedTooltip name="СверкаСчетовСтрокаПоискаРасширеннаяПодсказка" id="13"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СверкаСчетовСостояниеПросмотра" id="14">
+								<AdditionSource>
+									<Item>СверкаСчетов</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СверкаСчетовСостояниеПросмотраКонтекстноеМеню" id="15"/>
+								<ExtendedTooltip name="СверкаСчетовСостояниеПросмотраРасширеннаяПодсказка" id="16"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СверкаСчетовУправлениеПоиском" id="17">
+								<AdditionSource>
+									<Item>СверкаСчетов</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СверкаСчетовУправлениеПоискомКонтекстноеМеню" id="18"/>
+								<ExtendedTooltip name="СверкаСчетовУправлениеПоискомРасширеннаяПодсказка" id="19"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="СверкаСчетовНАВДТ" id="20">
+									<DataPath>СверкаСчетов.НАВДТ</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СверкаСчетовНАВДТКонтекстноеМеню" id="21"/>
+									<ExtendedTooltip name="СверкаСчетовНАВДТРасширеннаяПодсказка" id="22"/>
+								</InputField>
+								<InputField name="СверкаСчетовНАВКТ" id="23">
+									<DataPath>СверкаСчетов.НАВКТ</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СверкаСчетовНАВКТКонтекстноеМеню" id="24"/>
+									<ExtendedTooltip name="СверкаСчетовНАВКТРасширеннаяПодсказка" id="25"/>
+								</InputField>
+								<InputField name="СверкаСчетовСуммаНав" id="29">
+									<DataPath>СверкаСчетов.СуммаНав</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СверкаСчетовСуммаНавКонтекстноеМеню" id="30"/>
+									<ExtendedTooltip name="СверкаСчетовСуммаНавРасширеннаяПодсказка" id="31"/>
+								</InputField>
+								<InputField name="СверкаСчетовСумма1С" id="32">
+									<DataPath>СверкаСчетов.Сумма1С</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СверкаСчетовСумма1СКонтекстноеМеню" id="33"/>
+									<ExtendedTooltip name="СверкаСчетовСумма1СРасширеннаяПодсказка" id="34"/>
+								</InputField>
+								<InputField name="СверкаСчетовСуммаДельта" id="35">
+									<DataPath>СверкаСчетов.СуммаДельта</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СверкаСчетовСуммаДельтаКонтекстноеМеню" id="36"/>
+									<ExtendedTooltip name="СверкаСчетовСуммаДельтаРасширеннаяПодсказка" id="37"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СверкаСчетовПоДатамСтр" id="77">
+					<Visible>false</Visible>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сверка счетов по датам</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сверка счетов по датам стр</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СверкаСчетовПоДатамСтрРасширеннаяПодсказка" id="78"/>
+					<ChildItems>
+						<Table name="СверкаСчетовПоДатам" id="40">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>СверкаСчетовПоДатам</DataPath>
+							<CommandSet>
+								<ExcludedCommand>Add</ExcludedCommand>
+								<ExcludedCommand>CancelSearch</ExcludedCommand>
+								<ExcludedCommand>Change</ExcludedCommand>
+								<ExcludedCommand>Copy</ExcludedCommand>
+								<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+								<ExcludedCommand>Delete</ExcludedCommand>
+								<ExcludedCommand>EndEdit</ExcludedCommand>
+								<ExcludedCommand>Find</ExcludedCommand>
+								<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
+								<ExcludedCommand>MoveDown</ExcludedCommand>
+								<ExcludedCommand>MoveUp</ExcludedCommand>
+								<ExcludedCommand>OutputList</ExcludedCommand>
+								<ExcludedCommand>SearchEverywhere</ExcludedCommand>
+								<ExcludedCommand>SearchHistory</ExcludedCommand>
+								<ExcludedCommand>SelectAll</ExcludedCommand>
+								<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+								<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+								<ExcludedCommand>SortListAsc</ExcludedCommand>
+								<ExcludedCommand>SortListDesc</ExcludedCommand>
+							</CommandSet>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="СверкаСчетовПоДатамКонтекстноеМеню" id="41"/>
+							<AutoCommandBar name="СверкаСчетовПоДатамКоманднаяПанель" id="42">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
+							<ExtendedTooltip name="СверкаСчетовПоДатамРасширеннаяПодсказка" id="43"/>
+							<SearchStringAddition name="СверкаСчетовПоДатамСтрокаПоиска" id="44">
+								<AdditionSource>
+									<Item>СверкаСчетовПоДатам</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СверкаСчетовПоДатамСтрокаПоискаКонтекстноеМеню" id="45"/>
+								<ExtendedTooltip name="СверкаСчетовПоДатамСтрокаПоискаРасширеннаяПодсказка" id="46"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СверкаСчетовПоДатамСостояниеПросмотра" id="47">
+								<AdditionSource>
+									<Item>СверкаСчетовПоДатам</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СверкаСчетовПоДатамСостояниеПросмотраКонтекстноеМеню" id="48"/>
+								<ExtendedTooltip name="СверкаСчетовПоДатамСостояниеПросмотраРасширеннаяПодсказка" id="49"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СверкаСчетовПоДатамУправлениеПоиском" id="50">
+								<AdditionSource>
+									<Item>СверкаСчетовПоДатам</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СверкаСчетовПоДатамУправлениеПоискомКонтекстноеМеню" id="51"/>
+								<ExtendedTooltip name="СверкаСчетовПоДатамУправлениеПоискомРасширеннаяПодсказка" id="52"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="СверкаСчетовПоДатамНАВДТ" id="53">
+									<DataPath>СверкаСчетовПоДатам.НАВДТ</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СверкаСчетовПоДатамНАВДТКонтекстноеМеню" id="54"/>
+									<ExtendedTooltip name="СверкаСчетовПоДатамНАВДТРасширеннаяПодсказка" id="55"/>
+								</InputField>
+								<InputField name="СверкаСчетовПоДатамНАВКТ" id="56">
+									<DataPath>СверкаСчетовПоДатам.НАВКТ</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СверкаСчетовПоДатамНАВКТКонтекстноеМеню" id="57"/>
+									<ExtendedTooltip name="СверкаСчетовПоДатамНАВКТРасширеннаяПодсказка" id="58"/>
+								</InputField>
+								<InputField name="СверкаСчетовПоДатамДата" id="59">
+									<DataPath>СверкаСчетовПоДатам.Дата</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СверкаСчетовПоДатамДатаКонтекстноеМеню" id="60"/>
+									<ExtendedTooltip name="СверкаСчетовПоДатамДатаРасширеннаяПодсказка" id="61"/>
+								</InputField>
+								<InputField name="СверкаСчетовПоДатамСуммаНав" id="62">
+									<DataPath>СверкаСчетовПоДатам.СуммаНав</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СверкаСчетовПоДатамСуммаНавКонтекстноеМеню" id="63"/>
+									<ExtendedTooltip name="СверкаСчетовПоДатамСуммаНавРасширеннаяПодсказка" id="64"/>
+								</InputField>
+								<InputField name="СверкаСчетовПоДатамСумма1С" id="65">
+									<DataPath>СверкаСчетовПоДатам.Сумма1С</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СверкаСчетовПоДатамСумма1СКонтекстноеМеню" id="66"/>
+									<ExtendedTooltip name="СверкаСчетовПоДатамСумма1СРасширеннаяПодсказка" id="67"/>
+								</InputField>
+								<InputField name="СверкаСчетовПоДатамСуммаДельта" id="68">
+									<DataPath>СверкаСчетовПоДатам.СуммаДельта</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СверкаСчетовПоДатамСуммаДельтаКонтекстноеМеню" id="69"/>
+									<ExtendedTooltip name="СверкаСчетовПоДатамСуммаДельтаРасширеннаяПодсказка" id="70"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СверкаОстатковСчетовСтр" id="79">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сверка остатков счетов</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сверка остатков счетов стр</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СверкаОстатковСчетовСтрРасширеннаяПодсказка" id="80"/>
+					<ChildItems>
+						<Table name="СверкаОстатковСчетов" id="81">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>СверкаОстатковСчетов</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="СверкаОстатковСчетовКонтекстноеМеню" id="82"/>
+							<AutoCommandBar name="СверкаОстатковСчетовКоманднаяПанель" id="83">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
+							<ExtendedTooltip name="СверкаОстатковСчетовРасширеннаяПодсказка" id="84"/>
+							<SearchStringAddition name="СверкаОстатковСчетовСтрокаПоиска" id="85">
+								<AdditionSource>
+									<Item>СверкаОстатковСчетов</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СверкаОстатковСчетовСтрокаПоискаКонтекстноеМеню" id="86"/>
+								<ExtendedTooltip name="СверкаОстатковСчетовСтрокаПоискаРасширеннаяПодсказка" id="87"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СверкаОстатковСчетовСостояниеПросмотра" id="88">
+								<AdditionSource>
+									<Item>СверкаОстатковСчетов</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СверкаОстатковСчетовСостояниеПросмотраКонтекстноеМеню" id="89"/>
+								<ExtendedTooltip name="СверкаОстатковСчетовСостояниеПросмотраРасширеннаяПодсказка" id="90"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СверкаОстатковСчетовУправлениеПоиском" id="91">
+								<AdditionSource>
+									<Item>СверкаОстатковСчетов</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СверкаОстатковСчетовУправлениеПоискомКонтекстноеМеню" id="92"/>
+								<ExtendedTooltip name="СверкаОстатковСчетовУправлениеПоискомРасширеннаяПодсказка" id="93"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="СверкаОстатковСчетовСчет" id="94">
+									<DataPath>СверкаОстатковСчетов.Счет</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СверкаОстатковСчетовСчетКонтекстноеМеню" id="95"/>
+									<ExtendedTooltip name="СверкаОстатковСчетовСчетРасширеннаяПодсказка" id="96"/>
+								</InputField>
+								<InputField name="СверкаОстатковСчетовСуммаНавДТ" id="97">
+									<DataPath>СверкаОстатковСчетов.СуммаНавДТ</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<BackColor>web:Lavender</BackColor>
+									<ContextMenu name="СверкаОстатковСчетовСуммаНавДТКонтекстноеМеню" id="98"/>
+									<ExtendedTooltip name="СверкаОстатковСчетовСуммаНавДТРасширеннаяПодсказка" id="99"/>
+								</InputField>
+								<InputField name="СверкаОстатковСчетовСумма1СДТ" id="100">
+									<DataPath>СверкаОстатковСчетов.Сумма1СДТ</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<BackColor>web:LemonChiffon</BackColor>
+									<ContextMenu name="СверкаОстатковСчетовСумма1СДТКонтекстноеМеню" id="101"/>
+									<ExtendedTooltip name="СверкаОстатковСчетовСумма1СДТРасширеннаяПодсказка" id="102"/>
+								</InputField>
+								<InputField name="СверкаОстатковСчетовСуммаДельтаДТ" id="103">
+									<DataPath>СверкаОстатковСчетов.СуммаДельтаДТ</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СверкаОстатковСчетовСуммаДельтаДТКонтекстноеМеню" id="104"/>
+									<ExtendedTooltip name="СверкаОстатковСчетовСуммаДельтаДТРасширеннаяПодсказка" id="105"/>
+								</InputField>
+								<InputField name="СверкаОстатковСчетовСуммаНавКТ" id="106">
+									<DataPath>СверкаОстатковСчетов.СуммаНавКТ</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<BackColor>web:Lavender</BackColor>
+									<ContextMenu name="СверкаОстатковСчетовСуммаНавКТКонтекстноеМеню" id="107"/>
+									<ExtendedTooltip name="СверкаОстатковСчетовСуммаНавКТРасширеннаяПодсказка" id="108"/>
+								</InputField>
+								<InputField name="СверкаОстатковСчетовСумма1СКТ" id="109">
+									<DataPath>СверкаОстатковСчетов.Сумма1СКТ</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<BackColor>web:LemonChiffon</BackColor>
+									<ContextMenu name="СверкаОстатковСчетовСумма1СКТКонтекстноеМеню" id="110"/>
+									<ExtendedTooltip name="СверкаОстатковСчетовСумма1СКТРасширеннаяПодсказка" id="111"/>
+								</InputField>
+								<InputField name="СверкаОстатковСчетовСуммаДельтаКТ" id="112">
+									<DataPath>СверкаОстатковСчетов.СуммаДельтаКТ</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СверкаОстатковСчетовСуммаДельтаКТКонтекстноеМеню" id="113"/>
+									<ExtendedTooltip name="СверкаОстатковСчетовСуммаДельтаКТРасширеннаяПодсказка" id="114"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СверкаОборотовСчетовСтр" id="115">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сверка оборотов счетов </v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сверка оборотов счетов стр</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СверкаОборотовСчетовСтрРасширеннаяПодсказка" id="116"/>
+					<ChildItems>
+						<Table name="СверкаОборотовСчетов" id="117">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>СверкаОборотовСчетов</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="СверкаОборотовСчетовКонтекстноеМеню" id="118"/>
+							<AutoCommandBar name="СверкаОборотовСчетовКоманднаяПанель" id="119">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
+							<ExtendedTooltip name="СверкаОборотовСчетовРасширеннаяПодсказка" id="120"/>
+							<SearchStringAddition name="СверкаОборотовСчетовСтрокаПоиска" id="121">
+								<AdditionSource>
+									<Item>СверкаОборотовСчетов</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СверкаОборотовСчетовСтрокаПоискаКонтекстноеМеню" id="122"/>
+								<ExtendedTooltip name="СверкаОборотовСчетовСтрокаПоискаРасширеннаяПодсказка" id="123"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СверкаОборотовСчетовСостояниеПросмотра" id="124">
+								<AdditionSource>
+									<Item>СверкаОборотовСчетов</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СверкаОборотовСчетовСостояниеПросмотраКонтекстноеМеню" id="125"/>
+								<ExtendedTooltip name="СверкаОборотовСчетовСостояниеПросмотраРасширеннаяПодсказка" id="126"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СверкаОборотовСчетовУправлениеПоиском" id="127">
+								<AdditionSource>
+									<Item>СверкаОборотовСчетов</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СверкаОборотовСчетовУправлениеПоискомКонтекстноеМеню" id="128"/>
+								<ExtendedTooltip name="СверкаОборотовСчетовУправлениеПоискомРасширеннаяПодсказка" id="129"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="СверкаОборотовСчетовСчет" id="130">
+									<DataPath>СверкаОборотовСчетов.Счет</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СверкаОборотовСчетовСчетКонтекстноеМеню" id="131"/>
+									<ExtendedTooltip name="СверкаОборотовСчетовСчетРасширеннаяПодсказка" id="132"/>
+								</InputField>
+								<InputField name="СверкаОборотовСчетовСуммаНавДТ" id="133">
+									<DataPath>СверкаОборотовСчетов.СуммаНавДТ</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<BackColor>web:Lavender</BackColor>
+									<ContextMenu name="СверкаОборотовСчетовСуммаНавДТКонтекстноеМеню" id="134"/>
+									<ExtendedTooltip name="СверкаОборотовСчетовСуммаНавДТРасширеннаяПодсказка" id="135"/>
+								</InputField>
+								<InputField name="СверкаОборотовСчетовСумма1СДТ" id="136">
+									<DataPath>СверкаОборотовСчетов.Сумма1СДТ</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<BackColor>web:LemonChiffon</BackColor>
+									<ContextMenu name="СверкаОборотовСчетовСумма1СДТКонтекстноеМеню" id="137"/>
+									<ExtendedTooltip name="СверкаОборотовСчетовСумма1СДТРасширеннаяПодсказка" id="138"/>
+								</InputField>
+								<InputField name="СверкаОборотовСчетовСуммаДельтаДТ" id="139">
+									<DataPath>СверкаОборотовСчетов.СуммаДельтаДТ</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СверкаОборотовСчетовСуммаДельтаДТКонтекстноеМеню" id="140"/>
+									<ExtendedTooltip name="СверкаОборотовСчетовСуммаДельтаДТРасширеннаяПодсказка" id="141"/>
+								</InputField>
+								<InputField name="СверкаОборотовСчетовСуммаНавКТ" id="142">
+									<DataPath>СверкаОборотовСчетов.СуммаНавКТ</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<BackColor>web:Lavender</BackColor>
+									<ContextMenu name="СверкаОборотовСчетовСуммаНавКТКонтекстноеМеню" id="143"/>
+									<ExtendedTooltip name="СверкаОборотовСчетовСуммаНавКТРасширеннаяПодсказка" id="144"/>
+								</InputField>
+								<InputField name="СверкаОборотовСчетовСумма1СКТ" id="145">
+									<DataPath>СверкаОборотовСчетов.Сумма1СКТ</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<BackColor>web:LemonChiffon</BackColor>
+									<ContextMenu name="СверкаОборотовСчетовСумма1СКТКонтекстноеМеню" id="146"/>
+									<ExtendedTooltip name="СверкаОборотовСчетовСумма1СКТРасширеннаяПодсказка" id="147"/>
+								</InputField>
+								<InputField name="СверкаОборотовСчетовСуммаДельтаКТ" id="148">
+									<DataPath>СверкаОборотовСчетов.СуммаДельтаКТ</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СверкаОборотовСчетовСуммаДельтаКТКонтекстноеМеню" id="149"/>
+									<ExtendedTooltip name="СверкаОборотовСчетовСуммаДельтаКТРасширеннаяПодсказка" id="150"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.Сверка_С_НАВ</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="СверкаСчетов" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сверка счетов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="НАВДТ" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>НАВДТ</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="НАВКТ" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>НАВКТ</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="СуммаНав" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма нав</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>12</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="Сумма1С" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма 1С</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>12</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="СуммаДельта" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма Дельта</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>12</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="Дата1" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата1</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Дата2" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата1</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="СверкаСчетовПоДатам" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сверка счетов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="НАВДТ" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>НАВДТ</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="НАВКТ" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>НАВКТ</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Дата" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Column>
+				<Column name="СуммаНав" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма нав</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>12</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="Сумма1С" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма 1С</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>12</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="СуммаДельта" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма Дельта</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>12</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="СверкаОстатковСчетов" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сверка счетов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Счет" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Счет</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="СуммаНавДТ" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма нав ДТ</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>12</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="Сумма1СДТ" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма 1С ДТ</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>12</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="СуммаДельтаДТ" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма Дельта ДТ</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>12</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="СуммаНавКТ" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма нав КТ</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>12</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="Сумма1СКТ" id="7">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма 1С КТ</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>12</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="СуммаДельтаКТ" id="8">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма Дельта КТ</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>12</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="СверкаОборотовСчетов" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сверка счетов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Счет" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Счет</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="СуммаНавДТ" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма нав ДТ</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>12</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="Сумма1СДТ" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма 1С ДТ</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>12</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="СуммаДельтаДТ" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма Дельта ДТ</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>12</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="СуммаНавКТ" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма нав КТ</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>12</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="Сумма1СКТ" id="7">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма 1С КТ</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>12</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="СуммаДельтаКТ" id="8">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма Дельта КТ</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>12</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>СверкаСчетов</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">СверкаСчетов.СуммаДельта</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#99CC00</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>СверкаСчетовПоДатам</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">СверкаСчетовПоДатам.СуммаДельта</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#99CC00</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>СверкаСчетов</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">СверкаСчетов.Сумма1С</dcsset:left>
+						<dcsset:comparisonType>NotEqual</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">СверкаСчетов.СуммаДельта</dcsset:left>
+						<dcsset:comparisonType>NotEqual</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">web:DarkSalmon</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>СверкаОборотовСчетовСуммаДельтаДТ</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">СверкаОборотовСчетов.СуммаДельтаДТ</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">web:PaleGreen</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>СверкаОборотовСчетовСуммаДельтаКТ</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">СверкаОборотовСчетов.СуммаДельтаКТ</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">web:PaleGreen</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>СверкаОстатковСчетовСуммаДельтаДТ</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">СверкаОстатковСчетов.СуммаДельтаДТ</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">web:PaleGreen</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>СверкаОстатковСчетовСуммаДельтаКТ</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">СверкаОстатковСчетов.СуммаДельтаКТ</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">web:PaleGreen</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
+	</Attributes>
+	<Commands>
+		<Command name="Сверить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сверить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сверить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Сверить</Action>
+		</Command>
+	</Commands>
+</Form>

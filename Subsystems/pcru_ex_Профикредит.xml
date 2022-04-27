@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Subsystem uuid="fda0c38f-b5fb-47de-820c-1001f9862af5">
+		<Properties>
+			<Name>pcru_ex_Профикредит</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Профикредит</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<Explanation/>
+			<Picture>
+				<xr:Ref>CommonPicture.pcru_ex_Профикредит</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.pcru_ex_ИзменившиесяКонтрагенты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.pcru_ex_ИзменившиесяДоговораКонтрагентов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.pcru_ex_ВнешниеИнформационныеБазы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.pcru_ex_СопоставлениеВнешнихДанных</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.pcru_ex_ТипыВнешнихДанных</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.УниверсальныйОтчетПоМетаданным</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.pcru_ex_ЗапланированноеВыполнениеРегламентныхЗаданий</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.pcru_ex_ТипыРегламентныхЗаданий</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.pcru_ex_СостоянияПлатежныхПоручений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.pcru_ex_ОтчетПоСостояниямПлатежныхПоручений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.pcru_ex_НастройкиПроводокNAV</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.pcru_ex_ХранимыеДанные</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.pcru_ex_ЗапросыNAV</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.pcru_ex_Отчет_По_Счету_106</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.pcru_ex_ОтчетПоОс</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.БНФОСчетаПодлежащиеПереоценке</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.Модуль_ДиадокУФ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.Сверка_С_НАВ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.УдалениеДублейРеализаций</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.pcru_ex_ОткрытьСчетаКонтрагента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.pcru_ex_ЗаполнитьДатуНачала</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.pcru_ex_ОтчетПоСтатьямРасходов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.pcru_ex_НастройкиЗаполненияСписанияСРасчетногоСчета</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.pcru_ex_НастройкиЗаполненияПоступленияНаРасчетногоСчета</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ОбменДаннымиВидыСообщений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ОбменДаннымиКлиенты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ОбменДаннымиТипыДанных</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ОбменДанными</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.pcru_ex_ТипыЗатратПодразделений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.pcru_ex_РаспределениеСуммСпианияРасходовБудущихПериодов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.pcru_ex_РаспределениеСуммПоФинансовойАренде</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.pcru_ex_СпособыРаспределенияСуммПоФинансовойАренде</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.PCRU_СтатусыДокументов</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>

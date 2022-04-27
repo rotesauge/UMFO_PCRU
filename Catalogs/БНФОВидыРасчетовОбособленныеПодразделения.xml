@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Catalog uuid="b7ceee81-96b6-4620-90de-3c0ee35ce215">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.БНФОВидыРасчетовОбособленныеПодразделения" category="Object">
+				<xr:TypeId>86c1dbbb-6ae8-456d-b7fd-554f7fb58c62</xr:TypeId>
+				<xr:ValueId>c780f2af-753b-412b-ab3a-1f06fd530544</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.БНФОВидыРасчетовОбособленныеПодразделения" category="Ref">
+				<xr:TypeId>f555df33-7fb9-420c-b8ea-05bf16db4e78</xr:TypeId>
+				<xr:ValueId>328b4202-e115-4e02-b52d-0ed94229b8c5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.БНФОВидыРасчетовОбособленныеПодразделения" category="Selection">
+				<xr:TypeId>2b7a4d55-445c-4b59-89e7-e3de7babb99e</xr:TypeId>
+				<xr:ValueId>302b8129-00a0-42ab-8954-a826a783351e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.БНФОВидыРасчетовОбособленныеПодразделения" category="List">
+				<xr:TypeId>f991d34b-cb36-42fa-a286-4b7885184536</xr:TypeId>
+				<xr:ValueId>23d5f9ee-d5af-4d9a-ae72-6342f5e1941e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.БНФОВидыРасчетовОбособленныеПодразделения" category="Manager">
+				<xr:TypeId>e67390f1-882b-4c79-91d5-f2efd5170b48</xr:TypeId>
+				<xr:ValueId>9f0a372f-7875-4167-b374-2e9dc7ffffcb</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БНФОВидыРасчетовОбособленныеПодразделения</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

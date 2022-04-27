@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Constant uuid="18b2521a-d0ab-4af2-bae0-30401bf081de">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.СинхронизироватьФайлы" category="Manager">
+				<xr:TypeId>39859d1f-c843-4dc3-aa93-8063e3efcf92</xr:TypeId>
+				<xr:ValueId>7f6eae4a-65e3-4554-bb83-a4464580e73b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.СинхронизироватьФайлы" category="ValueManager">
+				<xr:TypeId>f0e41fa4-aab5-4f67-a8f8-9e522d7aaea1</xr:TypeId>
+				<xr:ValueId>899c4fe2-68d4-40fd-be44-bf42ecf24381</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.СинхронизироватьФайлы" category="ValueKey">
+				<xr:TypeId>2e08f58c-68e1-5688-8493-91f798c18be7</xr:TypeId>
+				<xr:ValueId>73bb1706-166d-55b2-8131-2522512f4173</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СинхронизироватьФайлы</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

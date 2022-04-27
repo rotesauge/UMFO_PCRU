@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Catalog uuid="fabe043c-fc8a-46d8-9c24-8dee2c1a18af">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.АЭ_ВидыДополнительныхСоглашенийЗаймов" category="Object">
+				<xr:TypeId>e4277a1c-d898-412b-bece-36f4c95240b7</xr:TypeId>
+				<xr:ValueId>037d5a7d-17bd-429e-b2eb-e861f71d0521</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.АЭ_ВидыДополнительныхСоглашенийЗаймов" category="Ref">
+				<xr:TypeId>367a185f-9e8a-4080-8dee-f7e970b41125</xr:TypeId>
+				<xr:ValueId>7cbc75b0-90b7-4bef-842f-f12b371a82f3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.АЭ_ВидыДополнительныхСоглашенийЗаймов" category="Selection">
+				<xr:TypeId>ba48e263-f83c-401e-812f-13822eaf37c8</xr:TypeId>
+				<xr:ValueId>fa06e2de-3bc8-4054-ae3e-f8ab3b486623</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.АЭ_ВидыДополнительныхСоглашенийЗаймов" category="List">
+				<xr:TypeId>c5d9ac3b-69a6-4035-9b4a-efd9e75b3c46</xr:TypeId>
+				<xr:ValueId>b2105d27-133e-4de9-95cd-98fc19c6238b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.АЭ_ВидыДополнительныхСоглашенийЗаймов" category="Manager">
+				<xr:TypeId>35302213-99b1-4eff-9858-a383ed66954f</xr:TypeId>
+				<xr:ValueId>d21bdad7-309e-4835-8aec-823a2fed8324</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>АЭ_ВидыДополнительныхСоглашенийЗаймов</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

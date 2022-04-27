@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Report uuid="ff484f32-67e7-4b7b-ad67-1e5b344da3b1">
+		<InternalInfo>
+			<xr:GeneratedType name="ReportObject.БНФОВедомостьАмортизацииОСБухгалтерскийУчет" category="Object">
+				<xr:TypeId>e7eb9285-21f6-4fc5-8028-4398a29f38d0</xr:TypeId>
+				<xr:ValueId>261083f2-0e76-4000-a921-40fc7e807035</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ReportManager.БНФОВедомостьАмортизацииОСБухгалтерскийУчет" category="Manager">
+				<xr:TypeId>8d389454-1b9a-44b5-8ee1-c2337540eebe</xr:TypeId>
+				<xr:ValueId>bfa5f73a-8ae0-47f0-aa00-9e3ebc39344f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БНФОВедомостьАмортизацииОСБухгалтерскийУчет</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<MainDataCompositionSchema>Report.БНФОВедомостьАмортизацииОСБухгалтерскийУчет.Template.СхемаКомпоновкиДанных2</MainDataCompositionSchema>
+		</Properties>
+		<ChildObjects>
+			<Template>СхемаКомпоновкиДанных2</Template>
+			<Template>СхемаКомпоновкиДанных</Template>
+		</ChildObjects>
+	</Report>
+</MetaDataObject>

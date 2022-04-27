@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Catalog uuid="2cf56b67-670a-49e9-a104-9e792de89230">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.БНФОПенсионныеСхемы" category="Object">
+				<xr:TypeId>cdb03423-258c-4f12-b596-744549620d7e</xr:TypeId>
+				<xr:ValueId>bb27a7d5-e81e-43df-8c20-a0b0f63c12c2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.БНФОПенсионныеСхемы" category="Ref">
+				<xr:TypeId>e5eeca23-5e69-4e98-8a4e-600df8b7bcac</xr:TypeId>
+				<xr:ValueId>ab3b1728-6002-4e3e-a465-26485ea89a1c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.БНФОПенсионныеСхемы" category="Selection">
+				<xr:TypeId>35be7f1e-bb7b-43a7-be9c-a1913a7bba75</xr:TypeId>
+				<xr:ValueId>02b9e829-26f2-4a6e-b531-60c9bf8b30cb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.БНФОПенсионныеСхемы" category="List">
+				<xr:TypeId>41aebe38-c516-418e-b76b-48b1aef7e67d</xr:TypeId>
+				<xr:ValueId>c0aba1c4-982f-4b50-8539-7c5adf3d2d32</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.БНФОПенсионныеСхемы" category="Manager">
+				<xr:TypeId>3aee4a53-19a8-464a-b737-215b5f20d289</xr:TypeId>
+				<xr:ValueId>e113b269-fe7d-491e-9635-a0e31e2a4329</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БНФОПенсионныеСхемы</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

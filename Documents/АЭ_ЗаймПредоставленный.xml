@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Document uuid="b50b566b-806d-4188-93ed-1d8435d031c0">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.АЭ_ЗаймПредоставленный" category="Object">
+				<xr:TypeId>f370b587-eed8-4b68-9967-3a54a9551f71</xr:TypeId>
+				<xr:ValueId>2b9364fc-c2d0-43b9-8470-35aaa14a53fb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.АЭ_ЗаймПредоставленный" category="Ref">
+				<xr:TypeId>3d82a204-c0e5-4fcf-b31a-cbf3caf83c0d</xr:TypeId>
+				<xr:ValueId>8f7a3c1e-808d-43e3-898e-f902d0ed401f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.АЭ_ЗаймПредоставленный" category="Selection">
+				<xr:TypeId>5cde3b8d-4f17-4917-9b81-216bb07a048f</xr:TypeId>
+				<xr:ValueId>30c18912-58df-4cd1-8119-632255228b11</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.АЭ_ЗаймПредоставленный" category="List">
+				<xr:TypeId>6afe07a4-deca-4e38-99d2-8ac55d1a05ed</xr:TypeId>
+				<xr:ValueId>7a271a4a-1290-4c69-9049-9589afd91519</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.АЭ_ЗаймПредоставленный" category="Manager">
+				<xr:TypeId>3c166ca3-c998-4061-98be-085dd72627fc</xr:TypeId>
+				<xr:ValueId>56fc4132-244f-4ccc-bb44-36aced39a38d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>АЭ_ЗаймПредоставленный</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>18f4d45b-c0ee-4430-b9ec-228e35898f74</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

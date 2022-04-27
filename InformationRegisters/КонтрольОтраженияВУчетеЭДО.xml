@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<InformationRegister uuid="2da03b19-6998-4b2a-b906-07eeb8177db0">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.КонтрольОтраженияВУчетеЭДО" category="Record">
+				<xr:TypeId>1135b33e-6736-4b4b-902f-511c4bb5c413</xr:TypeId>
+				<xr:ValueId>76d7ed60-83d5-4368-8f1e-ee2cc0990e90</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.КонтрольОтраженияВУчетеЭДО" category="Manager">
+				<xr:TypeId>c598ec39-c96d-426e-a842-315d1d12f9c9</xr:TypeId>
+				<xr:ValueId>5db8a1da-a333-49cb-886c-74d08babd872</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.КонтрольОтраженияВУчетеЭДО" category="Selection">
+				<xr:TypeId>f0f13b87-6dd2-46a8-9a8b-2b373519ff78</xr:TypeId>
+				<xr:ValueId>37c3f27c-9a34-41d6-8928-e415640fafdf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.КонтрольОтраженияВУчетеЭДО" category="List">
+				<xr:TypeId>ebbb5338-9b6b-4b54-a7b4-3afdff3abe09</xr:TypeId>
+				<xr:ValueId>6aa1344d-f67d-4f4f-87ab-07e1286dc4af</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.КонтрольОтраженияВУчетеЭДО" category="RecordSet">
+				<xr:TypeId>350878d5-9eda-4b07-ae1b-33521e21853c</xr:TypeId>
+				<xr:ValueId>0199a4c5-bed9-463a-9875-416e089b2c61</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.КонтрольОтраженияВУчетеЭДО" category="RecordKey">
+				<xr:TypeId>70c4e441-c78b-49f6-9d59-463abb2f56ee</xr:TypeId>
+				<xr:ValueId>1dc95360-e739-4d68-afcc-5c066034d8ed</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.КонтрольОтраженияВУчетеЭДО" category="RecordManager">
+				<xr:TypeId>23272f71-e193-497f-a512-1ccbf3dd041f</xr:TypeId>
+				<xr:ValueId>f5cd9167-631a-431d-9265-8e486421ec12</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>КонтрольОтраженияВУчетеЭДО</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>5a291219-dd97-4a4d-9806-2c3eb41f1023</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="abb4b3cd-58e2-4809-9d6c-9e15c3576921">
+				<InternalInfo/>
+				<Properties>
+					<Name>СопоставитьНоменклатуру</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>e0584f04-c338-49bd-88a5-6e232ded33b4</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="200baeb5-ce59-4373-bb41-fc2fe334cd79">
+				<InternalInfo/>
+				<Properties>
+					<Name>СоздатьУчетныйДокумент</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>211d4dfc-969e-47a7-9c1f-43e0275e8dc7</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="77f34cb8-e28c-4648-ab4c-285065c0fd2d">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПровестиУчетныйДокумент</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>c7137ffa-c28b-415f-8ed3-08593b3dc6e3</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="7e22d73e-51f3-4349-8114-5792ce5128cf">
+				<InternalInfo/>
+				<Properties>
+					<Name>ЭлектронныйДокумент</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>5447ecb2-6929-4c7d-b446-94a730b2d28a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ЭлектронныйДокументВходящийЭДО</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

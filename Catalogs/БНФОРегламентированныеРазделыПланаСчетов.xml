@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Catalog uuid="9ec83c9a-d0e3-4d9c-8e3d-9725c62edb89">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.БНФОРегламентированныеРазделыПланаСчетов" category="Object">
+				<xr:TypeId>5ad23a73-2609-49bd-b954-44b94c5a0750</xr:TypeId>
+				<xr:ValueId>4f34b90e-81ae-4f84-9e68-7d9abe49cd26</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.БНФОРегламентированныеРазделыПланаСчетов" category="Ref">
+				<xr:TypeId>0d5fdd90-1b5b-486a-9ccd-507421f27041</xr:TypeId>
+				<xr:ValueId>d134c30c-1532-4226-9b46-a1cd51036f7f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.БНФОРегламентированныеРазделыПланаСчетов" category="Selection">
+				<xr:TypeId>c32c437f-3312-4665-bb32-ee9f30bb4018</xr:TypeId>
+				<xr:ValueId>22a91609-da49-44f6-a1af-a1a56aa5727a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.БНФОРегламентированныеРазделыПланаСчетов" category="List">
+				<xr:TypeId>de832ada-75ee-4cd6-abf8-0f485dbf29e5</xr:TypeId>
+				<xr:ValueId>e4456bfb-19a9-4967-89ed-2e604a214110</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.БНФОРегламентированныеРазделыПланаСчетов" category="Manager">
+				<xr:TypeId>ca506836-3c56-4256-b61b-29cb2d127563</xr:TypeId>
+				<xr:ValueId>7436860a-ed06-4f0c-abe0-6a512575e5e4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БНФОРегламентированныеРазделыПланаСчетов</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

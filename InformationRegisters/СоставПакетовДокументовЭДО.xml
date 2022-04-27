@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<InformationRegister uuid="6ec96a9c-e11e-4173-a5ac-53f89386fa3f">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СоставПакетовДокументовЭДО" category="Record">
+				<xr:TypeId>6e677376-970c-4cf5-bdc7-c9ec481a91c8</xr:TypeId>
+				<xr:ValueId>ce277cbe-90c3-4e21-a03f-74a824b2d266</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СоставПакетовДокументовЭДО" category="Manager">
+				<xr:TypeId>32655b43-5ad2-4a09-8f8b-f7f4a8b101f1</xr:TypeId>
+				<xr:ValueId>47546a70-ee87-4640-9fd0-b04a13ed2c0c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СоставПакетовДокументовЭДО" category="Selection">
+				<xr:TypeId>36224d4b-42b7-4ea5-a5bf-cecec3b6e6e5</xr:TypeId>
+				<xr:ValueId>0c2924d2-cab6-4227-a19c-83949bcd4d85</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СоставПакетовДокументовЭДО" category="List">
+				<xr:TypeId>2bfe13b8-42a6-41a8-9eaf-899eea0c7528</xr:TypeId>
+				<xr:ValueId>e8dde61b-de5b-452b-8086-659fa2dbcd3b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СоставПакетовДокументовЭДО" category="RecordSet">
+				<xr:TypeId>eb600eba-5316-4487-a4f7-286d17385c93</xr:TypeId>
+				<xr:ValueId>11641d9e-8712-4f53-98e9-9cca10ad697e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СоставПакетовДокументовЭДО" category="RecordKey">
+				<xr:TypeId>db4592db-f1f9-4c14-8285-ede964e072b9</xr:TypeId>
+				<xr:ValueId>8d78141e-24a8-4455-897a-72b1627ee910</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СоставПакетовДокументовЭДО" category="RecordManager">
+				<xr:TypeId>eaf7e626-9c69-4b28-9946-55fd6c466474</xr:TypeId>
+				<xr:ValueId>9eeda716-fdd6-4c96-a5e0-82d651365fb2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СоставПакетовДокументовЭДО</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>743a85e1-6e2f-44a7-935a-8d3a7dffd4d8</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="b8236173-f574-4f4d-9633-85e2a07ccbe6">
+				<InternalInfo/>
+				<Properties>
+					<Name>ИдентификаторПакета</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>93e97081-7d24-4b20-b6ce-d7b36d1227ec</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>v8:UUID</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="2da069f6-0fc3-44c9-9ef6-72dead76d957">
+				<InternalInfo/>
+				<Properties>
+					<Name>ЭлектронныйДокумент</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>342177bf-5fcb-48a0-860c-636d65503e05</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

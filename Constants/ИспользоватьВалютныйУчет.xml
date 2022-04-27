@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Constant uuid="0e7c867c-8412-49a5-b0a2-893a85f46db9">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ИспользоватьВалютныйУчет" category="Manager">
+				<xr:TypeId>5dac3859-569b-4760-aec3-49825c1a6e6e</xr:TypeId>
+				<xr:ValueId>ffdc8aa9-62e3-46d7-b372-be2ddf994e3b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ИспользоватьВалютныйУчет" category="ValueManager">
+				<xr:TypeId>e8e6eaff-45d4-4371-9a7b-b1f199514387</xr:TypeId>
+				<xr:ValueId>fe9b111f-7b1f-4a50-b560-a493d0e94949</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ИспользоватьВалютныйУчет" category="ValueKey">
+				<xr:TypeId>c7bac67d-c71d-5018-97f2-25a2e93e008e</xr:TypeId>
+				<xr:ValueId>c32b9c04-4c4f-515b-a693-9da05e5d11f5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИспользоватьВалютныйУчет</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

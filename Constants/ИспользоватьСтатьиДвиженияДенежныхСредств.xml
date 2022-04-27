@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Constant uuid="def9690c-27bd-4163-a8f9-cfb36f65ffc1">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ИспользоватьСтатьиДвиженияДенежныхСредств" category="Manager">
+				<xr:TypeId>86b46952-d3dd-44d0-b006-dad5e5472280</xr:TypeId>
+				<xr:ValueId>6a329bde-f90f-4427-81c2-45247ad2aea4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ИспользоватьСтатьиДвиженияДенежныхСредств" category="ValueManager">
+				<xr:TypeId>952a3429-84b2-4aff-be17-8fd42d3cb24d</xr:TypeId>
+				<xr:ValueId>c0ca1f9b-fba9-426d-a65f-4cfb3399d084</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ИспользоватьСтатьиДвиженияДенежныхСредств" category="ValueKey">
+				<xr:TypeId>c4e62f9b-5924-5b8e-96f7-9c446ebeb60c</xr:TypeId>
+				<xr:ValueId>ec9f02e1-37d9-5d30-9176-64dcfc4c5c7f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИспользоватьСтатьиДвиженияДенежныхСредств</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

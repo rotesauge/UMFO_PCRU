@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Enum uuid="fc0977ab-28e3-4a8c-8a24-27d8ef219c5f">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ОснованияФинансированияПособияФедеральнымБюджетом" category="Ref">
+				<xr:TypeId>e301a572-d5da-4f38-8e50-33dda6cd507c</xr:TypeId>
+				<xr:ValueId>7075fff6-71f0-4beb-a8c5-c2f6ea2cde4b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ОснованияФинансированияПособияФедеральнымБюджетом" category="Manager">
+				<xr:TypeId>8f857c20-d70b-49fa-9aeb-c93a236556ea</xr:TypeId>
+				<xr:ValueId>a5c70719-e9e8-4e1a-a544-4e588dd5cc45</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ОснованияФинансированияПособияФедеральнымБюджетом" category="List">
+				<xr:TypeId>e74c0fcc-399b-4055-9c57-55babf1c7cdf</xr:TypeId>
+				<xr:ValueId>bf099327-0c0e-41f3-88df-cad76f892540</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОснованияФинансированияПособияФедеральнымБюджетом</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Report uuid="b4d84197-e4fe-4815-aaf8-9791143fe13c">
+		<InternalInfo>
+			<xr:GeneratedType name="ReportObject.АЭ_РегламентированныйОтчетНадзорнаяОтчетностьМФОиКПК" category="Object">
+				<xr:TypeId>639d9493-239a-4ee7-9041-2f8ba4e30473</xr:TypeId>
+				<xr:ValueId>32d8a55d-b3bf-4b12-8c1b-a39c4f070533</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ReportManager.АЭ_РегламентированныйОтчетНадзорнаяОтчетностьМФОиКПК" category="Manager">
+				<xr:TypeId>f7047d4d-044f-40de-bbcc-58f647f86103</xr:TypeId>
+				<xr:ValueId>d2944008-5c6e-4eaa-860e-bb7932c93912</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>АЭ_РегламентированныйОтчетНадзорнаяОтчетностьМФОиКПК</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>e98ed618-602a-40c5-897a-fcd45b1b116e</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаОтчета2017Кв1</Form>
+		</ChildObjects>
+	</Report>
+</MetaDataObject>

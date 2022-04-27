@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Catalog uuid="c66ac1f9-1c81-4fc3-81eb-59817bf384f0">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ДенежныеДокументы" category="Object">
+				<xr:TypeId>0c5d3b0f-302e-4d30-92e9-ba1a9b72b69e</xr:TypeId>
+				<xr:ValueId>23f1d7b8-3ff8-4e34-8ad8-3e02636e8f92</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ДенежныеДокументы" category="Ref">
+				<xr:TypeId>64026e19-a537-4200-8688-aee234c0d353</xr:TypeId>
+				<xr:ValueId>1d6baab0-cebe-4f34-b9c0-97d65882757d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ДенежныеДокументы" category="Selection">
+				<xr:TypeId>d8841a23-5f9b-4626-95a4-656a08f95b20</xr:TypeId>
+				<xr:ValueId>c344964c-d2c7-4b7f-b1ba-d8ef207df741</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ДенежныеДокументы" category="List">
+				<xr:TypeId>040b35be-0fae-495d-bf0e-51bf3fb36ce1</xr:TypeId>
+				<xr:ValueId>c5421257-d00a-419a-90c1-7fe2b0dfb52f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ДенежныеДокументы" category="Manager">
+				<xr:TypeId>6c340731-84f7-4143-ab74-eed6ae002736</xr:TypeId>
+				<xr:ValueId>9f5f1084-0000-4fc7-8c5e-e38b0af8d0e6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ДенежныеДокументы</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

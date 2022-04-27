@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Enum uuid="1ddd7151-d7e5-4bd5-a9c2-86ce33711bf4">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ФорматыСохраненияОтчетов" category="Ref">
+				<xr:TypeId>823c7516-9ebc-4dc2-9ef2-711b944a55a8</xr:TypeId>
+				<xr:ValueId>ce437b1a-6276-4ecc-8800-29028385705f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ФорматыСохраненияОтчетов" category="Manager">
+				<xr:TypeId>92e17134-e674-485b-8e7f-f9d7fbdfcd31</xr:TypeId>
+				<xr:ValueId>dcc73cc6-ebbb-4723-b571-5260b15c27cc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ФорматыСохраненияОтчетов" category="List">
+				<xr:TypeId>e9a4714c-4a92-4b65-8783-296d971c7534</xr:TypeId>
+				<xr:ValueId>20693928-8b91-483f-96a9-ad55916bc792</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ФорматыСохраненияОтчетов</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

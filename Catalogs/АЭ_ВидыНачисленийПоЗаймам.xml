@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Catalog uuid="c6101baa-1ceb-46d5-98cb-75ec293254b0">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.АЭ_ВидыНачисленийПоЗаймам" category="Object">
+				<xr:TypeId>6677a30b-c1f1-461e-9e20-a1ec0f46f3e0</xr:TypeId>
+				<xr:ValueId>33963f27-47ce-40e1-af50-02b71c41a9ce</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.АЭ_ВидыНачисленийПоЗаймам" category="Ref">
+				<xr:TypeId>486dc531-32e3-47e4-95d5-706e477fefef</xr:TypeId>
+				<xr:ValueId>2f4ff6de-4610-4dd7-915d-af2298c36ade</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.АЭ_ВидыНачисленийПоЗаймам" category="Selection">
+				<xr:TypeId>b544880f-1b22-4f35-bf8f-f1022f94e1d1</xr:TypeId>
+				<xr:ValueId>69fc2df9-07e2-46cb-a40b-5d34013db8ab</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.АЭ_ВидыНачисленийПоЗаймам" category="List">
+				<xr:TypeId>9a153c67-095c-4cf8-a18d-64ae66d331bb</xr:TypeId>
+				<xr:ValueId>e404ec97-3472-4c8c-8b3a-a3f99de4345c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.АЭ_ВидыНачисленийПоЗаймам" category="Manager">
+				<xr:TypeId>69cada23-61e9-41ab-aa40-f9931d985694</xr:TypeId>
+				<xr:ValueId>6748b7f8-69ef-48aa-bf53-12c3e22cc413</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>АЭ_ВидыНачисленийПоЗаймам</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

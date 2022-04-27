@@ -1,0 +1,2980 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="ГруппаШапка" id="135">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шапка</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="136"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаШапкаЛевая" id="137">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Шапка левая</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаШапкаЛеваяРасширеннаяПодсказка" id="138"/>
+					<ChildItems>
+						<UsualGroup name="МесяцОрганизация" id="437">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Месяц организация</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Horizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="МесяцОрганизацияРасширеннаяПодсказка" id="438"/>
+							<ChildItems>
+								<InputField name="ПериодРегистрации" id="7">
+									<EditMode>EnterOnInput</EditMode>
+									<Width>13</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ChoiceButton>true</ChoiceButton>
+									<SpinButton>true</SpinButton>
+									<AutoMarkIncomplete>true</AutoMarkIncomplete>
+									<ChoiceButtonPicture>
+										<xr:Ref>StdPicture.InputFieldCalendar</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+									</ChoiceButtonPicture>
+									<ContextMenu name="ПериодРегистрацииКонтекстноеМеню" id="8"/>
+									<ExtendedTooltip name="ПериодРегистрацииРасширеннаяПодсказка" id="9"/>
+								</InputField>
+								<InputField name="Организация" id="10">
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ОрганизацияКонтекстноеМеню" id="11"/>
+									<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="12"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаОтраженияВБухУчете" id="149">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Отражения в бух учете</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Horizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаОтраженияВБухУчетеExtendedTooltip" id="150"/>
+							<ChildItems>
+								<CheckBoxField name="ОбязательстваОтраженыВБухучете" id="13">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Отражено в бухучете пользователем</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>Right</TitleLocation>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ОбязательстваОтраженыВБухучетеКонтекстноеМеню" id="14"/>
+									<ExtendedTooltip name="ОбязательстваОтраженыВБухучетеРасширеннаяПодсказка" id="15"/>
+								</CheckBoxField>
+								<InputField name="Бухгалтер" id="154">
+									<ReadOnly>true</ReadOnly>
+									<TitleLocation>None</TitleLocation>
+									<ContextMenu name="БухгалтерКонтекстноеМеню" id="155"/>
+									<ExtendedTooltip name="БухгалтерExtendedTooltip" id="156"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаШапкаПравая" id="139">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Шапка правая</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаШапкаПраваяРасширеннаяПодсказка" id="140"/>
+					<ChildItems>
+						<UsualGroup name="ДатаНомер" id="141">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Дата номер</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Horizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ДатаНомерExtendedTooltip" id="142"/>
+							<ChildItems>
+								<InputField name="Дата" id="143">
+									<EditMode>EnterOnInput</EditMode>
+									<Width>10</Width>
+									<ContextMenu name="ДатаКонтекстноеМеню" id="144"/>
+									<ExtendedTooltip name="ДатаExtendedTooltip" id="145"/>
+								</InputField>
+								<InputField name="Номер" id="146">
+									<EditMode>EnterOnInput</EditMode>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="НомерКонтекстноеМеню" id="147"/>
+									<ExtendedTooltip name="НомерExtendedTooltip" id="148"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаКорректировкаОбязательств" id="439">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Корректировка обязательств</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<BackColor>style:ФонУправляющегоПоля</BackColor>
+			<ExtendedTooltip name="ГруппаКорректировкаОбязательствРасширеннаяПодсказка" id="440"/>
+			<ChildItems>
+				<CheckBoxField name="КорректировкаПредставление" id="441">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Операция</v8:content>
+						</v8:item>
+					</Title>
+					<TitleLocation>Left</TitleLocation>
+					<CheckBoxType>Tumbler</CheckBoxType>
+					<EditFormat>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>БЛ='Корректировка остатков'; БИ='Расчет текущего месяца'</v8:content>
+						</v8:item>
+					</EditFormat>
+					<ContextMenu name="КорректировкаПредставлениеКонтекстноеМеню" id="442"/>
+					<ExtendedTooltip name="КорректировкаПредставлениеРасширеннаяПодсказка" id="443"/>
+				</CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ОсновныеКоманды" id="165">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Основные команды</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ChildItemsWidth>LeftNarrow</ChildItemsWidth>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ОсновныеКомандыExtendedTooltip" id="166"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаКоманды" id="446">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Команды</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Horizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаКомандыРасширеннаяПодсказка" id="447"/>
+					<ChildItems>
+						<Button name="Заполнить" id="167">
+							<Type>UsualButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="ЗаполнитьExtendedTooltip" id="168"/>
+						</Button>
+						<Button name="ПересчитатьДокумент" id="444">
+							<Type>UsualButton</Type>
+							<Enabled>false</Enabled>
+							<Height>1</Height>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="ПересчитатьДокументРасширеннаяПодсказка" id="445"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<Pages name="Страницы" id="28">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="29"/>
+			<ChildItems>
+				<Page name="ГруппаОценочныеОбязательства" id="196">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обязательства и резервы текущего месяца</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаОценочныеОбязательстваРасширеннаяПодсказка" id="197"/>
+					<ChildItems>
+						<Table name="ОценочныеОбязательства" id="198">
+							<Footer>true</Footer>
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<FileDragMode>AsFile</FileDragMode>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Оценочные обязательства</v8:content>
+								</v8:item>
+							</Title>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ОценочныеОбязательстваКонтекстноеМеню" id="199"/>
+							<AutoCommandBar name="ОценочныеОбязательстваКоманднаяПанель" id="200">
+								<ChildItems>
+									<Button name="ПересчитатьОбязательстваТекущегоМесяца" id="527">
+										<Type>CommandBarButton</Type>
+										<Enabled>false</Enabled>
+										<CommandName>0</CommandName>
+										<ExtendedTooltip name="ПересчитатьОбязательстваТекущегоМесяцаРасширеннаяПодсказка" id="528"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="ОценочныеОбязательстваРасширеннаяПодсказка" id="201"/>
+							<SearchStringAddition name="ОценочныеОбязательстваСтрокаПоиска" id="202">
+								<AdditionSource>
+									<Item>ОценочныеОбязательства</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ОценочныеОбязательстваСтрокаПоискаКонтекстноеМеню" id="205"/>
+								<ExtendedTooltip name="ОценочныеОбязательстваСтрокаПоискаРасширеннаяПодсказка" id="206"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ОценочныеОбязательстваСостояниеПросмотра" id="207">
+								<AdditionSource>
+									<Item>ОценочныеОбязательства</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ОценочныеОбязательстваСостояниеПросмотраКонтекстноеМеню" id="210"/>
+								<ExtendedTooltip name="ОценочныеОбязательстваСостояниеПросмотраРасширеннаяПодсказка" id="211"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ОценочныеОбязательстваУправлениеПоиском" id="212">
+								<AdditionSource>
+									<Item>ОценочныеОбязательства</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ОценочныеОбязательстваУправлениеПоискомКонтекстноеМеню" id="215"/>
+								<ExtendedTooltip name="ОценочныеОбязательстваУправлениеПоискомРасширеннаяПодсказка" id="216"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ОценочныеОбязательстваНомерСтроки" id="217">
+									<EditMode>EnterOnInput</EditMode>
+									<Width>5</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="ОценочныеОбязательстваНомерСтрокиКонтекстноеМеню" id="218"/>
+									<ExtendedTooltip name="ОценочныеОбязательстваНомерСтрокиРасширеннаяПодсказка" id="219"/>
+								</LabelField>
+								<InputField name="ОценочныеОбязательстваПодразделение" id="235">
+									<EditMode>EnterOnInput</EditMode>
+									<Width>20</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="ОценочныеОбязательстваПодразделениеКонтекстноеМеню" id="236"/>
+									<ExtendedTooltip name="ОценочныеОбязательстваПодразделениеРасширеннаяПодсказка" id="237"/>
+								</InputField>
+								<InputField name="ОценочныеОбязательстваpcru_ex_типзатрат" id="553">
+									<DataPath>1000001/0:5bd13b4a-8d2e-4dcc-af69-a53efafe4479/0:7099886f-1a1c-4037-91f3-2ebeb84de59c</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ОценочныеОбязательстваpcru_ex_типзатратКонтекстноеМеню" id="554"/>
+									<ExtendedTooltip name="ОценочныеОбязательстваpcru_ex_типзатратРасширеннаяПодсказка" id="555"/>
+								</InputField>
+								<InputField name="ОценочныеОбязательстваProcessCode" id="550">
+									<DataPath>1000001/0:5bd13b4a-8d2e-4dcc-af69-a53efafe4479/0:c963ff51-b1de-40e8-8e02-48111f13e803</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ОценочныеОбязательстваProcessCodeКонтекстноеМеню" id="551"/>
+									<ExtendedTooltip name="ОценочныеОбязательстваProcessCodeРасширеннаяПодсказка" id="552"/>
+								</InputField>
+								<ColumnGroup name="ОценочныеОбязательстваГруппаОтражение" id="448">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Способ отражения/статья финансирования</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="ОценочныеОбязательстваГруппаОтражениеРасширеннаяПодсказка" id="449"/>
+									<ChildItems>
+										<InputField name="ОценочныеОбязательстваСпособОтраженияЗарплатыВБухучете" id="220">
+											<EditMode>EnterOnInput</EditMode>
+											<Width>20</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="ОценочныеОбязательстваСпособОтраженияЗарплатыВБухучетеКонтекстноеМеню" id="221"/>
+											<ExtendedTooltip name="ОценочныеОбязательстваСпособОтраженияЗарплатыВБухучетеРасширеннаяПодсказка" id="222"/>
+										</InputField>
+										<InputField name="ОценочныеОбязательстваСтатьяФинансирования" id="450">
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="ОценочныеОбязательстваСтатьяФинансированияКонтекстноеМеню" id="451"/>
+											<ExtendedTooltip name="ОценочныеОбязательстваСтатьяФинансированияРасширеннаяПодсказка" id="452"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+								<CheckBoxField name="ОценочныеОбязательстваОблагаетсяЕНВД" id="356">
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ОценочныеОбязательстваОблагаетсяЕНВДКонтекстноеМеню" id="357"/>
+									<ExtendedTooltip name="ОценочныеОбязательстваОблагаетсяЕНВДРасширеннаяПодсказка" id="358"/>
+								</CheckBoxField>
+								<ColumnGroup name="ОценочныеОбязательстваГруппаПоказатели" id="420">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Показатели</v8:content>
+										</v8:item>
+									</Title>
+									<Width>3</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ShowTitle>false</ShowTitle>
+									<ShowInHeader>true</ShowInHeader>
+									<ExtendedTooltip name="ОценочныеОбязательстваГруппаПоказателиРасширеннаяПодсказка" id="421"/>
+									<ChildItems>
+										<InputField name="ОценочныеОбязательстваНадписьБУ" id="425">
+											<ReadOnly>true</ReadOnly>
+											<EditMode>EnterOnInput</EditMode>
+											<ShowInHeader>false</ShowInHeader>
+											<FooterText>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>БУ:</v8:content>
+												</v8:item>
+											</FooterText>
+											<FooterFont ref="0:65f7e1c1-fa94-4515-a0c2-ce82af69e28e" kind="StyleItem"/>
+											<Width>3</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<BackColor>style:ToolTipBackColor</BackColor>
+											<ContextMenu name="ОценочныеОбязательстваНадписьБУКонтекстноеМеню" id="426"/>
+											<ExtendedTooltip name="ОценочныеОбязательстваНадписьБУРасширеннаяПодсказка" id="427"/>
+										</InputField>
+										<InputField name="ОценочныеОбязательстваНадписьНУ" id="422">
+											<ReadOnly>true</ReadOnly>
+											<EditMode>EnterOnInput</EditMode>
+											<ShowInHeader>false</ShowInHeader>
+											<FooterText>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>НУ:</v8:content>
+												</v8:item>
+											</FooterText>
+											<FooterFont ref="0:65f7e1c1-fa94-4515-a0c2-ce82af69e28e" kind="StyleItem"/>
+											<Width>3</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<BackColor>style:ToolTipBackColor</BackColor>
+											<ContextMenu name="ОценочныеОбязательстваНадписьНУКонтекстноеМеню" id="423"/>
+											<ExtendedTooltip name="ОценочныеОбязательстваНадписьНУРасширеннаяПодсказка" id="424"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+								<ColumnGroup name="ОценочныеОбязательстваГруппаРезерв" id="431">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Обязательство (резерв)</v8:content>
+										</v8:item>
+									</Title>
+									<Width>17</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ShowInHeader>true</ShowInHeader>
+									<ExtendedTooltip name="ОценочныеОбязательстваГруппаРезервРасширеннаяПодсказка" id="432"/>
+									<ChildItems>
+										<InputField name="ОценочныеОбязательстваСуммаРезерва" id="223">
+											<EditMode>EnterOnInput</EditMode>
+											<ShowInHeader>false</ShowInHeader>
+											<Width>17</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="ОценочныеОбязательстваСуммаРезерваКонтекстноеМеню" id="224"/>
+											<ExtendedTooltip name="ОценочныеОбязательстваСуммаРезерваРасширеннаяПодсказка" id="225"/>
+										</InputField>
+										<InputField name="ОценочныеОбязательстваСуммаРезерваНУ" id="229">
+											<EditMode>EnterOnInput</EditMode>
+											<ShowInHeader>false</ShowInHeader>
+											<Width>17</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<BackColor>style:FieldAlternativeBackColor</BackColor>
+											<ContextMenu name="ОценочныеОбязательстваСуммаРезерваНУКонтекстноеМеню" id="230"/>
+											<ExtendedTooltip name="ОценочныеОбязательстваСуммаРезерваНУРасширеннаяПодсказка" id="231"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+								<ColumnGroup name="ОценочныеОбязательстваГруппаРезервСтраховыеВзносы" id="433">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страховые взносы</v8:content>
+										</v8:item>
+									</Title>
+									<Width>17</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ShowInHeader>true</ShowInHeader>
+									<ExtendedTooltip name="ОценочныеОбязательстваГруппаРезервСтраховыеВзносыРасширеннаяПодсказка" id="434"/>
+									<ChildItems>
+										<InputField name="ОценочныеОбязательстваСуммаРезерваСтраховыхВзносов" id="226">
+											<EditMode>EnterOnInput</EditMode>
+											<ShowInHeader>false</ShowInHeader>
+											<Width>17</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="ОценочныеОбязательстваСуммаРезерваСтраховыхВзносовКонтекстноеМеню" id="227"/>
+											<ExtendedTooltip name="ОценочныеОбязательстваСуммаРезерваСтраховыхВзносовРасширеннаяПодсказка" id="228"/>
+										</InputField>
+										<InputField name="ОценочныеОбязательстваСуммаРезерваСтраховыхВзносовНУ" id="232">
+											<EditMode>EnterOnInput</EditMode>
+											<ShowInHeader>false</ShowInHeader>
+											<Width>17</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<BackColor>style:FieldAlternativeBackColor</BackColor>
+											<ContextMenu name="ОценочныеОбязательстваСуммаРезерваСтраховыхВзносовНУКонтекстноеМеню" id="233"/>
+											<ExtendedTooltip name="ОценочныеОбязательстваСуммаРезерваСтраховыхВзносовНУРасширеннаяПодсказка" id="234"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+								<ColumnGroup name="ОценочныеОбязательстваГруппаРезервФССНесчастныеСлучаи" id="435">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ФСС НС и ПЗ</v8:content>
+										</v8:item>
+									</Title>
+									<Width>17</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ShowInHeader>true</ShowInHeader>
+									<ExtendedTooltip name="ОценочныеОбязательстваГруппаРезервФССНесчастныеСлучаиРасширеннаяПодсказка" id="436"/>
+									<ChildItems>
+										<InputField name="ОценочныеОбязательстваСуммаРезерваФССНесчастныеСлучаи" id="241">
+											<EditMode>EnterOnInput</EditMode>
+											<ShowInHeader>false</ShowInHeader>
+											<Width>17</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="ОценочныеОбязательстваСуммаРезерваФССНесчастныеСлучаиКонтекстноеМеню" id="242"/>
+											<ExtendedTooltip name="ОценочныеОбязательстваСуммаРезерваФССНесчастныеСлучаиРасширеннаяПодсказка" id="243"/>
+										</InputField>
+										<InputField name="ОценочныеОбязательстваСуммаРезерваФССНесчастныеСлучаиНУ" id="244">
+											<EditMode>EnterOnInput</EditMode>
+											<ShowInHeader>false</ShowInHeader>
+											<Width>17</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<BackColor>style:FieldAlternativeBackColor</BackColor>
+											<ContextMenu name="ОценочныеОбязательстваСуммаРезерваФССНесчастныеСлучаиНУКонтекстноеМеню" id="245"/>
+											<ExtendedTooltip name="ОценочныеОбязательстваСуммаРезерваФССНесчастныеСлучаиНУРасширеннаяПодсказка" id="246"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+								<InputField name="ОценочныеОбязательстваОтступ" id="428">
+									<ReadOnly>true</ReadOnly>
+									<TitleLocation>None</TitleLocation>
+									<EditMode>EnterOnInput</EditMode>
+									<HorizontalStretch>true</HorizontalStretch>
+									<ContextMenu name="ОценочныеОбязательстваОтступКонтекстноеМеню" id="429"/>
+									<ExtendedTooltip name="ОценочныеОбязательстваОтступРасширеннаяПодсказка" id="430"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаОценочныеОбязательстваПоСотрудникам" id="458">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обязательства и резервы по сотрудникам</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаОценочныеОбязательстваПоСотрудникамРасширеннаяПодсказка" id="459"/>
+					<ChildItems>
+						<Table name="ОценочныеОбязательстваПоСотрудникам" id="460">
+							<Footer>true</Footer>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Оценочные обязательства по сотрудникам</v8:content>
+								</v8:item>
+							</Title>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ОценочныеОбязательстваПоСотрудникамКонтекстноеМеню" id="461"/>
+							<AutoCommandBar name="ОценочныеОбязательстваПоСотрудникамКоманднаяПанель" id="462">
+								<ChildItems>
+									<Button name="ПересчитатьОбязательстваПоСотрудникам" id="525">
+										<Type>CommandBarButton</Type>
+										<Enabled>false</Enabled>
+										<CommandName>0</CommandName>
+										<ExtendedTooltip name="ПересчитатьОбязательстваПоСотрудникамРасширеннаяПодсказка" id="526"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамРасширеннаяПодсказка" id="463"/>
+							<SearchStringAddition name="ОценочныеОбязательстваПоСотрудникамСтрокаПоиска" id="464">
+								<AdditionSource>
+									<Item>ОценочныеОбязательстваПоСотрудникам</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ОценочныеОбязательстваПоСотрудникамСтрокаПоискаКонтекстноеМеню" id="465"/>
+								<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамСтрокаПоискаРасширеннаяПодсказка" id="466"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ОценочныеОбязательстваПоСотрудникамСостояниеПросмотра" id="467">
+								<AdditionSource>
+									<Item>ОценочныеОбязательстваПоСотрудникам</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ОценочныеОбязательстваПоСотрудникамСостояниеПросмотраКонтекстноеМеню" id="468"/>
+								<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамСостояниеПросмотраРасширеннаяПодсказка" id="469"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ОценочныеОбязательстваПоСотрудникамУправлениеПоиском" id="470">
+								<AdditionSource>
+									<Item>ОценочныеОбязательстваПоСотрудникам</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ОценочныеОбязательстваПоСотрудникамУправлениеПоискомКонтекстноеМеню" id="471"/>
+								<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамУправлениеПоискомРасширеннаяПодсказка" id="472"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ОценочныеОбязательстваПоСотрудникамНомерСтроки" id="473">
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ОценочныеОбязательстваПоСотрудникамНомерСтрокиКонтекстноеМеню" id="474"/>
+									<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамНомерСтрокиРасширеннаяПодсказка" id="475"/>
+								</LabelField>
+								<InputField name="ОценочныеОбязательстваПоСотрудникамСотрудник" id="479">
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ОценочныеОбязательстваПоСотрудникамСотрудникКонтекстноеМеню" id="480"/>
+									<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамСотрудникРасширеннаяПодсказка" id="481"/>
+								</InputField>
+								<InputField name="ОценочныеОбязательстваПоСотрудникамПодразделение" id="482">
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ОценочныеОбязательстваПоСотрудникамПодразделениеКонтекстноеМеню" id="483"/>
+									<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамПодразделениеРасширеннаяПодсказка" id="484"/>
+								</InputField>
+								<ColumnGroup name="ОценочныеОбязательстваПоСотрудникамГруппаОтражение" id="509">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Способ отражения/статья финансирования</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамГруппаОтражениеРасширеннаяПодсказка" id="510"/>
+									<ChildItems>
+										<InputField name="ОценочныеОбязательстваПоВознаграждениямРаботникамСпособОтраженияЗарплатыВБухучете" id="485">
+											<EditMode>EnterOnInput</EditMode>
+											<Width>20</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="ОценочныеОбязательстваПоВознаграждениямРаботникамСпособОтраженияЗарплатыВБухучетеКонтекстноеМеню" id="486"/>
+											<ExtendedTooltip name="ОценочныеОбязательстваПоВознаграждениямРаботникамСпособОтраженияЗарплатыВБухучетеРасширеннаяПодсказка" id="487"/>
+										</InputField>
+										<InputField name="ОценочныеОбязательстваПоВознаграждениямРаботникамСтатьяФинансирования" id="488">
+											<EditMode>EnterOnInput</EditMode>
+											<Width>20</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="ОценочныеОбязательстваПоВознаграждениямРаботникамСтатьяФинансированияКонтекстноеМеню" id="489"/>
+											<ExtendedTooltip name="ОценочныеОбязательстваПоВознаграждениямРаботникамСтатьяФинансированияРасширеннаяПодсказка" id="490"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+								<CheckBoxField name="ОценочныеОбязательстваПоСотрудникамОблагаетсяЕНВД" id="476">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ЕНВД</v8:content>
+										</v8:item>
+									</Title>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ОценочныеОбязательстваПоСотрудникамОблагаетсяЕНВДКонтекстноеМеню" id="477"/>
+									<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамОблагаетсяЕНВДРасширеннаяПодсказка" id="478"/>
+								</CheckBoxField>
+								<ColumnGroup name="ОценочныеОбязательстваПоСотрудникамГруппаПоказатели" id="511">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Показатели</v8:content>
+										</v8:item>
+									</Title>
+									<Width>3</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ShowTitle>false</ShowTitle>
+									<ShowInHeader>true</ShowInHeader>
+									<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамГруппаПоказателиРасширеннаяПодсказка" id="512"/>
+									<ChildItems>
+										<InputField name="ОценочныеОбязательстваПоСотрудникамНадписьБУ" id="516">
+											<ReadOnly>true</ReadOnly>
+											<EditMode>EnterOnInput</EditMode>
+											<ShowInHeader>false</ShowInHeader>
+											<FooterText>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>БУ:</v8:content>
+												</v8:item>
+											</FooterText>
+											<FooterFont ref="0:65f7e1c1-fa94-4515-a0c2-ce82af69e28e" kind="StyleItem"/>
+											<BackColor>style:ToolTipBackColor</BackColor>
+											<ContextMenu name="ОценочныеОбязательстваПоСотрудникамНадписьБУКонтекстноеМеню" id="517"/>
+											<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамНадписьБУРасширеннаяПодсказка" id="518"/>
+										</InputField>
+										<InputField name="ОценочныеОбязательстваПоСотрудникамНадписьНУ" id="513">
+											<ReadOnly>true</ReadOnly>
+											<EditMode>EnterOnInput</EditMode>
+											<ShowInHeader>false</ShowInHeader>
+											<FooterText>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>НУ:</v8:content>
+												</v8:item>
+											</FooterText>
+											<FooterFont ref="0:65f7e1c1-fa94-4515-a0c2-ce82af69e28e" kind="StyleItem"/>
+											<BackColor>style:ToolTipBackColor</BackColor>
+											<ContextMenu name="ОценочныеОбязательстваПоСотрудникамНадписьНУКонтекстноеМеню" id="514"/>
+											<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамНадписьНУРасширеннаяПодсказка" id="515"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+								<ColumnGroup name="ОценочныеОбязательстваПоСотрудникамГруппаРезерв" id="519">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Обязательство (резерв)</v8:content>
+										</v8:item>
+									</Title>
+									<Width>17</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ShowInHeader>true</ShowInHeader>
+									<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамГруппаРезервРасширеннаяПодсказка" id="520"/>
+									<ChildItems>
+										<InputField name="ОценочныеОбязательстваПоСотрудникамСуммаРезерва" id="491">
+											<EditMode>EnterOnInput</EditMode>
+											<ShowInHeader>false</ShowInHeader>
+											<ContextMenu name="ОценочныеОбязательстваПоСотрудникамСуммаРезерваКонтекстноеМеню" id="492"/>
+											<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамСуммаРезерваРасширеннаяПодсказка" id="493"/>
+										</InputField>
+										<InputField name="ОценочныеОбязательстваПоСотрудникамСуммаРезерваНУ" id="497">
+											<EditMode>EnterOnInput</EditMode>
+											<ShowInHeader>false</ShowInHeader>
+											<BackColor>style:FieldAlternativeBackColor</BackColor>
+											<ContextMenu name="ОценочныеОбязательстваПоСотрудникамСуммаРезерваНУКонтекстноеМеню" id="498"/>
+											<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамСуммаРезерваНУРасширеннаяПодсказка" id="499"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+								<ColumnGroup name="ОценочныеОбязательстваПоСотрудникамГруппаСтраховыеВзносы" id="521">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страховые взносы</v8:content>
+										</v8:item>
+									</Title>
+									<Width>17</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ShowInHeader>true</ShowInHeader>
+									<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамГруппаСтраховыеВзносыРасширеннаяПодсказка" id="522"/>
+									<ChildItems>
+										<InputField name="ОценочныеОбязательстваПоСотрудникамСуммаРезерваСтраховыхВзносов" id="494">
+											<EditMode>EnterOnInput</EditMode>
+											<ShowInHeader>false</ShowInHeader>
+											<ContextMenu name="ОценочныеОбязательстваПоСотрудникамСуммаРезерваСтраховыхВзносовКонтекстноеМеню" id="495"/>
+											<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамСуммаРезерваСтраховыхВзносовРасширеннаяПодсказка" id="496"/>
+										</InputField>
+										<InputField name="ОценочныеОбязательстваПоСотрудникамСуммаРезерваСтраховыхВзносовНУ" id="500">
+											<EditMode>EnterOnInput</EditMode>
+											<ShowInHeader>false</ShowInHeader>
+											<BackColor>style:FieldAlternativeBackColor</BackColor>
+											<ContextMenu name="ОценочныеОбязательстваПоСотрудникамСуммаРезерваСтраховыхВзносовНУКонтекстноеМеню" id="501"/>
+											<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамСуммаРезерваСтраховыхВзносовНУРасширеннаяПодсказка" id="502"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+								<ColumnGroup name="ОценочныеОбязательстваПоСотрудникамГруппаФССНесчастныеСлучаи" id="523">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ФСС НС и ПЗ</v8:content>
+										</v8:item>
+									</Title>
+									<Width>17</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ShowInHeader>true</ShowInHeader>
+									<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамГруппаФССНесчастныеСлучаиРасширеннаяПодсказка" id="524"/>
+									<ChildItems>
+										<InputField name="ОценочныеОбязательстваПоСотрудникамСуммаРезерваФССНесчастныеСлучаи" id="503">
+											<EditMode>EnterOnInput</EditMode>
+											<ShowInHeader>false</ShowInHeader>
+											<ContextMenu name="ОценочныеОбязательстваПоСотрудникамСуммаРезерваФССНесчастныеСлучаиКонтекстноеМеню" id="504"/>
+											<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамСуммаРезерваФССНесчастныеСлучаиРасширеннаяПодсказка" id="505"/>
+										</InputField>
+										<InputField name="ОценочныеОбязательстваПоСотрудникамСуммаРезерваФССНесчастныеСлучаиНУ" id="506">
+											<EditMode>EnterOnInput</EditMode>
+											<ShowInHeader>false</ShowInHeader>
+											<BackColor>style:FieldAlternativeBackColor</BackColor>
+											<ContextMenu name="ОценочныеОбязательстваПоСотрудникамСуммаРезерваФССНесчастныеСлучаиНУКонтекстноеМеню" id="507"/>
+											<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамСуммаРезерваФССНесчастныеСлучаиНУРасширеннаяПодсказка" id="508"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+								<CheckBoxField name="ОценочныеОбязательстваПоСотрудникамКорректировкаОбязательств" id="535">
+									<UserVisible>
+										<xr:Common>false</xr:Common>
+									</UserVisible>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Корректировка*</v8:content>
+										</v8:item>
+									</Title>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ОценочныеОбязательстваПоСотрудникамКорректировкаОбязательствКонтекстноеМеню" id="536"/>
+									<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамКорректировкаОбязательствРасширеннаяПодсказка" id="537"/>
+								</CheckBoxField>
+								<InputField name="ОценочныеОбязательстваПоСотрудникамОтступ" id="538">
+									<ReadOnly>true</ReadOnly>
+									<TitleLocation>None</TitleLocation>
+									<EditMode>EnterOnInput</EditMode>
+									<HorizontalStretch>true</HorizontalStretch>
+									<ContextMenu name="ОценочныеОбязательстваПоСотрудникамОтступКонтекстноеМеню" id="539"/>
+									<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамОтступРасширеннаяПодсказка" id="540"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+						<LabelDecoration name="ДекорацияПодсказка" id="541">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<TextColor>0:34998676-bd27-4c00-a902-5052139a0e34</TextColor>
+							<Font ref="0:65f7e1c1-fa94-4515-a0c2-ce82af69e28e" kind="StyleItem"/>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>* Курсивом выделяются строки корректировки остатков. Эти строки не учитываются при подготовке таблицы "Обязательства и резервы текущего месяца".</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияПодсказкаКонтекстноеМеню" id="542"/>
+							<ExtendedTooltip name="ДекорацияПодсказкаРасширеннаяПодсказка" id="543"/>
+						</LabelDecoration>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаРасчетРезерваОтпусков" id="30">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Расчет обязательств и резервов по отпускам</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаРасчетРезерваОтпусковРасширеннаяПодсказка" id="31"/>
+					<ChildItems>
+						<Table name="РасчетРезерваОтпусков" id="253">
+							<Footer>true</Footer>
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<FileDragMode>AsFile</FileDragMode>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Расчет резерва отпусков</v8:content>
+								</v8:item>
+							</Title>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="РасчетРезерваОтпусковКонтекстноеМеню" id="254">
+								<ChildItems>
+									<Button name="РасчетРезерваОтпусковКонтекстноеМенюСправкаПоОтпускам" id="544">
+										<Type>CommandBarButton</Type>
+										<CommandName>0</CommandName>
+										<ExtendedTooltip name="РасчетРезерваОтпусковКонтекстноеМенюСправкаПоОтпускамРасширеннаяПодсказка" id="545"/>
+									</Button>
+								</ChildItems>
+							</ContextMenu>
+							<AutoCommandBar name="РасчетРезерваОтпусковКоманднаяПанель" id="255">
+								<ChildItems>
+									<Button name="РасчетРезерваОтпусковОткрытьСреднийЗаработок" id="548">
+										<Type>CommandBarButton</Type>
+										<CommandName>0</CommandName>
+										<ExtendedTooltip name="РасчетРезерваОтпусковОткрытьСреднийЗаработокРасширеннаяПодсказка" id="549"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="РасчетРезерваОтпусковРасширеннаяПодсказка" id="256"/>
+							<SearchStringAddition name="РасчетРезерваОтпусковСтрокаПоиска" id="257">
+								<AdditionSource>
+									<Item>РасчетРезерваОтпусков</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РасчетРезерваОтпусковСтрокаПоискаКонтекстноеМеню" id="260"/>
+								<ExtendedTooltip name="РасчетРезерваОтпусковСтрокаПоискаРасширеннаяПодсказка" id="261"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="РасчетРезерваОтпусковСостояниеПросмотра" id="262">
+								<AdditionSource>
+									<Item>РасчетРезерваОтпусков</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РасчетРезерваОтпусковСостояниеПросмотраКонтекстноеМеню" id="265"/>
+								<ExtendedTooltip name="РасчетРезерваОтпусковСостояниеПросмотраРасширеннаяПодсказка" id="266"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="РасчетРезерваОтпусковУправлениеПоиском" id="267">
+								<AdditionSource>
+									<Item>РасчетРезерваОтпусков</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="РасчетРезерваОтпусковУправлениеПоискомКонтекстноеМеню" id="270"/>
+								<ExtendedTooltip name="РасчетРезерваОтпусковУправлениеПоискомРасширеннаяПодсказка" id="271"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="РасчетРезерваОтпусковНомерСтроки" id="272">
+									<EditMode>EnterOnInput</EditMode>
+									<Width>3</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="РасчетРезерваОтпусковНомерСтрокиКонтекстноеМеню" id="273"/>
+									<ExtendedTooltip name="РасчетРезерваОтпусковНомерСтрокиРасширеннаяПодсказка" id="274"/>
+								</LabelField>
+								<InputField name="РасчетРезерваОтпусковСотрудник" id="275">
+									<EditMode>EnterOnInput</EditMode>
+									<Width>20</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="РасчетРезерваОтпусковСотрудникКонтекстноеМеню" id="276"/>
+									<ExtendedTooltip name="РасчетРезерваОтпусковСотрудникРасширеннаяПодсказка" id="277"/>
+								</InputField>
+								<InputField name="РасчетРезерваОтпусковФОТ" id="278">
+									<EditMode>EnterOnInput</EditMode>
+									<Width>10</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="РасчетРезерваОтпусковФОТКонтекстноеМеню" id="279"/>
+									<ExtendedTooltip name="РасчетРезерваОтпусковФОТРасширеннаяПодсказка" id="280"/>
+								</InputField>
+								<ColumnGroup name="РасчетРезерваОтпусковГруппаСреднийЗаработок" id="378">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Остаток отпуска/средний заработок</v8:content>
+										</v8:item>
+									</Title>
+									<Width>31</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ExtendedTooltip name="РасчетРезерваОтпусковГруппаСреднийЗаработокРасширеннаяПодсказка" id="379"/>
+									<ChildItems>
+										<ColumnGroup name="РасчетРезерваОтпусковГруппаОстатокОтпуска" id="456">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Остаток отпуска (в т.ч. использовано авансом)</v8:content>
+												</v8:item>
+											</Title>
+											<Width>16</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="РасчетРезерваОтпусковГруппаОстатокОтпускаРасширеннаяПодсказка" id="457"/>
+											<ChildItems>
+												<InputField name="РасчетРезерваОтпусковОстатокОтпуска" id="293">
+													<EditMode>EnterOnInput</EditMode>
+													<ShowInFooter>false</ShowInFooter>
+													<Width>16</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ContextMenu name="РасчетРезерваОтпусковОстатокОтпускаКонтекстноеМеню" id="294"/>
+													<ExtendedTooltip name="РасчетРезерваОтпусковОстатокОтпускаРасширеннаяПодсказка" id="295"/>
+												</InputField>
+												<InputField name="РасчетРезерваОтпусковОтпускАвансом" id="453">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>использован авансом</v8:content>
+														</v8:item>
+													</Title>
+													<TitleFont ref="0:65f7e1c1-fa94-4515-a0c2-ce82af69e28e" kind="StyleItem"/>
+													<EditMode>EnterOnInput</EditMode>
+													<Width>16</Width>
+													<Font ref="0:65f7e1c1-fa94-4515-a0c2-ce82af69e28e" kind="StyleItem"/>
+													<ContextMenu name="РасчетРезерваОтпусковОтпускАвансомКонтекстноеМеню" id="454"/>
+													<ExtendedTooltip name="РасчетРезерваОтпусковОтпускАвансомРасширеннаяПодсказка" id="455"/>
+												</InputField>
+											</ChildItems>
+										</ColumnGroup>
+									</ChildItems>
+								</ColumnGroup>
+								<InputField name="РасчетРезерваОтпусковСреднийЗаработок" id="296">
+									<EditMode>EnterOnInput</EditMode>
+									<Width>15</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<OpenButton>true</OpenButton>
+									<ContextMenu name="РасчетРезерваОтпусковСреднийЗаработокКонтекстноеМеню" id="297"/>
+									<ExtendedTooltip name="РасчетРезерваОтпусковСреднийЗаработокРасширеннаяПодсказка" id="298"/>
+								</InputField>
+								<ColumnGroup name="РасчетРезерваОтпусковГруппаСтраховыеВзносы" id="362">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страховые взносы (размер и %)</v8:content>
+										</v8:item>
+									</Title>
+									<Width>15</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ExtendedTooltip name="РасчетРезерваОтпусковГруппаСтраховыеВзносыРасширеннаяПодсказка" id="363"/>
+									<ChildItems>
+										<InputField name="РасчетРезерваОтпусковСтраховыеВзносы" id="281">
+											<EditMode>EnterOnInput</EditMode>
+											<Width>15</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="РасчетРезерваОтпусковСтраховыеВзносыКонтекстноеМеню" id="282"/>
+											<ExtendedTooltip name="РасчетРезерваОтпусковСтраховыеВзносыРасширеннаяПодсказка" id="283"/>
+										</InputField>
+										<InputField name="РасчетРезерваОтпусковТекущаяСтавкаСтраховыхВзносов" id="308">
+											<EditMode>EnterOnInput</EditMode>
+											<ShowInFooter>false</ShowInFooter>
+											<Width>15</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="РасчетРезерваОтпусковТекущаяСтавкаСтраховыхВзносовКонтекстноеМеню" id="309"/>
+											<ExtendedTooltip name="РасчетРезерваОтпусковТекущаяСтавкаСтраховыхВзносовРасширеннаяПодсказка" id="310"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+								<ColumnGroup name="РасчетРезерваОтпусковГруппаФССНесчастныеСлучаи" id="364">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ФСС от НС и ПЗ (размер и %)</v8:content>
+										</v8:item>
+									</Title>
+									<Width>15</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ExtendedTooltip name="РасчетРезерваОтпусковГруппаФССНесчастныеСлучаиРасширеннаяПодсказка" id="365"/>
+									<ChildItems>
+										<InputField name="РасчетРезерваОтпусковФССНесчастныеСлучаи" id="359">
+											<EditMode>EnterOnInput</EditMode>
+											<Width>15</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="РасчетРезерваОтпусковФССНесчастныеСлучаиКонтекстноеМеню" id="360"/>
+											<ExtendedTooltip name="РасчетРезерваОтпусковФССНесчастныеСлучаиРасширеннаяПодсказка" id="361"/>
+										</InputField>
+										<InputField name="РасчетРезерваОтпусковТекущаяСтавкаФССНесчастныеСлучаи" id="311">
+											<EditMode>EnterOnInput</EditMode>
+											<ShowInFooter>false</ShowInFooter>
+											<Width>15</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="РасчетРезерваОтпусковТекущаяСтавкаФССНесчастныеСлучаиКонтекстноеМеню" id="312"/>
+											<ExtendedTooltip name="РасчетРезерваОтпусковТекущаяСтавкаФССНесчастныеСлучаиРасширеннаяПодсказка" id="313"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+								<ColumnGroup name="РасчетРезерваОтпусковГруппаПоказатели" id="368">
+									<ReadOnly>true</ReadOnly>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Показатели</v8:content>
+										</v8:item>
+									</Title>
+									<Width>3</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ShowTitle>false</ShowTitle>
+									<ShowInHeader>true</ShowInHeader>
+									<ExtendedTooltip name="РасчетРезерваОтпусковГруппаПоказателиРасширеннаяПодсказка" id="369"/>
+									<ChildItems>
+										<InputField name="РасчетРезерваОтпусковНадписьБУ" id="370">
+											<ReadOnly>true</ReadOnly>
+											<EditMode>EnterOnInput</EditMode>
+											<ShowInHeader>false</ShowInHeader>
+											<FooterText>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>БУ:</v8:content>
+												</v8:item>
+											</FooterText>
+											<FooterFont ref="0:65f7e1c1-fa94-4515-a0c2-ce82af69e28e" kind="StyleItem"/>
+											<Width>3</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<BackColor>style:ToolTipBackColor</BackColor>
+											<ContextMenu name="РасчетРезерваОтпусковНадписьБУКонтекстноеМеню" id="371"/>
+											<ExtendedTooltip name="РасчетРезерваОтпусковНадписьБУРасширеннаяПодсказка" id="372"/>
+										</InputField>
+										<InputField name="РасчетРезерваОтпусковНадписьНУ" id="373">
+											<ReadOnly>true</ReadOnly>
+											<EditMode>EnterOnInput</EditMode>
+											<ShowInHeader>false</ShowInHeader>
+											<FooterText>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>НУ:</v8:content>
+												</v8:item>
+											</FooterText>
+											<FooterFont ref="0:65f7e1c1-fa94-4515-a0c2-ce82af69e28e" kind="StyleItem"/>
+											<Width>3</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<BackColor>style:ToolTipBackColor</BackColor>
+											<ContextMenu name="РасчетРезерваОтпусковНадписьНУКонтекстноеМеню" id="374"/>
+											<ExtendedTooltip name="РасчетРезерваОтпусковНадписьНУРасширеннаяПодсказка" id="375"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+								<ColumnGroup name="РасчетРезерваОтпусковГруппаРезерв" id="380">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сумма обязательства (резерва)</v8:content>
+										</v8:item>
+									</Title>
+									<Width>30</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<Group>Horizontal</Group>
+									<ShowInHeader>true</ShowInHeader>
+									<ExtendedTooltip name="РасчетРезерваОтпусковГруппаРезервРасширеннаяПодсказка" id="381"/>
+									<ChildItems>
+										<ColumnGroup name="РасчетРезерваОтпусковГруппаСуммаРезерваИсчислено" id="386">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>исчислено</v8:content>
+												</v8:item>
+											</Title>
+											<Width>10</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ShowInHeader>true</ShowInHeader>
+											<ExtendedTooltip name="РасчетРезерваОтпусковГруппаСуммаРезерваИсчисленоРасширеннаяПодсказка" id="387"/>
+											<ChildItems>
+												<InputField name="РасчетРезерваОтпусковСуммаРезерваИсчислено" id="332">
+													<EditMode>EnterOnInput</EditMode>
+													<ShowInHeader>false</ShowInHeader>
+													<Width>10</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ContextMenu name="РасчетРезерваОтпусковСуммаРезерваИсчисленоКонтекстноеМеню" id="333"/>
+													<ExtendedTooltip name="РасчетРезерваОтпусковСуммаРезерваИсчисленоРасширеннаяПодсказка" id="334"/>
+												</InputField>
+												<InputField name="РасчетРезерваОтпусковСуммаРезерваИсчисленоНУ" id="341">
+													<EditMode>EnterOnInput</EditMode>
+													<ShowInHeader>false</ShowInHeader>
+													<Width>10</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<BackColor>style:FieldAlternativeBackColor</BackColor>
+													<ContextMenu name="РасчетРезерваОтпусковСуммаРезерваИсчисленоНУКонтекстноеМеню" id="342"/>
+													<ExtendedTooltip name="РасчетРезерваОтпусковСуммаРезерваИсчисленоНУРасширеннаяПодсказка" id="343"/>
+												</InputField>
+											</ChildItems>
+										</ColumnGroup>
+										<ColumnGroup name="РасчетРезерваОтпусковГруппаСуммаРезерваНакоплено" id="384">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>накоплено</v8:content>
+												</v8:item>
+											</Title>
+											<Width>10</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ShowInHeader>true</ShowInHeader>
+											<ExtendedTooltip name="РасчетРезерваОтпусковГруппаСуммаРезерваНакопленоРасширеннаяПодсказка" id="385"/>
+											<ChildItems>
+												<InputField name="РасчетРезерваОтпусковСуммаРезерваНакоплено" id="314">
+													<EditMode>EnterOnInput</EditMode>
+													<ShowInHeader>false</ShowInHeader>
+													<Width>10</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ContextMenu name="РасчетРезерваОтпусковСуммаРезерваНакопленоКонтекстноеМеню" id="315"/>
+													<ExtendedTooltip name="РасчетРезерваОтпусковСуммаРезерваНакопленоРасширеннаяПодсказка" id="316"/>
+												</InputField>
+												<InputField name="РасчетРезерваОтпусковСуммаРезерваНакопленоНУ" id="323">
+													<EditMode>EnterOnInput</EditMode>
+													<ShowInHeader>false</ShowInHeader>
+													<Width>10</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<BackColor>style:FieldAlternativeBackColor</BackColor>
+													<ContextMenu name="РасчетРезерваОтпусковСуммаРезерваНакопленоНУКонтекстноеМеню" id="324"/>
+													<ExtendedTooltip name="РасчетРезерваОтпусковСуммаРезерваНакопленоНУРасширеннаяПодсказка" id="325"/>
+												</InputField>
+											</ChildItems>
+										</ColumnGroup>
+										<ColumnGroup name="РасчетРезерваОтпусковГруппаСуммаРезерва" id="382">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>зачтено</v8:content>
+												</v8:item>
+											</Title>
+											<Width>10</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ShowInHeader>true</ShowInHeader>
+											<ExtendedTooltip name="РасчетРезерваОтпусковГруппаСуммаРезерваРасширеннаяПодсказка" id="383"/>
+											<ChildItems>
+												<InputField name="РасчетРезерваОтпусковСуммаРезерва" id="284">
+													<EditMode>EnterOnInput</EditMode>
+													<ShowInHeader>false</ShowInHeader>
+													<Width>10</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ContextMenu name="РасчетРезерваОтпусковСуммаРезерваКонтекстноеМеню" id="285"/>
+													<ExtendedTooltip name="РасчетРезерваОтпусковСуммаРезерваРасширеннаяПодсказка" id="286"/>
+												</InputField>
+												<InputField name="РасчетРезерваОтпусковСуммаРезерваНУ" id="299">
+													<EditMode>EnterOnInput</EditMode>
+													<ShowInHeader>false</ShowInHeader>
+													<Width>10</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<BackColor>style:FieldAlternativeBackColor</BackColor>
+													<ContextMenu name="РасчетРезерваОтпусковСуммаРезерваНУКонтекстноеМеню" id="300"/>
+													<ExtendedTooltip name="РасчетРезерваОтпусковСуммаРезерваНУРасширеннаяПодсказка" id="301"/>
+												</InputField>
+											</ChildItems>
+										</ColumnGroup>
+									</ChildItems>
+								</ColumnGroup>
+								<ColumnGroup name="РасчетРезерваОтпусковГруппаРезервСтраховыеВзносы" id="388">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страховые взносы обязательства (резерва)</v8:content>
+										</v8:item>
+									</Title>
+									<Width>30</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<Group>Horizontal</Group>
+									<ShowInHeader>true</ShowInHeader>
+									<ExtendedTooltip name="РасчетРезерваОтпусковГруппаРезервСтраховыеВзносыРасширеннаяПодсказка" id="389"/>
+									<ChildItems>
+										<ColumnGroup name="РасчетРезерваОтпусковГруппаСуммаРезерваСтраховыхВзносовИсчислено" id="392">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>исчислено</v8:content>
+												</v8:item>
+											</Title>
+											<Width>10</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ShowInHeader>true</ShowInHeader>
+											<ExtendedTooltip name="РасчетРезерваОтпусковГруппаСуммаРезерваСтраховыхВзносовИсчисленоРасширеннаяПодсказка" id="393"/>
+											<ChildItems>
+												<InputField name="РасчетРезерваОтпусковСуммаРезерваСтраховыхВзносовИсчислено" id="335">
+													<EditMode>EnterOnInput</EditMode>
+													<ShowInHeader>false</ShowInHeader>
+													<Width>10</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ContextMenu name="РасчетРезерваОтпусковСуммаРезерваСтраховыхВзносовИсчисленоКонтекстноеМеню" id="336"/>
+													<ExtendedTooltip name="РасчетРезерваОтпусковСуммаРезерваСтраховыхВзносовИсчисленоРасширеннаяПодсказка" id="337"/>
+												</InputField>
+												<InputField name="РасчетРезерваОтпусковСуммаРезерваСтраховыхВзносовИсчисленоНУ" id="344">
+													<EditMode>EnterOnInput</EditMode>
+													<ShowInHeader>false</ShowInHeader>
+													<Width>10</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<BackColor>style:FieldAlternativeBackColor</BackColor>
+													<ContextMenu name="РасчетРезерваОтпусковСуммаРезерваСтраховыхВзносовИсчисленоНУКонтекстноеМеню" id="345"/>
+													<ExtendedTooltip name="РасчетРезерваОтпусковСуммаРезерваСтраховыхВзносовИсчисленоНУРасширеннаяПодсказка" id="346"/>
+												</InputField>
+											</ChildItems>
+										</ColumnGroup>
+										<ColumnGroup name="РасчетРезерваОтпусковГруппаСуммаРезерваСтраховыхВзносовНакоплено" id="390">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>накоплено</v8:content>
+												</v8:item>
+											</Title>
+											<Width>10</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ShowInHeader>true</ShowInHeader>
+											<ExtendedTooltip name="РасчетРезерваОтпусковГруппаСуммаРезерваСтраховыхВзносовНакопленоРасширеннаяПодсказка" id="391"/>
+											<ChildItems>
+												<InputField name="РасчетРезерваОтпусковСуммаРезерваСтраховыхВзносовНакоплено" id="317">
+													<EditMode>EnterOnInput</EditMode>
+													<ShowInHeader>false</ShowInHeader>
+													<Width>10</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ContextMenu name="РасчетРезерваОтпусковСуммаРезерваСтраховыхВзносовНакопленоКонтекстноеМеню" id="318"/>
+													<ExtendedTooltip name="РасчетРезерваОтпусковСуммаРезерваСтраховыхВзносовНакопленоРасширеннаяПодсказка" id="319"/>
+												</InputField>
+												<InputField name="РасчетРезерваОтпусковСуммаРезерваСтраховыхВзносовНакопленоНУ" id="326">
+													<EditMode>EnterOnInput</EditMode>
+													<ShowInHeader>false</ShowInHeader>
+													<Width>10</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<BackColor>style:FieldAlternativeBackColor</BackColor>
+													<ContextMenu name="РасчетРезерваОтпусковСуммаРезерваСтраховыхВзносовНакопленоНУКонтекстноеМеню" id="327"/>
+													<ExtendedTooltip name="РасчетРезерваОтпусковСуммаРезерваСтраховыхВзносовНакопленоНУРасширеннаяПодсказка" id="328"/>
+												</InputField>
+											</ChildItems>
+										</ColumnGroup>
+										<ColumnGroup name="РасчетРезерваОтпусковГруппаСуммаРезерваСтраховыхВзносов" id="366">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>зачтено</v8:content>
+												</v8:item>
+											</Title>
+											<Width>10</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ShowInHeader>true</ShowInHeader>
+											<ExtendedTooltip name="РасчетРезерваОтпусковГруппаСуммаРезерваСтраховыхВзносовРасширеннаяПодсказка" id="367"/>
+											<ChildItems>
+												<InputField name="РасчетРезерваОтпусковСуммаРезерваСтраховыхВзносов" id="287">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>БУ</v8:content>
+														</v8:item>
+													</Title>
+													<EditMode>EnterOnInput</EditMode>
+													<ShowInHeader>false</ShowInHeader>
+													<Width>10</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ContextMenu name="РасчетРезерваОтпусковСуммаРезерваСтраховыхВзносовКонтекстноеМеню" id="288"/>
+													<ExtendedTooltip name="РасчетРезерваОтпусковСуммаРезерваСтраховыхВзносовРасширеннаяПодсказка" id="289"/>
+												</InputField>
+												<InputField name="РасчетРезерваОтпусковСуммаРезерваСтраховыхВзносовНУ" id="302">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>НУ</v8:content>
+														</v8:item>
+													</Title>
+													<EditMode>EnterOnInput</EditMode>
+													<ShowInHeader>false</ShowInHeader>
+													<Width>10</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<BackColor>style:FieldAlternativeBackColor</BackColor>
+													<ContextMenu name="РасчетРезерваОтпусковСуммаРезерваСтраховыхВзносовНУКонтекстноеМеню" id="303"/>
+													<ExtendedTooltip name="РасчетРезерваОтпусковСуммаРезерваСтраховыхВзносовНУРасширеннаяПодсказка" id="304"/>
+												</InputField>
+											</ChildItems>
+										</ColumnGroup>
+									</ChildItems>
+								</ColumnGroup>
+								<ColumnGroup name="РасчетРезерваОтпусковГруппаРезервФССНесчастныеСлучаи" id="394">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Взносы в ФСС НС и ПЗ обязательства (резерва)</v8:content>
+										</v8:item>
+									</Title>
+									<Width>30</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<Group>Horizontal</Group>
+									<ShowInHeader>true</ShowInHeader>
+									<ExtendedTooltip name="РасчетРезерваОтпусковГруппаРезервФССНесчастныеСлучаиРасширеннаяПодсказка" id="395"/>
+									<ChildItems>
+										<ColumnGroup name="РасчетРезерваОтпусковГруппаСуммаРезерваФССНесчастныеСлучаиИсчислено" id="398">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>исчислено</v8:content>
+												</v8:item>
+											</Title>
+											<Width>10</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ShowInHeader>true</ShowInHeader>
+											<ExtendedTooltip name="РасчетРезерваОтпусковГруппаСуммаРезерваФССНесчастныеСлучаиИсчисленоРасширеннаяПодсказка" id="399"/>
+											<ChildItems>
+												<InputField name="РасчетРезерваОтпусковСуммаРезерваФССНесчастныеСлучаиИсчислено" id="338">
+													<EditMode>EnterOnInput</EditMode>
+													<ShowInHeader>false</ShowInHeader>
+													<Width>10</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ContextMenu name="РасчетРезерваОтпусковСуммаРезерваФССНесчастныеСлучаиИсчисленоКонтекстноеМеню" id="339"/>
+													<ExtendedTooltip name="РасчетРезерваОтпусковСуммаРезерваФССНесчастныеСлучаиИсчисленоРасширеннаяПодсказка" id="340"/>
+												</InputField>
+												<InputField name="РасчетРезерваОтпусковСуммаРезерваФССНесчастныеСлучаиИсчисленоНУ" id="347">
+													<EditMode>EnterOnInput</EditMode>
+													<ShowInHeader>false</ShowInHeader>
+													<Width>10</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<BackColor>style:FieldAlternativeBackColor</BackColor>
+													<ContextMenu name="РасчетРезерваОтпусковСуммаРезерваФССНесчастныеСлучаиИсчисленоНУКонтекстноеМеню" id="348"/>
+													<ExtendedTooltip name="РасчетРезерваОтпусковСуммаРезерваФССНесчастныеСлучаиИсчисленоНУРасширеннаяПодсказка" id="349"/>
+												</InputField>
+											</ChildItems>
+										</ColumnGroup>
+										<ColumnGroup name="РасчетРезерваОтпусковГруппаСуммаРезерваФССНесчастныеСлучаиНакоплено" id="396">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>накоплено</v8:content>
+												</v8:item>
+											</Title>
+											<Width>10</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ShowInHeader>true</ShowInHeader>
+											<ExtendedTooltip name="РасчетРезерваОтпусковГруппаСуммаРезерваФССНесчастныеСлучаиНакопленоРасширеннаяПодсказка" id="397"/>
+											<ChildItems>
+												<InputField name="РасчетРезерваОтпусковСуммаРезерваФССНесчастныеСлучаиНакоплено" id="320">
+													<EditMode>EnterOnInput</EditMode>
+													<ShowInHeader>false</ShowInHeader>
+													<Width>10</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ContextMenu name="РасчетРезерваОтпусковСуммаРезерваФССНесчастныеСлучаиНакопленоКонтекстноеМеню" id="321"/>
+													<ExtendedTooltip name="РасчетРезерваОтпусковСуммаРезерваФССНесчастныеСлучаиНакопленоРасширеннаяПодсказка" id="322"/>
+												</InputField>
+												<InputField name="РасчетРезерваОтпусковСуммаРезерваФССНесчастныеСлучаиНакопленоНУ" id="329">
+													<EditMode>EnterOnInput</EditMode>
+													<ShowInHeader>false</ShowInHeader>
+													<Width>10</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<BackColor>style:FieldAlternativeBackColor</BackColor>
+													<ContextMenu name="РасчетРезерваОтпусковСуммаРезерваФССНесчастныеСлучаиНакопленоНУКонтекстноеМеню" id="330"/>
+													<ExtendedTooltip name="РасчетРезерваОтпусковСуммаРезерваФССНесчастныеСлучаиНакопленоНУРасширеннаяПодсказка" id="331"/>
+												</InputField>
+											</ChildItems>
+										</ColumnGroup>
+										<ColumnGroup name="РасчетРезерваОтпусковГруппаСуммаРезерваФССНесчастныеСлучаи" id="376">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>зачтено</v8:content>
+												</v8:item>
+											</Title>
+											<Width>10</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ShowInHeader>true</ShowInHeader>
+											<ExtendedTooltip name="РасчетРезерваОтпусковГруппаСуммаРезерваФССНесчастныеСлучаиРасширеннаяПодсказка" id="377"/>
+											<ChildItems>
+												<InputField name="РасчетРезерваОтпусковСуммаРезерваФССНесчастныеСлучаи" id="290">
+													<EditMode>EnterOnInput</EditMode>
+													<ShowInHeader>false</ShowInHeader>
+													<Width>10</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ContextMenu name="РасчетРезерваОтпусковСуммаРезерваФССНесчастныеСлучаиКонтекстноеМеню" id="291"/>
+													<ExtendedTooltip name="РасчетРезерваОтпусковСуммаРезерваФССНесчастныеСлучаиРасширеннаяПодсказка" id="292"/>
+												</InputField>
+												<InputField name="РасчетРезерваОтпусковСуммаРезерваФССНесчастныеСлучаиНУ" id="305">
+													<EditMode>EnterOnInput</EditMode>
+													<ShowInHeader>false</ShowInHeader>
+													<Width>10</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<BackColor>style:FieldAlternativeBackColor</BackColor>
+													<ContextMenu name="РасчетРезерваОтпусковСуммаРезерваФССНесчастныеСлучаиНУКонтекстноеМеню" id="306"/>
+													<ExtendedTooltip name="РасчетРезерваОтпусковСуммаРезерваФССНесчастныеСлучаиНУРасширеннаяПодсказка" id="307"/>
+												</InputField>
+											</ChildItems>
+										</ColumnGroup>
+									</ChildItems>
+								</ColumnGroup>
+								<InputField name="РасчетРезерваОтпусковОтступ" id="400">
+									<ReadOnly>true</ReadOnly>
+									<TitleLocation>None</TitleLocation>
+									<EditMode>EnterOnInput</EditMode>
+									<HorizontalStretch>true</HorizontalStretch>
+									<ContextMenu name="РасчетРезерваОтпусковОтступКонтекстноеМеню" id="401"/>
+									<ExtendedTooltip name="РасчетРезерваОтпусковОтступРасширеннаяПодсказка" id="402"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+		<UsualGroup name="ГруппаДополнительныеРеквизиты" id="546">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дополнительно</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ExtendedTooltip name="ГруппаДополнительныеРеквизитыExtendedTooltip" id="547"/>
+		</UsualGroup>
+		<UsualGroup name="ГруппаКомментарийОтветственный" id="157">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Комментарий ответственный</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Horizontal</Group>
+			<Representation>NormalSeparation</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаКомментарийОтветственныйРасширеннаяПодсказка" id="158"/>
+			<ChildItems>
+				<InputField name="Комментарий" id="159">
+					<TitleLocation>Left</TitleLocation>
+					<EditMode>EnterOnInput</EditMode>
+					<Height>1</Height>
+					<VerticalStretch>false</VerticalStretch>
+					<MultiLine>true</MultiLine>
+					<ExtendedEdit>true</ExtendedEdit>
+					<ContextMenu name="КомментарийКонтекстноеМеню" id="160"/>
+					<ExtendedTooltip name="КомментарийExtendedTooltip" id="161"/>
+				</InputField>
+				<InputField name="Ответственный" id="162">
+					<EditMode>EnterOnInput</EditMode>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ContextMenu name="ОтветственныйКонтекстноеМеню" id="163"/>
+					<ExtendedTooltip name="ОтветственныйExtendedTooltip" id="164"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1000001">
+			<Type>
+				<v8:TypeId>f80dbc58-b3d7-4be6-bbbd-90863a387f17</v8:TypeId>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>1000001/-8</Field>
+			</UseAlways>
+		</Attribute>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ОценочныеОбязательстваПоСотрудникам</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.ОценочныеОбязательстваПоСотрудникам.КорректировкаОбязательств</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="style:TextFont" faceName="Arial" height="10" bold="false" italic="true" underline="false" strikeout="false" kind="StyleItem"/>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ОтметкаНезаполненного</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>РасчетРезерваОтпусковОстатокОтпуска</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.РасчетРезерваОтпусков.ОстатокОтпуска</dcsset:left>
+						<dcsset:comparisonType>Less</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">style:NegativeTextColor</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>РасчетРезерваОтпусковОтпускАвансом</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.РасчетРезерваОтпусков.ОстатокОтпуска</dcsset:left>
+						<dcsset:comparisonType>LessOrEqual</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:use>false</dcscor:use>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">style:NegativeTextColor</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:use>false</dcscor:use>
+						<dcscor:parameter>Доступность</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ТолькоПросмотр</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
+	</Attributes>
+	<BaseForm version="2.11">
+		<AutoTime>CurrentOrLast</AutoTime>
+		<UsePostingMode>Auto</UsePostingMode>
+		<RepostOnWrite>true</RepostOnWrite>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+		<ChildItems>
+			<UsualGroup name="ГруппаШапка" id="135">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Шапка</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Horizontal</Group>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="136"/>
+				<ChildItems>
+					<UsualGroup name="ГруппаШапкаЛевая" id="137">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Шапка левая</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаШапкаЛеваяРасширеннаяПодсказка" id="138"/>
+						<ChildItems>
+							<UsualGroup name="МесяцОрганизация" id="437">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Месяц организация</v8:content>
+									</v8:item>
+								</Title>
+								<Group>Horizontal</Group>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="МесяцОрганизацияРасширеннаяПодсказка" id="438"/>
+								<ChildItems>
+									<InputField name="ПериодРегистрации" id="7">
+										<EditMode>EnterOnInput</EditMode>
+										<Width>13</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ChoiceButton>true</ChoiceButton>
+										<SpinButton>true</SpinButton>
+										<AutoMarkIncomplete>true</AutoMarkIncomplete>
+										<ChoiceButtonPicture>
+											<xr:Ref>StdPicture.InputFieldCalendar</xr:Ref>
+											<xr:LoadTransparent>true</xr:LoadTransparent>
+										</ChoiceButtonPicture>
+										<ContextMenu name="ПериодРегистрацииКонтекстноеМеню" id="8"/>
+										<ExtendedTooltip name="ПериодРегистрацииРасширеннаяПодсказка" id="9"/>
+									</InputField>
+									<InputField name="Организация" id="10">
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="ОрганизацияКонтекстноеМеню" id="11"/>
+										<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="12"/>
+									</InputField>
+								</ChildItems>
+							</UsualGroup>
+							<UsualGroup name="ГруппаОтраженияВБухУчете" id="149">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Отражения в бух учете</v8:content>
+									</v8:item>
+								</Title>
+								<Group>Horizontal</Group>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ГруппаОтраженияВБухУчетеExtendedTooltip" id="150"/>
+								<ChildItems>
+									<CheckBoxField name="ОбязательстваОтраженыВБухучете" id="13">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Отражено в бухучете пользователем</v8:content>
+											</v8:item>
+										</Title>
+										<TitleLocation>Right</TitleLocation>
+										<EditMode>EnterOnInput</EditMode>
+										<CheckBoxType>Auto</CheckBoxType>
+										<ContextMenu name="ОбязательстваОтраженыВБухучетеКонтекстноеМеню" id="14"/>
+										<ExtendedTooltip name="ОбязательстваОтраженыВБухучетеРасширеннаяПодсказка" id="15"/>
+									</CheckBoxField>
+									<InputField name="Бухгалтер" id="154">
+										<ReadOnly>true</ReadOnly>
+										<TitleLocation>None</TitleLocation>
+										<ContextMenu name="БухгалтерКонтекстноеМеню" id="155"/>
+										<ExtendedTooltip name="БухгалтерExtendedTooltip" id="156"/>
+									</InputField>
+								</ChildItems>
+							</UsualGroup>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаШапкаПравая" id="139">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Шапка правая</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаШапкаПраваяРасширеннаяПодсказка" id="140"/>
+						<ChildItems>
+							<UsualGroup name="ДатаНомер" id="141">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Дата номер</v8:content>
+									</v8:item>
+								</Title>
+								<Group>Horizontal</Group>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ДатаНомерExtendedTooltip" id="142"/>
+								<ChildItems>
+									<InputField name="Дата" id="143">
+										<EditMode>EnterOnInput</EditMode>
+										<Width>10</Width>
+										<ContextMenu name="ДатаКонтекстноеМеню" id="144"/>
+										<ExtendedTooltip name="ДатаExtendedTooltip" id="145"/>
+									</InputField>
+									<InputField name="Номер" id="146">
+										<EditMode>EnterOnInput</EditMode>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ContextMenu name="НомерКонтекстноеМеню" id="147"/>
+										<ExtendedTooltip name="НомерExtendedTooltip" id="148"/>
+									</InputField>
+								</ChildItems>
+							</UsualGroup>
+						</ChildItems>
+					</UsualGroup>
+				</ChildItems>
+			</UsualGroup>
+			<UsualGroup name="ГруппаКорректировкаОбязательств" id="439">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Корректировка обязательств</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Vertical</Group>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<BackColor>style:ФонУправляющегоПоля</BackColor>
+				<ExtendedTooltip name="ГруппаКорректировкаОбязательствРасширеннаяПодсказка" id="440"/>
+				<ChildItems>
+					<CheckBoxField name="КорректировкаПредставление" id="441">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Операция</v8:content>
+							</v8:item>
+						</Title>
+						<TitleLocation>Left</TitleLocation>
+						<CheckBoxType>Tumbler</CheckBoxType>
+						<EditFormat>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>БЛ='Корректировка остатков'; БИ='Расчет текущего месяца'</v8:content>
+							</v8:item>
+						</EditFormat>
+						<ContextMenu name="КорректировкаПредставлениеКонтекстноеМеню" id="442"/>
+						<ExtendedTooltip name="КорректировкаПредставлениеРасширеннаяПодсказка" id="443"/>
+					</CheckBoxField>
+				</ChildItems>
+			</UsualGroup>
+			<UsualGroup name="ОсновныеКоманды" id="165">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Основные команды</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Horizontal</Group>
+				<Representation>None</Representation>
+				<ChildItemsWidth>LeftNarrow</ChildItemsWidth>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ОсновныеКомандыExtendedTooltip" id="166"/>
+				<ChildItems>
+					<UsualGroup name="ГруппаКоманды" id="446">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Команды</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Horizontal</Group>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаКомандыРасширеннаяПодсказка" id="447"/>
+						<ChildItems>
+							<Button name="Заполнить" id="167">
+								<Type>UsualButton</Type>
+								<CommandName>0</CommandName>
+								<ExtendedTooltip name="ЗаполнитьExtendedTooltip" id="168"/>
+							</Button>
+							<Button name="ПересчитатьДокумент" id="444">
+								<Type>UsualButton</Type>
+								<Enabled>false</Enabled>
+								<Height>1</Height>
+								<CommandName>0</CommandName>
+								<ExtendedTooltip name="ПересчитатьДокументРасширеннаяПодсказка" id="445"/>
+							</Button>
+						</ChildItems>
+					</UsualGroup>
+				</ChildItems>
+			</UsualGroup>
+			<Pages name="Страницы" id="28">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Страницы</v8:content>
+					</v8:item>
+				</Title>
+				<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="29"/>
+				<ChildItems>
+					<Page name="ГруппаОценочныеОбязательства" id="196">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Обязательства и резервы текущего месяца</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ГруппаОценочныеОбязательстваРасширеннаяПодсказка" id="197"/>
+						<ChildItems>
+							<Table name="ОценочныеОбязательства" id="198">
+								<Footer>true</Footer>
+								<UseAlternationRowColor>true</UseAlternationRowColor>
+								<AutoInsertNewRow>true</AutoInsertNewRow>
+								<FileDragMode>AsFile</FileDragMode>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Оценочные обязательства</v8:content>
+									</v8:item>
+								</Title>
+								<RowFilter xsi:nil="true"/>
+								<ContextMenu name="ОценочныеОбязательстваКонтекстноеМеню" id="199"/>
+								<AutoCommandBar name="ОценочныеОбязательстваКоманднаяПанель" id="200">
+									<ChildItems>
+										<Button name="ПересчитатьОбязательстваТекущегоМесяца" id="527">
+											<Type>CommandBarButton</Type>
+											<Enabled>false</Enabled>
+											<CommandName>0</CommandName>
+											<ExtendedTooltip name="ПересчитатьОбязательстваТекущегоМесяцаРасширеннаяПодсказка" id="528"/>
+										</Button>
+									</ChildItems>
+								</AutoCommandBar>
+								<ExtendedTooltip name="ОценочныеОбязательстваРасширеннаяПодсказка" id="201"/>
+								<SearchStringAddition name="ОценочныеОбязательстваСтрокаПоиска" id="202">
+									<AdditionSource>
+										<Item>ОценочныеОбязательства</Item>
+										<Type>SearchStringRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="ОценочныеОбязательстваСтрокаПоискаКонтекстноеМеню" id="205"/>
+									<ExtendedTooltip name="ОценочныеОбязательстваСтрокаПоискаРасширеннаяПодсказка" id="206"/>
+								</SearchStringAddition>
+								<ViewStatusAddition name="ОценочныеОбязательстваСостояниеПросмотра" id="207">
+									<AdditionSource>
+										<Item>ОценочныеОбязательства</Item>
+										<Type>ViewStatusRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="ОценочныеОбязательстваСостояниеПросмотраКонтекстноеМеню" id="210"/>
+									<ExtendedTooltip name="ОценочныеОбязательстваСостояниеПросмотраРасширеннаяПодсказка" id="211"/>
+								</ViewStatusAddition>
+								<SearchControlAddition name="ОценочныеОбязательстваУправлениеПоиском" id="212">
+									<AdditionSource>
+										<Item>ОценочныеОбязательства</Item>
+										<Type>SearchControl</Type>
+									</AdditionSource>
+									<ContextMenu name="ОценочныеОбязательстваУправлениеПоискомКонтекстноеМеню" id="215"/>
+									<ExtendedTooltip name="ОценочныеОбязательстваУправлениеПоискомРасширеннаяПодсказка" id="216"/>
+								</SearchControlAddition>
+								<ChildItems>
+									<LabelField name="ОценочныеОбязательстваНомерСтроки" id="217">
+										<EditMode>EnterOnInput</EditMode>
+										<Width>5</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ContextMenu name="ОценочныеОбязательстваНомерСтрокиКонтекстноеМеню" id="218"/>
+										<ExtendedTooltip name="ОценочныеОбязательстваНомерСтрокиРасширеннаяПодсказка" id="219"/>
+									</LabelField>
+									<InputField name="ОценочныеОбязательстваПодразделение" id="235">
+										<EditMode>EnterOnInput</EditMode>
+										<Width>20</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ContextMenu name="ОценочныеОбязательстваПодразделениеКонтекстноеМеню" id="236"/>
+										<ExtendedTooltip name="ОценочныеОбязательстваПодразделениеРасширеннаяПодсказка" id="237"/>
+									</InputField>
+									<ColumnGroup name="ОценочныеОбязательстваГруппаОтражение" id="448">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Способ отражения/статья финансирования</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="ОценочныеОбязательстваГруппаОтражениеРасширеннаяПодсказка" id="449"/>
+										<ChildItems>
+											<InputField name="ОценочныеОбязательстваСпособОтраженияЗарплатыВБухучете" id="220">
+												<EditMode>EnterOnInput</EditMode>
+												<Width>20</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<ContextMenu name="ОценочныеОбязательстваСпособОтраженияЗарплатыВБухучетеКонтекстноеМеню" id="221"/>
+												<ExtendedTooltip name="ОценочныеОбязательстваСпособОтраженияЗарплатыВБухучетеРасширеннаяПодсказка" id="222"/>
+											</InputField>
+											<InputField name="ОценочныеОбязательстваСтатьяФинансирования" id="450">
+												<EditMode>EnterOnInput</EditMode>
+												<ContextMenu name="ОценочныеОбязательстваСтатьяФинансированияКонтекстноеМеню" id="451"/>
+												<ExtendedTooltip name="ОценочныеОбязательстваСтатьяФинансированияРасширеннаяПодсказка" id="452"/>
+											</InputField>
+										</ChildItems>
+									</ColumnGroup>
+									<CheckBoxField name="ОценочныеОбязательстваОблагаетсяЕНВД" id="356">
+										<EditMode>EnterOnInput</EditMode>
+										<CheckBoxType>Auto</CheckBoxType>
+										<ContextMenu name="ОценочныеОбязательстваОблагаетсяЕНВДКонтекстноеМеню" id="357"/>
+										<ExtendedTooltip name="ОценочныеОбязательстваОблагаетсяЕНВДРасширеннаяПодсказка" id="358"/>
+									</CheckBoxField>
+									<ColumnGroup name="ОценочныеОбязательстваГруппаПоказатели" id="420">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Показатели</v8:content>
+											</v8:item>
+										</Title>
+										<Width>3</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ShowTitle>false</ShowTitle>
+										<ShowInHeader>true</ShowInHeader>
+										<ExtendedTooltip name="ОценочныеОбязательстваГруппаПоказателиРасширеннаяПодсказка" id="421"/>
+										<ChildItems>
+											<InputField name="ОценочныеОбязательстваНадписьБУ" id="425">
+												<ReadOnly>true</ReadOnly>
+												<EditMode>EnterOnInput</EditMode>
+												<ShowInHeader>false</ShowInHeader>
+												<FooterText>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>БУ:</v8:content>
+													</v8:item>
+												</FooterText>
+												<FooterFont ref="style:ШрифтНаклонный" kind="StyleItem"/>
+												<Width>3</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<BackColor>style:ToolTipBackColor</BackColor>
+												<ContextMenu name="ОценочныеОбязательстваНадписьБУКонтекстноеМеню" id="426"/>
+												<ExtendedTooltip name="ОценочныеОбязательстваНадписьБУРасширеннаяПодсказка" id="427"/>
+											</InputField>
+											<InputField name="ОценочныеОбязательстваНадписьНУ" id="422">
+												<ReadOnly>true</ReadOnly>
+												<EditMode>EnterOnInput</EditMode>
+												<ShowInHeader>false</ShowInHeader>
+												<FooterText>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>НУ:</v8:content>
+													</v8:item>
+												</FooterText>
+												<FooterFont ref="style:ШрифтНаклонный" kind="StyleItem"/>
+												<Width>3</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<BackColor>style:ToolTipBackColor</BackColor>
+												<ContextMenu name="ОценочныеОбязательстваНадписьНУКонтекстноеМеню" id="423"/>
+												<ExtendedTooltip name="ОценочныеОбязательстваНадписьНУРасширеннаяПодсказка" id="424"/>
+											</InputField>
+										</ChildItems>
+									</ColumnGroup>
+									<ColumnGroup name="ОценочныеОбязательстваГруппаРезерв" id="431">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Обязательство (резерв)</v8:content>
+											</v8:item>
+										</Title>
+										<Width>17</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ShowInHeader>true</ShowInHeader>
+										<ExtendedTooltip name="ОценочныеОбязательстваГруппаРезервРасширеннаяПодсказка" id="432"/>
+										<ChildItems>
+											<InputField name="ОценочныеОбязательстваСуммаРезерва" id="223">
+												<EditMode>EnterOnInput</EditMode>
+												<ShowInHeader>false</ShowInHeader>
+												<Width>17</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<ContextMenu name="ОценочныеОбязательстваСуммаРезерваКонтекстноеМеню" id="224"/>
+												<ExtendedTooltip name="ОценочныеОбязательстваСуммаРезерваРасширеннаяПодсказка" id="225"/>
+											</InputField>
+											<InputField name="ОценочныеОбязательстваСуммаРезерваНУ" id="229">
+												<EditMode>EnterOnInput</EditMode>
+												<ShowInHeader>false</ShowInHeader>
+												<Width>17</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<BackColor>style:FieldAlternativeBackColor</BackColor>
+												<ContextMenu name="ОценочныеОбязательстваСуммаРезерваНУКонтекстноеМеню" id="230"/>
+												<ExtendedTooltip name="ОценочныеОбязательстваСуммаРезерваНУРасширеннаяПодсказка" id="231"/>
+											</InputField>
+										</ChildItems>
+									</ColumnGroup>
+									<ColumnGroup name="ОценочныеОбязательстваГруппаРезервСтраховыеВзносы" id="433">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Страховые взносы</v8:content>
+											</v8:item>
+										</Title>
+										<Width>17</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ShowInHeader>true</ShowInHeader>
+										<ExtendedTooltip name="ОценочныеОбязательстваГруппаРезервСтраховыеВзносыРасширеннаяПодсказка" id="434"/>
+										<ChildItems>
+											<InputField name="ОценочныеОбязательстваСуммаРезерваСтраховыхВзносов" id="226">
+												<EditMode>EnterOnInput</EditMode>
+												<ShowInHeader>false</ShowInHeader>
+												<Width>17</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<ContextMenu name="ОценочныеОбязательстваСуммаРезерваСтраховыхВзносовКонтекстноеМеню" id="227"/>
+												<ExtendedTooltip name="ОценочныеОбязательстваСуммаРезерваСтраховыхВзносовРасширеннаяПодсказка" id="228"/>
+											</InputField>
+											<InputField name="ОценочныеОбязательстваСуммаРезерваСтраховыхВзносовНУ" id="232">
+												<EditMode>EnterOnInput</EditMode>
+												<ShowInHeader>false</ShowInHeader>
+												<Width>17</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<BackColor>style:FieldAlternativeBackColor</BackColor>
+												<ContextMenu name="ОценочныеОбязательстваСуммаРезерваСтраховыхВзносовНУКонтекстноеМеню" id="233"/>
+												<ExtendedTooltip name="ОценочныеОбязательстваСуммаРезерваСтраховыхВзносовНУРасширеннаяПодсказка" id="234"/>
+											</InputField>
+										</ChildItems>
+									</ColumnGroup>
+									<ColumnGroup name="ОценочныеОбязательстваГруппаРезервФССНесчастныеСлучаи" id="435">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>ФСС НС и ПЗ</v8:content>
+											</v8:item>
+										</Title>
+										<Width>17</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ShowInHeader>true</ShowInHeader>
+										<ExtendedTooltip name="ОценочныеОбязательстваГруппаРезервФССНесчастныеСлучаиРасширеннаяПодсказка" id="436"/>
+										<ChildItems>
+											<InputField name="ОценочныеОбязательстваСуммаРезерваФССНесчастныеСлучаи" id="241">
+												<EditMode>EnterOnInput</EditMode>
+												<ShowInHeader>false</ShowInHeader>
+												<Width>17</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<ContextMenu name="ОценочныеОбязательстваСуммаРезерваФССНесчастныеСлучаиКонтекстноеМеню" id="242"/>
+												<ExtendedTooltip name="ОценочныеОбязательстваСуммаРезерваФССНесчастныеСлучаиРасширеннаяПодсказка" id="243"/>
+											</InputField>
+											<InputField name="ОценочныеОбязательстваСуммаРезерваФССНесчастныеСлучаиНУ" id="244">
+												<EditMode>EnterOnInput</EditMode>
+												<ShowInHeader>false</ShowInHeader>
+												<Width>17</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<BackColor>style:FieldAlternativeBackColor</BackColor>
+												<ContextMenu name="ОценочныеОбязательстваСуммаРезерваФССНесчастныеСлучаиНУКонтекстноеМеню" id="245"/>
+												<ExtendedTooltip name="ОценочныеОбязательстваСуммаРезерваФССНесчастныеСлучаиНУРасширеннаяПодсказка" id="246"/>
+											</InputField>
+										</ChildItems>
+									</ColumnGroup>
+									<InputField name="ОценочныеОбязательстваОтступ" id="428">
+										<ReadOnly>true</ReadOnly>
+										<TitleLocation>None</TitleLocation>
+										<EditMode>EnterOnInput</EditMode>
+										<HorizontalStretch>true</HorizontalStretch>
+										<ContextMenu name="ОценочныеОбязательстваОтступКонтекстноеМеню" id="429"/>
+										<ExtendedTooltip name="ОценочныеОбязательстваОтступРасширеннаяПодсказка" id="430"/>
+									</InputField>
+								</ChildItems>
+							</Table>
+						</ChildItems>
+					</Page>
+					<Page name="ГруппаОценочныеОбязательстваПоСотрудникам" id="458">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Обязательства и резервы по сотрудникам</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ГруппаОценочныеОбязательстваПоСотрудникамРасширеннаяПодсказка" id="459"/>
+						<ChildItems>
+							<Table name="ОценочныеОбязательстваПоСотрудникам" id="460">
+								<Footer>true</Footer>
+								<AutoInsertNewRow>true</AutoInsertNewRow>
+								<EnableStartDrag>true</EnableStartDrag>
+								<EnableDrag>true</EnableDrag>
+								<FileDragMode>AsFile</FileDragMode>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Оценочные обязательства по сотрудникам</v8:content>
+									</v8:item>
+								</Title>
+								<RowFilter xsi:nil="true"/>
+								<ContextMenu name="ОценочныеОбязательстваПоСотрудникамКонтекстноеМеню" id="461"/>
+								<AutoCommandBar name="ОценочныеОбязательстваПоСотрудникамКоманднаяПанель" id="462">
+									<ChildItems>
+										<Button name="ПересчитатьОбязательстваПоСотрудникам" id="525">
+											<Type>CommandBarButton</Type>
+											<Enabled>false</Enabled>
+											<CommandName>0</CommandName>
+											<ExtendedTooltip name="ПересчитатьОбязательстваПоСотрудникамРасширеннаяПодсказка" id="526"/>
+										</Button>
+									</ChildItems>
+								</AutoCommandBar>
+								<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамРасширеннаяПодсказка" id="463"/>
+								<SearchStringAddition name="ОценочныеОбязательстваПоСотрудникамСтрокаПоиска" id="464">
+									<AdditionSource>
+										<Item>ОценочныеОбязательстваПоСотрудникам</Item>
+										<Type>SearchStringRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="ОценочныеОбязательстваПоСотрудникамСтрокаПоискаКонтекстноеМеню" id="465"/>
+									<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамСтрокаПоискаРасширеннаяПодсказка" id="466"/>
+								</SearchStringAddition>
+								<ViewStatusAddition name="ОценочныеОбязательстваПоСотрудникамСостояниеПросмотра" id="467">
+									<AdditionSource>
+										<Item>ОценочныеОбязательстваПоСотрудникам</Item>
+										<Type>ViewStatusRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="ОценочныеОбязательстваПоСотрудникамСостояниеПросмотраКонтекстноеМеню" id="468"/>
+									<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамСостояниеПросмотраРасширеннаяПодсказка" id="469"/>
+								</ViewStatusAddition>
+								<SearchControlAddition name="ОценочныеОбязательстваПоСотрудникамУправлениеПоиском" id="470">
+									<AdditionSource>
+										<Item>ОценочныеОбязательстваПоСотрудникам</Item>
+										<Type>SearchControl</Type>
+									</AdditionSource>
+									<ContextMenu name="ОценочныеОбязательстваПоСотрудникамУправлениеПоискомКонтекстноеМеню" id="471"/>
+									<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамУправлениеПоискомРасширеннаяПодсказка" id="472"/>
+								</SearchControlAddition>
+								<ChildItems>
+									<LabelField name="ОценочныеОбязательстваПоСотрудникамНомерСтроки" id="473">
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="ОценочныеОбязательстваПоСотрудникамНомерСтрокиКонтекстноеМеню" id="474"/>
+										<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамНомерСтрокиРасширеннаяПодсказка" id="475"/>
+									</LabelField>
+									<InputField name="ОценочныеОбязательстваПоСотрудникамСотрудник" id="479">
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="ОценочныеОбязательстваПоСотрудникамСотрудникКонтекстноеМеню" id="480"/>
+										<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамСотрудникРасширеннаяПодсказка" id="481"/>
+									</InputField>
+									<InputField name="ОценочныеОбязательстваПоСотрудникамПодразделение" id="482">
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="ОценочныеОбязательстваПоСотрудникамПодразделениеКонтекстноеМеню" id="483"/>
+										<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамПодразделениеРасширеннаяПодсказка" id="484"/>
+									</InputField>
+									<ColumnGroup name="ОценочныеОбязательстваПоСотрудникамГруппаОтражение" id="509">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Способ отражения/статья финансирования</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамГруппаОтражениеРасширеннаяПодсказка" id="510"/>
+										<ChildItems>
+											<InputField name="ОценочныеОбязательстваПоВознаграждениямРаботникамСпособОтраженияЗарплатыВБухучете" id="485">
+												<EditMode>EnterOnInput</EditMode>
+												<Width>20</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<ContextMenu name="ОценочныеОбязательстваПоВознаграждениямРаботникамСпособОтраженияЗарплатыВБухучетеКонтекстноеМеню" id="486"/>
+												<ExtendedTooltip name="ОценочныеОбязательстваПоВознаграждениямРаботникамСпособОтраженияЗарплатыВБухучетеРасширеннаяПодсказка" id="487"/>
+											</InputField>
+											<InputField name="ОценочныеОбязательстваПоВознаграждениямРаботникамСтатьяФинансирования" id="488">
+												<EditMode>EnterOnInput</EditMode>
+												<Width>20</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<ContextMenu name="ОценочныеОбязательстваПоВознаграждениямРаботникамСтатьяФинансированияКонтекстноеМеню" id="489"/>
+												<ExtendedTooltip name="ОценочныеОбязательстваПоВознаграждениямРаботникамСтатьяФинансированияРасширеннаяПодсказка" id="490"/>
+											</InputField>
+										</ChildItems>
+									</ColumnGroup>
+									<CheckBoxField name="ОценочныеОбязательстваПоСотрудникамОблагаетсяЕНВД" id="476">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>ЕНВД</v8:content>
+											</v8:item>
+										</Title>
+										<EditMode>EnterOnInput</EditMode>
+										<CheckBoxType>Auto</CheckBoxType>
+										<ContextMenu name="ОценочныеОбязательстваПоСотрудникамОблагаетсяЕНВДКонтекстноеМеню" id="477"/>
+										<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамОблагаетсяЕНВДРасширеннаяПодсказка" id="478"/>
+									</CheckBoxField>
+									<ColumnGroup name="ОценочныеОбязательстваПоСотрудникамГруппаПоказатели" id="511">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Показатели</v8:content>
+											</v8:item>
+										</Title>
+										<Width>3</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ShowTitle>false</ShowTitle>
+										<ShowInHeader>true</ShowInHeader>
+										<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамГруппаПоказателиРасширеннаяПодсказка" id="512"/>
+										<ChildItems>
+											<InputField name="ОценочныеОбязательстваПоСотрудникамНадписьБУ" id="516">
+												<ReadOnly>true</ReadOnly>
+												<EditMode>EnterOnInput</EditMode>
+												<ShowInHeader>false</ShowInHeader>
+												<FooterText>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>БУ:</v8:content>
+													</v8:item>
+												</FooterText>
+												<FooterFont ref="style:ШрифтНаклонный" kind="StyleItem"/>
+												<BackColor>style:ToolTipBackColor</BackColor>
+												<ContextMenu name="ОценочныеОбязательстваПоСотрудникамНадписьБУКонтекстноеМеню" id="517"/>
+												<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамНадписьБУРасширеннаяПодсказка" id="518"/>
+											</InputField>
+											<InputField name="ОценочныеОбязательстваПоСотрудникамНадписьНУ" id="513">
+												<ReadOnly>true</ReadOnly>
+												<EditMode>EnterOnInput</EditMode>
+												<ShowInHeader>false</ShowInHeader>
+												<FooterText>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>НУ:</v8:content>
+													</v8:item>
+												</FooterText>
+												<FooterFont ref="style:ШрифтНаклонный" kind="StyleItem"/>
+												<BackColor>style:ToolTipBackColor</BackColor>
+												<ContextMenu name="ОценочныеОбязательстваПоСотрудникамНадписьНУКонтекстноеМеню" id="514"/>
+												<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамНадписьНУРасширеннаяПодсказка" id="515"/>
+											</InputField>
+										</ChildItems>
+									</ColumnGroup>
+									<ColumnGroup name="ОценочныеОбязательстваПоСотрудникамГруппаРезерв" id="519">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Обязательство (резерв)</v8:content>
+											</v8:item>
+										</Title>
+										<Width>17</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ShowInHeader>true</ShowInHeader>
+										<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамГруппаРезервРасширеннаяПодсказка" id="520"/>
+										<ChildItems>
+											<InputField name="ОценочныеОбязательстваПоСотрудникамСуммаРезерва" id="491">
+												<EditMode>EnterOnInput</EditMode>
+												<ShowInHeader>false</ShowInHeader>
+												<ContextMenu name="ОценочныеОбязательстваПоСотрудникамСуммаРезерваКонтекстноеМеню" id="492"/>
+												<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамСуммаРезерваРасширеннаяПодсказка" id="493"/>
+											</InputField>
+											<InputField name="ОценочныеОбязательстваПоСотрудникамСуммаРезерваНУ" id="497">
+												<EditMode>EnterOnInput</EditMode>
+												<ShowInHeader>false</ShowInHeader>
+												<BackColor>style:FieldAlternativeBackColor</BackColor>
+												<ContextMenu name="ОценочныеОбязательстваПоСотрудникамСуммаРезерваНУКонтекстноеМеню" id="498"/>
+												<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамСуммаРезерваНУРасширеннаяПодсказка" id="499"/>
+											</InputField>
+										</ChildItems>
+									</ColumnGroup>
+									<ColumnGroup name="ОценочныеОбязательстваПоСотрудникамГруппаСтраховыеВзносы" id="521">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Страховые взносы</v8:content>
+											</v8:item>
+										</Title>
+										<Width>17</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ShowInHeader>true</ShowInHeader>
+										<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамГруппаСтраховыеВзносыРасширеннаяПодсказка" id="522"/>
+										<ChildItems>
+											<InputField name="ОценочныеОбязательстваПоСотрудникамСуммаРезерваСтраховыхВзносов" id="494">
+												<EditMode>EnterOnInput</EditMode>
+												<ShowInHeader>false</ShowInHeader>
+												<ContextMenu name="ОценочныеОбязательстваПоСотрудникамСуммаРезерваСтраховыхВзносовКонтекстноеМеню" id="495"/>
+												<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамСуммаРезерваСтраховыхВзносовРасширеннаяПодсказка" id="496"/>
+											</InputField>
+											<InputField name="ОценочныеОбязательстваПоСотрудникамСуммаРезерваСтраховыхВзносовНУ" id="500">
+												<EditMode>EnterOnInput</EditMode>
+												<ShowInHeader>false</ShowInHeader>
+												<BackColor>style:FieldAlternativeBackColor</BackColor>
+												<ContextMenu name="ОценочныеОбязательстваПоСотрудникамСуммаРезерваСтраховыхВзносовНУКонтекстноеМеню" id="501"/>
+												<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамСуммаРезерваСтраховыхВзносовНУРасширеннаяПодсказка" id="502"/>
+											</InputField>
+										</ChildItems>
+									</ColumnGroup>
+									<ColumnGroup name="ОценочныеОбязательстваПоСотрудникамГруппаФССНесчастныеСлучаи" id="523">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>ФСС НС и ПЗ</v8:content>
+											</v8:item>
+										</Title>
+										<Width>17</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ShowInHeader>true</ShowInHeader>
+										<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамГруппаФССНесчастныеСлучаиРасширеннаяПодсказка" id="524"/>
+										<ChildItems>
+											<InputField name="ОценочныеОбязательстваПоСотрудникамСуммаРезерваФССНесчастныеСлучаи" id="503">
+												<EditMode>EnterOnInput</EditMode>
+												<ShowInHeader>false</ShowInHeader>
+												<ContextMenu name="ОценочныеОбязательстваПоСотрудникамСуммаРезерваФССНесчастныеСлучаиКонтекстноеМеню" id="504"/>
+												<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамСуммаРезерваФССНесчастныеСлучаиРасширеннаяПодсказка" id="505"/>
+											</InputField>
+											<InputField name="ОценочныеОбязательстваПоСотрудникамСуммаРезерваФССНесчастныеСлучаиНУ" id="506">
+												<EditMode>EnterOnInput</EditMode>
+												<ShowInHeader>false</ShowInHeader>
+												<BackColor>style:FieldAlternativeBackColor</BackColor>
+												<ContextMenu name="ОценочныеОбязательстваПоСотрудникамСуммаРезерваФССНесчастныеСлучаиНУКонтекстноеМеню" id="507"/>
+												<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамСуммаРезерваФССНесчастныеСлучаиНУРасширеннаяПодсказка" id="508"/>
+											</InputField>
+										</ChildItems>
+									</ColumnGroup>
+									<CheckBoxField name="ОценочныеОбязательстваПоСотрудникамКорректировкаОбязательств" id="535">
+										<UserVisible>
+											<xr:Common>false</xr:Common>
+										</UserVisible>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Корректировка*</v8:content>
+											</v8:item>
+										</Title>
+										<EditMode>EnterOnInput</EditMode>
+										<CheckBoxType>Auto</CheckBoxType>
+										<ContextMenu name="ОценочныеОбязательстваПоСотрудникамКорректировкаОбязательствКонтекстноеМеню" id="536"/>
+										<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамКорректировкаОбязательствРасширеннаяПодсказка" id="537"/>
+									</CheckBoxField>
+									<InputField name="ОценочныеОбязательстваПоСотрудникамОтступ" id="538">
+										<ReadOnly>true</ReadOnly>
+										<TitleLocation>None</TitleLocation>
+										<EditMode>EnterOnInput</EditMode>
+										<HorizontalStretch>true</HorizontalStretch>
+										<ContextMenu name="ОценочныеОбязательстваПоСотрудникамОтступКонтекстноеМеню" id="539"/>
+										<ExtendedTooltip name="ОценочныеОбязательстваПоСотрудникамОтступРасширеннаяПодсказка" id="540"/>
+									</InputField>
+								</ChildItems>
+							</Table>
+							<LabelDecoration name="ДекорацияПодсказка" id="541">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<TextColor>style:ЦветМикротекста</TextColor>
+								<Font ref="style:ШрифтНаклонный" kind="StyleItem"/>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>* Курсивом выделяются строки корректировки остатков. Эти строки не учитываются при подготовке таблицы "Обязательства и резервы текущего месяца".</v8:content>
+									</v8:item>
+								</Title>
+								<ContextMenu name="ДекорацияПодсказкаКонтекстноеМеню" id="542"/>
+								<ExtendedTooltip name="ДекорацияПодсказкаРасширеннаяПодсказка" id="543"/>
+							</LabelDecoration>
+						</ChildItems>
+					</Page>
+					<Page name="ГруппаРасчетРезерваОтпусков" id="30">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Расчет обязательств и резервов по отпускам</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ГруппаРасчетРезерваОтпусковРасширеннаяПодсказка" id="31"/>
+						<ChildItems>
+							<Table name="РасчетРезерваОтпусков" id="253">
+								<Footer>true</Footer>
+								<UseAlternationRowColor>true</UseAlternationRowColor>
+								<AutoInsertNewRow>true</AutoInsertNewRow>
+								<FileDragMode>AsFile</FileDragMode>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Расчет резерва отпусков</v8:content>
+									</v8:item>
+								</Title>
+								<RowFilter xsi:nil="true"/>
+								<ContextMenu name="РасчетРезерваОтпусковКонтекстноеМеню" id="254">
+									<ChildItems>
+										<Button name="РасчетРезерваОтпусковКонтекстноеМенюСправкаПоОтпускам" id="544">
+											<Type>CommandBarButton</Type>
+											<CommandName>0</CommandName>
+											<ExtendedTooltip name="РасчетРезерваОтпусковКонтекстноеМенюСправкаПоОтпускамРасширеннаяПодсказка" id="545"/>
+										</Button>
+									</ChildItems>
+								</ContextMenu>
+								<AutoCommandBar name="РасчетРезерваОтпусковКоманднаяПанель" id="255">
+									<ChildItems>
+										<Button name="РасчетРезерваОтпусковОткрытьСреднийЗаработок" id="548">
+											<Type>CommandBarButton</Type>
+											<CommandName>0</CommandName>
+											<ExtendedTooltip name="РасчетРезерваОтпусковОткрытьСреднийЗаработокРасширеннаяПодсказка" id="549"/>
+										</Button>
+									</ChildItems>
+								</AutoCommandBar>
+								<ExtendedTooltip name="РасчетРезерваОтпусковРасширеннаяПодсказка" id="256"/>
+								<SearchStringAddition name="РасчетРезерваОтпусковСтрокаПоиска" id="257">
+									<AdditionSource>
+										<Item>РасчетРезерваОтпусков</Item>
+										<Type>SearchStringRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="РасчетРезерваОтпусковСтрокаПоискаКонтекстноеМеню" id="260"/>
+									<ExtendedTooltip name="РасчетРезерваОтпусковСтрокаПоискаРасширеннаяПодсказка" id="261"/>
+								</SearchStringAddition>
+								<ViewStatusAddition name="РасчетРезерваОтпусковСостояниеПросмотра" id="262">
+									<AdditionSource>
+										<Item>РасчетРезерваОтпусков</Item>
+										<Type>ViewStatusRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="РасчетРезерваОтпусковСостояниеПросмотраКонтекстноеМеню" id="265"/>
+									<ExtendedTooltip name="РасчетРезерваОтпусковСостояниеПросмотраРасширеннаяПодсказка" id="266"/>
+								</ViewStatusAddition>
+								<SearchControlAddition name="РасчетРезерваОтпусковУправлениеПоиском" id="267">
+									<AdditionSource>
+										<Item>РасчетРезерваОтпусков</Item>
+										<Type>SearchControl</Type>
+									</AdditionSource>
+									<ContextMenu name="РасчетРезерваОтпусковУправлениеПоискомКонтекстноеМеню" id="270"/>
+									<ExtendedTooltip name="РасчетРезерваОтпусковУправлениеПоискомРасширеннаяПодсказка" id="271"/>
+								</SearchControlAddition>
+								<ChildItems>
+									<LabelField name="РасчетРезерваОтпусковНомерСтроки" id="272">
+										<EditMode>EnterOnInput</EditMode>
+										<Width>3</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ContextMenu name="РасчетРезерваОтпусковНомерСтрокиКонтекстноеМеню" id="273"/>
+										<ExtendedTooltip name="РасчетРезерваОтпусковНомерСтрокиРасширеннаяПодсказка" id="274"/>
+									</LabelField>
+									<InputField name="РасчетРезерваОтпусковСотрудник" id="275">
+										<EditMode>EnterOnInput</EditMode>
+										<Width>20</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ContextMenu name="РасчетРезерваОтпусковСотрудникКонтекстноеМеню" id="276"/>
+										<ExtendedTooltip name="РасчетРезерваОтпусковСотрудникРасширеннаяПодсказка" id="277"/>
+									</InputField>
+									<InputField name="РасчетРезерваОтпусковФОТ" id="278">
+										<EditMode>EnterOnInput</EditMode>
+										<Width>10</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ContextMenu name="РасчетРезерваОтпусковФОТКонтекстноеМеню" id="279"/>
+										<ExtendedTooltip name="РасчетРезерваОтпусковФОТРасширеннаяПодсказка" id="280"/>
+									</InputField>
+									<ColumnGroup name="РасчетРезерваОтпусковГруппаСреднийЗаработок" id="378">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Остаток отпуска/средний заработок</v8:content>
+											</v8:item>
+										</Title>
+										<Width>31</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ExtendedTooltip name="РасчетРезерваОтпусковГруппаСреднийЗаработокРасширеннаяПодсказка" id="379"/>
+										<ChildItems>
+											<ColumnGroup name="РасчетРезерваОтпусковГруппаОстатокОтпуска" id="456">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Остаток отпуска (в т.ч. использовано авансом)</v8:content>
+													</v8:item>
+												</Title>
+												<Width>16</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<ShowTitle>false</ShowTitle>
+												<ExtendedTooltip name="РасчетРезерваОтпусковГруппаОстатокОтпускаРасширеннаяПодсказка" id="457"/>
+												<ChildItems>
+													<InputField name="РасчетРезерваОтпусковОстатокОтпуска" id="293">
+														<EditMode>EnterOnInput</EditMode>
+														<ShowInFooter>false</ShowInFooter>
+														<Width>16</Width>
+														<HorizontalStretch>false</HorizontalStretch>
+														<ContextMenu name="РасчетРезерваОтпусковОстатокОтпускаКонтекстноеМеню" id="294"/>
+														<ExtendedTooltip name="РасчетРезерваОтпусковОстатокОтпускаРасширеннаяПодсказка" id="295"/>
+													</InputField>
+													<InputField name="РасчетРезерваОтпусковОтпускАвансом" id="453">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>использован авансом</v8:content>
+															</v8:item>
+														</Title>
+														<TitleFont ref="style:ШрифтНаклонный" kind="StyleItem"/>
+														<EditMode>EnterOnInput</EditMode>
+														<Width>16</Width>
+														<Font ref="style:ШрифтНаклонный" kind="StyleItem"/>
+														<ContextMenu name="РасчетРезерваОтпусковОтпускАвансомКонтекстноеМеню" id="454"/>
+														<ExtendedTooltip name="РасчетРезерваОтпусковОтпускАвансомРасширеннаяПодсказка" id="455"/>
+													</InputField>
+												</ChildItems>
+											</ColumnGroup>
+										</ChildItems>
+									</ColumnGroup>
+									<InputField name="РасчетРезерваОтпусковСреднийЗаработок" id="296">
+										<EditMode>EnterOnInput</EditMode>
+										<Width>15</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<OpenButton>true</OpenButton>
+										<ContextMenu name="РасчетРезерваОтпусковСреднийЗаработокКонтекстноеМеню" id="297"/>
+										<ExtendedTooltip name="РасчетРезерваОтпусковСреднийЗаработокРасширеннаяПодсказка" id="298"/>
+									</InputField>
+									<ColumnGroup name="РасчетРезерваОтпусковГруппаСтраховыеВзносы" id="362">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Страховые взносы (размер и %)</v8:content>
+											</v8:item>
+										</Title>
+										<Width>15</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ExtendedTooltip name="РасчетРезерваОтпусковГруппаСтраховыеВзносыРасширеннаяПодсказка" id="363"/>
+										<ChildItems>
+											<InputField name="РасчетРезерваОтпусковСтраховыеВзносы" id="281">
+												<EditMode>EnterOnInput</EditMode>
+												<Width>15</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<ContextMenu name="РасчетРезерваОтпусковСтраховыеВзносыКонтекстноеМеню" id="282"/>
+												<ExtendedTooltip name="РасчетРезерваОтпусковСтраховыеВзносыРасширеннаяПодсказка" id="283"/>
+											</InputField>
+											<InputField name="РасчетРезерваОтпусковТекущаяСтавкаСтраховыхВзносов" id="308">
+												<EditMode>EnterOnInput</EditMode>
+												<ShowInFooter>false</ShowInFooter>
+												<Width>15</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<ContextMenu name="РасчетРезерваОтпусковТекущаяСтавкаСтраховыхВзносовКонтекстноеМеню" id="309"/>
+												<ExtendedTooltip name="РасчетРезерваОтпусковТекущаяСтавкаСтраховыхВзносовРасширеннаяПодсказка" id="310"/>
+											</InputField>
+										</ChildItems>
+									</ColumnGroup>
+									<ColumnGroup name="РасчетРезерваОтпусковГруппаФССНесчастныеСлучаи" id="364">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>ФСС от НС и ПЗ (размер и %)</v8:content>
+											</v8:item>
+										</Title>
+										<Width>15</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ExtendedTooltip name="РасчетРезерваОтпусковГруппаФССНесчастныеСлучаиРасширеннаяПодсказка" id="365"/>
+										<ChildItems>
+											<InputField name="РасчетРезерваОтпусковФССНесчастныеСлучаи" id="359">
+												<EditMode>EnterOnInput</EditMode>
+												<Width>15</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<ContextMenu name="РасчетРезерваОтпусковФССНесчастныеСлучаиКонтекстноеМеню" id="360"/>
+												<ExtendedTooltip name="РасчетРезерваОтпусковФССНесчастныеСлучаиРасширеннаяПодсказка" id="361"/>
+											</InputField>
+											<InputField name="РасчетРезерваОтпусковТекущаяСтавкаФССНесчастныеСлучаи" id="311">
+												<EditMode>EnterOnInput</EditMode>
+												<ShowInFooter>false</ShowInFooter>
+												<Width>15</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<ContextMenu name="РасчетРезерваОтпусковТекущаяСтавкаФССНесчастныеСлучаиКонтекстноеМеню" id="312"/>
+												<ExtendedTooltip name="РасчетРезерваОтпусковТекущаяСтавкаФССНесчастныеСлучаиРасширеннаяПодсказка" id="313"/>
+											</InputField>
+										</ChildItems>
+									</ColumnGroup>
+									<ColumnGroup name="РасчетРезерваОтпусковГруппаПоказатели" id="368">
+										<ReadOnly>true</ReadOnly>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Показатели</v8:content>
+											</v8:item>
+										</Title>
+										<Width>3</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ShowTitle>false</ShowTitle>
+										<ShowInHeader>true</ShowInHeader>
+										<ExtendedTooltip name="РасчетРезерваОтпусковГруппаПоказателиРасширеннаяПодсказка" id="369"/>
+										<ChildItems>
+											<InputField name="РасчетРезерваОтпусковНадписьБУ" id="370">
+												<ReadOnly>true</ReadOnly>
+												<EditMode>EnterOnInput</EditMode>
+												<ShowInHeader>false</ShowInHeader>
+												<FooterText>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>БУ:</v8:content>
+													</v8:item>
+												</FooterText>
+												<FooterFont ref="style:ШрифтНаклонный" kind="StyleItem"/>
+												<Width>3</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<BackColor>style:ToolTipBackColor</BackColor>
+												<ContextMenu name="РасчетРезерваОтпусковНадписьБУКонтекстноеМеню" id="371"/>
+												<ExtendedTooltip name="РасчетРезерваОтпусковНадписьБУРасширеннаяПодсказка" id="372"/>
+											</InputField>
+											<InputField name="РасчетРезерваОтпусковНадписьНУ" id="373">
+												<ReadOnly>true</ReadOnly>
+												<EditMode>EnterOnInput</EditMode>
+												<ShowInHeader>false</ShowInHeader>
+												<FooterText>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>НУ:</v8:content>
+													</v8:item>
+												</FooterText>
+												<FooterFont ref="style:ШрифтНаклонный" kind="StyleItem"/>
+												<Width>3</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<BackColor>style:ToolTipBackColor</BackColor>
+												<ContextMenu name="РасчетРезерваОтпусковНадписьНУКонтекстноеМеню" id="374"/>
+												<ExtendedTooltip name="РасчетРезерваОтпусковНадписьНУРасширеннаяПодсказка" id="375"/>
+											</InputField>
+										</ChildItems>
+									</ColumnGroup>
+									<ColumnGroup name="РасчетРезерваОтпусковГруппаРезерв" id="380">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Сумма обязательства (резерва)</v8:content>
+											</v8:item>
+										</Title>
+										<Width>30</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<Group>Horizontal</Group>
+										<ShowInHeader>true</ShowInHeader>
+										<ExtendedTooltip name="РасчетРезерваОтпусковГруппаРезервРасширеннаяПодсказка" id="381"/>
+										<ChildItems>
+											<ColumnGroup name="РасчетРезерваОтпусковГруппаСуммаРезерваИсчислено" id="386">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>исчислено</v8:content>
+													</v8:item>
+												</Title>
+												<Width>10</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<ShowInHeader>true</ShowInHeader>
+												<ExtendedTooltip name="РасчетРезерваОтпусковГруппаСуммаРезерваИсчисленоРасширеннаяПодсказка" id="387"/>
+												<ChildItems>
+													<InputField name="РасчетРезерваОтпусковСуммаРезерваИсчислено" id="332">
+														<EditMode>EnterOnInput</EditMode>
+														<ShowInHeader>false</ShowInHeader>
+														<Width>10</Width>
+														<HorizontalStretch>false</HorizontalStretch>
+														<ContextMenu name="РасчетРезерваОтпусковСуммаРезерваИсчисленоКонтекстноеМеню" id="333"/>
+														<ExtendedTooltip name="РасчетРезерваОтпусковСуммаРезерваИсчисленоРасширеннаяПодсказка" id="334"/>
+													</InputField>
+													<InputField name="РасчетРезерваОтпусковСуммаРезерваИсчисленоНУ" id="341">
+														<EditMode>EnterOnInput</EditMode>
+														<ShowInHeader>false</ShowInHeader>
+														<Width>10</Width>
+														<HorizontalStretch>false</HorizontalStretch>
+														<BackColor>style:FieldAlternativeBackColor</BackColor>
+														<ContextMenu name="РасчетРезерваОтпусковСуммаРезерваИсчисленоНУКонтекстноеМеню" id="342"/>
+														<ExtendedTooltip name="РасчетРезерваОтпусковСуммаРезерваИсчисленоНУРасширеннаяПодсказка" id="343"/>
+													</InputField>
+												</ChildItems>
+											</ColumnGroup>
+											<ColumnGroup name="РасчетРезерваОтпусковГруппаСуммаРезерваНакоплено" id="384">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>накоплено</v8:content>
+													</v8:item>
+												</Title>
+												<Width>10</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<ShowInHeader>true</ShowInHeader>
+												<ExtendedTooltip name="РасчетРезерваОтпусковГруппаСуммаРезерваНакопленоРасширеннаяПодсказка" id="385"/>
+												<ChildItems>
+													<InputField name="РасчетРезерваОтпусковСуммаРезерваНакоплено" id="314">
+														<EditMode>EnterOnInput</EditMode>
+														<ShowInHeader>false</ShowInHeader>
+														<Width>10</Width>
+														<HorizontalStretch>false</HorizontalStretch>
+														<ContextMenu name="РасчетРезерваОтпусковСуммаРезерваНакопленоКонтекстноеМеню" id="315"/>
+														<ExtendedTooltip name="РасчетРезерваОтпусковСуммаРезерваНакопленоРасширеннаяПодсказка" id="316"/>
+													</InputField>
+													<InputField name="РасчетРезерваОтпусковСуммаРезерваНакопленоНУ" id="323">
+														<EditMode>EnterOnInput</EditMode>
+														<ShowInHeader>false</ShowInHeader>
+														<Width>10</Width>
+														<HorizontalStretch>false</HorizontalStretch>
+														<BackColor>style:FieldAlternativeBackColor</BackColor>
+														<ContextMenu name="РасчетРезерваОтпусковСуммаРезерваНакопленоНУКонтекстноеМеню" id="324"/>
+														<ExtendedTooltip name="РасчетРезерваОтпусковСуммаРезерваНакопленоНУРасширеннаяПодсказка" id="325"/>
+													</InputField>
+												</ChildItems>
+											</ColumnGroup>
+											<ColumnGroup name="РасчетРезерваОтпусковГруппаСуммаРезерва" id="382">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>зачтено</v8:content>
+													</v8:item>
+												</Title>
+												<Width>10</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<ShowInHeader>true</ShowInHeader>
+												<ExtendedTooltip name="РасчетРезерваОтпусковГруппаСуммаРезерваРасширеннаяПодсказка" id="383"/>
+												<ChildItems>
+													<InputField name="РасчетРезерваОтпусковСуммаРезерва" id="284">
+														<EditMode>EnterOnInput</EditMode>
+														<ShowInHeader>false</ShowInHeader>
+														<Width>10</Width>
+														<HorizontalStretch>false</HorizontalStretch>
+														<ContextMenu name="РасчетРезерваОтпусковСуммаРезерваКонтекстноеМеню" id="285"/>
+														<ExtendedTooltip name="РасчетРезерваОтпусковСуммаРезерваРасширеннаяПодсказка" id="286"/>
+													</InputField>
+													<InputField name="РасчетРезерваОтпусковСуммаРезерваНУ" id="299">
+														<EditMode>EnterOnInput</EditMode>
+														<ShowInHeader>false</ShowInHeader>
+														<Width>10</Width>
+														<HorizontalStretch>false</HorizontalStretch>
+														<BackColor>style:FieldAlternativeBackColor</BackColor>
+														<ContextMenu name="РасчетРезерваОтпусковСуммаРезерваНУКонтекстноеМеню" id="300"/>
+														<ExtendedTooltip name="РасчетРезерваОтпусковСуммаРезерваНУРасширеннаяПодсказка" id="301"/>
+													</InputField>
+												</ChildItems>
+											</ColumnGroup>
+										</ChildItems>
+									</ColumnGroup>
+									<ColumnGroup name="РасчетРезерваОтпусковГруппаРезервСтраховыеВзносы" id="388">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Страховые взносы обязательства (резерва)</v8:content>
+											</v8:item>
+										</Title>
+										<Width>30</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<Group>Horizontal</Group>
+										<ShowInHeader>true</ShowInHeader>
+										<ExtendedTooltip name="РасчетРезерваОтпусковГруппаРезервСтраховыеВзносыРасширеннаяПодсказка" id="389"/>
+										<ChildItems>
+											<ColumnGroup name="РасчетРезерваОтпусковГруппаСуммаРезерваСтраховыхВзносовИсчислено" id="392">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>исчислено</v8:content>
+													</v8:item>
+												</Title>
+												<Width>10</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<ShowInHeader>true</ShowInHeader>
+												<ExtendedTooltip name="РасчетРезерваОтпусковГруппаСуммаРезерваСтраховыхВзносовИсчисленоРасширеннаяПодсказка" id="393"/>
+												<ChildItems>
+													<InputField name="РасчетРезерваОтпусковСуммаРезерваСтраховыхВзносовИсчислено" id="335">
+														<EditMode>EnterOnInput</EditMode>
+														<ShowInHeader>false</ShowInHeader>
+														<Width>10</Width>
+														<HorizontalStretch>false</HorizontalStretch>
+														<ContextMenu name="РасчетРезерваОтпусковСуммаРезерваСтраховыхВзносовИсчисленоКонтекстноеМеню" id="336"/>
+														<ExtendedTooltip name="РасчетРезерваОтпусковСуммаРезерваСтраховыхВзносовИсчисленоРасширеннаяПодсказка" id="337"/>
+													</InputField>
+													<InputField name="РасчетРезерваОтпусковСуммаРезерваСтраховыхВзносовИсчисленоНУ" id="344">
+														<EditMode>EnterOnInput</EditMode>
+														<ShowInHeader>false</ShowInHeader>
+														<Width>10</Width>
+														<HorizontalStretch>false</HorizontalStretch>
+														<BackColor>style:FieldAlternativeBackColor</BackColor>
+														<ContextMenu name="РасчетРезерваОтпусковСуммаРезерваСтраховыхВзносовИсчисленоНУКонтекстноеМеню" id="345"/>
+														<ExtendedTooltip name="РасчетРезерваОтпусковСуммаРезерваСтраховыхВзносовИсчисленоНУРасширеннаяПодсказка" id="346"/>
+													</InputField>
+												</ChildItems>
+											</ColumnGroup>
+											<ColumnGroup name="РасчетРезерваОтпусковГруппаСуммаРезерваСтраховыхВзносовНакоплено" id="390">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>накоплено</v8:content>
+													</v8:item>
+												</Title>
+												<Width>10</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<ShowInHeader>true</ShowInHeader>
+												<ExtendedTooltip name="РасчетРезерваОтпусковГруппаСуммаРезерваСтраховыхВзносовНакопленоРасширеннаяПодсказка" id="391"/>
+												<ChildItems>
+													<InputField name="РасчетРезерваОтпусковСуммаРезерваСтраховыхВзносовНакоплено" id="317">
+														<EditMode>EnterOnInput</EditMode>
+														<ShowInHeader>false</ShowInHeader>
+														<Width>10</Width>
+														<HorizontalStretch>false</HorizontalStretch>
+														<ContextMenu name="РасчетРезерваОтпусковСуммаРезерваСтраховыхВзносовНакопленоКонтекстноеМеню" id="318"/>
+														<ExtendedTooltip name="РасчетРезерваОтпусковСуммаРезерваСтраховыхВзносовНакопленоРасширеннаяПодсказка" id="319"/>
+													</InputField>
+													<InputField name="РасчетРезерваОтпусковСуммаРезерваСтраховыхВзносовНакопленоНУ" id="326">
+														<EditMode>EnterOnInput</EditMode>
+														<ShowInHeader>false</ShowInHeader>
+														<Width>10</Width>
+														<HorizontalStretch>false</HorizontalStretch>
+														<BackColor>style:FieldAlternativeBackColor</BackColor>
+														<ContextMenu name="РасчетРезерваОтпусковСуммаРезерваСтраховыхВзносовНакопленоНУКонтекстноеМеню" id="327"/>
+														<ExtendedTooltip name="РасчетРезерваОтпусковСуммаРезерваСтраховыхВзносовНакопленоНУРасширеннаяПодсказка" id="328"/>
+													</InputField>
+												</ChildItems>
+											</ColumnGroup>
+											<ColumnGroup name="РасчетРезерваОтпусковГруппаСуммаРезерваСтраховыхВзносов" id="366">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>зачтено</v8:content>
+													</v8:item>
+												</Title>
+												<Width>10</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<ShowInHeader>true</ShowInHeader>
+												<ExtendedTooltip name="РасчетРезерваОтпусковГруппаСуммаРезерваСтраховыхВзносовРасширеннаяПодсказка" id="367"/>
+												<ChildItems>
+													<InputField name="РасчетРезерваОтпусковСуммаРезерваСтраховыхВзносов" id="287">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>БУ</v8:content>
+															</v8:item>
+														</Title>
+														<EditMode>EnterOnInput</EditMode>
+														<ShowInHeader>false</ShowInHeader>
+														<Width>10</Width>
+														<HorizontalStretch>false</HorizontalStretch>
+														<ContextMenu name="РасчетРезерваОтпусковСуммаРезерваСтраховыхВзносовКонтекстноеМеню" id="288"/>
+														<ExtendedTooltip name="РасчетРезерваОтпусковСуммаРезерваСтраховыхВзносовРасширеннаяПодсказка" id="289"/>
+													</InputField>
+													<InputField name="РасчетРезерваОтпусковСуммаРезерваСтраховыхВзносовНУ" id="302">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>НУ</v8:content>
+															</v8:item>
+														</Title>
+														<EditMode>EnterOnInput</EditMode>
+														<ShowInHeader>false</ShowInHeader>
+														<Width>10</Width>
+														<HorizontalStretch>false</HorizontalStretch>
+														<BackColor>style:FieldAlternativeBackColor</BackColor>
+														<ContextMenu name="РасчетРезерваОтпусковСуммаРезерваСтраховыхВзносовНУКонтекстноеМеню" id="303"/>
+														<ExtendedTooltip name="РасчетРезерваОтпусковСуммаРезерваСтраховыхВзносовНУРасширеннаяПодсказка" id="304"/>
+													</InputField>
+												</ChildItems>
+											</ColumnGroup>
+										</ChildItems>
+									</ColumnGroup>
+									<ColumnGroup name="РасчетРезерваОтпусковГруппаРезервФССНесчастныеСлучаи" id="394">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Взносы в ФСС НС и ПЗ обязательства (резерва)</v8:content>
+											</v8:item>
+										</Title>
+										<Width>30</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<Group>Horizontal</Group>
+										<ShowInHeader>true</ShowInHeader>
+										<ExtendedTooltip name="РасчетРезерваОтпусковГруппаРезервФССНесчастныеСлучаиРасширеннаяПодсказка" id="395"/>
+										<ChildItems>
+											<ColumnGroup name="РасчетРезерваОтпусковГруппаСуммаРезерваФССНесчастныеСлучаиИсчислено" id="398">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>исчислено</v8:content>
+													</v8:item>
+												</Title>
+												<Width>10</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<ShowInHeader>true</ShowInHeader>
+												<ExtendedTooltip name="РасчетРезерваОтпусковГруппаСуммаРезерваФССНесчастныеСлучаиИсчисленоРасширеннаяПодсказка" id="399"/>
+												<ChildItems>
+													<InputField name="РасчетРезерваОтпусковСуммаРезерваФССНесчастныеСлучаиИсчислено" id="338">
+														<EditMode>EnterOnInput</EditMode>
+														<ShowInHeader>false</ShowInHeader>
+														<Width>10</Width>
+														<HorizontalStretch>false</HorizontalStretch>
+														<ContextMenu name="РасчетРезерваОтпусковСуммаРезерваФССНесчастныеСлучаиИсчисленоКонтекстноеМеню" id="339"/>
+														<ExtendedTooltip name="РасчетРезерваОтпусковСуммаРезерваФССНесчастныеСлучаиИсчисленоРасширеннаяПодсказка" id="340"/>
+													</InputField>
+													<InputField name="РасчетРезерваОтпусковСуммаРезерваФССНесчастныеСлучаиИсчисленоНУ" id="347">
+														<EditMode>EnterOnInput</EditMode>
+														<ShowInHeader>false</ShowInHeader>
+														<Width>10</Width>
+														<HorizontalStretch>false</HorizontalStretch>
+														<BackColor>style:FieldAlternativeBackColor</BackColor>
+														<ContextMenu name="РасчетРезерваОтпусковСуммаРезерваФССНесчастныеСлучаиИсчисленоНУКонтекстноеМеню" id="348"/>
+														<ExtendedTooltip name="РасчетРезерваОтпусковСуммаРезерваФССНесчастныеСлучаиИсчисленоНУРасширеннаяПодсказка" id="349"/>
+													</InputField>
+												</ChildItems>
+											</ColumnGroup>
+											<ColumnGroup name="РасчетРезерваОтпусковГруппаСуммаРезерваФССНесчастныеСлучаиНакоплено" id="396">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>накоплено</v8:content>
+													</v8:item>
+												</Title>
+												<Width>10</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<ShowInHeader>true</ShowInHeader>
+												<ExtendedTooltip name="РасчетРезерваОтпусковГруппаСуммаРезерваФССНесчастныеСлучаиНакопленоРасширеннаяПодсказка" id="397"/>
+												<ChildItems>
+													<InputField name="РасчетРезерваОтпусковСуммаРезерваФССНесчастныеСлучаиНакоплено" id="320">
+														<EditMode>EnterOnInput</EditMode>
+														<ShowInHeader>false</ShowInHeader>
+														<Width>10</Width>
+														<HorizontalStretch>false</HorizontalStretch>
+														<ContextMenu name="РасчетРезерваОтпусковСуммаРезерваФССНесчастныеСлучаиНакопленоКонтекстноеМеню" id="321"/>
+														<ExtendedTooltip name="РасчетРезерваОтпусковСуммаРезерваФССНесчастныеСлучаиНакопленоРасширеннаяПодсказка" id="322"/>
+													</InputField>
+													<InputField name="РасчетРезерваОтпусковСуммаРезерваФССНесчастныеСлучаиНакопленоНУ" id="329">
+														<EditMode>EnterOnInput</EditMode>
+														<ShowInHeader>false</ShowInHeader>
+														<Width>10</Width>
+														<HorizontalStretch>false</HorizontalStretch>
+														<BackColor>style:FieldAlternativeBackColor</BackColor>
+														<ContextMenu name="РасчетРезерваОтпусковСуммаРезерваФССНесчастныеСлучаиНакопленоНУКонтекстноеМеню" id="330"/>
+														<ExtendedTooltip name="РасчетРезерваОтпусковСуммаРезерваФССНесчастныеСлучаиНакопленоНУРасширеннаяПодсказка" id="331"/>
+													</InputField>
+												</ChildItems>
+											</ColumnGroup>
+											<ColumnGroup name="РасчетРезерваОтпусковГруппаСуммаРезерваФССНесчастныеСлучаи" id="376">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>зачтено</v8:content>
+													</v8:item>
+												</Title>
+												<Width>10</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<ShowInHeader>true</ShowInHeader>
+												<ExtendedTooltip name="РасчетРезерваОтпусковГруппаСуммаРезерваФССНесчастныеСлучаиРасширеннаяПодсказка" id="377"/>
+												<ChildItems>
+													<InputField name="РасчетРезерваОтпусковСуммаРезерваФССНесчастныеСлучаи" id="290">
+														<EditMode>EnterOnInput</EditMode>
+														<ShowInHeader>false</ShowInHeader>
+														<Width>10</Width>
+														<HorizontalStretch>false</HorizontalStretch>
+														<ContextMenu name="РасчетРезерваОтпусковСуммаРезерваФССНесчастныеСлучаиКонтекстноеМеню" id="291"/>
+														<ExtendedTooltip name="РасчетРезерваОтпусковСуммаРезерваФССНесчастныеСлучаиРасширеннаяПодсказка" id="292"/>
+													</InputField>
+													<InputField name="РасчетРезерваОтпусковСуммаРезерваФССНесчастныеСлучаиНУ" id="305">
+														<EditMode>EnterOnInput</EditMode>
+														<ShowInHeader>false</ShowInHeader>
+														<Width>10</Width>
+														<HorizontalStretch>false</HorizontalStretch>
+														<BackColor>style:FieldAlternativeBackColor</BackColor>
+														<ContextMenu name="РасчетРезерваОтпусковСуммаРезерваФССНесчастныеСлучаиНУКонтекстноеМеню" id="306"/>
+														<ExtendedTooltip name="РасчетРезерваОтпусковСуммаРезерваФССНесчастныеСлучаиНУРасширеннаяПодсказка" id="307"/>
+													</InputField>
+												</ChildItems>
+											</ColumnGroup>
+										</ChildItems>
+									</ColumnGroup>
+									<InputField name="РасчетРезерваОтпусковОтступ" id="400">
+										<ReadOnly>true</ReadOnly>
+										<TitleLocation>None</TitleLocation>
+										<EditMode>EnterOnInput</EditMode>
+										<HorizontalStretch>true</HorizontalStretch>
+										<ContextMenu name="РасчетРезерваОтпусковОтступКонтекстноеМеню" id="401"/>
+										<ExtendedTooltip name="РасчетРезерваОтпусковОтступРасширеннаяПодсказка" id="402"/>
+									</InputField>
+								</ChildItems>
+							</Table>
+						</ChildItems>
+					</Page>
+				</ChildItems>
+			</Pages>
+			<UsualGroup name="ГруппаДополнительныеРеквизиты" id="546">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Дополнительно</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Vertical</Group>
+				<Representation>None</Representation>
+				<ExtendedTooltip name="ГруппаДополнительныеРеквизитыExtendedTooltip" id="547"/>
+			</UsualGroup>
+			<UsualGroup name="ГруппаКомментарийОтветственный" id="157">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Комментарий ответственный</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Horizontal</Group>
+				<Representation>NormalSeparation</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаКомментарийОтветственныйРасширеннаяПодсказка" id="158"/>
+				<ChildItems>
+					<InputField name="Комментарий" id="159">
+						<TitleLocation>Left</TitleLocation>
+						<EditMode>EnterOnInput</EditMode>
+						<Height>1</Height>
+						<VerticalStretch>false</VerticalStretch>
+						<MultiLine>true</MultiLine>
+						<ExtendedEdit>true</ExtendedEdit>
+						<ContextMenu name="КомментарийКонтекстноеМеню" id="160"/>
+						<ExtendedTooltip name="КомментарийExtendedTooltip" id="161"/>
+					</InputField>
+					<InputField name="Ответственный" id="162">
+						<EditMode>EnterOnInput</EditMode>
+						<HorizontalStretch>false</HorizontalStretch>
+						<ContextMenu name="ОтветственныйКонтекстноеМеню" id="163"/>
+						<ExtendedTooltip name="ОтветственныйExtendedTooltip" id="164"/>
+					</InputField>
+				</ChildItems>
+			</UsualGroup>
+		</ChildItems>
+		<Attributes>
+			<Attribute name="Объект" id="1000001">
+				<Type>
+					<v8:Type>cfg:DocumentObject.НачислениеОценочныхОбязательствПоОтпускам</v8:Type>
+				</Type>
+				<MainAttribute>true</MainAttribute>
+				<SavedData>true</SavedData>
+				<UseAlways>
+					<Field>Объект.RegisterRecords</Field>
+				</UseAlways>
+			</Attribute>
+			<ConditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ОценочныеОбязательстваПоСотрудникам</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Объект.ОценочныеОбязательстваПоСотрудникам.КорректировкаОбязательств</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Шрифт</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Font" ref="style:TextFont" faceName="Arial" height="10" bold="false" italic="true" underline="false" strikeout="false" kind="StyleItem"/>
+						</dcscor:item>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ОтметкаНезаполненного</dcscor:parameter>
+							<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>РасчетРезерваОтпусковОстатокОтпуска</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Объект.РасчетРезерваОтпусков.ОстатокОтпуска</dcsset:left>
+							<dcsset:comparisonType>Less</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветТекста</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">style:NegativeTextColor</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>РасчетРезерваОтпусковОтпускАвансом</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Объект.РасчетРезерваОтпусков.ОстатокОтпуска</dcsset:left>
+							<dcsset:comparisonType>LessOrEqual</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:use>false</dcscor:use>
+							<dcscor:parameter>ЦветТекста</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">style:NegativeTextColor</dcscor:value>
+						</dcscor:item>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:use>false</dcscor:use>
+							<dcscor:parameter>Доступность</dcscor:parameter>
+							<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+						</dcscor:item>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ТолькоПросмотр</dcscor:parameter>
+							<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+			</ConditionalAppearance>
+		</Attributes>
+	</BaseForm>
+</Form>

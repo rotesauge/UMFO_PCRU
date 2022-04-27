@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Enum uuid="31989377-74e0-413c-b94d-53e9c727e47e">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыПлатежейПоКредитамЗаймам" category="Ref">
+				<xr:TypeId>7eeb7867-9305-4515-9fa4-2bbf820688fb</xr:TypeId>
+				<xr:ValueId>5c7ebd46-45fb-42e9-b327-6b3b1192c5f1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыПлатежейПоКредитамЗаймам" category="Manager">
+				<xr:TypeId>af6487d6-ea41-4626-9260-b125f7fc2ed4</xr:TypeId>
+				<xr:ValueId>b842a084-b7e5-46f6-9752-b6f1e23113f2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыПлатежейПоКредитамЗаймам" category="List">
+				<xr:TypeId>98c201e8-0a81-442f-8591-bcaf4cb0b538</xr:TypeId>
+				<xr:ValueId>9aaaea96-69ea-4f40-9104-ecffacf2d500</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыПлатежейПоКредитамЗаймам</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="1304bd8b-af8b-47e8-a80e-19815f075d72">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПогашениеДолга</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b24ebc65-42a0-4913-a919-efaca9759b99">
+				<InternalInfo/>
+				<Properties>
+					<Name>БНФОПрочее</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

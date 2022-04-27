@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Document uuid="d5eeac13-31fe-43f4-bcba-82b5b34f38e7">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.БНФОРегламентнаяОперация" category="Object">
+				<xr:TypeId>bec34d93-afd6-4268-9fe3-36e01d8b8187</xr:TypeId>
+				<xr:ValueId>a2807cae-d6d2-4201-b69a-2ee46a82cae5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.БНФОРегламентнаяОперация" category="Ref">
+				<xr:TypeId>ca0a26d2-4eb7-4cd7-bdfc-e42e6944582f</xr:TypeId>
+				<xr:ValueId>962defda-f303-44da-9a64-12e6d6015791</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.БНФОРегламентнаяОперация" category="Selection">
+				<xr:TypeId>2cb39b0e-4a67-462d-8d6c-b9c11c8a621b</xr:TypeId>
+				<xr:ValueId>439d16a7-717b-4b33-8ac4-77aef1b1ccc7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.БНФОРегламентнаяОперация" category="List">
+				<xr:TypeId>3fcb7c73-2804-4746-96f7-9c662ab93650</xr:TypeId>
+				<xr:ValueId>f13bbafc-8edb-4e0e-800f-e8feb3f59a62</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.БНФОРегламентнаяОперация" category="Manager">
+				<xr:TypeId>eaf9472a-3994-4ab0-96a1-80b6c50d9b19</xr:TypeId>
+				<xr:ValueId>9e6128ca-c2b4-47df-bdbc-5d6715703b4f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БНФОРегламентнаяОперация</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>4cecd04e-1124-4f7e-83ca-54bffcc68ad7</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

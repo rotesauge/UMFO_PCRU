@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Document uuid="cf8b5a06-d8b6-4392-ab58-2561aa7cd585">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОтражениеНачисленияНДС" category="Object">
+				<xr:TypeId>596dc58c-adaf-4b2f-adbc-8d8e28574b1f</xr:TypeId>
+				<xr:ValueId>9b5c9afc-461f-4fc9-bd9c-08525704cdfb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОтражениеНачисленияНДС" category="Ref">
+				<xr:TypeId>bb37d73c-2ea6-47e8-9d60-87b9dac5db80</xr:TypeId>
+				<xr:ValueId>6e188282-41b4-4141-8e83-926fa7b86703</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОтражениеНачисленияНДС" category="Selection">
+				<xr:TypeId>b7e339a3-ebb7-45fd-bb35-9bf185303397</xr:TypeId>
+				<xr:ValueId>e3b6a96f-8035-4dd0-a5a7-c98406f0b044</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОтражениеНачисленияНДС" category="List">
+				<xr:TypeId>ad11339f-ce9b-4214-963a-52128e13fb0a</xr:TypeId>
+				<xr:ValueId>a7978aee-cee8-4760-ba6b-6ecd4bed3cde</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОтражениеНачисленияНДС" category="Manager">
+				<xr:TypeId>2b64ae28-7fa8-4b7a-9019-4ad7d7220828</xr:TypeId>
+				<xr:ValueId>56f0243d-3d33-456c-b6ac-e96659db27b1</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОтражениеНачисленияНДС</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

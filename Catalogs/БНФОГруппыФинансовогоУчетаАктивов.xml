@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Catalog uuid="ff2d5949-7fa3-48e7-bdfe-7ef18b764138">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.БНФОГруппыФинансовогоУчетаАктивов" category="Object">
+				<xr:TypeId>4132a00b-1e91-45c2-9329-3aa346f4f46f</xr:TypeId>
+				<xr:ValueId>7f9a22a2-5ca9-4d07-9ff1-6e44c03758f4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.БНФОГруппыФинансовогоУчетаАктивов" category="Ref">
+				<xr:TypeId>161a42d3-666d-47d7-807a-e2f5547a3245</xr:TypeId>
+				<xr:ValueId>47306ecc-eb56-40eb-82fb-a0328a4c0ff9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.БНФОГруппыФинансовогоУчетаАктивов" category="Selection">
+				<xr:TypeId>8cbf6e2f-b4ac-42bf-ab72-c9a10e459993</xr:TypeId>
+				<xr:ValueId>518e3df8-464e-4596-b582-85fa46337583</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.БНФОГруппыФинансовогоУчетаАктивов" category="List">
+				<xr:TypeId>a5e8a5a5-4139-4fcf-ac56-4e540d9dad93</xr:TypeId>
+				<xr:ValueId>3f75eda8-5290-48f1-9c04-068d34e2e34c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.БНФОГруппыФинансовогоУчетаАктивов" category="Manager">
+				<xr:TypeId>75b359ab-1c62-4ca5-aa43-01b88ea82ff2</xr:TypeId>
+				<xr:ValueId>395c278b-9cdc-4d79-b9b9-b673cc58bf59</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БНФОГруппыФинансовогоУчетаАктивов</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

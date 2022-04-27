@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Enum uuid="fedd42d8-f987-4d23-bff9-87aede061bca">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.БНФОТипыКомиссииКредитовИДепозитов" category="Ref">
+				<xr:TypeId>6cbbd6c7-37e3-4536-a84c-9b1626739d48</xr:TypeId>
+				<xr:ValueId>98bd26ac-ed6b-4f42-b111-d11136d031e4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.БНФОТипыКомиссииКредитовИДепозитов" category="Manager">
+				<xr:TypeId>e94f6a9c-9060-498f-825a-5cd10ab79ca6</xr:TypeId>
+				<xr:ValueId>34baacda-afe1-4e6e-a8a7-823f8b7ddf9a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.БНФОТипыКомиссииКредитовИДепозитов" category="List">
+				<xr:TypeId>b08a1227-7bc5-430f-a917-1ee25bddc1e8</xr:TypeId>
+				<xr:ValueId>53144a4b-bc7a-4a21-82ad-4b2825f586d5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БНФОТипыКомиссииКредитовИДепозитов</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

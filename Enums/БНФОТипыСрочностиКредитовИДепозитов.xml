@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Enum uuid="452df183-f212-4c9e-9c32-3f2ee55b263f">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.БНФОТипыСрочностиКредитовИДепозитов" category="Ref">
+				<xr:TypeId>28f68fff-f3a6-432c-bb3a-82b66cf464ca</xr:TypeId>
+				<xr:ValueId>a1bb6f9d-6cfb-4d6a-9aa6-adc21a3a0774</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.БНФОТипыСрочностиКредитовИДепозитов" category="Manager">
+				<xr:TypeId>22f9076b-5a5b-4c98-831e-33bf632c08aa</xr:TypeId>
+				<xr:ValueId>51945f61-e442-4124-8c62-4d281d2c00a7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.БНФОТипыСрочностиКредитовИДепозитов" category="List">
+				<xr:TypeId>86426e66-7e07-4340-a6ac-2238fefce702</xr:TypeId>
+				<xr:ValueId>1b7be2c6-3460-4365-a1fa-47d270c91939</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БНФОТипыСрочностиКредитовИДепозитов</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

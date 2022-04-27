@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Document uuid="8a12ab3e-4fae-4e12-8643-31ef89ac75a4">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ДокументРасчетовСКонтрагентом" category="Object">
+				<xr:TypeId>caf2fd65-796f-492e-bb76-bccabbda6574</xr:TypeId>
+				<xr:ValueId>34e5f55b-60d8-402c-81f6-776a722452c2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ДокументРасчетовСКонтрагентом" category="Ref">
+				<xr:TypeId>4dedd445-8657-41b2-b405-0b15a17697ec</xr:TypeId>
+				<xr:ValueId>eaaf179d-ce01-4949-abce-777c239ebbda</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ДокументРасчетовСКонтрагентом" category="Selection">
+				<xr:TypeId>c9fb28c6-4c3f-4c36-a854-e63495b27faf</xr:TypeId>
+				<xr:ValueId>12a874df-2ffb-43cc-90a3-4e34d2c33d7d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ДокументРасчетовСКонтрагентом" category="List">
+				<xr:TypeId>c8659ffb-31e1-4d93-94dd-eec91d545179</xr:TypeId>
+				<xr:ValueId>6392a63c-9908-44f7-9c20-03549103eb36</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ДокументРасчетовСКонтрагентом" category="Manager">
+				<xr:TypeId>b61a0613-073e-459a-944f-cc4705cadce2</xr:TypeId>
+				<xr:ValueId>91b8b8ae-afe3-4279-b545-71f149e57e54</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ДокументРасчетовСКонтрагентом</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

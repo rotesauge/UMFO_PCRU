@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Enum uuid="7e63d600-cb99-4450-8bdd-b8ddbe4be4c1">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.АЭ_СценарииНачисленийПоЗаймам" category="Ref">
+				<xr:TypeId>fd28e05f-eff3-49fa-a37c-14765fc8b157</xr:TypeId>
+				<xr:ValueId>ece5d82e-6732-4590-8842-78b139c48949</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.АЭ_СценарииНачисленийПоЗаймам" category="Manager">
+				<xr:TypeId>b35d5e93-2bc0-44b3-84d1-d3a4d26ebfb3</xr:TypeId>
+				<xr:ValueId>e56541ba-ec62-4522-9585-1df38d8be0dd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.АЭ_СценарииНачисленийПоЗаймам" category="List">
+				<xr:TypeId>20c0a982-b051-4e3d-ba54-f0446277c9a5</xr:TypeId>
+				<xr:ValueId>3daf833d-45d7-4662-8971-1fd43cfee467</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>АЭ_СценарииНачисленийПоЗаймам</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>1ac351d2-e993-4455-bc51-32d368e5b42d</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Catalog uuid="159317d4-ff63-44b9-86a9-ccaa96cd7c37">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.БНФОВидыДвиженийПенсионныхРезервов" category="Object">
+				<xr:TypeId>9f1b9d58-126a-4372-920d-813c81b44607</xr:TypeId>
+				<xr:ValueId>9d17379a-9997-4f9d-8610-503cb49f6144</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.БНФОВидыДвиженийПенсионныхРезервов" category="Ref">
+				<xr:TypeId>d8c8c786-e8d8-4747-a52c-c0099b19fc76</xr:TypeId>
+				<xr:ValueId>4c5f6388-4de7-4637-89e1-d5332d7eed22</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.БНФОВидыДвиженийПенсионныхРезервов" category="Selection">
+				<xr:TypeId>8c57e40f-d8b5-4283-9648-257d8b4da0e9</xr:TypeId>
+				<xr:ValueId>c96ac04f-ece6-471b-a0f2-a80b3b1c886f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.БНФОВидыДвиженийПенсионныхРезервов" category="List">
+				<xr:TypeId>4af68f27-57f0-49ea-b6a3-1b9280703aa0</xr:TypeId>
+				<xr:ValueId>1438bd98-3d84-4dfb-b3d3-8608745eb914</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.БНФОВидыДвиженийПенсионныхРезервов" category="Manager">
+				<xr:TypeId>e62aae72-47ac-4ee2-9753-9451ac425412</xr:TypeId>
+				<xr:ValueId>f8c91a93-84a8-4801-969a-e1bc7f82322c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БНФОВидыДвиженийПенсионныхРезервов</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

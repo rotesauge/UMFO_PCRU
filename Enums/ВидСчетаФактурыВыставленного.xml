@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Enum uuid="49a011f6-7d15-4924-b0dd-f2134ad17c9a">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидСчетаФактурыВыставленного" category="Ref">
+				<xr:TypeId>c0c75d6e-3b65-432b-8b68-d9694da3ee5d</xr:TypeId>
+				<xr:ValueId>04a108dd-2b48-439d-91f4-72ed5d913fea</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидСчетаФактурыВыставленного" category="Manager">
+				<xr:TypeId>382ae7b5-571a-46a3-a68f-13752b8ff4dc</xr:TypeId>
+				<xr:ValueId>79b37d3d-4caa-4f72-8515-aee227d79f5f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидСчетаФактурыВыставленного" category="List">
+				<xr:TypeId>4e59c4e2-fc6a-4438-b7d8-f3699c186c0a</xr:TypeId>
+				<xr:ValueId>13efd0e5-7c91-4de2-aa9d-0cb95c42abc4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидСчетаФактурыВыставленного</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

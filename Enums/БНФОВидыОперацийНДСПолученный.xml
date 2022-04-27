@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Enum uuid="da5a1436-8655-4edd-bc93-d2a09f25393a">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.БНФОВидыОперацийНДСПолученный" category="Ref">
+				<xr:TypeId>d0871bb0-1748-4cf6-ab8e-6f40fb516785</xr:TypeId>
+				<xr:ValueId>f61ac4a4-8163-4322-96ab-5efcbc945d22</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.БНФОВидыОперацийНДСПолученный" category="Manager">
+				<xr:TypeId>f559b1af-d060-44fd-9a81-7353fad3d0ee</xr:TypeId>
+				<xr:ValueId>e1722113-a837-4363-9d09-42a6e8edd3e9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.БНФОВидыОперацийНДСПолученный" category="List">
+				<xr:TypeId>baa6e959-931b-44e5-be8c-311af5d401cd</xr:TypeId>
+				<xr:ValueId>1a9b2353-ec44-417b-91ef-290d1a633e0c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БНФОВидыОперацийНДСПолученный</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<ChartOfAccounts uuid="edb8b7a9-e24d-47d9-8005-faa1f7aad5c4">
+		<InternalInfo>
+			<xr:GeneratedType name="ChartOfAccountsObject.БНФОБанковский" category="Object">
+				<xr:TypeId>2e01ce41-09a1-4d9a-9f2c-ef49dd41476a</xr:TypeId>
+				<xr:ValueId>0dc73714-51fc-42e7-ba4b-a716081caaaa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfAccountsRef.БНФОБанковский" category="Ref">
+				<xr:TypeId>1733df42-873a-4ef6-875f-48908b97507e</xr:TypeId>
+				<xr:ValueId>6068d41a-aad7-4d73-bffc-0252c0b4944e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfAccountsSelection.БНФОБанковский" category="Selection">
+				<xr:TypeId>dca76613-94af-4b51-8840-c36278de2c41</xr:TypeId>
+				<xr:ValueId>97ab6e58-a6cb-4317-8501-59227aec9bd5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfAccountsList.БНФОБанковский" category="List">
+				<xr:TypeId>82b592f5-3d57-4ac7-a4f4-b220804933a7</xr:TypeId>
+				<xr:ValueId>acf2b973-d28e-4382-948b-b15e43a8121c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfAccountsManager.БНФОБанковский" category="Manager">
+				<xr:TypeId>49b0fd65-fdb3-4705-8ea2-0938c0731b31</xr:TypeId>
+				<xr:ValueId>c1f55eb7-7cf9-4fb2-8e77-b419653fc170</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfAccountsExtDimensionTypes.БНФОБанковский" category="ExtDimensionTypes">
+				<xr:TypeId>245ec5bf-4779-47bd-a377-ef225e924be5</xr:TypeId>
+				<xr:ValueId>965eb8e2-daa2-4439-98d9-4e4174b91b8a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfAccountsExtDimensionTypesRow.БНФОБанковский" category="ExtDimensionTypesRow">
+				<xr:TypeId>6ac724f1-65ef-4b2e-94dd-944d17f0a285</xr:TypeId>
+				<xr:ValueId>d532852e-a2e0-4087-92c1-4d4f3ffc21d0</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БНФОБанковский</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="369bb941-9feb-40ae-9424-fedab6bbffb2">
+				<InternalInfo/>
+				<Properties>
+					<Name>Глава</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.БНФОРегламентированныеГлавыПланаСчетов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8c8567cf-2e4a-4666-82eb-a3eb7e66e8dd">
+				<InternalInfo/>
+				<Properties>
+					<Name>Раздел</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.БНФОРегламентированныеРазделыПланаСчетов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e647480d-362b-4b79-b63c-b2c0261835f4">
+				<InternalInfo/>
+				<Properties>
+					<Name>ЗапретитьИспользоватьВПроводках</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="083d0cb7-bd30-4630-b6df-08d09baa2102">
+				<InternalInfo/>
+				<Properties>
+					<Name>КодБыстрогоВыбора</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>8</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b957197b-98d9-4581-b676-0ad7bffbaaed">
+				<InternalInfo/>
+				<Properties>
+					<Name>Идентификатор</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>200</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="737c7a43-5ed9-4a6d-b3ff-dc8210b6ea1c">
+				<InternalInfo/>
+				<Properties>
+					<Name>Вспомогательный</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8bc7a86b-2bb6-4b43-a947-8555ef04ee4b">
+				<InternalInfo/>
+				<Properties>
+					<Name>ТребуетсяСверка</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a68f00e6-ae16-4a26-88e8-fd863ca5bf63">
+				<InternalInfo/>
+				<Properties>
+					<Name>СобытияПослеОтчетнойДаты</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8a2837de-cebd-4d14-a247-e6a6297472eb">
+				<InternalInfo/>
+				<Properties>
+					<Name>РезервыНаВозможныеПотери</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d9257543-31cc-4790-80f2-96a07a1ca053">
+				<InternalInfo/>
+				<Properties>
+					<Name>УдалитьРаздел</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.БНФОРазделыПланаСчетов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5ba38a3d-82f0-4bac-8d23-15551d07be99">
+				<InternalInfo/>
+				<Properties>
+					<Name>ВременныеРазницы</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="109d33a3-ccdd-4431-b9bb-dca8b35db3cc">
+				<InternalInfo/>
+				<Properties>
+					<Name>ВидВалюты</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.БНФОВидыВалют</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<AccountingFlag uuid="b90b0d77-3493-4454-bb1c-7d1d6629903b">
+				<InternalInfo/>
+				<Properties>
+					<Name>НалоговыйУчет</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</AccountingFlag>
+			<AccountingFlag uuid="b02aafef-25cc-4c9a-a363-8a41366dd49a">
+				<InternalInfo/>
+				<Properties>
+					<Name>УчетПоПодразделениям</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</AccountingFlag>
+			<AccountingFlag uuid="36578688-b082-4ec3-8ba8-419381ec9093">
+				<InternalInfo/>
+				<Properties>
+					<Name>Количественный</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</AccountingFlag>
+			<AccountingFlag uuid="75bbf6a9-4d26-4cbd-aa9c-1760d07d74d4">
+				<InternalInfo/>
+				<Properties>
+					<Name>Валютный</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</AccountingFlag>
+			<ExtDimensionAccountingFlag uuid="0e7416dd-b8f0-4665-a760-354abeae99a2">
+				<InternalInfo/>
+				<Properties>
+					<Name>Суммовой</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</ExtDimensionAccountingFlag>
+			<ExtDimensionAccountingFlag uuid="13351654-e252-44a6-867d-55b8072af4f0">
+				<InternalInfo/>
+				<Properties>
+					<Name>Валютный</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</ExtDimensionAccountingFlag>
+			<ExtDimensionAccountingFlag uuid="de544b02-1288-4735-aafb-8f0950725de9">
+				<InternalInfo/>
+				<Properties>
+					<Name>Количественный</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</ExtDimensionAccountingFlag>
+		</ChildObjects>
+	</ChartOfAccounts>
+</MetaDataObject>

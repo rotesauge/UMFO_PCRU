@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Catalog uuid="772c9759-b229-4cf2-8d49-743e25da0211">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.БНФОВидыРезервовПодОбесценение" category="Object">
+				<xr:TypeId>67262b4b-61f9-4355-a018-acb5435c52c3</xr:TypeId>
+				<xr:ValueId>20522cda-0d86-40ae-977a-c028c1e449f6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.БНФОВидыРезервовПодОбесценение" category="Ref">
+				<xr:TypeId>42052dea-3fba-4ee1-bfa6-62aa48ae228a</xr:TypeId>
+				<xr:ValueId>981e53d0-c34e-4e02-9301-413d1eef9926</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.БНФОВидыРезервовПодОбесценение" category="Selection">
+				<xr:TypeId>33146f4b-0210-4410-a104-cad97164bb40</xr:TypeId>
+				<xr:ValueId>1b7b8645-2ad4-4a36-940c-fe127e674d44</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.БНФОВидыРезервовПодОбесценение" category="List">
+				<xr:TypeId>4a8b6e2b-4162-46ea-9bfe-1de727ba2ec8</xr:TypeId>
+				<xr:ValueId>166e29c2-ee3f-442b-83ad-53ac965fc30c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.БНФОВидыРезервовПодОбесценение" category="Manager">
+				<xr:TypeId>c73216c9-d972-49ce-84d9-55191a09c23d</xr:TypeId>
+				<xr:ValueId>3b3e53ff-2c81-4866-a1af-9a7b05b0f838</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БНФОВидыРезервовПодОбесценение</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>
