@@ -1960,7 +1960,7 @@
 		<Metadata name="Document.ПоступлениеДопРасходов" id="82607e01-a8df-4f8f-b1af-3abff99bc43c" configVersion="9e6540ca18bfc7ab4ed6b9beaf69f9ab03a64bc5"/>
 		<Metadata name="Document.ПоступлениеИзПереработки" id="e2ae8e8d-44fb-485d-bdbb-0a4131824d55" configVersion="59559670efa9f538e55f39122caffe390c173a4d"/>
 		<Metadata name="Document.ПоступлениеНМА" id="c02d9d3d-1d38-432a-8843-073a151effb1" configVersion="bed747e38923767557c644d5a3c96f2fdb19e4f9"/>
-		<Metadata name="Document.ПоступлениеНаРасчетныйСчет" id="81e3ff70-a89e-42f5-adc7-89b32d203799" configVersion="f5866f2633b977bce2e54be854ab5d81bfe0e8a9">
+		<Metadata name="Document.ПоступлениеНаРасчетныйСчет" id="81e3ff70-a89e-42f5-adc7-89b32d203799" configVersion="4ec9adc7b9203914d68ede8967ba0be09d1a1174">
 			<Metadata name="Document.ПоступлениеНаРасчетныйСчет.Attribute.ДатаВходящегоДокумента" id="000b1452-096f-4de1-bc6e-ca0e4ed5e1c8"/>
 			<Metadata name="Document.ПоступлениеНаРасчетныйСчет.Attribute.СтатьяДвиженияДенежныхСредств" id="00bbe75e-e59d-4a3e-b6f7-47425ede372d"/>
 			<Metadata name="Document.ПоступлениеНаРасчетныйСчет.TabularSection.РасшифровкаПлатежа.Attribute.ДоходыУСН" id="062c863f-2d52-47ab-b4e7-67eb06b36a08"/>
@@ -2038,7 +2038,7 @@
 		<Metadata name="Document.ПоступлениеНаРасчетныйСчет.Form.ФормаДокумента.Form" id="56e02aed-6661-4d72-8c2e-858ac406ad85.0" configVersion="2bf619ca287b304796d2b605ad763c6993fcac57"/>
 		<Metadata name="Document.ПоступлениеНаРасчетныйСчет.Form.ФормаДокументаОднострочная" id="6f356fe2-7405-4f1c-8d0a-edd6ee5e4317" configVersion="1ac0c897e3c0e2ade3268a0ed2d085e31b479638"/>
 		<Metadata name="Document.ПоступлениеНаРасчетныйСчет.Form.ФормаДокументаОднострочная.Form" id="6f356fe2-7405-4f1c-8d0a-edd6ee5e4317.0" configVersion="63bb275f885bbf34f44913b6090629f4d751ee09"/>
-		<Metadata name="Document.ПоступлениеНаРасчетныйСчет.ObjectModule" id="81e3ff70-a89e-42f5-adc7-89b32d203799.0" configVersion="d33c9d63b8e8315ff187ad67fc8f2ad26feb7c58"/>
+		<Metadata name="Document.ПоступлениеНаРасчетныйСчет.ObjectModule" id="81e3ff70-a89e-42f5-adc7-89b32d203799.0" configVersion="7e51ccd04990f8536bcdd111636b2e19513bcd4f"/>
 		<Metadata name="Document.ПоступлениеТоваровУслуг" id="265a9c20-85cb-4705-8018-730bf045c37e" configVersion="fbae1300ce3bac5538fa27d2e767d473b15ac57b">
 			<Metadata name="Document.ПоступлениеТоваровУслуг.TabularSection.Услуги.Attribute.СуммаНДС" id="08c15195-3c5b-40d3-ae60-cbad3075cf7c"/>
 			<Metadata name="Document.ПоступлениеТоваровУслуг.TabularSection.ОбъектыСтроительства.Attribute.СчетУчета" id="09e55e6a-29ab-4fd2-8957-6b11ab23ec84"/>
