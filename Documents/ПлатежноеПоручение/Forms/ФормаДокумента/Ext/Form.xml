@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<CommandSet>
 		<ExcludedCommand>PostAndClose</ExcludedCommand>
@@ -13,7 +13,7 @@
 			<Button name="ФормаПровестиИЗакрыть" id="240">
 				<Type>CommandBarButton</Type>
 				<DefaultButton>true</DefaultButton>
-				<CommandName>3:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+				<CommandName>0</CommandName>
 				<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
 				<ExtendedTooltip name="ФормаПровестиИЗакрытьExtendedTooltip" id="241"/>
 			</Button>
@@ -45,14 +45,14 @@
 							<Button name="ФормаПрочиеПлатежиВБюджет" id="29">
 								<Type>CommandBarButton</Type>
 								<SkipOnInput>true</SkipOnInput>
-								<CommandName>1:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+								<CommandName>0</CommandName>
 								<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 								<ExtendedTooltip name="ФормаПрочиеПлатежиВБюджетРасширеннаяПодсказка" id="131"/>
 							</Button>
 							<Button name="ФормаНастройкаПлатежногоПоручения" id="117">
 								<Type>CommandBarButton</Type>
 								<Representation>PictureAndText</Representation>
-								<CommandName>2:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+								<CommandName>0</CommandName>
 								<ExtendedTooltip name="ФормаНастройкаПлатежногоПорученияExtendedTooltip" id="132"/>
 							</Button>
 							<Popup name="ПодменюПечать" id="278">
@@ -86,7 +86,7 @@
 							</Popup>
 							<Button name="ОбщаяКомандаСтруктураПодчиненности" id="228">
 								<Type>CommandBarButton</Type>
-								<CommandName>0:c6930bea-5405-4365-bb0b-32b11373ff16</CommandName>
+								<CommandName>0</CommandName>
 								<DataPath>Объект.Ref</DataPath>
 								<ExtendedTooltip name="ОбщаяКомандаСтруктураПодчиненностиРасширеннаяПодсказка" id="229"/>
 							</Button>
@@ -152,7 +152,7 @@
 					</Popup>
 					<Button name="ФормаПоказатьКонтекстныеНовости" id="307">
 						<Type>CommandBarButton</Type>
-						<CommandName>4:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+						<CommandName>0</CommandName>
 						<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 						<ExtendedTooltip name="ФормаПоказатьКонтекстныеНовостиРасширеннаяПодсказка" id="308"/>
 					</Button>
@@ -176,13 +176,13 @@
 				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
 			<ShowTitle>false</ShowTitle>
 			<BackColor>style:ЦветФонаНекорректногоКонтрагентаВДокументе</BackColor>
 			<ExtendedTooltip name="ПредупреждениеОЗаполненииРеквизитовСчетаРасширеннаяПодсказка" id="315"/>
 			<ChildItems>
 				<LabelField name="РеквизитыОрганизацииСсылка" id="316">
-					<DataPath>58</DataPath>
 					<TitleLocation>None</TitleLocation>
 					<AutoMaxWidth>false</AutoMaxWidth>
 					<ContextMenu name="РеквизитыОрганизацииСсылкаКонтекстноеМеню" id="317"/>
@@ -198,6 +198,7 @@
 				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="177"/>
@@ -210,6 +211,7 @@
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<United>false</United>
 					<ShowTitle>false</ShowTitle>
@@ -223,6 +225,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаНомераИДатыРасширеннаяПодсказка" id="133"/>
@@ -246,7 +249,6 @@
 									<ExtendedTooltip name="ДатаExtendedTooltip" id="135"/>
 								</InputField>
 								<PictureField name="СостояниеДокумента" id="247">
-									<DataPath>36</DataPath>
 									<TitleLocation>None</TitleLocation>
 									<GroupVerticalAlign>Center</GroupVerticalAlign>
 									<Width>2</Width>
@@ -276,6 +278,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаВидОперацииРасширеннаяПодсказка" id="268"/>
@@ -283,23 +286,6 @@
 								<InputField name="ВидОперации" id="269">
 									<DataPath>Объект.ВидОперации</DataPath>
 									<DefaultItem>true</DefaultItem>
-									<ChoiceParameterLinks>
-										<xr:Link>
-											<xr:Name>Отбор.Организация</xr:Name>
-											<xr:DataPath xsi:type="xs:string">1</xr:DataPath>
-											<xr:ValueChange>DontChange</xr:ValueChange>
-										</xr:Link>
-										<xr:Link>
-											<xr:Name>Отбор.СчетОрганизации</xr:Name>
-											<xr:DataPath xsi:type="xs:string">1</xr:DataPath>
-											<xr:ValueChange>DontChange</xr:ValueChange>
-										</xr:Link>
-										<xr:Link>
-											<xr:Name>ПризнакПлатежногоПоручения</xr:Name>
-											<xr:DataPath xsi:type="xs:string">64</xr:DataPath>
-											<xr:ValueChange>DontChange</xr:ValueChange>
-										</xr:Link>
-									</ChoiceParameterLinks>
 									<ContextMenu name="ВидОперацииКонтекстноеМеню" id="270"/>
 									<ExtendedTooltip name="ВидОперацииРасширеннаяПодсказка" id="271"/>
 								</InputField>
@@ -320,6 +306,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаПеречислениеНалогаЗаТретьихЛицРасширеннаяПодсказка" id="341"/>
@@ -339,6 +326,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<United>false</United>
 							<ShowTitle>false</ShowTitle>
@@ -373,6 +361,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<United>false</United>
 							<ChildItemsWidth>Equal</ChildItemsWidth>
@@ -387,6 +376,7 @@
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<United>false</United>
 									<ShowTitle>false</ShowTitle>
@@ -401,12 +391,12 @@
 												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаКонтрагентДосьеРасширеннаяПодсказка" id="335"/>
 											<ChildItems>
 												<InputField name="ТипКонтрагента" id="376">
-													<DataPath>25</DataPath>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -461,7 +451,7 @@
 												</InputField>
 												<Button name="ДосьеКонтрагента" id="336">
 													<Type>UsualButton</Type>
-													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<CommandName>0</CommandName>
 													<ExtendedTooltip name="ДосьеКонтрагентаРасширеннаяПодсказка" id="337"/>
 												</Button>
 											</ChildItems>
@@ -480,6 +470,7 @@
 												</v8:item>
 											</ToolTip>
 											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="Группа1СПАРКРасширеннаяПодсказка" id="325"/>
@@ -498,12 +489,12 @@
 														</v8:item>
 													</ToolTip>
 													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаИнформация1СПАРКРасширеннаяПодсказка" id="327"/>
 													<ChildItems>
 														<LabelField name="Информация1СПАРК" id="328">
-															<DataPath>66</DataPath>
 															<TitleTextColor>style:FormBackColor</TitleTextColor>
 															<Width>38</Width>
 															<HorizontalStretch>false</HorizontalStretch>
@@ -527,7 +518,6 @@
 											</ChildItems>
 										</UsualGroup>
 										<LabelField name="НадписьРеквизитыПолучателя" id="215">
-											<DataPath>3</DataPath>
 											<SkipOnInput>true</SkipOnInput>
 											<TitleLocation>None</TitleLocation>
 											<VerticalAlign>Top</VerticalAlign>
@@ -548,12 +538,12 @@
 										</v8:item>
 									</Title>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаПереключательРасширеннаяПодсказка" id="304"/>
 									<ChildItems>
 										<CheckBoxField name="ПеречислениеНаЛичныйСчет" id="300">
-											<DataPath>35</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -592,6 +582,7 @@
 										</v8:item>
 									</Title>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаБанкРасширеннаяПодсказка" id="306"/>
@@ -618,6 +609,7 @@
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<United>false</United>
 									<ShowTitle>false</ShowTitle>
@@ -630,6 +622,7 @@
 													<v8:content>Счет контрагента (проверка)</v8:content>
 												</v8:item>
 											</Title>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<BackColor>style:FormBackColor</BackColor>
@@ -661,12 +654,12 @@
 													<v8:content>Группа счет контрагента ошибка проверки</v8:content>
 												</v8:item>
 											</ToolTip>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаСчетКонтрагентаОшибкаПроверкиРасширеннаяПодсказка" id="348"/>
 											<ChildItems>
 												<LabelField name="РезультатПроверкиСчетаКонтрагента" id="349">
-													<DataPath>70</DataPath>
 													<TitleTextColor>style:ButtonBackColor</TitleTextColor>
 													<TitleLocation>None</TitleLocation>
 													<AutoMaxWidth>false</AutoMaxWidth>
@@ -677,7 +670,6 @@
 											</ChildItems>
 										</UsualGroup>
 										<LabelField name="КритичноеСобытиеНадежностьБанков" id="352">
-											<DataPath>72</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -702,6 +694,7 @@
 											<v8:content>Группа начисление дивидендов</v8:content>
 										</v8:item>
 									</Title>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаНачислениеДивидендовРасширеннаяПодсказка" id="364"/>
@@ -755,23 +748,6 @@
 										</v8:item>
 									</Title>
 									<AutoMarkIncomplete>true</AutoMarkIncomplete>
-									<ChoiceParameterLinks>
-										<xr:Link>
-											<xr:Name>Отбор.ВалютаВзаиморасчетов</xr:Name>
-											<xr:DataPath xsi:type="xs:string">1</xr:DataPath>
-											<xr:ValueChange>Clear</xr:ValueChange>
-										</xr:Link>
-										<xr:Link>
-											<xr:Name>Контрагент</xr:Name>
-											<xr:DataPath xsi:type="xs:string">1</xr:DataPath>
-											<xr:ValueChange>Clear</xr:ValueChange>
-										</xr:Link>
-										<xr:Link>
-											<xr:Name>Отбор.Организация</xr:Name>
-											<xr:DataPath xsi:type="xs:string">1</xr:DataPath>
-											<xr:ValueChange>Clear</xr:ValueChange>
-										</xr:Link>
-									</ChoiceParameterLinks>
 									<ChoiceParameters>
 										<app:item name="Отбор.ФормаОплаты">
 											<app:value xsi:type="FormChoiceListDesTimeValue">
@@ -794,6 +770,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<United>false</United>
 							<ShowTitle>false</ShowTitle>
@@ -839,13 +816,13 @@
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<United>false</United>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаШапкаПраваяРасширеннаяПодсказка" id="191"/>
 					<ChildItems>
 						<LabelField name="НадписьСледующийПлатеж" id="257">
-							<DataPath>37</DataPath>
 							<TitleLocation>None</TitleLocation>
 							<VerticalAlign>Top</VerticalAlign>
 							<Hiperlink>true</Hiperlink>
@@ -863,7 +840,6 @@
 							<ExtendedTooltip name="СчетОрганизацииExtendedTooltip" id="141"/>
 						</InputField>
 						<LabelField name="НадписьРеквизитыПлательщика" id="73">
-							<DataPath>2</DataPath>
 							<SkipOnInput>true</SkipOnInput>
 							<TitleLocation>None</TitleLocation>
 							<VerticalAlign>Top</VerticalAlign>
@@ -962,6 +938,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаОчередностьПлатежаExtendedTooltip" id="162"/>
@@ -981,7 +958,6 @@
 									<ExtendedTooltip name="ОчередностьПлатежаExtendedTooltip" id="163"/>
 								</InputField>
 								<LabelField name="РасшифровкаОчередностиПлатежа" id="234">
-									<DataPath>23</DataPath>
 									<TitleLocation>None</TitleLocation>
 									<TextColor>style:ДосьеВторостепеннаяНадписьЦвет</TextColor>
 									<ContextMenu name="РасшифровкаОчередностиПлатежаКонтекстноеМеню" id="235"/>
@@ -1016,12 +992,12 @@
 				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаРеквизитыПлатежейВБюджетExtendedTooltip" id="165"/>
 			<ChildItems>
 				<LabelField name="НадписьРеквизитыПлатежейВБюджет" id="71">
-					<DataPath>4</DataPath>
 					<SkipOnInput>true</SkipOnInput>
 					<Title>
 						<v8:item>
@@ -1057,6 +1033,7 @@
 				</v8:item>
 			</ToolTip>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаПодвалРасширеннаяПодсказка" id="296"/>
@@ -1152,12 +1129,12 @@
 						</v8:item>
 					</ToolTip>
 					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаСостояниеДокументСписанияРасширеннаяПодсказка" id="169"/>
 					<ChildItems>
 						<InputField name="Состояние" id="319">
-							<DataPath>63</DataPath>
 							<ReadOnly>true</ReadOnly>
 							<HorizontalStretch>false</HorizontalStretch>
 							<OpenButton>true</OpenButton>
@@ -1208,7 +1185,6 @@
 							<ExtendedTooltip name="СостояниеРасширеннаяПодсказка" id="321"/>
 						</InputField>
 						<LabelField name="СостояниеИнтеграцияСБанком" id="388">
-							<DataPath>63</DataPath>
 							<Visible>false</Visible>
 							<Width>9</Width>
 							<HorizontalStretch>false</HorizontalStretch>
@@ -1216,7 +1192,6 @@
 							<ExtendedTooltip name="СостояниеИнтеграцияСБанкомРасширеннаяПодсказка" id="390"/>
 						</LabelField>
 						<LabelField name="НадписьДокументСписания" id="82">
-							<DataPath>22</DataPath>
 							<TitleLocation>None</TitleLocation>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MaxWidth>81</MaxWidth>
@@ -1235,6 +1210,7 @@
 						</v8:item>
 					</Title>
 					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<United>false</United>
 					<ShowTitle>false</ShowTitle>
@@ -1248,6 +1224,7 @@
 									<v8:content>Содержимое баннера</v8:content>
 								</v8:item>
 							</Title>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаСодержимоеБаннераРасширеннаяПодсказка" id="394"/>
@@ -1286,6 +1263,7 @@
 						</v8:item>
 					</Title>
 					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаКомментарийРасширеннаяПодсказка" id="201"/>
@@ -1318,7 +1296,7 @@
 			</UseAlways>
 		</Attribute>
 	</Attributes>
-	<BaseForm version="2.11">
+	<BaseForm version="2.14">
 		<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 		<CommandSet>
 			<ExcludedCommand>PostAndClose</ExcludedCommand>
@@ -1332,7 +1310,7 @@
 				<Button name="ФормаПровестиИЗакрыть" id="240">
 					<Type>CommandBarButton</Type>
 					<DefaultButton>true</DefaultButton>
-					<CommandName>3:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<CommandName>0</CommandName>
 					<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
 					<ExtendedTooltip name="ФормаПровестиИЗакрытьExtendedTooltip" id="241"/>
 				</Button>
@@ -1364,14 +1342,14 @@
 								<Button name="ФормаПрочиеПлатежиВБюджет" id="29">
 									<Type>CommandBarButton</Type>
 									<SkipOnInput>true</SkipOnInput>
-									<CommandName>1:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+									<CommandName>0</CommandName>
 									<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 									<ExtendedTooltip name="ФормаПрочиеПлатежиВБюджетРасширеннаяПодсказка" id="131"/>
 								</Button>
 								<Button name="ФормаНастройкаПлатежногоПоручения" id="117">
 									<Type>CommandBarButton</Type>
 									<Representation>PictureAndText</Representation>
-									<CommandName>2:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+									<CommandName>0</CommandName>
 									<ExtendedTooltip name="ФормаНастройкаПлатежногоПорученияExtendedTooltip" id="132"/>
 								</Button>
 								<Popup name="ПодменюПечать" id="278">
@@ -1405,7 +1383,7 @@
 								</Popup>
 								<Button name="ОбщаяКомандаСтруктураПодчиненности" id="228">
 									<Type>CommandBarButton</Type>
-									<CommandName>0:c6930bea-5405-4365-bb0b-32b11373ff16</CommandName>
+									<CommandName>0</CommandName>
 									<DataPath>Объект.Ref</DataPath>
 									<ExtendedTooltip name="ОбщаяКомандаСтруктураПодчиненностиРасширеннаяПодсказка" id="229"/>
 								</Button>
@@ -1471,7 +1449,7 @@
 						</Popup>
 						<Button name="ФормаПоказатьКонтекстныеНовости" id="307">
 							<Type>CommandBarButton</Type>
-							<CommandName>4:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+							<CommandName>0</CommandName>
 							<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 							<ExtendedTooltip name="ФормаПоказатьКонтекстныеНовостиРасширеннаяПодсказка" id="308"/>
 						</Button>
@@ -1495,13 +1473,13 @@
 					</v8:item>
 				</Title>
 				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
 				<Representation>NormalSeparation</Representation>
 				<ShowTitle>false</ShowTitle>
 				<BackColor>style:ЦветФонаНекорректногоКонтрагентаВДокументе</BackColor>
 				<ExtendedTooltip name="ПредупреждениеОЗаполненииРеквизитовСчетаРасширеннаяПодсказка" id="315"/>
 				<ChildItems>
 					<LabelField name="РеквизитыОрганизацииСсылка" id="316">
-						<DataPath>58</DataPath>
 						<TitleLocation>None</TitleLocation>
 						<AutoMaxWidth>false</AutoMaxWidth>
 						<ContextMenu name="РеквизитыОрганизацииСсылкаКонтекстноеМеню" id="317"/>
@@ -1517,6 +1495,7 @@
 					</v8:item>
 				</Title>
 				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="177"/>
@@ -1529,6 +1508,7 @@
 							</v8:item>
 						</Title>
 						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<United>false</United>
 						<ShowTitle>false</ShowTitle>
@@ -1542,6 +1522,7 @@
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаНомераИДатыРасширеннаяПодсказка" id="133"/>
@@ -1565,7 +1546,6 @@
 										<ExtendedTooltip name="ДатаExtendedTooltip" id="135"/>
 									</InputField>
 									<PictureField name="СостояниеДокумента" id="247">
-										<DataPath>36</DataPath>
 										<TitleLocation>None</TitleLocation>
 										<GroupVerticalAlign>Center</GroupVerticalAlign>
 										<Width>2</Width>
@@ -1595,6 +1575,7 @@
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаВидОперацииРасширеннаяПодсказка" id="268"/>
@@ -1602,23 +1583,6 @@
 									<InputField name="ВидОперации" id="269">
 										<DataPath>Объект.ВидОперации</DataPath>
 										<DefaultItem>true</DefaultItem>
-										<ChoiceParameterLinks>
-											<xr:Link>
-												<xr:Name>Отбор.Организация</xr:Name>
-												<xr:DataPath xsi:type="xs:string">1</xr:DataPath>
-												<xr:ValueChange>DontChange</xr:ValueChange>
-											</xr:Link>
-											<xr:Link>
-												<xr:Name>Отбор.СчетОрганизации</xr:Name>
-												<xr:DataPath xsi:type="xs:string">1</xr:DataPath>
-												<xr:ValueChange>DontChange</xr:ValueChange>
-											</xr:Link>
-											<xr:Link>
-												<xr:Name>ПризнакПлатежногоПоручения</xr:Name>
-												<xr:DataPath xsi:type="xs:string">64</xr:DataPath>
-												<xr:ValueChange>DontChange</xr:ValueChange>
-											</xr:Link>
-										</ChoiceParameterLinks>
 										<ContextMenu name="ВидОперацииКонтекстноеМеню" id="270"/>
 										<ExtendedTooltip name="ВидОперацииРасширеннаяПодсказка" id="271"/>
 									</InputField>
@@ -1632,6 +1596,7 @@
 									</v8:item>
 								</Title>
 								<Group>Vertical</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаПеречислениеНалогаЗаТретьихЛицРасширеннаяПодсказка" id="341"/>
@@ -1651,6 +1616,7 @@
 									</v8:item>
 								</Title>
 								<Group>Vertical</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<United>false</United>
 								<ShowTitle>false</ShowTitle>
@@ -1685,6 +1651,7 @@
 									</v8:item>
 								</Title>
 								<Group>Vertical</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<United>false</United>
 								<ChildItemsWidth>Equal</ChildItemsWidth>
@@ -1699,6 +1666,7 @@
 											</v8:item>
 										</Title>
 										<Group>Vertical</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<United>false</United>
 										<ShowTitle>false</ShowTitle>
@@ -1713,12 +1681,12 @@
 													</v8:item>
 												</Title>
 												<Group>Horizontal</Group>
+												<Behavior>Usual</Behavior>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
 												<ExtendedTooltip name="ГруппаКонтрагентДосьеРасширеннаяПодсказка" id="335"/>
 												<ChildItems>
 													<InputField name="ТипКонтрагента" id="376">
-														<DataPath>25</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -1773,7 +1741,7 @@
 													</InputField>
 													<Button name="ДосьеКонтрагента" id="336">
 														<Type>UsualButton</Type>
-														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+														<CommandName>0</CommandName>
 														<ExtendedTooltip name="ДосьеКонтрагентаРасширеннаяПодсказка" id="337"/>
 													</Button>
 												</ChildItems>
@@ -1792,6 +1760,7 @@
 													</v8:item>
 												</ToolTip>
 												<Group>Horizontal</Group>
+												<Behavior>Usual</Behavior>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
 												<ExtendedTooltip name="Группа1СПАРКРасширеннаяПодсказка" id="325"/>
@@ -1810,12 +1779,12 @@
 															</v8:item>
 														</ToolTip>
 														<Group>Vertical</Group>
+														<Behavior>Usual</Behavior>
 														<Representation>None</Representation>
 														<ShowTitle>false</ShowTitle>
 														<ExtendedTooltip name="ГруппаИнформация1СПАРКРасширеннаяПодсказка" id="327"/>
 														<ChildItems>
 															<LabelField name="Информация1СПАРК" id="328">
-																<DataPath>66</DataPath>
 																<TitleTextColor>style:FormBackColor</TitleTextColor>
 																<Width>38</Width>
 																<HorizontalStretch>false</HorizontalStretch>
@@ -1839,7 +1808,6 @@
 												</ChildItems>
 											</UsualGroup>
 											<LabelField name="НадписьРеквизитыПолучателя" id="215">
-												<DataPath>3</DataPath>
 												<SkipOnInput>true</SkipOnInput>
 												<TitleLocation>None</TitleLocation>
 												<VerticalAlign>Top</VerticalAlign>
@@ -1860,12 +1828,12 @@
 											</v8:item>
 										</Title>
 										<Group>Horizontal</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ГруппаПереключательРасширеннаяПодсказка" id="304"/>
 										<ChildItems>
 											<CheckBoxField name="ПеречислениеНаЛичныйСчет" id="300">
-												<DataPath>35</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -1904,6 +1872,7 @@
 											</v8:item>
 										</Title>
 										<Group>Horizontal</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ГруппаБанкРасширеннаяПодсказка" id="306"/>
@@ -1930,6 +1899,7 @@
 											</v8:item>
 										</Title>
 										<Group>Vertical</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<United>false</United>
 										<ShowTitle>false</ShowTitle>
@@ -1942,6 +1912,7 @@
 														<v8:content>Счет контрагента (проверка)</v8:content>
 													</v8:item>
 												</Title>
+												<Behavior>Usual</Behavior>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
 												<BackColor>style:FormBackColor</BackColor>
@@ -1973,12 +1944,12 @@
 														<v8:content>Группа счет контрагента ошибка проверки</v8:content>
 													</v8:item>
 												</ToolTip>
+												<Behavior>Usual</Behavior>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
 												<ExtendedTooltip name="ГруппаСчетКонтрагентаОшибкаПроверкиРасширеннаяПодсказка" id="348"/>
 												<ChildItems>
 													<LabelField name="РезультатПроверкиСчетаКонтрагента" id="349">
-														<DataPath>70</DataPath>
 														<TitleTextColor>style:ButtonBackColor</TitleTextColor>
 														<TitleLocation>None</TitleLocation>
 														<AutoMaxWidth>false</AutoMaxWidth>
@@ -1989,7 +1960,6 @@
 												</ChildItems>
 											</UsualGroup>
 											<LabelField name="КритичноеСобытиеНадежностьБанков" id="352">
-												<DataPath>72</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -2014,6 +1984,7 @@
 												<v8:content>Группа начисление дивидендов</v8:content>
 											</v8:item>
 										</Title>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ГруппаНачислениеДивидендовРасширеннаяПодсказка" id="364"/>
@@ -2067,23 +2038,6 @@
 											</v8:item>
 										</Title>
 										<AutoMarkIncomplete>true</AutoMarkIncomplete>
-										<ChoiceParameterLinks>
-											<xr:Link>
-												<xr:Name>Отбор.ВалютаВзаиморасчетов</xr:Name>
-												<xr:DataPath xsi:type="xs:string">1</xr:DataPath>
-												<xr:ValueChange>Clear</xr:ValueChange>
-											</xr:Link>
-											<xr:Link>
-												<xr:Name>Контрагент</xr:Name>
-												<xr:DataPath xsi:type="xs:string">1</xr:DataPath>
-												<xr:ValueChange>Clear</xr:ValueChange>
-											</xr:Link>
-											<xr:Link>
-												<xr:Name>Отбор.Организация</xr:Name>
-												<xr:DataPath xsi:type="xs:string">1</xr:DataPath>
-												<xr:ValueChange>Clear</xr:ValueChange>
-											</xr:Link>
-										</ChoiceParameterLinks>
 										<ChoiceParameters>
 											<app:item name="Отбор.ФормаОплаты">
 												<app:value xsi:type="FormChoiceListDesTimeValue">
@@ -2106,6 +2060,7 @@
 									</v8:item>
 								</Title>
 								<Group>Vertical</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<United>false</United>
 								<ShowTitle>false</ShowTitle>
@@ -2151,13 +2106,13 @@
 							</v8:item>
 						</Title>
 						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<United>false</United>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаШапкаПраваяРасширеннаяПодсказка" id="191"/>
 						<ChildItems>
 							<LabelField name="НадписьСледующийПлатеж" id="257">
-								<DataPath>37</DataPath>
 								<TitleLocation>None</TitleLocation>
 								<VerticalAlign>Top</VerticalAlign>
 								<Hiperlink>true</Hiperlink>
@@ -2175,7 +2130,6 @@
 								<ExtendedTooltip name="СчетОрганизацииExtendedTooltip" id="141"/>
 							</InputField>
 							<LabelField name="НадписьРеквизитыПлательщика" id="73">
-								<DataPath>2</DataPath>
 								<SkipOnInput>true</SkipOnInput>
 								<TitleLocation>None</TitleLocation>
 								<VerticalAlign>Top</VerticalAlign>
@@ -2274,6 +2228,7 @@
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаОчередностьПлатежаExtendedTooltip" id="162"/>
@@ -2293,7 +2248,6 @@
 										<ExtendedTooltip name="ОчередностьПлатежаExtendedTooltip" id="163"/>
 									</InputField>
 									<LabelField name="РасшифровкаОчередностиПлатежа" id="234">
-										<DataPath>23</DataPath>
 										<TitleLocation>None</TitleLocation>
 										<TextColor>style:ДосьеВторостепеннаяНадписьЦвет</TextColor>
 										<ContextMenu name="РасшифровкаОчередностиПлатежаКонтекстноеМеню" id="235"/>
@@ -2328,12 +2282,12 @@
 					</v8:item>
 				</Title>
 				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ГруппаРеквизитыПлатежейВБюджетExtendedTooltip" id="165"/>
 				<ChildItems>
 					<LabelField name="НадписьРеквизитыПлатежейВБюджет" id="71">
-						<DataPath>4</DataPath>
 						<SkipOnInput>true</SkipOnInput>
 						<Title>
 							<v8:item>
@@ -2369,6 +2323,7 @@
 					</v8:item>
 				</ToolTip>
 				<Group>Vertical</Group>
+				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ГруппаПодвалРасширеннаяПодсказка" id="296"/>
@@ -2398,12 +2353,12 @@
 							</v8:item>
 						</ToolTip>
 						<Group>Horizontal</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаСостояниеДокументСписанияРасширеннаяПодсказка" id="169"/>
 						<ChildItems>
 							<InputField name="Состояние" id="319">
-								<DataPath>63</DataPath>
 								<ReadOnly>true</ReadOnly>
 								<HorizontalStretch>false</HorizontalStretch>
 								<OpenButton>true</OpenButton>
@@ -2454,7 +2409,6 @@
 								<ExtendedTooltip name="СостояниеРасширеннаяПодсказка" id="321"/>
 							</InputField>
 							<LabelField name="СостояниеИнтеграцияСБанком" id="388">
-								<DataPath>63</DataPath>
 								<Visible>false</Visible>
 								<Width>9</Width>
 								<HorizontalStretch>false</HorizontalStretch>
@@ -2462,7 +2416,6 @@
 								<ExtendedTooltip name="СостояниеИнтеграцияСБанкомРасширеннаяПодсказка" id="390"/>
 							</LabelField>
 							<LabelField name="НадписьДокументСписания" id="82">
-								<DataPath>22</DataPath>
 								<TitleLocation>None</TitleLocation>
 								<AutoMaxWidth>false</AutoMaxWidth>
 								<MaxWidth>81</MaxWidth>
@@ -2481,6 +2434,7 @@
 							</v8:item>
 						</Title>
 						<Group>Horizontal</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<United>false</United>
 						<ShowTitle>false</ShowTitle>
@@ -2494,6 +2448,7 @@
 										<v8:content>Содержимое баннера</v8:content>
 									</v8:item>
 								</Title>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаСодержимоеБаннераРасширеннаяПодсказка" id="394"/>
@@ -2532,6 +2487,7 @@
 							</v8:item>
 						</Title>
 						<Group>Horizontal</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаКомментарийРасширеннаяПодсказка" id="201"/>

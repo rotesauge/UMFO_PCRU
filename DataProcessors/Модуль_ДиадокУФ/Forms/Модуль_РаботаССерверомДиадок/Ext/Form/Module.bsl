@@ -113,6 +113,7 @@
 	Платформа.ДобавитьФункциюВМанифест(Результат, "ПолучитьФИОПодписанта");
 	Платформа.ДобавитьФункциюВМанифест(Результат, "ДолжностьПодписанта");
 	Платформа.ДобавитьФункциюВМанифест(Результат, "ПолучитьТекущегоПользователяДиадок");
+	Платформа.ДобавитьФункциюВМанифест(Результат, "ПолучитьТекущийРежимПрокси");
 	Платформа.ДобавитьФункциюВМанифест(Результат, "ПодписатьИОтправить_ПодписаниеЗапрошенного");
 	Платформа.ДобавитьФункциюВМанифест(Результат, "СертификатыДляШифрования");
 	Платформа.ДобавитьФункциюВМанифест(Результат, "ИдентификаторЭДО");
@@ -124,6 +125,8 @@
 	Платформа.ДобавитьФункциюВМанифест(Результат, "ПолучитьФайлТитулаПокупателя");
 	Платформа.ДобавитьФункциюВМанифест(Результат, "ЭтоОшибкаАпиНеНастроеныПараметрыПодписания");
 	Платформа.ДобавитьФункциюВМанифест(Результат, "ТребуетсяВыводитьНаименованиеТовараСКодами");
+	
+	Платформа.ДобавитьФункциюВМанифест(Результат, "ПолучитьBoxIdПоОрганизации1С");
 	
 	Платформа.ДобавитьФункциюВМанифест(Результат, "InitialDocumentIds");
 	
@@ -277,6 +280,24 @@
 	Соединение = Платформа.ПараметрыКлиент.КонтекстРаботаССерверомДиадок.DiadocConnection;
 	Если Соединение <> Неопределено Тогда
 		Результат = Соединение.GetMyUser();
+	КонецЕсли;
+	
+	Возврат Результат;
+	
+КонецФункции
+
+// Возвращает значение параметра ProxyMode объекта компоненты
+//
+// Возвращаемое значение:
+//	Строка
+&НаКлиенте
+Функция ПолучитьТекущийРежимПрокси() Экспорт
+	
+	Результат = Неопределено;
+	
+	ОбъектКомпоненты = Платформа.ПараметрыКлиент.КонтекстРаботаССерверомДиадок.DiadocInvoiceAPI;
+	Если ОбъектКомпоненты <> Неопределено Тогда
+		Результат = ОбъектКомпоненты.ProxyMode;
 	КонецЕсли;
 	
 	Возврат Результат;
@@ -617,7 +638,7 @@
 // Возвращаемое значение:
 //	ComОбъект
 &НаКлиенте
-Функция ReplySendTask(Document, ReplyType) Экспорт
+Функция ReplySendTask(Document, ReplyType, КонтрактМЧД = Неопределено) Экспорт
 	
 	Если Document.IsLockedPackage Тогда
 		Результат = Document.GetDocumentPackage().CreateReplySendTask(ReplyType);
@@ -625,15 +646,83 @@
 		Результат = Document.CreateReplySendTask2(ReplyType);
 	КонецЕсли;
 	
+	ЗаполнитьМЧДдляОтправки(Результат, КонтрактМЧД, Document.Organization.Id);
+	
 	Возврат Результат;
 	
 КонецФункции
+
+// Возвращает идентификатор ящика в Диадок по сопоставленной организации 1С без серверного вызова
+//
+// Параметры:
+//	ОрганизацияСсылка - СправочникСсылка - ссылка на сопоставленную организацию в ИБ
+//
+// Возвращаемое значение:
+//	Строка
+&НаКлиенте
+Функция ПолучитьBoxIdПоОрганизации1С(ОрганизацияСсылка) Экспорт
+	
+	Результат = "";
+	
+	СтрокаКантекстаПоОрганизации = СтрокаКонтекста(ОрганизацияСсылка);
+	
+	Если СтрокаКантекстаПоОрганизации <> Неопределено Тогда
+		ЗначениеНетДанных 	= "";
+		Результат 			= МетодКлиента("Модуль_Клиент", "СвойствоСтруктуры", СтрокаКантекстаПоОрганизации, "BoxId", ЗначениеНетДанных);
+	КонецЕсли;
+	
+	Возврат Результат; 
+	
+КонецФункции
+
+&НаКлиенте
+// Заполняет объект компоненты PowerOfAttorneyToAttach данными МЧД
+//
+// Параметры:
+//  Task		- COMОбъект -  OutDocumentSignTask, PackageSendTask2, ReplySendTask2
+//											см. https://1c-docs.diadoc.ru/ru/poa/HowTo/HowTo_PowerOfAttorney.html
+//  КонтрактМЧД - Структура -  Контракт МЧД (см. Модуль_Клиент.Новый_КонтрактМЧД)
+//
+Процедура ЗаполнитьМЧДдляОтправки(Task, КонтрактМЧД, BoxId) Экспорт
+	
+	Если КонтрактМЧД = Неопределено Тогда
+		Возврат;
+	КонецЕсли;
+	
+	PowerOfAttorneyToAttach = Task.PowerOfAttorneyToAttach;
+	
+	Если КонтрактМЧД.ПоУмолчанию Тогда 
+		
+		PowerOfAttorneyToAttach.UseDefault = Истина;
+		
+	Иначе
+	
+		Connection		= Платформа.ПараметрыКлиент.КонтекстРаботаССерверомДиадок.DiadocConnection;
+		Organization	= Connection.GetOrganizationById(BoxId);
+		
+		EmployeePowerOfAttorney_Collection	= Organization.MyEmployee.GetPowersOfAttorney(Истина);
+		
+		Для Каждого EmployeePowerOfAttorney	Из EmployeePowerOfAttorney_Collection Цикл
+
+			PowerOfAttorney	= EmployeePowerOfAttorney.PowerOfAttorney;
+			
+			Если PowerOfAttorney.Id.RegistrationNumber = КонтрактМЧД.Идентификатор Тогда 
+				
+				Task.PowerOfAttorneyToAttach.PowerOfAttorney = PowerOfAttorney;
+				
+			КонецЕсли;
+			
+		КонецЦикла;
+		
+	КонецЕсли;
+	
+КонецПроцедуры
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////			 ПОДПИСАТЬ И ОТПРАВИТЬ ДОКУМЕНТ, ПО КОТОРОМУ ЗАПРОШЕНА ПОДПИСЬ
 
 &НаКлиенте
-Функция ПодписатьИОтправить_ПодписаниеЗапрошенного(СтруктураSigner, Document) Экспорт
+Функция ПодписатьИОтправить_ПодписаниеЗапрошенного(СтруктураSigner, Document, КонтрактМЧД = Неопределено) Экспорт
 	
 	ВозвращаемаяСтруктура = Новый Структура("ВыполненоУспешно, ТекстОшибки", Истина, "");
 				
@@ -649,8 +738,12 @@
 		Возврат ВозвращаемаяСтруктура;
 		
 	КонецПопытки;
-				
+	
+	SignerType = МетодКлиента("Модуль_Клиент", "Перечисление_SignerType");
+	
 	OutDocumentSignTask = Document.CreateOutDocumentSignTask();
+	
+	ЗаполнитьМЧДдляОтправки(OutDocumentSignTask, КонтрактМЧД, Document.Organization.Id);
 	
 	БазовыеФорматы = БазовыеФорматы();
 	
@@ -677,7 +770,7 @@
 				
 				ExtendedSigner.SignerDetails.Surname	= "-";
 				ExtendedSigner.SignerDetails.FirstName	= "-";
-				ExtendedSigner.SignerDetails.SignerType	= "IndividualEntity";
+				ExtendedSigner.SignerDetails.SignerType	= SignerType.IndividualEntity;
 				ExtendedSigner.SignerDetails.Status		= "InformationCreatorEmployee";
 				ExtendedSigner.SignerDetails.Powers		= "PersonDocumentedOperation";
 				ExtendedSigner.SignerDetails.Inn		= "999999999950";
@@ -689,7 +782,7 @@
 				ExtendedSigner.SignerDetails.Surname	= User.LastName;
 				ExtendedSigner.SignerDetails.FirstName	= User.FirstName;
 				ExtendedSigner.SignerDetails.Patronymic	= User.MiddleName ;
-				ExtendedSigner.SignerDetails.SignerType	= "LegalEntity";
+				ExtendedSigner.SignerDetails.SignerType	= SignerType.LegalEntity;
 				ExtendedSigner.SignerDetails.Status		= "SellerEmployee";
 				ExtendedSigner.SignerDetails.JobTitle	= UserPermissions.JobTitle;
 				ExtendedSigner.SignerDetails.Powers		= "ResponsibleForOperationAndSignerForInvoice";

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
 	<AutoTime>CurrentOrLast</AutoTime>
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
@@ -77,7 +77,7 @@
 						<ChildItems>
 							<Button name="ОбщаяКомандаСтруктураПодчиненности" id="787">
 								<Type>CommandBarButton</Type>
-								<CommandName>0:c6930bea-5405-4365-bb0b-32b11373ff16</CommandName>
+								<CommandName>0</CommandName>
 								<DataPath>Объект.Ref</DataPath>
 								<ExtendedTooltip name="ОбщаяКомандаСтруктураПодчиненностиРасширеннаяПодсказка" id="788"/>
 							</Button>
@@ -154,6 +154,7 @@
 				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ChildItemsWidth>Equal</ChildItemsWidth>
 			<ShowTitle>false</ShowTitle>
@@ -167,6 +168,7 @@
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<United>false</United>
 					<ShowTitle>false</ShowTitle>
@@ -180,6 +182,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<United>false</United>
 							<ShowTitle>false</ShowTitle>
@@ -201,6 +204,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаНомерДатаExtendedTooltip" id="589"/>
@@ -255,13 +259,6 @@
 						</InputField>
 						<InputField name="МестонахождениеОС" id="11">
 							<DataPath>Объект.МестонахождениеОС</DataPath>
-							<ChoiceParameterLinks>
-								<xr:Link>
-									<xr:Name>Отбор.Владелец</xr:Name>
-									<xr:DataPath xsi:type="xs:string">1/0:f7155e37-ac3a-4c65-835f-77c952b27000</xr:DataPath>
-									<xr:ValueChange>Clear</xr:ValueChange>
-								</xr:Link>
-							</ChoiceParameterLinks>
 							<ContextMenu name="МестонахождениеОСКонтекстноеМеню" id="12"/>
 							<ExtendedTooltip name="МестонахождениеОСExtendedTooltip" id="593"/>
 						</InputField>
@@ -275,6 +272,7 @@
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<United>false</United>
 					<ShowTitle>false</ShowTitle>
@@ -309,6 +307,7 @@
 					<v8:content>Страницы</v8:content>
 				</v8:item>
 			</Title>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
 			<ExtendedTooltip name="ГруппаСтраницыExtendedTooltip" id="596"/>
 			<ChildItems>
 				<Page name="ГруппаВнеоборотныйАктив" id="18">
@@ -376,18 +375,12 @@
 						</InputField>
 						<InputField name="ПодразделениеОрганизации" id="547">
 							<DataPath>Объект.ПодразделениеОрганизации</DataPath>
-							<ChoiceParameterLinks>
-								<xr:Link>
-									<xr:Name>Отбор.Владелец</xr:Name>
-									<xr:DataPath xsi:type="xs:string">1/0:f7155e37-ac3a-4c65-835f-77c952b27000</xr:DataPath>
-									<xr:ValueChange>Clear</xr:ValueChange>
-								</xr:Link>
-							</ChoiceParameterLinks>
 							<ContextMenu name="ПодразделениеОрганизацииКонтекстноеМеню" id="548"/>
 							<ExtendedTooltip name="ПодразделениеОрганизацииExtendedTooltip" id="602"/>
 						</InputField>
 						<UsualGroup name="ГруппаСчетУчетаВнеоборотногоАктиваИРасчет" id="846">
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаСчетУчетаВнеоборотногоАктиваИРасчетРасширеннаяПодсказка" id="847"/>
@@ -450,6 +443,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="БНФОГруппаСтатьяСчетРасходовНДСРасширеннаяПодсказка" id="922"/>
 							<ChildItems>
@@ -710,6 +704,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<ThroughAlign>Use</ThroughAlign>
 							<ExtendedTooltip name="ГруппаПараметрыНачисленияАмортизацииРасширеннаяПодсказка" id="655"/>
 							<ChildItems>
@@ -732,6 +727,7 @@
 										</v8:item>
 									</Title>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<ShowTitle>false</ShowTitle>
 									<ThroughAlign>Use</ThroughAlign>
 									<ExtendedTooltip name="ГруппаСчетНачисленияАмортизацииExtendedTooltip" id="656"/>
@@ -777,6 +773,7 @@
 										</v8:item>
 									</Title>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаСрокИспользованияБУExtendedTooltip" id="663"/>
@@ -817,6 +814,7 @@
 										</v8:item>
 									</Title>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаГодоваяНормаАмортизацииБУExtendedTooltip" id="690"/>
@@ -859,6 +857,7 @@
 										</v8:item>
 									</Title>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаОбъемРаботБУExtendedTooltip" id="683"/>
@@ -964,6 +963,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<ThroughAlign>Use</ThroughAlign>
 							<ExtendedTooltip name="ГруппаНУЛизингРасширеннаяПодсказка" id="904"/>
 							<ChildItems>
@@ -1002,6 +1002,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<ThroughAlign>Use</ThroughAlign>
 							<ExtendedTooltip name="ГруппаПараметрыНачисленияАмортизацииНУРасширеннаяПодсказка" id="724"/>
 							<ChildItems>
@@ -1050,6 +1051,7 @@
 										</v8:item>
 									</Title>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаСрокПолезногоИспользованияНУExtendedTooltip" id="727"/>
@@ -1110,6 +1112,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаСтоимостьУСНДатаПриобретенияExtendedTooltip" id="764"/>
@@ -1135,6 +1138,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаСрокПолезногоИспользованияУСНExtendedTooltip" id="767"/>
@@ -1178,6 +1182,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<ExtendedTooltip name="ГруппаОплатаExtendedTooltip" id="771"/>
 							<ChildItems>
 								<Table name="Оплата" id="517">
@@ -1316,6 +1321,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаСчетСубконтоАмортизационнойПремииExtendedTooltip" id="739"/>
@@ -1328,6 +1334,7 @@
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<United>false</United>
 									<ShowTitle>false</ShowTitle>
@@ -1341,6 +1348,7 @@
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<United>false</United>
 									<ShowTitle>false</ShowTitle>
@@ -1366,13 +1374,6 @@
 													<v8:content>Подразделение</v8:content>
 												</v8:item>
 											</Title>
-											<ChoiceParameterLinks>
-												<xr:Link>
-													<xr:Name>Отбор.Владелец</xr:Name>
-													<xr:DataPath xsi:type="xs:string">1/0:f7155e37-ac3a-4c65-835f-77c952b27000</xr:DataPath>
-													<xr:ValueChange>Clear</xr:ValueChange>
-												</xr:Link>
-											</ChoiceParameterLinks>
 											<ContextMenu name="ПодразделениеОрганизацииПоАмортизационнойПремииКонтекстноеМеню" id="302"/>
 											<ExtendedTooltip name="ПодразделениеОрганизацииПоАмортизационнойПремииExtendedTooltip" id="751"/>
 										</InputField>
@@ -1431,6 +1432,7 @@
 				</v8:item>
 			</ToolTip>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаКомментарийОтветственныйРасширеннаяПодсказка" id="806"/>
@@ -1707,7 +1709,7 @@
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
-	<BaseForm version="2.11">
+	<BaseForm version="2.14">
 		<AutoTime>CurrentOrLast</AutoTime>
 		<UsePostingMode>Auto</UsePostingMode>
 		<RepostOnWrite>true</RepostOnWrite>
@@ -1785,7 +1787,7 @@
 							<ChildItems>
 								<Button name="ОбщаяКомандаСтруктураПодчиненности" id="787">
 									<Type>CommandBarButton</Type>
-									<CommandName>0:c6930bea-5405-4365-bb0b-32b11373ff16</CommandName>
+									<CommandName>0</CommandName>
 									<DataPath>Объект.Ref</DataPath>
 									<ExtendedTooltip name="ОбщаяКомандаСтруктураПодчиненностиРасширеннаяПодсказка" id="788"/>
 								</Button>
@@ -1862,6 +1864,7 @@
 					</v8:item>
 				</Title>
 				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ChildItemsWidth>Equal</ChildItemsWidth>
 				<ShowTitle>false</ShowTitle>
@@ -1875,6 +1878,7 @@
 							</v8:item>
 						</Title>
 						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<United>false</United>
 						<ShowTitle>false</ShowTitle>
@@ -1888,6 +1892,7 @@
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<United>false</United>
 								<ShowTitle>false</ShowTitle>
@@ -1909,6 +1914,7 @@
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаНомерДатаExtendedTooltip" id="589"/>
@@ -1963,13 +1969,6 @@
 							</InputField>
 							<InputField name="МестонахождениеОС" id="11">
 								<DataPath>Объект.МестонахождениеОС</DataPath>
-								<ChoiceParameterLinks>
-									<xr:Link>
-										<xr:Name>Отбор.Владелец</xr:Name>
-										<xr:DataPath xsi:type="xs:string">1/0:f7155e37-ac3a-4c65-835f-77c952b27000</xr:DataPath>
-										<xr:ValueChange>Clear</xr:ValueChange>
-									</xr:Link>
-								</ChoiceParameterLinks>
 								<ContextMenu name="МестонахождениеОСКонтекстноеМеню" id="12"/>
 								<ExtendedTooltip name="МестонахождениеОСExtendedTooltip" id="593"/>
 							</InputField>
@@ -1983,6 +1982,7 @@
 							</v8:item>
 						</Title>
 						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<United>false</United>
 						<ShowTitle>false</ShowTitle>
@@ -2017,6 +2017,7 @@
 						<v8:content>Страницы</v8:content>
 					</v8:item>
 				</Title>
+				<PagesRepresentation>TabsOnTop</PagesRepresentation>
 				<ExtendedTooltip name="ГруппаСтраницыExtendedTooltip" id="596"/>
 				<ChildItems>
 					<Page name="ГруппаВнеоборотныйАктив" id="18">
@@ -2084,18 +2085,12 @@
 							</InputField>
 							<InputField name="ПодразделениеОрганизации" id="547">
 								<DataPath>Объект.ПодразделениеОрганизации</DataPath>
-								<ChoiceParameterLinks>
-									<xr:Link>
-										<xr:Name>Отбор.Владелец</xr:Name>
-										<xr:DataPath xsi:type="xs:string">1/0:f7155e37-ac3a-4c65-835f-77c952b27000</xr:DataPath>
-										<xr:ValueChange>Clear</xr:ValueChange>
-									</xr:Link>
-								</ChoiceParameterLinks>
 								<ContextMenu name="ПодразделениеОрганизацииКонтекстноеМеню" id="548"/>
 								<ExtendedTooltip name="ПодразделениеОрганизацииExtendedTooltip" id="602"/>
 							</InputField>
 							<UsualGroup name="ГруппаСчетУчетаВнеоборотногоАктиваИРасчет" id="846">
 								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаСчетУчетаВнеоборотногоАктиваИРасчетРасширеннаяПодсказка" id="847"/>
@@ -2158,6 +2153,7 @@
 									</v8:item>
 								</ToolTip>
 								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="БНФОГруппаСтатьяСчетРасходовНДСРасширеннаяПодсказка" id="922"/>
 								<ChildItems>
@@ -2415,6 +2411,7 @@
 									</v8:item>
 								</Title>
 								<Group>Vertical</Group>
+								<Behavior>Usual</Behavior>
 								<ThroughAlign>Use</ThroughAlign>
 								<ExtendedTooltip name="ГруппаПараметрыНачисленияАмортизацииРасширеннаяПодсказка" id="655"/>
 								<ChildItems>
@@ -2437,6 +2434,7 @@
 											</v8:item>
 										</Title>
 										<Group>Horizontal</Group>
+										<Behavior>Usual</Behavior>
 										<ShowTitle>false</ShowTitle>
 										<ThroughAlign>Use</ThroughAlign>
 										<ExtendedTooltip name="ГруппаСчетНачисленияАмортизацииExtendedTooltip" id="656"/>
@@ -2482,6 +2480,7 @@
 											</v8:item>
 										</Title>
 										<Group>Horizontal</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ГруппаСрокИспользованияБУExtendedTooltip" id="663"/>
@@ -2522,6 +2521,7 @@
 											</v8:item>
 										</Title>
 										<Group>Horizontal</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ГруппаГодоваяНормаАмортизацииБУExtendedTooltip" id="690"/>
@@ -2564,6 +2564,7 @@
 											</v8:item>
 										</Title>
 										<Group>Horizontal</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ГруппаОбъемРаботБУExtendedTooltip" id="683"/>
@@ -2669,6 +2670,7 @@
 									</v8:item>
 								</ToolTip>
 								<Group>Vertical</Group>
+								<Behavior>Usual</Behavior>
 								<ThroughAlign>Use</ThroughAlign>
 								<ExtendedTooltip name="ГруппаНУЛизингРасширеннаяПодсказка" id="904"/>
 								<ChildItems>
@@ -2707,6 +2709,7 @@
 									</v8:item>
 								</Title>
 								<Group>Vertical</Group>
+								<Behavior>Usual</Behavior>
 								<ThroughAlign>Use</ThroughAlign>
 								<ExtendedTooltip name="ГруппаПараметрыНачисленияАмортизацииНУРасширеннаяПодсказка" id="724"/>
 								<ChildItems>
@@ -2755,6 +2758,7 @@
 											</v8:item>
 										</Title>
 										<Group>Horizontal</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ГруппаСрокПолезногоИспользованияНУExtendedTooltip" id="727"/>
@@ -2815,6 +2819,7 @@
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаСтоимостьУСНДатаПриобретенияExtendedTooltip" id="764"/>
@@ -2840,6 +2845,7 @@
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаСрокПолезногоИспользованияУСНExtendedTooltip" id="767"/>
@@ -2883,6 +2889,7 @@
 									</v8:item>
 								</Title>
 								<Group>Vertical</Group>
+								<Behavior>Usual</Behavior>
 								<ExtendedTooltip name="ГруппаОплатаExtendedTooltip" id="771"/>
 								<ChildItems>
 									<Table name="Оплата" id="517">
@@ -3021,6 +3028,7 @@
 									</v8:item>
 								</Title>
 								<Group>Vertical</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаСчетСубконтоАмортизационнойПремииExtendedTooltip" id="739"/>
@@ -3033,6 +3041,7 @@
 											</v8:item>
 										</Title>
 										<Group>Vertical</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<United>false</United>
 										<ShowTitle>false</ShowTitle>
@@ -3046,6 +3055,7 @@
 											</v8:item>
 										</Title>
 										<Group>Vertical</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<United>false</United>
 										<ShowTitle>false</ShowTitle>
@@ -3071,13 +3081,6 @@
 														<v8:content>Подразделение</v8:content>
 													</v8:item>
 												</Title>
-												<ChoiceParameterLinks>
-													<xr:Link>
-														<xr:Name>Отбор.Владелец</xr:Name>
-														<xr:DataPath xsi:type="xs:string">1/0:f7155e37-ac3a-4c65-835f-77c952b27000</xr:DataPath>
-														<xr:ValueChange>Clear</xr:ValueChange>
-													</xr:Link>
-												</ChoiceParameterLinks>
 												<ContextMenu name="ПодразделениеОрганизацииПоАмортизационнойПремииКонтекстноеМеню" id="302"/>
 												<ExtendedTooltip name="ПодразделениеОрганизацииПоАмортизационнойПремииExtendedTooltip" id="751"/>
 											</InputField>
@@ -3136,6 +3139,7 @@
 					</v8:item>
 				</ToolTip>
 				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ГруппаКомментарийОтветственныйРасширеннаяПодсказка" id="806"/>

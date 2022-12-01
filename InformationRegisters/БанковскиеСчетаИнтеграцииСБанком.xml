@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
+	<InformationRegister uuid="3328f0f1-4e98-44f1-8a73-331af57dc94a">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.БанковскиеСчетаИнтеграцииСБанком" category="Record">
+				<xr:TypeId>d95e5711-2c64-428f-bc89-3fa625dffc30</xr:TypeId>
+				<xr:ValueId>2bb98a32-ab2a-4a11-89d5-d230fe868b3d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.БанковскиеСчетаИнтеграцииСБанком" category="Manager">
+				<xr:TypeId>af861056-6b52-4724-aa10-0caf06fd33f2</xr:TypeId>
+				<xr:ValueId>9f3756c4-6318-4948-a948-2096b85a2801</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.БанковскиеСчетаИнтеграцииСБанком" category="Selection">
+				<xr:TypeId>756a4637-8cd5-4396-baf1-40d2a4f45ae9</xr:TypeId>
+				<xr:ValueId>b0a35901-567b-47b2-a57b-8d71026e5b0d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.БанковскиеСчетаИнтеграцииСБанком" category="List">
+				<xr:TypeId>656d1c9c-39a9-44b6-9ad5-cb3272b45bc7</xr:TypeId>
+				<xr:ValueId>8929bbb4-1bbf-41fb-ad41-ce46fffc4d83</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.БанковскиеСчетаИнтеграцииСБанком" category="RecordSet">
+				<xr:TypeId>4070bdbd-80e0-4b7f-8558-4fa025fd9a84</xr:TypeId>
+				<xr:ValueId>e76d0c7f-2c11-4cae-b4ef-ecea4577ff39</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.БанковскиеСчетаИнтеграцииСБанком" category="RecordKey">
+				<xr:TypeId>e729edd3-78de-49eb-9653-8763f5757811</xr:TypeId>
+				<xr:ValueId>6e7bc5ea-1825-4638-98b2-5a284bfd4219</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.БанковскиеСчетаИнтеграцииСБанком" category="RecordManager">
+				<xr:TypeId>2aaddc8d-f1f6-4ed8-bd78-83652048d54c</xr:TypeId>
+				<xr:ValueId>ee8807bf-4353-4bae-8505-34f07ee7d230</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БанковскиеСчетаИнтеграцииСБанком</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject/>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Dimension uuid="aa4fa6b5-8da5-475c-b934-ef090cd36052">
+				<InternalInfo/>
+				<Properties>
+					<Name>БанковскийСчет</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.БанковскиеСчета</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

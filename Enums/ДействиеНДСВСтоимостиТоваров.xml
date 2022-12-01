@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
 	<Enum uuid="eca5d795-d2f8-4b98-8d79-92ef096c345d">
 		<InternalInfo>
 			<xr:GeneratedType name="EnumRef.ДействиеНДСВСтоимостиТоваров" category="Ref">
@@ -19,7 +19,7 @@
 			<Name>ДействиеНДСВСтоимостиТоваров</Name>
 			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
-			<ExtendedConfigurationObject>e9f6ad49-d335-4889-bf5f-413eb2cf304a</ExtendedConfigurationObject>
+			<ExtendedConfigurationObject/>
 		</Properties>
 		<ChildObjects>
 			<EnumValue uuid="6ceea7bb-7422-4960-b5f7-058a479636b0">
@@ -28,7 +28,7 @@
 					<Name>ВключитьВСтоимость</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>b7924af0-fea2-4de9-8ec0-b0594cc03b80</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="430b88ee-9f52-4078-bf2e-a73bf17ae750">
@@ -37,7 +37,7 @@
 					<Name>НеИзменять</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>d6ba22fa-ee92-42cc-b484-11537f37ccef</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="0b6ec4e1-bba6-422f-9377-2f3aa63f194b">
@@ -46,7 +46,7 @@
 					<Name>ИсключитьИзСтоимости</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>9b4586de-fd11-4c88-a5dd-d81e97604ae9</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 				</Properties>
 			</EnumValue>
 		</ChildObjects>

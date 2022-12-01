@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
 	<Width>100</Width>
 	<VerticalScroll>useIfNecessary</VerticalScroll>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
@@ -59,6 +59,7 @@
 				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаДополнительныеДанныеExtendedTooltip" id="473"/>
 			<ChildItems>
@@ -87,6 +88,7 @@
 				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ФИОНомерExtendedTooltip" id="397"/>
@@ -99,6 +101,7 @@
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаФИОExtendedTooltip" id="398"/>
@@ -111,12 +114,12 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаФИОСклоненияРасширеннаяПодсказка" id="506"/>
 							<ChildItems>
 								<InputField name="ФИО" id="252">
-									<DataPath>1/0:1a2e8782-7333-4711-9d26-5fc23cc1bb1c</DataPath>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -143,6 +146,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаПолноеИмяРасширеннаяПодсказка" id="403"/>
@@ -186,6 +190,7 @@
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="КомандыФИОExtendedTooltip" id="407"/>
@@ -239,6 +244,7 @@
 			</Title>
 			<HorizontalStretch>true</HorizontalStretch>
 			<VerticalStretch>true</VerticalStretch>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
 			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="490"/>
 			<ChildItems>
 				<Page name="ГруппаЛичныеДанныеГоризонтальная" id="378">
@@ -261,12 +267,12 @@
 							<Width>50</Width>
 							<HorizontalStretch>false</HorizontalStretch>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>NormalSeparation</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ОсновныеДанныеПраваяКолонкаExtendedTooltip" id="416"/>
 							<ChildItems>
 								<InputField name="ГруппаДоступа" id="318">
-									<DataPath>1/0:8693aa8e-b523-4802-9724-21957b73d144</DataPath>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -287,6 +293,7 @@
 										</v8:item>
 									</Title>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<ShowTitle>false</ShowTitle>
 									<ThroughAlign>Use</ThroughAlign>
 									<ExtendedTooltip name="ОсновныеЛичныеДанныеГруппаРасширеннаяПодсказка" id="496"/>
@@ -299,12 +306,12 @@
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ДатаРожденияПолГруппаРасширеннаяПодсказка" id="498"/>
 											<ChildItems>
 												<InputField name="ФизлицоДатаРождения" id="185">
-													<DataPath>1/0:8ec639bf-093c-469c-b3d0-69ee1e54148a</DataPath>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -318,7 +325,6 @@
 													<ExtendedTooltip name="ФизлицоДатаРожденияExtendedTooltip" id="419"/>
 												</InputField>
 												<InputField name="ФизлицоПол" id="187">
-													<DataPath>1/0:fb367223-ff09-4dde-a089-fc2690fd5198</DataPath>
 													<Width>8</Width>
 													<HorizontalStretch>false</HorizontalStretch>
 													<ContextMenu name="ФизлицоПолКонтекстноеМеню" id="188"/>
@@ -334,12 +340,12 @@
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="РегистрационныеНомераВертикальнаяExtendedTooltip" id="435"/>
 											<ChildItems>
 												<InputField name="ФизлицоИНН" id="178">
-													<DataPath>1/0:18c37d91-e3bf-44d9-9d11-710bee0f12f9</DataPath>
 													<ToolTip>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -353,7 +359,6 @@
 													<ExtendedTooltip name="ФизлицоИННExtendedTooltip" id="436"/>
 												</InputField>
 												<InputField name="ФизлицоСтраховойНомерПФР" id="182">
-													<DataPath>1/0:70fd01e7-1070-4b23-a5fa-71ac233784de</DataPath>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -400,6 +405,7 @@
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ThroughAlign>DontUse</ThroughAlign>
 									<ExtendedTooltip name="ГражданствоФизлицExtendedTooltip" id="426"/>
@@ -412,6 +418,7 @@
 												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаВидЗастрахованногоЛицаСтраховыеВзносыExtendedTooltip" id="427"/>
@@ -459,6 +466,7 @@
 														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаСтранаЛицоБезГражданстваExtendedTooltip" id="429"/>
@@ -516,6 +524,7 @@
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ExtendedTooltip name="ГруппаПредставлениеExtendedTooltip" id="468"/>
 									<ChildItems>
@@ -539,6 +548,7 @@
 												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаЗначФИОExtendedTooltip" id="470"/>
@@ -550,7 +560,6 @@
 													<ExtendedTooltip name="ДополнитьПредставлениеExtendedTooltip" id="471"/>
 												</CheckBoxField>
 												<InputField name="УточнениеНаименования" id="365">
-													<DataPath>1/0:133a0ca0-3f7e-42ca-b1e8-0fcdaa9420b8</DataPath>
 													<TitleLocation>None</TitleLocation>
 													<ToolTip>
 														<v8:item>
@@ -578,6 +587,7 @@
 							</Title>
 							<HorizontalStretch>false</HorizontalStretch>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ExtendedTooltip name="ГруппаУдостоверениеЛичностиExtendedTooltip" id="445"/>
 							<ChildItems>
@@ -596,6 +606,7 @@
 										</v8:item>
 									</Title>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="СерияНомерРасширеннаяПодсказка" id="494"/>
@@ -630,6 +641,7 @@
 										</v8:item>
 									</Title>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаДокументыФизическихЛицДатаВыдачиСрокДействияExtendedTooltip" id="456"/>
@@ -669,6 +681,7 @@
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="СрокиExtendedTooltip" id="460"/>
 									<ChildItems>
@@ -686,6 +699,7 @@
 										</v8:item>
 									</Title>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаИсторияДокументовВсеДокументыExtendedTooltip" id="462"/>
@@ -751,7 +765,7 @@
 			<Action callType="After">pcru_ex_ОтправитьВДокументооборотПосле</Action>
 		</Command>
 	</Commands>
-	<BaseForm version="2.11">
+	<BaseForm version="2.14">
 		<Width>100</Width>
 		<VerticalScroll>useIfNecessary</VerticalScroll>
 		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
@@ -806,6 +820,7 @@
 					</v8:item>
 				</Title>
 				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ГруппаДополнительныеДанныеExtendedTooltip" id="473"/>
 				<ChildItems>
@@ -834,6 +849,7 @@
 					</v8:item>
 				</Title>
 				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ФИОНомерExtendedTooltip" id="397"/>
@@ -846,6 +862,7 @@
 							</v8:item>
 						</Title>
 						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаФИОExtendedTooltip" id="398"/>
@@ -858,12 +875,12 @@
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаФИОСклоненияРасширеннаяПодсказка" id="506"/>
 								<ChildItems>
 									<InputField name="ФИО" id="252">
-										<DataPath>1/0:1a2e8782-7333-4711-9d26-5fc23cc1bb1c</DataPath>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -890,6 +907,7 @@
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаПолноеИмяРасширеннаяПодсказка" id="403"/>
@@ -933,6 +951,7 @@
 							</v8:item>
 						</Title>
 						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="КомандыФИОExtendedTooltip" id="407"/>
@@ -986,6 +1005,7 @@
 				</Title>
 				<HorizontalStretch>true</HorizontalStretch>
 				<VerticalStretch>true</VerticalStretch>
+				<PagesRepresentation>TabsOnTop</PagesRepresentation>
 				<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="490"/>
 				<ChildItems>
 					<Page name="ГруппаЛичныеДанныеГоризонтальная" id="378">
@@ -1008,12 +1028,12 @@
 								<Width>50</Width>
 								<HorizontalStretch>false</HorizontalStretch>
 								<Group>Vertical</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>NormalSeparation</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ОсновныеДанныеПраваяКолонкаExtendedTooltip" id="416"/>
 								<ChildItems>
 									<InputField name="ГруппаДоступа" id="318">
-										<DataPath>1/0:8693aa8e-b523-4802-9724-21957b73d144</DataPath>
 										<ToolTip>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -1034,6 +1054,7 @@
 											</v8:item>
 										</Title>
 										<Group>Horizontal</Group>
+										<Behavior>Usual</Behavior>
 										<ShowTitle>false</ShowTitle>
 										<ThroughAlign>Use</ThroughAlign>
 										<ExtendedTooltip name="ОсновныеЛичныеДанныеГруппаРасширеннаяПодсказка" id="496"/>
@@ -1046,12 +1067,12 @@
 													</v8:item>
 												</Title>
 												<Group>Vertical</Group>
+												<Behavior>Usual</Behavior>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
 												<ExtendedTooltip name="ДатаРожденияПолГруппаРасширеннаяПодсказка" id="498"/>
 												<ChildItems>
 													<InputField name="ФизлицоДатаРождения" id="185">
-														<DataPath>1/0:8ec639bf-093c-469c-b3d0-69ee1e54148a</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -1065,7 +1086,6 @@
 														<ExtendedTooltip name="ФизлицоДатаРожденияExtendedTooltip" id="419"/>
 													</InputField>
 													<InputField name="ФизлицоПол" id="187">
-														<DataPath>1/0:fb367223-ff09-4dde-a089-fc2690fd5198</DataPath>
 														<Width>8</Width>
 														<HorizontalStretch>false</HorizontalStretch>
 														<ContextMenu name="ФизлицоПолКонтекстноеМеню" id="188"/>
@@ -1081,12 +1101,12 @@
 													</v8:item>
 												</Title>
 												<Group>Vertical</Group>
+												<Behavior>Usual</Behavior>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
 												<ExtendedTooltip name="РегистрационныеНомераВертикальнаяExtendedTooltip" id="435"/>
 												<ChildItems>
 													<InputField name="ФизлицоИНН" id="178">
-														<DataPath>1/0:18c37d91-e3bf-44d9-9d11-710bee0f12f9</DataPath>
 														<ToolTip>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -1100,7 +1120,6 @@
 														<ExtendedTooltip name="ФизлицоИННExtendedTooltip" id="436"/>
 													</InputField>
 													<InputField name="ФизлицоСтраховойНомерПФР" id="182">
-														<DataPath>1/0:70fd01e7-1070-4b23-a5fa-71ac233784de</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -1147,6 +1166,7 @@
 											</v8:item>
 										</Title>
 										<Group>Vertical</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ThroughAlign>DontUse</ThroughAlign>
 										<ExtendedTooltip name="ГражданствоФизлицExtendedTooltip" id="426"/>
@@ -1159,6 +1179,7 @@
 													</v8:item>
 												</Title>
 												<Group>Horizontal</Group>
+												<Behavior>Usual</Behavior>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
 												<ExtendedTooltip name="ГруппаВидЗастрахованногоЛицаСтраховыеВзносыExtendedTooltip" id="427"/>
@@ -1206,6 +1227,7 @@
 															</v8:item>
 														</Title>
 														<Group>Vertical</Group>
+														<Behavior>Usual</Behavior>
 														<Representation>None</Representation>
 														<ShowTitle>false</ShowTitle>
 														<ExtendedTooltip name="ГруппаСтранаЛицоБезГражданстваExtendedTooltip" id="429"/>
@@ -1263,6 +1285,7 @@
 											</v8:item>
 										</Title>
 										<Group>Vertical</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ExtendedTooltip name="ГруппаПредставлениеExtendedTooltip" id="468"/>
 										<ChildItems>
@@ -1286,6 +1309,7 @@
 													</v8:item>
 												</Title>
 												<Group>Horizontal</Group>
+												<Behavior>Usual</Behavior>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
 												<ExtendedTooltip name="ГруппаЗначФИОExtendedTooltip" id="470"/>
@@ -1297,7 +1321,6 @@
 														<ExtendedTooltip name="ДополнитьПредставлениеExtendedTooltip" id="471"/>
 													</CheckBoxField>
 													<InputField name="УточнениеНаименования" id="365">
-														<DataPath>1/0:133a0ca0-3f7e-42ca-b1e8-0fcdaa9420b8</DataPath>
 														<TitleLocation>None</TitleLocation>
 														<ToolTip>
 															<v8:item>
@@ -1325,6 +1348,7 @@
 								</Title>
 								<HorizontalStretch>false</HorizontalStretch>
 								<Group>Vertical</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ExtendedTooltip name="ГруппаУдостоверениеЛичностиExtendedTooltip" id="445"/>
 								<ChildItems>
@@ -1343,6 +1367,7 @@
 											</v8:item>
 										</Title>
 										<Group>Horizontal</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="СерияНомерРасширеннаяПодсказка" id="494"/>
@@ -1377,6 +1402,7 @@
 											</v8:item>
 										</Title>
 										<Group>Horizontal</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ГруппаДокументыФизическихЛицДатаВыдачиСрокДействияExtendedTooltip" id="456"/>
@@ -1416,6 +1442,7 @@
 											</v8:item>
 										</Title>
 										<Group>Vertical</Group>
+										<Behavior>Usual</Behavior>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="СрокиExtendedTooltip" id="460"/>
 										<ChildItems>
@@ -1433,6 +1460,7 @@
 											</v8:item>
 										</Title>
 										<Group>Horizontal</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ГруппаИсторияДокументовВсеДокументыExtendedTooltip" id="462"/>

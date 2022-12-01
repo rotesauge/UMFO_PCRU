@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
@@ -9,6 +9,7 @@
 	<ChildItems>
 		<UsualGroup name="Группа1" id="141">
 			<Group>AlwaysHorizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="142"/>
@@ -41,6 +42,7 @@
 				</v8:item>
 			</ToolTip>
 			<Group>AlwaysHorizontal</Group>
+			<Behavior>Usual</Behavior>
 			<ExtendedTooltip name="ГруппаПарНавРасширеннаяПодсказка" id="152"/>
 			<ChildItems>
 				<InputField name="NAV_ДТ" id="7">
@@ -71,12 +73,14 @@
 		</UsualGroup>
 		<UsualGroup name="Группа4" id="147">
 			<Group>AlwaysHorizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="148"/>
 		</UsualGroup>
 		<UsualGroup name="Группа2" id="153">
 			<Group>AlwaysHorizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="154"/>
@@ -125,6 +129,7 @@
 		</UsualGroup>
 		<UsualGroup name="Группа7" id="282">
 			<Group>AlwaysHorizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа7РасширеннаяПодсказка" id="283"/>
@@ -150,6 +155,7 @@
 					<v8:content>Страницы</v8:content>
 				</v8:item>
 			</Title>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
 			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="62"/>
 			<ChildItems>
 				<Page name="Проводка" id="161">
@@ -182,6 +188,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<ExtendedTooltip name="ГруппаДТРасширеннаяПодсказка" id="144"/>
 							<ChildItems>
 								<CheckBoxField name="ДТ_СчетЗависит_От_Контракта" id="172">
@@ -251,6 +258,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<ExtendedTooltip name="ГруппаКТРасширеннаяПодсказка" id="146"/>
 							<ChildItems>
 								<CheckBoxField name="КТ_СчетЗависит_От_Контракта" id="175">
@@ -319,14 +327,17 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<ExtendedTooltip name="ГруппаСуммаРасширеннаяПодсказка" id="150"/>
 							<ChildItems>
 								<UsualGroup name="Группа3" id="178">
 									<Group>AlwaysHorizontal</Group>
+									<Behavior>Usual</Behavior>
 									<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="179"/>
 									<ChildItems>
 										<UsualGroup name="Группа5" id="180">
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="181"/>
 											<ChildItems>
 												<CheckBoxField name="СуммуДТ_В_ВР" id="313">
@@ -351,6 +362,7 @@
 										</UsualGroup>
 										<UsualGroup name="Группа6" id="182">
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<ExtendedTooltip name="Группа6РасширеннаяПодсказка" id="183"/>
 											<ChildItems>
 												<CheckBoxField name="СуммуКТ_В_ВР" id="322">
@@ -641,12 +653,10 @@
 							<ExtendedTooltip name="СтавкаНДСРасширеннаяПодсказка" id="263"/>
 						</InputField>
 						<InputField name="СчетУчетаРасчетовПоАвансам" id="264">
-							<DataPath>1/0:5811cbd4-8f10-4a8e-bb41-fa3cc0cd82de</DataPath>
 							<ContextMenu name="СчетУчетаРасчетовПоАвансамКонтекстноеМеню" id="265"/>
 							<ExtendedTooltip name="СчетУчетаРасчетовПоАвансамРасширеннаяПодсказка" id="266"/>
 						</InputField>
 						<InputField name="СчетУчетаРасчетовСКонтрагентом" id="267">
-							<DataPath>1/0:1f70975a-f8e1-4a28-86a7-1a1fb44dca36</DataPath>
 							<ContextMenu name="СчетУчетаРасчетовСКонтрагентомКонтекстноеМеню" id="268"/>
 							<ExtendedTooltip name="СчетУчетаРасчетовСКонтрагентомРасширеннаяПодсказка" id="269"/>
 						</InputField>

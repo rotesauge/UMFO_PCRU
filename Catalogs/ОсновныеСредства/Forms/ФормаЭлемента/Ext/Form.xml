@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
 	<ScalingMode>Normal</ScalingMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
@@ -26,6 +26,7 @@
 					<v8:content>Группа шапка</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<United>false</United>
 			<ShowTitle>false</ShowTitle>
@@ -47,6 +48,7 @@
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<BackColor>style:БыстрыеОтборыФонГруппы</BackColor>
@@ -211,6 +213,7 @@
 						</v8:item>
 					</ToolTip>
 					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ThroughAlign>Use</ThroughAlign>
@@ -273,6 +276,7 @@
 						</v8:item>
 					</Title>
 					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаПринятоКУчетуБУExtendedTooltip" id="647"/>
@@ -300,6 +304,7 @@
 						</v8:item>
 					</Title>
 					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаСнятоСУчетаБУExtendedTooltip" id="655"/>
@@ -347,6 +352,7 @@
 							<v8:content>Местонахождение</v8:content>
 						</v8:item>
 					</Title>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаМестонахождениеРасширеннаяПодсказка" id="623"/>
@@ -368,7 +374,7 @@
 						<Button name="ДокументПеремещениеОССоздатьНаОсновании" id="626">
 							<Type>Hyperlink</Type>
 							<Representation>Picture</Representation>
-							<CommandName>2:2f1be1a1-66b8-4620-ba5d-dcdcc377d480</CommandName>
+							<CommandName>0</CommandName>
 							<DataPath>Объект.Ref</DataPath>
 							<Title>
 								<v8:item>
@@ -387,6 +393,7 @@
 							<v8:content>МОЛ</v8:content>
 						</v8:item>
 					</Title>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаМОЛРасширеннаяПодсказка" id="629"/>
@@ -399,7 +406,7 @@
 						</InputField>
 						<Button name="ДокументПеремещениеОССоздатьНаОсновании1" id="630">
 							<Type>Hyperlink</Type>
-							<CommandName>2:2f1be1a1-66b8-4620-ba5d-dcdcc377d480</CommandName>
+							<CommandName>0</CommandName>
 							<DataPath>Объект.Ref</DataPath>
 							<Title>
 								<v8:item>
@@ -419,6 +426,7 @@
 						</v8:item>
 					</Title>
 					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаСпособОтраженияРасходовПоАмортизацииРасширеннаяПодсказка" id="633"/>
@@ -432,7 +440,7 @@
 						</InputField>
 						<Button name="ДокументИзменениеСпособовОтраженияРасходовПоАмортизацииОССоздатьНаОсновании" id="634">
 							<Type>Hyperlink</Type>
-							<CommandName>2:693c275d-a579-4a3b-a31f-3ef7fbb25d4f</CommandName>
+							<CommandName>0</CommandName>
 							<DataPath>Объект.Ref</DataPath>
 							<Title>
 								<v8:item>
@@ -453,6 +461,7 @@
 					</Title>
 					<VerticalStretch>false</VerticalStretch>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаАдресМестонахожденияExtendedTooltip" id="343"/>
@@ -485,6 +494,7 @@
 				</v8:item>
 			</ToolTip>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<ExtendedTooltip name="ГруппаКонтактнаяИнформацияExtendedTooltip" id="560"/>
 		</UsualGroup>
 		<UsualGroup name="ГруппаДополнительныеРеквизиты" id="521">
@@ -501,6 +511,7 @@
 				</v8:item>
 			</ToolTip>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<ExtendedTooltip name="ГруппаДополнительныеРеквизитыРасширеннаяПодсказка" id="522"/>
 		</UsualGroup>
 		<LabelField name="НалогНаИмуществоГиперссылка" id="616">
@@ -696,6 +707,7 @@
 							<v8:content>Группа отражение ВБУ</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаОтражениеВБУРасширеннаяПодсказка" id="566"/>
@@ -787,6 +799,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаСрокИспользованияБУExtendedTooltip" id="382"/>
@@ -805,6 +818,7 @@
 										</v8:item>
 									</ToolTip>
 									<HorizontalStretch>false</HorizontalStretch>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<United>false</United>
 									<ShowTitle>false</ShowTitle>
@@ -830,7 +844,7 @@
 								</UsualGroup>
 								<Button name="ИзменитьСрокИспользованияБУ" id="664">
 									<Type>Hyperlink</Type>
-									<CommandName>2:69cdf656-2520-4ab3-bab7-1ae88bad49d9</CommandName>
+									<CommandName>0</CommandName>
 									<DataPath>Объект.Ref</DataPath>
 									<Title>
 										<v8:item>
@@ -857,6 +871,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаКоэффициентУскоренияБУРасширеннаяПодсказка" id="673"/>
@@ -875,7 +890,7 @@
 								</LabelDecoration>
 								<Button name="ИзменитьКоэффициентУскоренияБУ" id="674">
 									<Type>Hyperlink</Type>
-									<CommandName>2:e6ac03da-57a0-404c-80e5-af42b140c710</CommandName>
+									<CommandName>0</CommandName>
 									<DataPath>Объект.Ref</DataPath>
 									<Title>
 										<v8:item>
@@ -896,6 +911,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаПроцентГодовойАмортизацииБУExtendedTooltip" id="409"/>
@@ -920,7 +936,7 @@
 								</LabelDecoration>
 								<Button name="ИзменитьПроцентГодовойАмортизацииБУ" id="670">
 									<Type>Hyperlink</Type>
-									<CommandName>2:e6ac03da-57a0-404c-80e5-af42b140c710</CommandName>
+									<CommandName>0</CommandName>
 									<DataPath>Объект.Ref</DataPath>
 									<Title>
 										<v8:item>
@@ -940,6 +956,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаГодовойГрафикРасширеннаяПодсказка" id="637"/>
@@ -952,7 +969,7 @@
 								</InputField>
 								<Button name="ДокументИзменениеГрафиковАмортизацииОССоздатьНаОсновании" id="638">
 									<Type>Hyperlink</Type>
-									<CommandName>2:e6ac03da-57a0-404c-80e5-af42b140c710</CommandName>
+									<CommandName>0</CommandName>
 									<DataPath>Объект.Ref</DataPath>
 									<Title>
 										<v8:item>
@@ -980,6 +997,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаОбъемРаботБУExtendedTooltip" id="402"/>
@@ -1001,7 +1019,7 @@
 								</LabelField>
 								<Button name="ДокументИзменениеПараметровНачисленияАмортизацииОССоздатьНаОсновании1" id="668">
 									<Type>Hyperlink</Type>
-									<CommandName>2:69cdf656-2520-4ab3-bab7-1ae88bad49d9</CommandName>
+									<CommandName>0</CommandName>
 									<DataPath>Объект.Ref</DataPath>
 									<Title>
 										<v8:item>
@@ -1056,6 +1074,7 @@
 							<v8:content>Группа отражение ВНУ</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаОтражениеВНУРасширеннаяПодсказка" id="573"/>
@@ -1081,6 +1100,7 @@
 						</InputField>
 						<UsualGroup name="ГруппаАмортизацияНУ" id="612">
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаАмортизацияНУРасширеннаяПодсказка" id="613"/>
@@ -1099,6 +1119,7 @@
 										</v8:item>
 									</ToolTip>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаНачислениеАмортизацииНУРасширеннаяПодсказка" id="577"/>
@@ -1117,6 +1138,7 @@
 												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаСрокИспользованияНУExtendedTooltip" id="459"/>
@@ -1197,6 +1219,7 @@
 							<v8:content>Группа отражение ВУСН</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаОтражениеВУСНРасширеннаяПодсказка" id="579"/>
@@ -1229,6 +1252,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаСрокИспользованияУСНExtendedTooltip" id="491"/>
@@ -2297,7 +2321,7 @@
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
-	<BaseForm version="2.11">
+	<BaseForm version="2.14">
 		<ScalingMode>Normal</ScalingMode>
 		<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
@@ -2324,6 +2348,7 @@
 						<v8:content>Группа шапка</v8:content>
 					</v8:item>
 				</ToolTip>
+				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<United>false</United>
 				<ShowTitle>false</ShowTitle>
@@ -2345,6 +2370,7 @@
 							</v8:item>
 						</Title>
 						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<BackColor>style:БыстрыеОтборыФонГруппы</BackColor>
@@ -2509,6 +2535,7 @@
 							</v8:item>
 						</ToolTip>
 						<Group>Horizontal</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ThroughAlign>Use</ThroughAlign>
@@ -2571,6 +2598,7 @@
 							</v8:item>
 						</Title>
 						<Group>Horizontal</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаПринятоКУчетуБУExtendedTooltip" id="647"/>
@@ -2598,6 +2626,7 @@
 							</v8:item>
 						</Title>
 						<Group>Horizontal</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаСнятоСУчетаБУExtendedTooltip" id="655"/>
@@ -2645,6 +2674,7 @@
 								<v8:content>Местонахождение</v8:content>
 							</v8:item>
 						</Title>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаМестонахождениеРасширеннаяПодсказка" id="623"/>
@@ -2666,7 +2696,7 @@
 							<Button name="ДокументПеремещениеОССоздатьНаОсновании" id="626">
 								<Type>Hyperlink</Type>
 								<Representation>Picture</Representation>
-								<CommandName>2:2f1be1a1-66b8-4620-ba5d-dcdcc377d480</CommandName>
+								<CommandName>0</CommandName>
 								<DataPath>Объект.Ref</DataPath>
 								<Title>
 									<v8:item>
@@ -2685,6 +2715,7 @@
 								<v8:content>МОЛ</v8:content>
 							</v8:item>
 						</Title>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаМОЛРасширеннаяПодсказка" id="629"/>
@@ -2697,7 +2728,7 @@
 							</InputField>
 							<Button name="ДокументПеремещениеОССоздатьНаОсновании1" id="630">
 								<Type>Hyperlink</Type>
-								<CommandName>2:2f1be1a1-66b8-4620-ba5d-dcdcc377d480</CommandName>
+								<CommandName>0</CommandName>
 								<DataPath>Объект.Ref</DataPath>
 								<Title>
 									<v8:item>
@@ -2717,6 +2748,7 @@
 							</v8:item>
 						</Title>
 						<Group>Horizontal</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаСпособОтраженияРасходовПоАмортизацииРасширеннаяПодсказка" id="633"/>
@@ -2730,7 +2762,7 @@
 							</InputField>
 							<Button name="ДокументИзменениеСпособовОтраженияРасходовПоАмортизацииОССоздатьНаОсновании" id="634">
 								<Type>Hyperlink</Type>
-								<CommandName>2:693c275d-a579-4a3b-a31f-3ef7fbb25d4f</CommandName>
+								<CommandName>0</CommandName>
 								<DataPath>Объект.Ref</DataPath>
 								<Title>
 									<v8:item>
@@ -2751,6 +2783,7 @@
 						</Title>
 						<VerticalStretch>false</VerticalStretch>
 						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаАдресМестонахожденияExtendedTooltip" id="343"/>
@@ -2783,6 +2816,7 @@
 					</v8:item>
 				</ToolTip>
 				<Group>Vertical</Group>
+				<Behavior>Usual</Behavior>
 				<ExtendedTooltip name="ГруппаКонтактнаяИнформацияExtendedTooltip" id="560"/>
 			</UsualGroup>
 			<UsualGroup name="ГруппаДополнительныеРеквизиты" id="521">
@@ -2799,6 +2833,7 @@
 					</v8:item>
 				</ToolTip>
 				<Group>Vertical</Group>
+				<Behavior>Usual</Behavior>
 				<ExtendedTooltip name="ГруппаДополнительныеРеквизитыРасширеннаяПодсказка" id="522"/>
 			</UsualGroup>
 			<LabelField name="НалогНаИмуществоГиперссылка" id="616">
@@ -2994,6 +3029,7 @@
 								<v8:content>Группа отражение ВБУ</v8:content>
 							</v8:item>
 						</ToolTip>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаОтражениеВБУРасширеннаяПодсказка" id="566"/>
@@ -3085,6 +3121,7 @@
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаСрокИспользованияБУExtendedTooltip" id="382"/>
@@ -3103,6 +3140,7 @@
 											</v8:item>
 										</ToolTip>
 										<HorizontalStretch>false</HorizontalStretch>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<United>false</United>
 										<ShowTitle>false</ShowTitle>
@@ -3128,7 +3166,7 @@
 									</UsualGroup>
 									<Button name="ИзменитьСрокИспользованияБУ" id="664">
 										<Type>Hyperlink</Type>
-										<CommandName>2:69cdf656-2520-4ab3-bab7-1ae88bad49d9</CommandName>
+										<CommandName>0</CommandName>
 										<DataPath>Объект.Ref</DataPath>
 										<Title>
 											<v8:item>
@@ -3155,6 +3193,7 @@
 									</v8:item>
 								</ToolTip>
 								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаКоэффициентУскоренияБУРасширеннаяПодсказка" id="673"/>
@@ -3173,7 +3212,7 @@
 									</LabelDecoration>
 									<Button name="ИзменитьКоэффициентУскоренияБУ" id="674">
 										<Type>Hyperlink</Type>
-										<CommandName>2:e6ac03da-57a0-404c-80e5-af42b140c710</CommandName>
+										<CommandName>0</CommandName>
 										<DataPath>Объект.Ref</DataPath>
 										<Title>
 											<v8:item>
@@ -3194,6 +3233,7 @@
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаПроцентГодовойАмортизацииБУExtendedTooltip" id="409"/>
@@ -3218,7 +3258,7 @@
 									</LabelDecoration>
 									<Button name="ИзменитьПроцентГодовойАмортизацииБУ" id="670">
 										<Type>Hyperlink</Type>
-										<CommandName>2:e6ac03da-57a0-404c-80e5-af42b140c710</CommandName>
+										<CommandName>0</CommandName>
 										<DataPath>Объект.Ref</DataPath>
 										<Title>
 											<v8:item>
@@ -3238,6 +3278,7 @@
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаГодовойГрафикРасширеннаяПодсказка" id="637"/>
@@ -3250,7 +3291,7 @@
 									</InputField>
 									<Button name="ДокументИзменениеГрафиковАмортизацииОССоздатьНаОсновании" id="638">
 										<Type>Hyperlink</Type>
-										<CommandName>2:e6ac03da-57a0-404c-80e5-af42b140c710</CommandName>
+										<CommandName>0</CommandName>
 										<DataPath>Объект.Ref</DataPath>
 										<Title>
 											<v8:item>
@@ -3278,6 +3319,7 @@
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаОбъемРаботБУExtendedTooltip" id="402"/>
@@ -3299,7 +3341,7 @@
 									</LabelField>
 									<Button name="ДокументИзменениеПараметровНачисленияАмортизацииОССоздатьНаОсновании1" id="668">
 										<Type>Hyperlink</Type>
-										<CommandName>2:69cdf656-2520-4ab3-bab7-1ae88bad49d9</CommandName>
+										<CommandName>0</CommandName>
 										<DataPath>Объект.Ref</DataPath>
 										<Title>
 											<v8:item>
@@ -3354,6 +3396,7 @@
 								<v8:content>Группа отражение ВНУ</v8:content>
 							</v8:item>
 						</ToolTip>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаОтражениеВНУРасширеннаяПодсказка" id="573"/>
@@ -3379,6 +3422,7 @@
 							</InputField>
 							<UsualGroup name="ГруппаАмортизацияНУ" id="612">
 								<Group>Vertical</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаАмортизацияНУРасширеннаяПодсказка" id="613"/>
@@ -3397,6 +3441,7 @@
 											</v8:item>
 										</ToolTip>
 										<Group>Vertical</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ГруппаНачислениеАмортизацииНУРасширеннаяПодсказка" id="577"/>
@@ -3415,6 +3460,7 @@
 													</v8:item>
 												</Title>
 												<Group>Horizontal</Group>
+												<Behavior>Usual</Behavior>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
 												<ExtendedTooltip name="ГруппаСрокИспользованияНУExtendedTooltip" id="459"/>
@@ -3495,6 +3541,7 @@
 								<v8:content>Группа отражение ВУСН</v8:content>
 							</v8:item>
 						</ToolTip>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаОтражениеВУСНРасширеннаяПодсказка" id="579"/>
@@ -3527,6 +3574,7 @@
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаСрокИспользованияУСНExtendedTooltip" id="491"/>

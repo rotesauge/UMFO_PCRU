@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -24,6 +24,7 @@
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаБыстрыеОтборыExtendedTooltip" id="128"/>
@@ -36,6 +37,7 @@
 						</v8:item>
 					</Title>
 					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаОтборыРасширеннаяПодсказка" id="209"/>
@@ -48,6 +50,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаОтборДатаРасширеннаяПодсказка" id="222"/>
@@ -75,6 +78,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаОтборБанковскийСчетРасширеннаяПодсказка" id="220"/>
@@ -90,13 +94,6 @@
 									<DataPath>ОтборБанковскийСчет</DataPath>
 									<TitleLocation>None</TitleLocation>
 									<OpenButton>false</OpenButton>
-									<ChoiceParameterLinks>
-										<xr:Link>
-											<xr:Name>Отбор.Владелец</xr:Name>
-											<xr:DataPath xsi:type="xs:string">5</xr:DataPath>
-											<xr:ValueChange>Clear</xr:ValueChange>
-										</xr:Link>
-									</ChoiceParameterLinks>
 									<ContextMenu name="ОтборБанковскийСчетКонтекстноеМеню" id="190"/>
 									<ExtendedTooltip name="ОтборБанковскийСчетExtendedTooltip" id="191"/>
 								</InputField>
@@ -110,6 +107,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаОтборОрганизацияРасширеннаяПодсказка" id="202"/>
@@ -142,6 +140,7 @@
 				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаДополнительныеОтборыРасширеннаяПодсказка" id="251"/>
@@ -154,6 +153,7 @@
 				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<BackColor>style:ToolTipBackColor</BackColor>
@@ -170,10 +170,6 @@
 						</v8:item>
 					</Title>
 					<PictureSize>AutoSize</PictureSize>
-					<Picture>
-						<xr:Ref>0:951d4bcf-f267-47a0-90da-e36c70deac0d</xr:Ref>
-						<xr:LoadTransparent>true</xr:LoadTransparent>
-					</Picture>
 					<FileDragMode>AsFile</FileDragMode>
 					<ContextMenu name="ДекорацияЭмблемаДиректБанкКонтекстноеМеню" id="401"/>
 					<ExtendedTooltip name="ДекорацияЭмблемаДиректБанкРасширеннаяПодсказка" id="402"/>
@@ -227,6 +223,7 @@
 			</Title>
 			<HorizontalStretch>true</HorizontalStretch>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<BackColor>0:e32e32c7-0c40-4347-9aa2-8cf4e65dc50a</BackColor>
@@ -264,6 +261,7 @@
 					<HorizontalStretch>true</HorizontalStretch>
 					<Group>Vertical</Group>
 					<HorizontalAlign>Right</HorizontalAlign>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаНапомнитьПозжеРасширеннаяПодсказка" id="420"/>
@@ -293,6 +291,7 @@
 			</Title>
 			<HorizontalStretch>true</HorizontalStretch>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<BackColor>0:e32e32c7-0c40-4347-9aa2-8cf4e65dc50a</BackColor>
@@ -320,6 +319,7 @@
 					<GroupVerticalAlign>Center</GroupVerticalAlign>
 					<Group>Vertical</Group>
 					<HorizontalAlign>Right</HorizontalAlign>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаСкрытьРасширеннаяПодсказка" id="418"/>
@@ -460,7 +460,7 @@
 								</Button>
 								<Button name="ОбщаяКомандаСтруктураПодчиненности" id="98">
 									<Type>CommandBarButton</Type>
-									<CommandName>0:c6930bea-5405-4365-bb0b-32b11373ff16</CommandName>
+									<CommandName>0</CommandName>
 									<DataPath>Items.Список.CurrentData.Ссылка</DataPath>
 									<ExtendedTooltip name="ОбщаяКомандаСтруктураПодчиненностиРасширеннаяПодсказка" id="155"/>
 								</Button>
@@ -483,10 +483,6 @@
 											<v8:content>Заполнить</v8:content>
 										</v8:item>
 									</Title>
-									<Picture>
-										<xr:Ref>0:5bda6165-5d51-4495-b463-580b780c5d38</xr:Ref>
-										<xr:LoadTransparent>true</xr:LoadTransparent>
-									</Picture>
 									<Representation>Picture</Representation>
 									<ExtendedTooltip name="ПодменюЗаполнитьРасширеннаяПодсказка" id="425"/>
 								</Popup>
@@ -503,10 +499,6 @@
 											<v8:content>Подменю отчеты</v8:content>
 										</v8:item>
 									</ToolTip>
-									<Picture>
-										<xr:Ref>0:d2d2996d-f820-4d57-937f-1fd1d1eeac14</xr:Ref>
-										<xr:LoadTransparent>true</xr:LoadTransparent>
-									</Picture>
 									<Representation>PictureAndText</Representation>
 									<ExtendedTooltip name="ПодменюОтчетыРасширеннаяПодсказка" id="427"/>
 								</Popup>
@@ -577,10 +569,6 @@
 			<EnableDrag>true</EnableDrag>
 			<FileDragMode>AsFile</FileDragMode>
 			<DataPath>Список</DataPath>
-			<RowsPicture>
-				<xr:Ref>0:2e8d6a0a-56c1-44bc-aab4-63156fd55688</xr:Ref>
-				<xr:LoadTransparent>true</xr:LoadTransparent>
-			</RowsPicture>
 			<CommandSet>
 				<ExcludedCommand>CreateByParameter</ExcludedCommand>
 			</CommandSet>
@@ -598,6 +586,7 @@
 			<AllowRootChoice>false</AllowRootChoice>
 			<UpdateOnDataChange>Auto</UpdateOnDataChange>
 			<UserSettingsGroup>ГруппаДополнительныеОтборы</UserSettingsGroup>
+			<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 			<ContextMenu name="СписокКонтекстноеМеню" id="2">
 				<Autofill>false</Autofill>
 				<ChildItems>
@@ -679,15 +668,7 @@
 							<v8:content>Присоединенные файлы</v8:content>
 						</v8:item>
 					</ToolTip>
-					<HeaderPicture>
-						<xr:Ref>0:26411d4b-3774-4e8f-8cea-1f887bcf827b</xr:Ref>
-						<xr:LoadTransparent>true</xr:LoadTransparent>
-					</HeaderPicture>
 					<Width>2</Width>
-					<ValuesPicture>
-						<xr:Ref>0:26411d4b-3774-4e8f-8cea-1f887bcf827b</xr:Ref>
-						<xr:LoadTransparent>true</xr:LoadTransparent>
-					</ValuesPicture>
 					<FileDragMode>AsFile</FileDragMode>
 					<ContextMenu name="ЕстьФайлыКонтекстноеМеню" id="342"/>
 					<ExtendedTooltip name="ЕстьФайлыРасширеннаяПодсказка" id="343"/>
@@ -831,6 +812,7 @@
 			</Title>
 			<HorizontalStretch>true</HorizontalStretch>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<BackColor>0:e5502564-411e-484b-84ad-415b2271a89a</BackColor>
@@ -860,6 +842,7 @@
 					<GroupHorizontalAlign>Right</GroupHorizontalAlign>
 					<Group>Horizontal</Group>
 					<HorizontalAlign>Right</HorizontalAlign>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаОстаткиОборотыРасширеннаяПодсказка" id="410"/>
@@ -1617,10 +1600,6 @@
 			<Use>
 				<xr:Common>false</xr:Common>
 			</Use>
-			<Picture>
-				<xr:Ref>0:6911aaa4-0f8b-493f-b273-22614f59b27e</xr:Ref>
-				<xr:LoadTransparent>false</xr:LoadTransparent>
-			</Picture>
 			<Representation>TextPicture</Representation>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
@@ -1640,10 +1619,6 @@
 			<Use>
 				<xr:Common>false</xr:Common>
 			</Use>
-			<Picture>
-				<xr:Ref>0:7769abe4-3e46-4ea4-b322-b89560ee1c7d</xr:Ref>
-				<xr:LoadTransparent>false</xr:LoadTransparent>
-			</Picture>
 			<Representation>TextPicture</Representation>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
@@ -1759,7 +1734,7 @@
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
-	<BaseForm version="2.11">
+	<BaseForm version="2.14">
 		<Title>
 			<v8:item>
 				<v8:lang>ru</v8:lang>
@@ -1784,6 +1759,7 @@
 					</v8:item>
 				</Title>
 				<Group>Vertical</Group>
+				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ГруппаБыстрыеОтборыExtendedTooltip" id="128"/>
@@ -1796,6 +1772,7 @@
 							</v8:item>
 						</Title>
 						<Group>Horizontal</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаОтборыРасширеннаяПодсказка" id="209"/>
@@ -1808,6 +1785,7 @@
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаОтборДатаРасширеннаяПодсказка" id="222"/>
@@ -1835,6 +1813,7 @@
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаОтборБанковскийСчетРасширеннаяПодсказка" id="220"/>
@@ -1850,13 +1829,6 @@
 										<DataPath>ОтборБанковскийСчет</DataPath>
 										<TitleLocation>None</TitleLocation>
 										<OpenButton>false</OpenButton>
-										<ChoiceParameterLinks>
-											<xr:Link>
-												<xr:Name>Отбор.Владелец</xr:Name>
-												<xr:DataPath xsi:type="xs:string">5</xr:DataPath>
-												<xr:ValueChange>Clear</xr:ValueChange>
-											</xr:Link>
-										</ChoiceParameterLinks>
 										<ContextMenu name="ОтборБанковскийСчетКонтекстноеМеню" id="190"/>
 										<ExtendedTooltip name="ОтборБанковскийСчетExtendedTooltip" id="191"/>
 									</InputField>
@@ -1870,6 +1842,7 @@
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаОтборОрганизацияРасширеннаяПодсказка" id="202"/>
@@ -1902,6 +1875,7 @@
 					</v8:item>
 				</Title>
 				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ГруппаДополнительныеОтборыРасширеннаяПодсказка" id="251"/>
@@ -1914,6 +1888,7 @@
 					</v8:item>
 				</Title>
 				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<BackColor>style:ToolTipBackColor</BackColor>
@@ -1930,10 +1905,6 @@
 							</v8:item>
 						</Title>
 						<PictureSize>AutoSize</PictureSize>
-						<Picture>
-							<xr:Ref>0:951d4bcf-f267-47a0-90da-e36c70deac0d</xr:Ref>
-							<xr:LoadTransparent>true</xr:LoadTransparent>
-						</Picture>
 						<FileDragMode>AsFile</FileDragMode>
 						<ContextMenu name="ДекорацияЭмблемаДиректБанкКонтекстноеМеню" id="401"/>
 						<ExtendedTooltip name="ДекорацияЭмблемаДиректБанкРасширеннаяПодсказка" id="402"/>
@@ -1987,6 +1958,7 @@
 				</Title>
 				<HorizontalStretch>true</HorizontalStretch>
 				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<BackColor>0:e32e32c7-0c40-4347-9aa2-8cf4e65dc50a</BackColor>
@@ -2024,6 +1996,7 @@
 						<HorizontalStretch>true</HorizontalStretch>
 						<Group>Vertical</Group>
 						<HorizontalAlign>Right</HorizontalAlign>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаНапомнитьПозжеРасширеннаяПодсказка" id="420"/>
@@ -2053,6 +2026,7 @@
 				</Title>
 				<HorizontalStretch>true</HorizontalStretch>
 				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<BackColor>0:e32e32c7-0c40-4347-9aa2-8cf4e65dc50a</BackColor>
@@ -2080,6 +2054,7 @@
 						<GroupVerticalAlign>Center</GroupVerticalAlign>
 						<Group>Vertical</Group>
 						<HorizontalAlign>Right</HorizontalAlign>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаСкрытьРасширеннаяПодсказка" id="418"/>
@@ -2220,7 +2195,7 @@
 									</Button>
 									<Button name="ОбщаяКомандаСтруктураПодчиненности" id="98">
 										<Type>CommandBarButton</Type>
-										<CommandName>0:c6930bea-5405-4365-bb0b-32b11373ff16</CommandName>
+										<CommandName>0</CommandName>
 										<DataPath>Items.Список.CurrentData.Ссылка</DataPath>
 										<ExtendedTooltip name="ОбщаяКомандаСтруктураПодчиненностиРасширеннаяПодсказка" id="155"/>
 									</Button>
@@ -2243,10 +2218,6 @@
 												<v8:content>Заполнить</v8:content>
 											</v8:item>
 										</Title>
-										<Picture>
-											<xr:Ref>0:5bda6165-5d51-4495-b463-580b780c5d38</xr:Ref>
-											<xr:LoadTransparent>true</xr:LoadTransparent>
-										</Picture>
 										<Representation>Picture</Representation>
 										<ExtendedTooltip name="ПодменюЗаполнитьРасширеннаяПодсказка" id="425"/>
 									</Popup>
@@ -2263,10 +2234,6 @@
 												<v8:content>Подменю отчеты</v8:content>
 											</v8:item>
 										</ToolTip>
-										<Picture>
-											<xr:Ref>0:d2d2996d-f820-4d57-937f-1fd1d1eeac14</xr:Ref>
-											<xr:LoadTransparent>true</xr:LoadTransparent>
-										</Picture>
 										<Representation>PictureAndText</Representation>
 										<ExtendedTooltip name="ПодменюОтчетыРасширеннаяПодсказка" id="427"/>
 									</Popup>
@@ -2337,10 +2304,6 @@
 				<EnableDrag>true</EnableDrag>
 				<FileDragMode>AsFile</FileDragMode>
 				<DataPath>Список</DataPath>
-				<RowsPicture>
-					<xr:Ref>0:2e8d6a0a-56c1-44bc-aab4-63156fd55688</xr:Ref>
-					<xr:LoadTransparent>true</xr:LoadTransparent>
-				</RowsPicture>
 				<CommandSet>
 					<ExcludedCommand>CreateByParameter</ExcludedCommand>
 				</CommandSet>
@@ -2358,6 +2321,7 @@
 				<AllowRootChoice>false</AllowRootChoice>
 				<UpdateOnDataChange>Auto</UpdateOnDataChange>
 				<UserSettingsGroup>ГруппаДополнительныеОтборы</UserSettingsGroup>
+				<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 				<ContextMenu name="СписокКонтекстноеМеню" id="2">
 					<Autofill>false</Autofill>
 					<ChildItems>
@@ -2439,15 +2403,7 @@
 								<v8:content>Присоединенные файлы</v8:content>
 							</v8:item>
 						</ToolTip>
-						<HeaderPicture>
-							<xr:Ref>0:26411d4b-3774-4e8f-8cea-1f887bcf827b</xr:Ref>
-							<xr:LoadTransparent>true</xr:LoadTransparent>
-						</HeaderPicture>
 						<Width>2</Width>
-						<ValuesPicture>
-							<xr:Ref>0:26411d4b-3774-4e8f-8cea-1f887bcf827b</xr:Ref>
-							<xr:LoadTransparent>true</xr:LoadTransparent>
-						</ValuesPicture>
 						<FileDragMode>AsFile</FileDragMode>
 						<ContextMenu name="ЕстьФайлыКонтекстноеМеню" id="342"/>
 						<ExtendedTooltip name="ЕстьФайлыРасширеннаяПодсказка" id="343"/>
@@ -2591,6 +2547,7 @@
 				</Title>
 				<HorizontalStretch>true</HorizontalStretch>
 				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<BackColor>0:e5502564-411e-484b-84ad-415b2271a89a</BackColor>
@@ -2620,6 +2577,7 @@
 						<GroupHorizontalAlign>Right</GroupHorizontalAlign>
 						<Group>Horizontal</Group>
 						<HorizontalAlign>Right</HorizontalAlign>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаОстаткиОборотыРасширеннаяПодсказка" id="410"/>
@@ -3377,10 +3335,6 @@
 				<Use>
 					<xr:Common>false</xr:Common>
 				</Use>
-				<Picture>
-					<xr:Ref>0:6911aaa4-0f8b-493f-b273-22614f59b27e</xr:Ref>
-					<xr:LoadTransparent>false</xr:LoadTransparent>
-				</Picture>
 				<Representation>TextPicture</Representation>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
@@ -3400,10 +3354,6 @@
 				<Use>
 					<xr:Common>false</xr:Common>
 				</Use>
-				<Picture>
-					<xr:Ref>0:7769abe4-3e46-4ea4-b322-b89560ee1c7d</xr:Ref>
-					<xr:LoadTransparent>false</xr:LoadTransparent>
-				</Picture>
 				<Representation>TextPicture</Representation>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>

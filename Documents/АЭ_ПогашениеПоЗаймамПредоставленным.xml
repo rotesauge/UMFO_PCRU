@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
 	<Document uuid="5324aaf9-402f-47d7-8170-c3b707e503f9">
 		<InternalInfo>
 			<xr:GeneratedType name="DocumentObject.АЭ_ПогашениеПоЗаймамПредоставленным" category="Object">
@@ -27,7 +27,7 @@
 			<Name>АЭ_ПогашениеПоЗаймамПредоставленным</Name>
 			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
-			<ExtendedConfigurationObject>d571bc6e-73da-45bc-aa4d-932ca60aadb0</ExtendedConfigurationObject>
+			<ExtendedConfigurationObject/>
 			<NumberType>String</NumberType>
 			<NumberLength>13</NumberLength>
 			<NumberAllowedLength>Fixed</NumberAllowedLength>
@@ -40,7 +40,7 @@
 					<Name>ВидПогашения</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>39135b41-618b-40d8-946b-1305b0577ec8</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>cfg:EnumRef.АЭ_ВидыПогашенийЗаймов</v8:Type>
 					</Type>
@@ -52,7 +52,7 @@
 					<Name>ВидОперации</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>ec25d053-371a-45d7-af79-b2063ae16b6a</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>cfg:EnumRef.АЭ_ВидыОперацийПогашениеПоЗаймамПредоставленным</v8:Type>
 					</Type>
@@ -64,7 +64,7 @@
 					<Name>ОтборКонтрагент</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>8521352d-f569-4fdf-ae83-db8759f2945d</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
 					</Type>
@@ -76,7 +76,7 @@
 					<Name>Организация</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>547cbca4-d080-4f28-9add-fa84586483c5</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
 					</Type>
@@ -88,7 +88,7 @@
 					<Name>ПодразделениеОрганизации</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>9f73103f-301f-4c82-98b6-fa740164b98e</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>cfg:CatalogRef.ПодразделенияОрганизаций</v8:Type>
 					</Type>
@@ -100,7 +100,7 @@
 					<Name>ОтбиратьПоПодразделению</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>6945b533-8140-4854-8ff3-a9f10d5ecba5</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
 					</Type>
@@ -112,7 +112,7 @@
 					<Name>Идентификатор</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>29457b84-e2be-4bbb-bc49-0383364a7aef</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -128,7 +128,7 @@
 					<Name>Комментарий</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>479cc227-5370-4694-ad2b-77e321624f5d</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -144,7 +144,7 @@
 					<Name>Ответственный</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>bf737d7c-8675-412e-bd5d-aeb074659bea</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
 					</Type>
@@ -166,7 +166,7 @@
 					<Name>Займы</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>8f7e9cbc-22ad-4982-850c-a13d7915c8f4</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 				</Properties>
 				<ChildObjects>
 					<Attribute uuid="12b5cf07-88f6-45a8-a084-ca86d58214f4">
@@ -217,7 +217,7 @@
 							<Name>ВидПогашения</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>81bcec9b-9437-41e1-aee5-cb797505e1ad</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>cfg:EnumRef.АЭ_ВидыПогашенийЗаймов</v8:Type>
 							</Type>
@@ -229,7 +229,7 @@
 							<Name>ОстатокЗадолженностиВсего</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>83f2cbac-c27d-49db-918f-47d089fa1fdf</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -246,7 +246,7 @@
 							<Name>ФормаОплаты</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>22e022ec-0fc7-41b5-9be8-42ed42b6f088</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>cfg:CatalogRef.АЭ_ФормыОплатыЗаймов</v8:Type>
 							</Type>
@@ -258,7 +258,7 @@
 							<Name>ЗакрытьДоговор</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>d4e2b31a-9325-44c7-9948-9ea5a7fa70b9</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:boolean</v8:Type>
 							</Type>
@@ -270,7 +270,7 @@
 							<Name>ДоговорТекущихРасчетов</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>df2ef41a-dcc1-44a1-a640-5a3dd9d12624</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
 							</Type>
@@ -282,7 +282,7 @@
 							<Name>ЗаявлениеНаДосрочноеПогашениеОбработано</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>8b86b25a-39c8-4112-85f0-ec8ba64d3e45</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:boolean</v8:Type>
 							</Type>
@@ -294,7 +294,7 @@
 							<Name>Оплачено</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>b570787c-0abd-4140-bd96-546896851871</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:boolean</v8:Type>
 							</Type>
@@ -306,7 +306,7 @@
 							<Name>ПлатежныйДокумент</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>bf19a0cd-330c-4e93-8799-7de5c0dfb9ef</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
 							</Type>
@@ -318,7 +318,7 @@
 							<Name>МаксимальнаяСуммаКПогашению</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>99d1b22d-9702-4f40-a4e3-d01db1044ccc</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -335,7 +335,7 @@
 							<Name>СуммаПлатежаНаТекущийСчетРасчетовВсего</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>9e8db583-4a4d-43f2-9d75-3d8a6499a2f5</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -352,7 +352,7 @@
 							<Name>ПрофильРаспределенияОплат</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>cd059dfe-8fab-45e2-a458-1d12e9a2dd84</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>cfg:CatalogRef.АЭ_ПрофилиРаспределенияПлатежей</v8:Type>
 							</Type>
@@ -364,7 +364,7 @@
 							<Name>ЗаявлениеНаДосрочноеПогашение</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>40d73af2-83df-4116-8a35-971f704f6d9c</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>cfg:DocumentRef.АЭ_ЗаявлениеНаДосрочноеПогашениеЗаймаПредоставленного</v8:Type>
 							</Type>
@@ -376,7 +376,7 @@
 							<Name>Контрагент</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>700dcea2-b3bc-4288-aa20-0e4b7f8501e6</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
 							</Type>
@@ -388,7 +388,7 @@
 							<Name>Займ</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>2ffbdd22-ed7c-4bba-856c-54ac2f638a77</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>cfg:DocumentRef.АЭ_ЗаймПредоставленный</v8:Type>
 							</Type>
@@ -400,7 +400,7 @@
 							<Name>НаправлениеДосрочногоПогашения</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>9f12288b-ff6c-46d5-a89a-1f6e5f2b8d1b</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>cfg:EnumRef.АЭ_НаправленияДосрочногоПогашения</v8:Type>
 							</Type>
@@ -412,7 +412,7 @@
 							<Name>Валюта</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>1b49c68b-3afa-4c40-bd00-64ad7faf28fa</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
 							</Type>
@@ -424,7 +424,7 @@
 							<Name>ТекущаяЗадолженностьВсего</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>9dca8057-7ecf-439d-9b43-313391e9826a</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -441,7 +441,7 @@
 							<Name>ПросроченнаяЗадолженностьВсего</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>b9a5d786-9fe6-401b-bd71-917cbd2994a3</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -458,7 +458,7 @@
 							<Name>СуммаПогашенияСоСчетаТекущихРасчетов</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>8ffcc906-afcf-4892-91ce-dd6c085b2bc6</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -475,7 +475,7 @@
 							<Name>ОстатокТекущихРасчетовВсего</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>a34964af-68e6-4ef9-bc95-418f52b24506</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -492,7 +492,7 @@
 							<Name>СуммаПлатежа</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>cb15e3bd-7821-4b67-9a36-96624a35b0a6</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -509,7 +509,7 @@
 							<Name>ДатаОплаты</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>0902dbc9-152e-499e-8df1-a0564c3ea827</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:dateTime</v8:Type>
 								<v8:DateQualifiers>
@@ -524,7 +524,7 @@
 							<Name>ОплатаПоЗакрытомуЗайму</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>6cc6143b-4a40-430a-93c6-3d6d7c89106f</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:boolean</v8:Type>
 							</Type>
@@ -536,7 +536,7 @@
 							<Name>ПоСудебномуРешению</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>4fae3419-835d-4cef-a398-33dd023844f5</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:boolean</v8:Type>
 							</Type>
@@ -548,7 +548,7 @@
 							<Name>ДоговорЗайма</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>e9726ff8-6bfa-4719-a4de-8113adb7094a</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
 							</Type>
@@ -560,7 +560,7 @@
 							<Name>Идентификатор</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>6bb5b90c-4772-429a-be86-0679e0b03321</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:string</v8:Type>
 								<v8:StringQualifiers>
@@ -587,7 +587,7 @@
 					<Name>ПроизвольныеОплаты</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>cb006d87-15a8-43fd-adf4-3d7b3404dd61</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 				</Properties>
 				<ChildObjects>
 					<Attribute uuid="962ad077-016f-4f3a-85b5-e57925ec84f1">
@@ -596,7 +596,7 @@
 							<Name>СуммаПлатежаНаТекущийСчетРасчетов</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>a7408bd8-dcd2-49bf-b10e-f57fd0041b23</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -613,7 +613,7 @@
 							<Name>ДатаПлатежа</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>6bb30e5a-d998-422a-a6ab-5a202c485764</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:dateTime</v8:Type>
 								<v8:DateQualifiers>
@@ -628,7 +628,7 @@
 							<Name>Валюта</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>b5af98c7-36b3-491b-99e5-92bc7eebba9e</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
 							</Type>
@@ -640,7 +640,7 @@
 							<Name>СуммаПогашенияСоСчетаТекущихРасчетов</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>f93baf3f-5dab-43ff-840d-9ddcdfabbccd</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -657,7 +657,7 @@
 							<Name>Займ</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>84e51773-0901-4685-870e-040ce0a43af9</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>cfg:DocumentRef.АЭ_ЗаймПредоставленный</v8:Type>
 							</Type>
@@ -669,7 +669,7 @@
 							<Name>ВидПогашения</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>7dfd83b3-5343-448c-b8ca-8f1e875cff0f</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>cfg:EnumRef.АЭ_ВидыПогашенийЗаймов</v8:Type>
 							</Type>
@@ -681,7 +681,7 @@
 							<Name>ДоговорТекущихРасчетов</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>5c8e5697-ca2d-48ea-9ede-03e5ecd76da2</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
 							</Type>
@@ -693,7 +693,7 @@
 							<Name>ПоСудебномуРешению</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>4585238c-de38-409d-8a4a-ed563489dd02</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:boolean</v8:Type>
 							</Type>
@@ -705,7 +705,7 @@
 							<Name>Контрагент</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>1cae7ad4-5d5d-493a-bb92-617e322fa181</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
 							</Type>
@@ -717,7 +717,7 @@
 							<Name>НачислитьВОперативномУчете</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>e2ce8554-eaa6-4736-bd64-f74539a5d032</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:boolean</v8:Type>
 							</Type>
@@ -729,7 +729,7 @@
 							<Name>ЗакрытьДоговор</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>3bf62984-f885-4f72-bcde-651e9334ad0a</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:boolean</v8:Type>
 							</Type>
@@ -741,7 +741,7 @@
 							<Name>ВидНачисления</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>8b638d92-e32b-4b53-9b59-65c012f9aa40</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>cfg:CatalogRef.АЭ_ВидыНачисленийПоЗаймам</v8:Type>
 							</Type>
@@ -753,7 +753,7 @@
 							<Name>СуммаПлатежа</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>7299d71e-6b29-4842-8b41-3b2a755150fd</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -770,7 +770,7 @@
 							<Name>ОплатаПоЗакрытомуЗайму</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>fc98b0d3-c893-4c3b-8bde-e87aa832b03e</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:boolean</v8:Type>
 							</Type>
@@ -782,7 +782,7 @@
 							<Name>ФормаОплаты</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>88965d3b-f466-49bf-b034-1e507aefe30d</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>cfg:CatalogRef.АЭ_ФормыОплатыЗаймов</v8:Type>
 							</Type>
@@ -794,7 +794,7 @@
 							<Name>Оплачено</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>6d5d826b-02be-4f9d-bb55-26bb52e7c9cd</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:boolean</v8:Type>
 							</Type>
@@ -806,7 +806,7 @@
 							<Name>ДатаОплаты</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>73254af4-a54c-454c-bd89-832313030193</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:dateTime</v8:Type>
 								<v8:DateQualifiers>
@@ -821,7 +821,7 @@
 							<Name>ПлатежныйДокумент</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>cf505e05-7d24-416f-80f1-f442b89857b7</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
 							</Type>
@@ -833,7 +833,7 @@
 							<Name>Идентификатор</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>affe1b4c-d590-4e44-b4d6-6803bf657cbd</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:string</v8:Type>
 								<v8:StringQualifiers>
@@ -860,7 +860,7 @@
 					<Name>Начисления</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>8125204d-ab19-4d83-b614-dca2d991daf7</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 				</Properties>
 				<ChildObjects>
 					<Attribute uuid="a4b30708-e5de-46d9-8d51-1ac8e7958139">
@@ -869,7 +869,7 @@
 							<Name>ВидПлатежа</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>0a92941b-8978-4e6f-be15-384995cbd41e</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>cfg:EnumRef.АЭ_ВидыПлатежейПоЗаймам</v8:Type>
 							</Type>
@@ -881,7 +881,7 @@
 							<Name>Контрагент</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>e2bdc1df-73e1-4532-bd12-c4afce21279b</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
 							</Type>
@@ -893,7 +893,7 @@
 							<Name>СценарийНачисления</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>5b72dcf3-1874-44d8-a8a6-5ffc80e95069</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>cfg:EnumRef.АЭ_СценарииНачисленийПоЗаймам</v8:Type>
 							</Type>
@@ -905,7 +905,7 @@
 							<Name>Начислить</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>a9fd2583-d5fb-49a6-91fc-f55041a46f03</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:boolean</v8:Type>
 							</Type>
@@ -917,7 +917,7 @@
 							<Name>Займ</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>050f643e-a5d0-40b2-9a9b-ca0d74b69d0b</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>cfg:DocumentRef.АЭ_ЗаймПредоставленный</v8:Type>
 							</Type>
@@ -929,7 +929,7 @@
 							<Name>ВидНачисления</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>e9b01a34-3f38-462c-ba74-8d0c9bc3b4b5</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>cfg:CatalogRef.АЭ_ВидыНачисленийПоЗаймам</v8:Type>
 							</Type>
@@ -941,7 +941,7 @@
 							<Name>Сумма</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>764e6132-dbb8-465c-891d-2d143d51d51f</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>

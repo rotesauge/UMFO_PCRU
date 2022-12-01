@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
 	<CommandSet>
 		<ExcludedCommand>Delete</ExcludedCommand>
 		<ExcludedCommand>WriteAndClose</ExcludedCommand>
@@ -50,6 +50,7 @@
 				</v8:item>
 			</Title>
 			<HorizontalSpacing>Half</HorizontalSpacing>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаОжиданиеСинхронизацииРасширеннаяПодсказка" id="151"/>
@@ -90,6 +91,7 @@
 				</v8:item>
 			</Title>
 			<HorizontalSpacing>Half</HorizontalSpacing>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаОжиданиеУдаленияРасширеннаяПодсказка" id="169"/>
@@ -130,6 +132,7 @@
 				</v8:item>
 			</Title>
 			<Width>51</Width>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
 			<ExtendedTooltip name="СтраницыФормыРасширеннаяПодсказка" id="2"/>
 			<ChildItems>
 				<Page name="СтраницаОсновное" id="3">
@@ -183,6 +186,7 @@
 							</Title>
 							<Group>Vertical</Group>
 							<VerticalSpacing>Half</VerticalSpacing>
+							<Behavior>Usual</Behavior>
 							<Collapsed>true</Collapsed>
 							<Format>
 								<v8:item>
@@ -207,6 +211,7 @@
 										</v8:item>
 									</Title>
 									<Group>AlwaysHorizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаИдентификаторРасширеннаяПодсказка" id="20"/>
@@ -249,6 +254,7 @@
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаОбменЧерезОператораИнформацияExtendedTooltip" id="177"/>
@@ -356,6 +362,7 @@
 									<v8:content>Параметры учетной записи</v8:content>
 								</v8:item>
 							</Title>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ПараметрыУчетнойЗаписиРасширеннаяПодсказка" id="159"/>
@@ -368,6 +375,7 @@
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Format>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -396,6 +404,7 @@
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаСведенияРасширеннаяПодсказка" id="57"/>
@@ -408,6 +417,7 @@
 														</v8:item>
 													</Title>
 													<Group>AlwaysHorizontal</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаСведенияТекстРасширеннаяПодсказка" id="59"/>
@@ -478,6 +488,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Format>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -514,6 +525,7 @@
 													</Title>
 													<Group>AlwaysHorizontal</Group>
 													<HorizontalSpacing>Half</HorizontalSpacing>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="УведомлятьНаРасширеннаяПодсказка" id="83"/>
@@ -553,6 +565,7 @@
 														</v8:item>
 													</Title>
 													<Group>Horizontal</Group>
+													<Behavior>Usual</Behavior>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаНастройкиРасширеннаяПодсказка" id="88"/>
 													<ChildItems>
@@ -568,6 +581,7 @@
 																</v8:item>
 															</Title>
 															<Group>Vertical</Group>
+															<Behavior>Usual</Behavior>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="ГруппаСоставРасширеннаяПодсказка" id="93"/>
@@ -697,6 +711,7 @@
 								</v8:item>
 							</Title>
 							<HorizontalSpacing>Half</HorizontalSpacing>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаОжиданиеТакскомРасширеннаяПодсказка" id="141"/>
@@ -840,7 +855,7 @@
 			<SavedData>true</SavedData>
 		</Attribute>
 	</Attributes>
-	<BaseForm version="2.11">
+	<BaseForm version="2.14">
 		<CommandSet>
 			<ExcludedCommand>Delete</ExcludedCommand>
 			<ExcludedCommand>WriteAndClose</ExcludedCommand>
@@ -891,6 +906,7 @@
 					</v8:item>
 				</Title>
 				<HorizontalSpacing>Half</HorizontalSpacing>
+				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ГруппаОжиданиеСинхронизацииРасширеннаяПодсказка" id="151"/>
@@ -931,6 +947,7 @@
 					</v8:item>
 				</Title>
 				<HorizontalSpacing>Half</HorizontalSpacing>
+				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ГруппаОжиданиеУдаленияРасширеннаяПодсказка" id="169"/>
@@ -971,6 +988,7 @@
 					</v8:item>
 				</Title>
 				<Width>51</Width>
+				<PagesRepresentation>TabsOnTop</PagesRepresentation>
 				<ExtendedTooltip name="СтраницыФормыРасширеннаяПодсказка" id="2"/>
 				<ChildItems>
 					<Page name="СтраницаОсновное" id="3">
@@ -1024,6 +1042,7 @@
 								</Title>
 								<Group>Vertical</Group>
 								<VerticalSpacing>Half</VerticalSpacing>
+								<Behavior>Usual</Behavior>
 								<Collapsed>true</Collapsed>
 								<Format>
 									<v8:item>
@@ -1048,6 +1067,7 @@
 											</v8:item>
 										</Title>
 										<Group>AlwaysHorizontal</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ГруппаИдентификаторРасширеннаяПодсказка" id="20"/>
@@ -1090,6 +1110,7 @@
 											</v8:item>
 										</Title>
 										<Group>Vertical</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ГруппаОбменЧерезОператораИнформацияExtendedTooltip" id="177"/>
@@ -1197,6 +1218,7 @@
 										<v8:content>Параметры учетной записи</v8:content>
 									</v8:item>
 								</Title>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ПараметрыУчетнойЗаписиРасширеннаяПодсказка" id="159"/>
@@ -1209,6 +1231,7 @@
 											</v8:item>
 										</Title>
 										<Group>Vertical</Group>
+										<Behavior>Usual</Behavior>
 										<Format>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -1237,6 +1260,7 @@
 													</v8:item>
 												</Title>
 												<Group>Vertical</Group>
+												<Behavior>Usual</Behavior>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
 												<ExtendedTooltip name="ГруппаСведенияРасширеннаяПодсказка" id="57"/>
@@ -1249,6 +1273,7 @@
 															</v8:item>
 														</Title>
 														<Group>AlwaysHorizontal</Group>
+														<Behavior>Usual</Behavior>
 														<Representation>None</Representation>
 														<ShowTitle>false</ShowTitle>
 														<ExtendedTooltip name="ГруппаСведенияТекстРасширеннаяПодсказка" id="59"/>
@@ -1319,6 +1344,7 @@
 									</v8:item>
 								</Title>
 								<Group>Vertical</Group>
+								<Behavior>Usual</Behavior>
 								<Format>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -1355,6 +1381,7 @@
 														</Title>
 														<Group>AlwaysHorizontal</Group>
 														<HorizontalSpacing>Half</HorizontalSpacing>
+														<Behavior>Usual</Behavior>
 														<Representation>None</Representation>
 														<ShowTitle>false</ShowTitle>
 														<ExtendedTooltip name="УведомлятьНаРасширеннаяПодсказка" id="83"/>
@@ -1394,6 +1421,7 @@
 															</v8:item>
 														</Title>
 														<Group>Horizontal</Group>
+														<Behavior>Usual</Behavior>
 														<ShowTitle>false</ShowTitle>
 														<ExtendedTooltip name="ГруппаНастройкиРасширеннаяПодсказка" id="88"/>
 														<ChildItems>
@@ -1409,6 +1437,7 @@
 																	</v8:item>
 																</Title>
 																<Group>Vertical</Group>
+																<Behavior>Usual</Behavior>
 																<Representation>None</Representation>
 																<ShowTitle>false</ShowTitle>
 																<ExtendedTooltip name="ГруппаСоставРасширеннаяПодсказка" id="93"/>
@@ -1538,6 +1567,7 @@
 									</v8:item>
 								</Title>
 								<HorizontalSpacing>Half</HorizontalSpacing>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаОжиданиеТакскомРасширеннаяПодсказка" id="141"/>

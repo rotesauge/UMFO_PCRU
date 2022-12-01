@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
@@ -144,6 +144,7 @@
 				</v8:item>
 			</ToolTip>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаАктуальностьРасширеннаяПодсказка" id="682"/>
@@ -186,6 +187,7 @@
 				</v8:item>
 			</ToolTip>
 			<VerticalStretch>true</VerticalStretch>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
 			<ExtendedTooltip name="ПанельРегистровExtendedTooltip" id="322"/>
 			<ChildItems>
 				<Page name="ГруппаТиповаяОперация" id="590">
@@ -222,6 +224,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<BackColor>style:ФонУправляющегоПоля</BackColor>
@@ -254,6 +257,7 @@
 							<Height>10</Height>
 							<VerticalStretch>true</VerticalStretch>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>NormalSeparation</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаПараметрыТиповойОперацииРасширеннаяПодсказка" id="600"/>
@@ -272,6 +276,7 @@
 										</v8:item>
 									</ToolTip>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаПараметрыТиповойОперацииЛевоРасширеннаяПодсказка" id="640"/>
@@ -290,6 +295,7 @@
 										</v8:item>
 									</ToolTip>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаПараметрыТиповойОперацииПравоРасширеннаяПодсказка" id="642"/>
@@ -332,6 +338,7 @@
 							</ToolTip>
 							<Group>Horizontal</Group>
 							<ChildrenAlign>ItemsLeftTitlesLeft</ChildrenAlign>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаШапкаExtendedTooltip" id="294"/>
@@ -350,6 +357,7 @@
 										</v8:item>
 									</ToolTip>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаШапкаЛеваяРасширеннаяПодсказка" id="435"/>
@@ -368,6 +376,7 @@
 												</v8:item>
 											</ToolTip>
 											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаНомерИДатаExtendedTooltip" id="296"/>
@@ -425,6 +434,7 @@
 												</v8:item>
 											</ToolTip>
 											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаОрганизацияРасширеннаяПодсказка" id="692"/>
@@ -463,6 +473,7 @@
 										</v8:item>
 									</ToolTip>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаШапкаПраваяРасширеннаяПодсказка" id="437"/>
@@ -496,6 +507,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаСторнируемыйДокументРасширеннаяПодсказка" id="632"/>
@@ -505,13 +517,6 @@
 									<TitleHeight>2</TitleHeight>
 									<Width>11</Width>
 									<ChoiceButtonRepresentation>ShowInDropListAndInInputField</ChoiceButtonRepresentation>
-									<ChoiceParameterLinks>
-										<xr:Link>
-											<xr:Name>Отбор.Организация</xr:Name>
-											<xr:DataPath xsi:type="xs:string">1/0:9b7201fa-b773-470c-b542-1cc7527d479b</xr:DataPath>
-											<xr:ValueChange>Clear</xr:ValueChange>
-										</xr:Link>
-									</ChoiceParameterLinks>
 									<ContextMenu name="СторнируемыйДокументКонтекстноеМеню" id="284"/>
 									<ExtendedTooltip name="СторнируемыйДокументExtendedTooltip" id="312"/>
 								</InputField>
@@ -537,6 +542,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаКомментарийОтветственныйРасширеннаяПодсказка" id="379"/>
@@ -794,18 +800,6 @@
 										<InputField name="БНФОБанковскийСчетАналитическогоУчетаДт" id="625">
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
-											<ChoiceParameterLinks>
-												<xr:Link>
-													<xr:Name>Отбор.Организация</xr:Name>
-													<xr:DataPath xsi:type="xs:string">1/0:9b7201fa-b773-470c-b542-1cc7527d479b</xr:DataPath>
-													<xr:ValueChange>Clear</xr:ValueChange>
-												</xr:Link>
-												<xr:Link>
-													<xr:Name>Отбор.Владелец</xr:Name>
-													<xr:DataPath xsi:type="xs:string">440:02023637-7868-4a5f-8576-835a76e0c9ba/-6</xr:DataPath>
-													<xr:ValueChange>Clear</xr:ValueChange>
-												</xr:Link>
-											</ChoiceParameterLinks>
 											<ContextMenu name="БНФОБанковскийСчетАналитическогоУчетаДтКонтекстноеМеню" id="626"/>
 											<ExtendedTooltip name="БНФОБанковскийСчетАналитическогоУчетаДтРасширеннаяПодсказка" id="627"/>
 										</InputField>
@@ -813,13 +807,6 @@
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
 											<Width>15</Width>
-											<ChoiceParameterLinks>
-												<xr:Link>
-													<xr:Name>Отбор.Владелец</xr:Name>
-													<xr:DataPath xsi:type="xs:string">1/0:9b7201fa-b773-470c-b542-1cc7527d479b</xr:DataPath>
-													<xr:ValueChange>DontChange</xr:ValueChange>
-												</xr:Link>
-											</ChoiceParameterLinks>
 											<InputHint>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -999,18 +986,6 @@
 										<InputField name="БНФОБанковскийСчетАналитическогоУчетаКт" id="628">
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
-											<ChoiceParameterLinks>
-												<xr:Link>
-													<xr:Name>Отбор.Организация</xr:Name>
-													<xr:DataPath xsi:type="xs:string">1/0:9b7201fa-b773-470c-b542-1cc7527d479b</xr:DataPath>
-													<xr:ValueChange>Clear</xr:ValueChange>
-												</xr:Link>
-												<xr:Link>
-													<xr:Name>Отбор.Владелец</xr:Name>
-													<xr:DataPath xsi:type="xs:string">440:02023637-7868-4a5f-8576-835a76e0c9ba/-7</xr:DataPath>
-													<xr:ValueChange>Clear</xr:ValueChange>
-												</xr:Link>
-											</ChoiceParameterLinks>
 											<ContextMenu name="БНФОБанковскийСчетАналитическогоУчетаКтКонтекстноеМеню" id="629"/>
 											<ExtendedTooltip name="БНФОБанковскийСчетАналитическогоУчетаКтРасширеннаяПодсказка" id="630"/>
 										</InputField>
@@ -1018,13 +993,6 @@
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
 											<Width>15</Width>
-											<ChoiceParameterLinks>
-												<xr:Link>
-													<xr:Name>Отбор.Владелец</xr:Name>
-													<xr:DataPath xsi:type="xs:string">1/0:9b7201fa-b773-470c-b542-1cc7527d479b</xr:DataPath>
-													<xr:ValueChange>DontChange</xr:ValueChange>
-												</xr:Link>
-											</ChoiceParameterLinks>
 											<InputHint>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -1265,6 +1233,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаПредупреждениеИСуммаОперацииРасширеннаяПодсказка" id="653"/>
@@ -1283,6 +1252,7 @@
 										</v8:item>
 									</ToolTip>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаПарныеСчетаРасширеннаяПодсказка" id="669"/>
@@ -1320,6 +1290,7 @@
 										</v8:item>
 									</ToolTip>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаИспользуютсяПарныеСчетаРасширеннаяПодсказка" id="655"/>
@@ -1368,6 +1339,7 @@
 				</v8:item>
 			</ToolTip>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаПодвалРасширеннаяПодсказка" id="646"/>
@@ -1386,6 +1358,7 @@
 						</v8:item>
 					</ToolTip>
 					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаСПОДРасширеннаяПодсказка" id="674"/>
@@ -1435,6 +1408,7 @@
 						</v8:item>
 					</ToolTip>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<BackColor>style:ИтогиФонГруппы</BackColor>
@@ -1482,7 +1456,7 @@
 			<Representation>TextPicture</Representation>
 		</Command>
 	</Commands>
-	<BaseForm version="2.11">
+	<BaseForm version="2.14">
 		<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 			<Autofill>false</Autofill>
@@ -1624,6 +1598,7 @@
 					</v8:item>
 				</ToolTip>
 				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ГруппаАктуальностьРасширеннаяПодсказка" id="682"/>
@@ -1666,6 +1641,7 @@
 					</v8:item>
 				</ToolTip>
 				<VerticalStretch>true</VerticalStretch>
+				<PagesRepresentation>TabsOnTop</PagesRepresentation>
 				<ExtendedTooltip name="ПанельРегистровExtendedTooltip" id="322"/>
 				<ChildItems>
 					<Page name="ГруппаТиповаяОперация" id="590">
@@ -1702,6 +1678,7 @@
 									</v8:item>
 								</ToolTip>
 								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<BackColor>style:ФонУправляющегоПоля</BackColor>
@@ -1734,6 +1711,7 @@
 								<Height>10</Height>
 								<VerticalStretch>true</VerticalStretch>
 								<Group>Vertical</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>NormalSeparation</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаПараметрыТиповойОперацииРасширеннаяПодсказка" id="600"/>
@@ -1752,6 +1730,7 @@
 											</v8:item>
 										</ToolTip>
 										<Group>Vertical</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ГруппаПараметрыТиповойОперацииЛевоРасширеннаяПодсказка" id="640"/>
@@ -1770,6 +1749,7 @@
 											</v8:item>
 										</ToolTip>
 										<Group>Vertical</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ГруппаПараметрыТиповойОперацииПравоРасширеннаяПодсказка" id="642"/>
@@ -1812,6 +1792,7 @@
 								</ToolTip>
 								<Group>Horizontal</Group>
 								<ChildrenAlign>ItemsLeftTitlesLeft</ChildrenAlign>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаШапкаExtendedTooltip" id="294"/>
@@ -1830,6 +1811,7 @@
 											</v8:item>
 										</ToolTip>
 										<Group>Vertical</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ГруппаШапкаЛеваяРасширеннаяПодсказка" id="435"/>
@@ -1848,6 +1830,7 @@
 													</v8:item>
 												</ToolTip>
 												<Group>Horizontal</Group>
+												<Behavior>Usual</Behavior>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
 												<ExtendedTooltip name="ГруппаНомерИДатаExtendedTooltip" id="296"/>
@@ -1905,6 +1888,7 @@
 													</v8:item>
 												</ToolTip>
 												<Group>Horizontal</Group>
+												<Behavior>Usual</Behavior>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
 												<ExtendedTooltip name="ГруппаОрганизацияРасширеннаяПодсказка" id="692"/>
@@ -1943,6 +1927,7 @@
 											</v8:item>
 										</ToolTip>
 										<Group>Vertical</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ГруппаШапкаПраваяРасширеннаяПодсказка" id="437"/>
@@ -1976,6 +1961,7 @@
 									</v8:item>
 								</ToolTip>
 								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаСторнируемыйДокументРасширеннаяПодсказка" id="632"/>
@@ -1985,13 +1971,6 @@
 										<TitleHeight>2</TitleHeight>
 										<Width>11</Width>
 										<ChoiceButtonRepresentation>ShowInDropListAndInInputField</ChoiceButtonRepresentation>
-										<ChoiceParameterLinks>
-											<xr:Link>
-												<xr:Name>Отбор.Организация</xr:Name>
-												<xr:DataPath xsi:type="xs:string">1/0:9b7201fa-b773-470c-b542-1cc7527d479b</xr:DataPath>
-												<xr:ValueChange>Clear</xr:ValueChange>
-											</xr:Link>
-										</ChoiceParameterLinks>
 										<ContextMenu name="СторнируемыйДокументКонтекстноеМеню" id="284"/>
 										<ExtendedTooltip name="СторнируемыйДокументExtendedTooltip" id="312"/>
 									</InputField>
@@ -2017,6 +1996,7 @@
 									</v8:item>
 								</ToolTip>
 								<Group>Vertical</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаКомментарийОтветственныйРасширеннаяПодсказка" id="379"/>
@@ -2269,18 +2249,6 @@
 											<InputField name="БНФОБанковскийСчетАналитическогоУчетаДт" id="625">
 												<EditMode>EnterOnInput</EditMode>
 												<ShowInHeader>false</ShowInHeader>
-												<ChoiceParameterLinks>
-													<xr:Link>
-														<xr:Name>Отбор.Организация</xr:Name>
-														<xr:DataPath xsi:type="xs:string">1/0:9b7201fa-b773-470c-b542-1cc7527d479b</xr:DataPath>
-														<xr:ValueChange>Clear</xr:ValueChange>
-													</xr:Link>
-													<xr:Link>
-														<xr:Name>Отбор.Владелец</xr:Name>
-														<xr:DataPath xsi:type="xs:string">440:02023637-7868-4a5f-8576-835a76e0c9ba/-6</xr:DataPath>
-														<xr:ValueChange>Clear</xr:ValueChange>
-													</xr:Link>
-												</ChoiceParameterLinks>
 												<ContextMenu name="БНФОБанковскийСчетАналитическогоУчетаДтКонтекстноеМеню" id="626"/>
 												<ExtendedTooltip name="БНФОБанковскийСчетАналитическогоУчетаДтРасширеннаяПодсказка" id="627"/>
 											</InputField>
@@ -2288,13 +2256,6 @@
 												<EditMode>EnterOnInput</EditMode>
 												<ShowInHeader>false</ShowInHeader>
 												<Width>15</Width>
-												<ChoiceParameterLinks>
-													<xr:Link>
-														<xr:Name>Отбор.Владелец</xr:Name>
-														<xr:DataPath xsi:type="xs:string">1/0:9b7201fa-b773-470c-b542-1cc7527d479b</xr:DataPath>
-														<xr:ValueChange>DontChange</xr:ValueChange>
-													</xr:Link>
-												</ChoiceParameterLinks>
 												<InputHint>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -2474,18 +2435,6 @@
 											<InputField name="БНФОБанковскийСчетАналитическогоУчетаКт" id="628">
 												<EditMode>EnterOnInput</EditMode>
 												<ShowInHeader>false</ShowInHeader>
-												<ChoiceParameterLinks>
-													<xr:Link>
-														<xr:Name>Отбор.Организация</xr:Name>
-														<xr:DataPath xsi:type="xs:string">1/0:9b7201fa-b773-470c-b542-1cc7527d479b</xr:DataPath>
-														<xr:ValueChange>Clear</xr:ValueChange>
-													</xr:Link>
-													<xr:Link>
-														<xr:Name>Отбор.Владелец</xr:Name>
-														<xr:DataPath xsi:type="xs:string">440:02023637-7868-4a5f-8576-835a76e0c9ba/-7</xr:DataPath>
-														<xr:ValueChange>Clear</xr:ValueChange>
-													</xr:Link>
-												</ChoiceParameterLinks>
 												<ContextMenu name="БНФОБанковскийСчетАналитическогоУчетаКтКонтекстноеМеню" id="629"/>
 												<ExtendedTooltip name="БНФОБанковскийСчетАналитическогоУчетаКтРасширеннаяПодсказка" id="630"/>
 											</InputField>
@@ -2493,13 +2442,6 @@
 												<EditMode>EnterOnInput</EditMode>
 												<ShowInHeader>false</ShowInHeader>
 												<Width>15</Width>
-												<ChoiceParameterLinks>
-													<xr:Link>
-														<xr:Name>Отбор.Владелец</xr:Name>
-														<xr:DataPath xsi:type="xs:string">1/0:9b7201fa-b773-470c-b542-1cc7527d479b</xr:DataPath>
-														<xr:ValueChange>DontChange</xr:ValueChange>
-													</xr:Link>
-												</ChoiceParameterLinks>
 												<InputHint>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -2740,6 +2682,7 @@
 									</v8:item>
 								</ToolTip>
 								<Group>Vertical</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаПредупреждениеИСуммаОперацииРасширеннаяПодсказка" id="653"/>
@@ -2758,6 +2701,7 @@
 											</v8:item>
 										</ToolTip>
 										<Group>Horizontal</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ГруппаПарныеСчетаРасширеннаяПодсказка" id="669"/>
@@ -2795,6 +2739,7 @@
 											</v8:item>
 										</ToolTip>
 										<Group>Horizontal</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ГруппаИспользуютсяПарныеСчетаРасширеннаяПодсказка" id="655"/>
@@ -2843,6 +2788,7 @@
 					</v8:item>
 				</ToolTip>
 				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ГруппаПодвалРасширеннаяПодсказка" id="646"/>
@@ -2861,6 +2807,7 @@
 							</v8:item>
 						</ToolTip>
 						<Group>Horizontal</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаСПОДРасширеннаяПодсказка" id="674"/>
@@ -2910,6 +2857,7 @@
 							</v8:item>
 						</ToolTip>
 						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<BackColor>style:ИтогиФонГруппы</BackColor>

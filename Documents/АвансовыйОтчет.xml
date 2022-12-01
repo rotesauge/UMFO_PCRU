@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
 	<Document uuid="0cc3d6f5-ed5a-4e92-b337-49a2e103ac77">
 		<InternalInfo>
 			<xr:GeneratedType name="DocumentObject.АвансовыйОтчет" category="Object">
@@ -39,7 +39,7 @@
 					<Name>НДСВключенВСтоимость</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>310f5db5-0a30-4470-89c3-3b8a82ce554e</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
 					</Type>
@@ -51,7 +51,7 @@
 					<Name>Организация</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>48ce2c86-f4e3-4f83-9b95-2de42ae0366a</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
 					</Type>
@@ -63,7 +63,7 @@
 					<Name>ВидОперации</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>544916bb-d75a-4b5e-b4e3-03df5ce9c78e</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>cfg:EnumRef.ВидыОперацийАвансовыйОтчет</v8:Type>
 					</Type>
@@ -75,7 +75,7 @@
 					<Name>НазначениеАванса</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>6d39ffda-b50e-49bf-8401-7bbd1339250c</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -91,7 +91,7 @@
 					<Name>ВалютаДокумента</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>53adffda-9192-4859-abc4-eaf21312b05f</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
 					</Type>
@@ -103,7 +103,7 @@
 					<Name>Комментарий</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>5adedfae-cdfc-4ede-935d-0eef51131900</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -119,7 +119,7 @@
 					<Name>ТипЦен</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>f2f6f47f-4876-4478-85a1-a49e7158fef9</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>cfg:CatalogRef.ТипыЦенНоменклатуры</v8:Type>
 					</Type>
@@ -131,7 +131,7 @@
 					<Name>КратностьДокумента</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>6886c93f-0997-4597-ac6b-ec342f2c2167</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
 						<v8:NumberQualifiers>
@@ -148,7 +148,7 @@
 					<Name>КурсДокумента</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>120f81ff-7e93-428f-b47f-23bc9bdc5687</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
 						<v8:NumberQualifiers>
@@ -165,7 +165,7 @@
 					<Name>Склад</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>4981f9d3-7419-49a5-9e96-a0a1a5ac0505</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
 					</Type>
@@ -177,7 +177,7 @@
 					<Name>СуммаВключаетНДС</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>d828373e-0736-4f88-a210-cc06e84a4939</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
 					</Type>
@@ -189,7 +189,7 @@
 					<Name>СуммаДокумента</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>06bac66d-be5c-45b0-8438-388095984e5f</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
 						<v8:NumberQualifiers>
@@ -206,7 +206,7 @@
 					<Name>ФизЛицо</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>a5d4b734-2064-494c-be0c-7d4fe5667350</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
 					</Type>
@@ -218,7 +218,7 @@
 					<Name>Ответственный</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>e49d4e95-562d-467d-a091-a62f1b3a890f</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
 					</Type>
@@ -230,7 +230,7 @@
 					<Name>КоличествоДокументов</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>3282ccac-6bd4-44c9-a828-a79e111d7ba1</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -246,7 +246,7 @@
 					<Name>КоличествоЛистов</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>82803209-c5ec-4462-b7cf-9b01d79dc144</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -262,7 +262,7 @@
 					<Name>РучнаяКорректировка</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>235aea43-770b-463e-a213-cc0b334604b2</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
 					</Type>
@@ -274,7 +274,7 @@
 					<Name>ПодразделениеОрганизации</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>b33eb1a9-a5aa-4399-80b5-677fd72fb98f</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>cfg:CatalogRef.ПодразделенияОрганизаций</v8:Type>
 					</Type>

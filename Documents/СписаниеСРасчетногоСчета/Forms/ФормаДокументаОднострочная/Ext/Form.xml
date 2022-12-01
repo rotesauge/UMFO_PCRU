@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
 	<AutoTime>CurrentOrLast</AutoTime>
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
@@ -47,7 +47,7 @@
 							</Popup>
 							<Button name="РеестрУплатыНДФЛ" id="767">
 								<Type>CommandBarButton</Type>
-								<CommandName>1:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+								<CommandName>0</CommandName>
 								<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
 								<ExtendedTooltip name="РеестрУплатыНДФЛРасширеннаяПодсказка" id="768"/>
 							</Button>
@@ -65,7 +65,7 @@
 						<ChildItems>
 							<Button name="ОбщаяКомандаСтруктураПодчиненности" id="649">
 								<Type>CommandBarButton</Type>
-								<CommandName>0:c6930bea-5405-4365-bb0b-32b11373ff16</CommandName>
+								<CommandName>0</CommandName>
 								<DataPath>Объект.Ref</DataPath>
 								<ExtendedTooltip name="ОбщаяКомандаСтруктураПодчиненностиРасширеннаяПодсказка" id="650"/>
 							</Button>
@@ -138,7 +138,7 @@
 					</ButtonGroup>
 					<Button name="ФормаПоказатьКонтекстныеНовости" id="936">
 						<Type>CommandBarButton</Type>
-						<CommandName>2:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+						<CommandName>0</CommandName>
 						<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 						<ExtendedTooltip name="ФормаПоказатьКонтекстныеНовостиРасширеннаяПодсказка" id="937"/>
 					</Button>
@@ -165,6 +165,7 @@
 				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
 			<ShowTitle>false</ShowTitle>
 			<BackColor>style:ЦветФонаНекорректногоКонтрагентаВДокументе</BackColor>
@@ -189,6 +190,7 @@
 			<HorizontalStretch>true</HorizontalStretch>
 			<Group>Horizontal</Group>
 			<VerticalAlign>Top</VerticalAlign>
+			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
 			<ShowTitle>false</ShowTitle>
 			<BackColor>style:ЦветФонаНекорректногоКонтрагентаВДокументе</BackColor>
@@ -216,6 +218,7 @@
 					<Group>Vertical</Group>
 					<HorizontalAlign>Right</HorizontalAlign>
 					<VerticalAlign>Top</VerticalAlign>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаСкрытьРасширеннаяПодсказка" id="1007"/>
@@ -244,6 +247,7 @@
 					<v8:content>Предупреждение о печати чека</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<BackColor>style:БыстрыеОтборыФонГруппы</BackColor>
@@ -285,6 +289,7 @@
 				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаШапкаExtendedTooltip" id="499"/>
@@ -297,6 +302,7 @@
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<United>false</United>
 					<ShowTitle>false</ShowTitle>
@@ -310,6 +316,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаНомерДатаExtendedTooltip" id="502"/>
@@ -374,6 +381,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаНомерВхДатаВхExtendedTooltip" id="510"/>
@@ -428,6 +436,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<United>false</United>
 							<ShowTitle>false</ShowTitle>
@@ -436,18 +445,6 @@
 								<InputField name="ВидОперации" id="3">
 									<DataPath>Объект.ВидОперации</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ChoiceParameterLinks>
-										<xr:Link>
-											<xr:Name>Отбор.Организация</xr:Name>
-											<xr:DataPath xsi:type="xs:string">1</xr:DataPath>
-											<xr:ValueChange>DontChange</xr:ValueChange>
-										</xr:Link>
-										<xr:Link>
-											<xr:Name>Отбор.СчетОрганизации</xr:Name>
-											<xr:DataPath xsi:type="xs:string">1</xr:DataPath>
-											<xr:ValueChange>DontChange</xr:ValueChange>
-										</xr:Link>
-									</ChoiceParameterLinks>
 									<ContextMenu name="ВидОперацииКонтекстноеМеню" id="4"/>
 									<ExtendedTooltip name="ВидОперацииExtendedTooltip" id="501"/>
 								</InputField>
@@ -513,6 +510,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаВидНалоговогоОбязательстваПериодРасширеннаяПодсказка" id="906"/>
@@ -594,6 +592,7 @@
 								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаЧекНПДРасширеннаяПодсказка" id="1166"/>
@@ -605,6 +604,7 @@
 											<v8:content>Аннулировать чек НПД</v8:content>
 										</v8:item>
 									</Title>
+									<Behavior>Usual</Behavior>
 									<United>false</United>
 									<ShowTitle>false</ShowTitle>
 									<BackColor>style:БыстрыеОтборыФонГруппы</BackColor>
@@ -658,6 +658,7 @@
 											<v8:content>Ожидание данных</v8:content>
 										</v8:item>
 									</Title>
+									<Behavior>Usual</Behavior>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ОжиданиеДанныхРасширеннаяПодсказка" id="1168"/>
 									<ChildItems>
@@ -700,6 +701,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаКонтрагентРасширеннаяПодсказка" id="1028"/>
@@ -794,6 +796,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаПорядокОтраженияБУРасширеннаяПодсказка" id="914"/>
@@ -814,6 +817,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаСуммаДокументаВалютаДокументаExtendedTooltip" id="515"/>
@@ -904,6 +908,7 @@
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<United>false</United>
 					<ShowTitle>false</ShowTitle>
@@ -965,6 +970,7 @@
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаАналитикаРасширеннаяПодсказка" id="518"/>
@@ -977,6 +983,7 @@
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаРасчетыСКонтрагентамиExtendedTooltip" id="519"/>
@@ -989,6 +996,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ChildItemsWidth>Equal</ChildItemsWidth>
 							<ShowTitle>false</ShowTitle>
@@ -1008,6 +1016,7 @@
 										</v8:item>
 									</ToolTip>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<United>false</United>
 									<ShowTitle>false</ShowTitle>
@@ -1021,6 +1030,7 @@
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаЛевоОбъединеннаяРасширеннаяПодсказка" id="962"/>
@@ -1029,18 +1039,6 @@
 													<ToolTipRepresentation>Button</ToolTipRepresentation>
 													<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 													<AutoMarkIncomplete>true</AutoMarkIncomplete>
-													<ChoiceParameterLinks>
-														<xr:Link>
-															<xr:Name>Отбор.Владелец</xr:Name>
-															<xr:DataPath xsi:type="xs:string">1/0:288ffbe0-8623-4ecf-985a-cb43625a86c4</xr:DataPath>
-															<xr:ValueChange>Clear</xr:ValueChange>
-														</xr:Link>
-														<xr:Link>
-															<xr:Name>Отбор.Организация</xr:Name>
-															<xr:DataPath xsi:type="xs:string">1/0:2b813188-1ee3-4827-8eef-2c5e6b29133a</xr:DataPath>
-															<xr:ValueChange>Clear</xr:ValueChange>
-														</xr:Link>
-													</ChoiceParameterLinks>
 													<ContextMenu name="РасшифровкаПлатежаДоговорКонтрагентаКонтекстноеМеню" id="792"/>
 													<ExtendedTooltip name="РасшифровкаПлатежаДоговорКонтрагентаРасширеннаяПодсказка" id="793">
 														<Title formatted="true">
@@ -1052,23 +1050,6 @@
 													</ExtendedTooltip>
 												</InputField>
 												<InputField name="РасшифровкаПлатежаСчетНаОплату" id="941">
-													<ChoiceParameterLinks>
-														<xr:Link>
-															<xr:Name>Отбор.Контрагент</xr:Name>
-															<xr:DataPath xsi:type="xs:string">1/0:288ffbe0-8623-4ecf-985a-cb43625a86c4</xr:DataPath>
-															<xr:ValueChange>Clear</xr:ValueChange>
-														</xr:Link>
-														<xr:Link>
-															<xr:Name>Отбор.Организация</xr:Name>
-															<xr:DataPath xsi:type="xs:string">1/0:2b813188-1ee3-4827-8eef-2c5e6b29133a</xr:DataPath>
-															<xr:ValueChange>Clear</xr:ValueChange>
-														</xr:Link>
-														<xr:Link>
-															<xr:Name>Отбор.ДоговорКонтрагента</xr:Name>
-															<xr:DataPath xsi:type="xs:string">44</xr:DataPath>
-															<xr:ValueChange>Clear</xr:ValueChange>
-														</xr:Link>
-													</ChoiceParameterLinks>
 													<ContextMenu name="РасшифровкаПлатежаСчетНаОплатуКонтекстноеМеню" id="942"/>
 													<ExtendedTooltip name="РасшифровкаПлатежаСчетНаОплатуРасширеннаяПодсказка" id="943"/>
 												</InputField>
@@ -1091,6 +1072,7 @@
 														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаРасчетыВУЕРасширеннаяПодсказка" id="966"/>
@@ -1116,6 +1098,7 @@
 																</v8:item>
 															</Title>
 															<Group>Horizontal</Group>
+															<Behavior>Usual</Behavior>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="ГруппаСуммаВзаиморасчетовРасширеннаяПодсказка" id="804"/>
@@ -1152,18 +1135,6 @@
 												<InputField name="РасшифровкаПлатежаБНФОДоговорКредитаДепозита" id="1048">
 													<Visible>false</Visible>
 													<AutoMarkIncomplete>true</AutoMarkIncomplete>
-													<ChoiceParameterLinks>
-														<xr:Link>
-															<xr:Name>Контрагент</xr:Name>
-															<xr:DataPath xsi:type="xs:string">1/0:288ffbe0-8623-4ecf-985a-cb43625a86c4</xr:DataPath>
-															<xr:ValueChange>Clear</xr:ValueChange>
-														</xr:Link>
-														<xr:Link>
-															<xr:Name>Отбор.Организация</xr:Name>
-															<xr:DataPath xsi:type="xs:string">1/0:2b813188-1ee3-4827-8eef-2c5e6b29133a</xr:DataPath>
-															<xr:ValueChange>Clear</xr:ValueChange>
-														</xr:Link>
-													</ChoiceParameterLinks>
 													<ChoiceParameters>
 														<app:item name="Отбор.ФормаОплаты">
 															<app:value xsi:type="FormChoiceListDesTimeValue">
@@ -1186,6 +1157,7 @@
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаСтатьяДДСРасширеннаяПодсказка" id="1032"/>
@@ -1228,6 +1200,7 @@
 										</v8:item>
 									</ToolTip>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<United>false</United>
 									<ShowTitle>false</ShowTitle>
@@ -1241,6 +1214,7 @@
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаПравоОбъединеннаяРасширеннаяПодсказка" id="964"/>
@@ -1259,6 +1233,7 @@
 														</v8:item>
 													</ToolTip>
 													<Group>Horizontal</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаСчетаРасчетовРасширеннаяПодсказка" id="817"/>
@@ -1326,6 +1301,7 @@
 															<v8:content>Аналитика платежа: дополнительно</v8:content>
 														</v8:item>
 													</Title>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаАналитикаПлатежаДополнительноСтраницыРасширеннаяПодсказка" id="825"/>
@@ -1338,6 +1314,7 @@
 																</v8:item>
 															</Title>
 															<Group>Vertical</Group>
+															<Behavior>Usual</Behavior>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="ГруппаПогашениеЗадолженностиРасширеннаяПодсказка" id="827"/>
@@ -1357,6 +1334,7 @@
 																		</v8:item>
 																	</Title>
 																	<Group>Horizontal</Group>
+																	<Behavior>Usual</Behavior>
 																	<Representation>None</Representation>
 																	<ShowTitle>false</ShowTitle>
 																	<ExtendedTooltip name="ГруппаСделкаРасширеннаяПодсказка" id="834"/>
@@ -1369,13 +1347,6 @@
 																				</v8:item>
 																			</Title>
 																			<AutoMarkIncomplete>true</AutoMarkIncomplete>
-																			<ChoiceParameterLinks>
-																				<xr:Link>
-																					<xr:Name>Отбор.Организация</xr:Name>
-																					<xr:DataPath xsi:type="xs:string">1/0:2b813188-1ee3-4827-8eef-2c5e6b29133a</xr:DataPath>
-																					<xr:ValueChange>Clear</xr:ValueChange>
-																				</xr:Link>
-																			</ChoiceParameterLinks>
 																			<ContextMenu name="РасшифровкаПлатежаСделкаКонтекстноеМеню" id="839"/>
 																			<ExtendedTooltip name="РасшифровкаПлатежаСделкаРасширеннаяПодсказка" id="840"/>
 																		</InputField>
@@ -1384,7 +1355,6 @@
 															</ChildItems>
 														</UsualGroup>
 														<UsualGroup name="ГруппаОтражениеВУСНРасшифровкаПлатежа" id="846">
-															<Visible>false</Visible>
 															<Title>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
@@ -1392,10 +1362,43 @@
 																</v8:item>
 															</Title>
 															<Group>Vertical</Group>
+															<Behavior>Usual</Behavior>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="ГруппаОтражениеВУСНРасшифровкаПлатежаРасширеннаяПодсказка" id="847"/>
 															<ChildItems>
+																<InputField name="РасшифровкаПлатежаОтражениеВУСН" id="1206">
+																	<ListChoiceMode>true</ListChoiceMode>
+																	<AutoMarkIncomplete>true</AutoMarkIncomplete>
+																	<ChoiceList>
+																		<xr:Item>
+																			<xr:Presentation/>
+																			<xr:CheckState>0</xr:CheckState>
+																			<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																				<Presentation/>
+																				<Value xsi:type="xr:DesignTimeRef">Enum.ОтражениеВУСН.EnumValue.Принимаются</Value>
+																			</xr:Value>
+																		</xr:Item>
+																		<xr:Item>
+																			<xr:Presentation/>
+																			<xr:CheckState>0</xr:CheckState>
+																			<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																				<Presentation/>
+																				<Value xsi:type="xr:DesignTimeRef">Enum.ОтражениеВУСН.EnumValue.НеПринимаются</Value>
+																			</xr:Value>
+																		</xr:Item>
+																		<xr:Item>
+																			<xr:Presentation/>
+																			<xr:CheckState>0</xr:CheckState>
+																			<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																				<Presentation/>
+																				<Value xsi:type="xr:DesignTimeRef">Enum.ОтражениеВУСН.EnumValue.Распределяются</Value>
+																			</xr:Value>
+																		</xr:Item>
+																	</ChoiceList>
+																	<ContextMenu name="РасшифровкаПлатежаОтражениеВУСНКонтекстноеМеню" id="1223"/>
+																	<ExtendedTooltip name="РасшифровкаПлатежаОтражениеВУСНРасширеннаяПодсказка" id="1224"/>
+																</InputField>
 																<UsualGroup name="ГруппаРасходыУСН" id="848">
 																	<Title>
 																		<v8:item>
@@ -1404,6 +1407,7 @@
 																		</v8:item>
 																	</Title>
 																	<Group>Horizontal</Group>
+																	<Behavior>Usual</Behavior>
 																	<Representation>None</Representation>
 																	<ShowTitle>false</ShowTitle>
 																	<ExtendedTooltip name="ГруппаРасходыУСНРасширеннаяПодсказка" id="849"/>
@@ -1411,6 +1415,7 @@
 																		<InputField name="РасшифровкаПлатежаРасходыУСН" id="850">
 																			<Width>12</Width>
 																			<HorizontalStretch>false</HorizontalStretch>
+																			<AutoMarkIncomplete>true</AutoMarkIncomplete>
 																			<ContextMenu name="РасшифровкаПлатежаРасходыУСНКонтекстноеМеню" id="851"/>
 																			<ExtendedTooltip name="РасшифровкаПлатежаРасходыУСНРасширеннаяПодсказка" id="852"/>
 																		</InputField>
@@ -1419,69 +1424,6 @@
 																			<HorizontalStretch>false</HorizontalStretch>
 																			<ContextMenu name="РасшифровкаПлатежаНДСУСНКонтекстноеМеню" id="854"/>
 																			<ExtendedTooltip name="РасшифровкаПлатежаНДСУСНРасширеннаяПодсказка" id="855"/>
-																		</InputField>
-																	</ChildItems>
-																</UsualGroup>
-																<UsualGroup name="ГруппаРаспределятьРасходыУСНРасшифровкаПлатежа" id="858">
-																	<Title>
-																		<v8:item>
-																			<v8:lang>ru</v8:lang>
-																			<v8:content>Распределять расходы УСН</v8:content>
-																		</v8:item>
-																	</Title>
-																	<Group>Vertical</Group>
-																	<Representation>None</Representation>
-																	<ShowTitle>false</ShowTitle>
-																	<ExtendedTooltip name="ГруппаРаспределятьРасходыУСНРасшифровкаПлатежаРасширеннаяПодсказка" id="859"/>
-																	<ChildItems>
-																		<InputField name="РасшифровкаПлатежаРаспределятьРасходыУСН" id="860">
-																			<Title>
-																				<v8:item>
-																					<v8:lang>ru</v8:lang>
-																					<v8:content>Распределять  УСН  /  ЕНВД</v8:content>
-																				</v8:item>
-																			</Title>
-																			<TitleLocation>Left</TitleLocation>
-																			<TitleHeight>2</TitleHeight>
-																			<HorizontalStretch>true</HorizontalStretch>
-																			<ListChoiceMode>true</ListChoiceMode>
-																			<EditFormat>
-																				<v8:item>
-																					<v8:lang>ru</v8:lang>
-																					<v8:content>БЛ=Принимаются; БИ='Распределяются (УСН/ЕНВД)'</v8:content>
-																				</v8:item>
-																			</EditFormat>
-																			<ChoiceList>
-																				<xr:Item>
-																					<xr:Presentation/>
-																					<xr:CheckState>0</xr:CheckState>
-																					<xr:Value xsi:type="FormChoiceListDesTimeValue">
-																						<Presentation>
-																							<v8:item>
-																								<v8:lang>ru</v8:lang>
-																								<v8:content>Принимаются</v8:content>
-																							</v8:item>
-																						</Presentation>
-																						<Value xsi:type="xs:boolean">false</Value>
-																					</xr:Value>
-																				</xr:Item>
-																				<xr:Item>
-																					<xr:Presentation/>
-																					<xr:CheckState>0</xr:CheckState>
-																					<xr:Value xsi:type="FormChoiceListDesTimeValue">
-																						<Presentation>
-																							<v8:item>
-																								<v8:lang>ru</v8:lang>
-																								<v8:content>Распределяются (УСН/ЕНВД)</v8:content>
-																							</v8:item>
-																						</Presentation>
-																						<Value xsi:type="xs:boolean">true</Value>
-																					</xr:Value>
-																				</xr:Item>
-																			</ChoiceList>
-																			<ChoiceHistoryOnInput>DontUse</ChoiceHistoryOnInput>
-																			<ContextMenu name="РасшифровкаПлатежаРаспределятьРасходыУСНКонтекстноеМеню" id="861"/>
-																			<ExtendedTooltip name="РасшифровкаПлатежаРаспределятьРасходыУСНРасширеннаяПодсказка" id="862"/>
 																		</InputField>
 																	</ChildItems>
 																</UsualGroup>
@@ -1506,6 +1448,7 @@
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаПереводНаДругойСчетExtendedTooltip" id="548"/>
@@ -1513,13 +1456,6 @@
 						<InputField name="ВторойСчетОрганизации" id="777">
 							<DataPath>Объект.СчетКонтрагента</DataPath>
 							<EditMode>EnterOnInput</EditMode>
-							<ChoiceParameterLinks>
-								<xr:Link>
-									<xr:Name>Отбор.Владелец</xr:Name>
-									<xr:DataPath xsi:type="xs:string">4</xr:DataPath>
-									<xr:ValueChange>Clear</xr:ValueChange>
-								</xr:Link>
-							</ChoiceParameterLinks>
 							<ContextMenu name="ВторойСчетОрганизацииКонтекстноеМеню" id="778"/>
 							<ExtendedTooltip name="ВторойСчетОрганизацииРасширеннаяПодсказка" id="779"/>
 						</InputField>
@@ -1553,6 +1489,7 @@
 						</v8:item>
 					</Title>
 					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаПеречислениеЗарплатыExtendedTooltip" id="556"/>
@@ -1565,6 +1502,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<United>false</United>
 							<ExtendedTooltip name="ГруппаВыплатаЗарплатыОперацииExtendedTooltip" id="558"/>
 							<ChildItems>
@@ -1576,6 +1514,7 @@
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаВыплатаЗарплатыПоВедомостямExtendedTooltip" id="560"/>
@@ -1594,13 +1533,6 @@
 											<OpenButton>true</OpenButton>
 											<AutoMarkIncomplete>true</AutoMarkIncomplete>
 											<ChooseType>false</ChooseType>
-											<ChoiceParameterLinks>
-												<xr:Link>
-													<xr:Name>Отбор.Организация</xr:Name>
-													<xr:DataPath xsi:type="xs:string">1/0:2b813188-1ee3-4827-8eef-2c5e6b29133a</xr:DataPath>
-													<xr:ValueChange>Clear</xr:ValueChange>
-												</xr:Link>
-											</ChoiceParameterLinks>
 											<ContextMenu name="ПеречислениеЗаработнойПлатыВедомостьКонтекстноеМеню" id="314"/>
 											<ExtendedTooltip name="ПеречислениеЗаработнойПлатыВедомостьExtendedTooltip" id="563"/>
 										</InputField>
@@ -1635,6 +1567,7 @@
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаВыплатаЗарплатыПоОдномуРаботникуExtendedTooltip" id="566"/>
@@ -1687,6 +1620,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<United>false</United>
 							<ExtendedTooltip name="ГруппаЗадержкаЗарплатыExtendedTooltip" id="570"/>
 							<ChildItems>
@@ -1698,6 +1632,7 @@
 										</v8:item>
 									</Title>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаЗадержкаЗарплатыСубконтоРасширеннаяПодсказка" id="970"/>
@@ -1710,6 +1645,7 @@
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<United>false</United>
 											<ShowTitle>false</ShowTitle>
@@ -1767,6 +1703,7 @@
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаСтатьяДвиженияДенежныхСредствРасширеннаяПодсказка" id="927"/>
@@ -1802,6 +1739,7 @@
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаПлатежПрочиеExtendedTooltip" id="586"/>
@@ -1814,6 +1752,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<ExtendedTooltip name="ГруппаОтражениеВБУРасширеннаяПодсказка" id="682"/>
 							<ChildItems>
 								<UsualGroup name="ГруппаПоляСчетСубконтоПрочие" id="129">
@@ -1824,6 +1763,7 @@
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<United>false</United>
 									<ShowTitle>false</ShowTitle>
@@ -1903,6 +1843,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<ExtendedTooltip name="БНФОГруппаОтражениеВБУРасширеннаяПодсказка" id="1052"/>
 							<ChildItems>
 								<UsualGroup name="БНФОГруппаПоляСчетСубконтоПрочие" id="1053">
@@ -1919,6 +1860,7 @@
 										</v8:item>
 									</ToolTip>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<United>false</United>
 									<ShowTitle>false</ShowTitle>
@@ -1992,6 +1934,7 @@
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаВыплатаДепонентовExtendedTooltip" id="616"/>
@@ -2009,13 +1952,6 @@
 							<ChoiceButtonRepresentation>ShowInDropList</ChoiceButtonRepresentation>
 							<OpenButton>true</OpenButton>
 							<ChooseType>false</ChooseType>
-							<ChoiceParameterLinks>
-								<xr:Link>
-									<xr:Name>Отбор.Организация</xr:Name>
-									<xr:DataPath xsi:type="xs:string">1/0:2b813188-1ee3-4827-8eef-2c5e6b29133a</xr:DataPath>
-									<xr:ValueChange>Clear</xr:ValueChange>
-								</xr:Link>
-							</ChoiceParameterLinks>
 							<ContextMenu name="ПеречислениеДепонентовВедомостьКонтекстноеМеню" id="493"/>
 							<ExtendedTooltip name="ПеречислениеДепонентовВедомостьExtendedTooltip" id="624"/>
 						</InputField>
@@ -2049,12 +1985,14 @@
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаСнятиеНаличныхРасширеннаяПодсказка" id="945"/>
 					<ChildItems>
 						<UsualGroup name="ГруппаСнятиеНаличныхСтатьяДДС" id="957">
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>NormalSeparation</Representation>
 							<ExtendedTooltip name="ГруппаСнятиеНаличныхСтатьяДДСРасширеннаяПодсказка" id="958"/>
 							<ChildItems>
@@ -2089,6 +2027,7 @@
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаБезЗакрывающихДокументовРасширеннаяПодсказка" id="997"/>
@@ -2126,6 +2065,7 @@
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаВыплатаДивидендовРасширеннаяПодсказка" id="1020"/>
@@ -2164,6 +2104,7 @@
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаВыплатаПоДоговоруПодрядаРасширеннаяПодсказка" id="1180"/>
@@ -2207,6 +2148,159 @@
 						</InputField>
 					</ChildItems>
 				</UsualGroup>
+				<UsualGroup name="ГруппаВыплатыСамозанятым" id="1187">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выплаты самозанятым</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаВыплатыСамозанятымРасширеннаяПодсказка" id="1221"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаРеестр" id="1191">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Реестр</v8:content>
+								</v8:item>
+							</Title>
+							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаРеестрРасширеннаяПодсказка" id="1225"/>
+							<ChildItems>
+								<InputField name="РеестрВыплатСамозанятым" id="1209">
+									<DataPath>Объект.РеестрВыплатСамозанятым</DataPath>
+									<ContextMenu name="РеестрВыплатСамозанятымКонтекстноеМеню" id="1229"/>
+									<ExtendedTooltip name="РеестрВыплатСамозанятымРасширеннаяПодсказка" id="1230"/>
+								</InputField>
+								<LabelField name="СтатусЗагрузкиЧеков" id="1214">
+									<TitleLocation>None</TitleLocation>
+									<Width>15</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<Hiperlink>true</Hiperlink>
+									<ContextMenu name="СтатусЗагрузкиЧековКонтекстноеМеню" id="1231"/>
+									<ExtendedTooltip name="СтатусЗагрузкиЧековРасширеннаяПодсказка" id="1232"/>
+								</LabelField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаЧекиСамозанятых" id="1195">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Чеки самозанятых</v8:content>
+								</v8:item>
+							</Title>
+							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<BackColor>style:БыстрыеОтборыФонГруппы</BackColor>
+							<ExtendedTooltip name="ГруппаЧекиСамозанятыхРасширеннаяПодсказка" id="1226"/>
+							<ChildItems>
+								<LabelDecoration name="ДекорацияЧекиСамозанятых" id="1197">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Чеки самозанятых:</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ДекорацияЧекиСамозанятыхКонтекстноеМеню" id="1233"/>
+									<ExtendedTooltip name="ДекорацияЧекиСамозанятыхРасширеннаяПодсказка" id="1234"/>
+								</LabelDecoration>
+								<Button name="ЗагрузитьЧекиИзФайла" id="1200">
+									<Type>UsualButton</Type>
+									<CommandName>0</CommandName>
+									<ToolTipRepresentation>Button</ToolTipRepresentation>
+									<ExtendedTooltip name="ЗагрузитьЧекиИзФайлаРасширеннаяПодсказка" id="1235">
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Для корректного отражения в учете загрузите файл с реестром чеков самозанятых.
+Обычно этот файл предоставляет банк вместе с выпиской.</v8:content>
+											</v8:item>
+										</Title>
+									</ExtendedTooltip>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<InputField name="СтатьяДвиженияДенежныхСредствВыплатыСамозанятым" id="1217">
+							<DataPath>Объект.СтатьяДвиженияДенежныхСредств</DataPath>
+							<ToolTipRepresentation>Button</ToolTipRepresentation>
+							<ContextMenu name="СтатьяДвиженияДенежныхСредствВыплатыСамозанятымКонтекстноеМеню" id="1227"/>
+							<ExtendedTooltip name="СтатьяДвиженияДенежныхСредствВыплатыСамозанятымРасширеннаяПодсказка" id="1228">
+								<Title formatted="true">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Настроить автоматическое заполнение поля можно в справочнике &lt;link e1cib/list/Справочник.СтатьиДвиженияДенежныхСредств&gt;Статьи движения денежных средств&lt;/&gt;</v8:content>
+									</v8:item>
+								</Title>
+							</ExtendedTooltip>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаПеречислениеПоИсполнительномуЛистуРаботника" id="1189">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Перечисление по исполнительному листу работника</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаПеречислениеПоИсполнительномуЛистуРаботникаРасширеннаяПодсказка" id="1222"/>
+					<ChildItems>
+						<InputField name="Сотрудник" id="1212">
+							<DataPath>Объект.Сотрудник</DataPath>
+							<ContextMenu name="СотрудникКонтекстноеМеню" id="1111"/>
+							<ExtendedTooltip name="СотрудникРасширеннаяПодсказка" id="1236"/>
+						</InputField>
+						<InputField name="ИсполнительныйЛист" id="1113">
+							<DataPath>Объект.ИсполнительныйЛист</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Основание</v8:content>
+								</v8:item>
+							</Title>
+							<InputHint>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Исполнительный лист</v8:content>
+								</v8:item>
+							</InputHint>
+							<ContextMenu name="ИсполнительныйЛистКонтекстноеМеню" id="1237"/>
+							<ExtendedTooltip name="ИсполнительныйЛистРасширеннаяПодсказка" id="1115"/>
+						</InputField>
+						<InputField name="СтатьяДвиженияДенежныхСредствПеречислениеПоИсполнительномуЛистуРаботника" id="1116">
+							<DataPath>Объект.СтатьяДвиженияДенежныхСредств</DataPath>
+							<TitleLocation>Left</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Статья движения денег</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ToolTipRepresentation>Button</ToolTipRepresentation>
+							<ContextMenu name="СтатьяДвиженияДенежныхСредствПеречислениеПоИсполнительномуЛистуРаботникаКонтекстноеМеню" id="1238"/>
+							<ExtendedTooltip name="СтатьяДвиженияДенежныхСредствПеречислениеПоИсполнительномуЛистуРаботникаРасширеннаяПодсказка" id="1118">
+								<Title formatted="true">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Настроить автоматическое заполнение поля можно в справочнике &lt;link e1cib/list/Справочник.СтатьиДвиженияДенежныхСредств&gt;Статьи движения денежных средств&lt;/&gt;</v8:content>
+									</v8:item>
+								</Title>
+							</ExtendedTooltip>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="ГруппаОтражениеВУСН" id="683">
@@ -2218,123 +2312,108 @@
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<ShowTitle>false</ShowTitle>
 			<ThroughAlign>Use</ThroughAlign>
 			<ExtendedTooltip name="ГруппаОтражениеВУСНExtendedTooltip" id="684"/>
 			<ChildItems>
-				<UsualGroup name="ГруппаНастройкаКУДиР" id="689">
+				<InputField name="ОтражениеВУСН" id="1203">
+					<DataPath>Объект.ОтражениеВУСН</DataPath>
+					<ListChoiceMode>true</ListChoiceMode>
+					<ChoiceList>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation/>
+								<Value xsi:type="xr:DesignTimeRef">Enum.ОтражениеВУСН.EnumValue.Принимаются</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation/>
+								<Value xsi:type="xr:DesignTimeRef">Enum.ОтражениеВУСН.EnumValue.НеПринимаются</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation/>
+								<Value xsi:type="xr:DesignTimeRef">Enum.ОтражениеВУСН.EnumValue.Распределяются</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Принимаются частично</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xr:DesignTimeRef">Enum.ОтражениеВУСН.EmptyRef</Value>
+							</xr:Value>
+						</xr:Item>
+					</ChoiceList>
+					<ContextMenu name="ОтражениеВУСНКонтекстноеМеню" id="1239"/>
+					<ExtendedTooltip name="ОтражениеВУСНРасширеннаяПодсказка" id="1240"/>
+				</InputField>
+				<UsualGroup name="ГруппаСуммыРасходовУСН" id="1193">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Настройка КУДиР</v8:content>
+							<v8:content>Суммы расходов УСН</v8:content>
 						</v8:item>
 					</Title>
-					<Group>Vertical</Group>
+					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="ГруппаНастройкаКУДиРExtendedTooltip" id="690"/>
+					<ExtendedTooltip name="ГруппаСуммыРасходовУСНРасширеннаяПодсказка" id="1241"/>
 					<ChildItems>
-						<UsualGroup name="ГруппаРасходы" id="691">
+						<InputField name="РасходыУСН" id="693">
+							<DataPath>Объект.Графа7_УСН</DataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Раходы</v8:content>
+									<v8:content>Сумма расходов</v8:content>
 								</v8:item>
 							</Title>
-							<Group>Horizontal</Group>
-							<Representation>None</Representation>
-							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="ГруппаРасходыExtendedTooltip" id="692"/>
-							<ChildItems>
-								<InputField name="РасходыУСН" id="693">
-									<DataPath>Объект.Графа7_УСН</DataPath>
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Расходы УСН</v8:content>
-										</v8:item>
-									</Title>
-									<Width>16</Width>
-									<EditFormat>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>ЧЦ=15; ЧДЦ=2; ЧРД=,; ЧРГ=' '; ЧГ=3,0</v8:content>
-										</v8:item>
-									</EditFormat>
-									<MinValue xsi:type="xs:decimal">0</MinValue>
-									<ContextMenu name="РасходыУСНКонтекстноеМеню" id="694"/>
-									<ExtendedTooltip name="РасходыУСНExtendedTooltip" id="695"/>
-								</InputField>
-								<LabelField name="ВалютаРасходовУСН" id="923">
-									<TitleLocation>None</TitleLocation>
-									<Width>3</Width>
-									<HorizontalStretch>false</HorizontalStretch>
-									<ContextMenu name="ВалютаРасходовУСНКонтекстноеМеню" id="924"/>
-									<ExtendedTooltip name="ВалютаРасходовУСНРасширеннаяПодсказка" id="925"/>
-								</LabelField>
-								<InputField name="НДСУСН" id="699">
-									<DataPath>Объект.НДС_УСН</DataPath>
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>в т.ч. НДС</v8:content>
-										</v8:item>
-									</Title>
-									<ContextMenu name="НДСУСНКонтекстноеМеню" id="700"/>
-									<ExtendedTooltip name="НДСУСНExtendedTooltip" id="701"/>
-								</InputField>
-							</ChildItems>
-						</UsualGroup>
-						<LabelField name="ТекстРасходыУСН" id="702">
+							<Width>16</Width>
+							<HorizontalStretch>false</HorizontalStretch>
+							<EditFormat>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧЦ=15; ЧДЦ=2; ЧРД=,; ЧРГ=' '; ЧГ=3,0</v8:content>
+								</v8:item>
+							</EditFormat>
+							<AutoMarkIncomplete>true</AutoMarkIncomplete>
+							<MinValue xsi:type="xs:decimal">0</MinValue>
+							<ContextMenu name="РасходыУСНКонтекстноеМеню" id="694"/>
+							<ExtendedTooltip name="РасходыУСНExtendedTooltip" id="695"/>
+						</InputField>
+						<InputField name="НДСУСН" id="699">
+							<DataPath>Объект.НДС_УСН</DataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Текст УСН</v8:content>
+									<v8:content>в т.ч. НДС</v8:content>
 								</v8:item>
 							</Title>
-							<TitleTextColor>style:FormBackColor</TitleTextColor>
-							<AutoMaxWidth>false</AutoMaxWidth>
-							<MaxWidth>95</MaxWidth>
-							<TextColor>style:ТекстИнформационнойНадписи</TextColor>
-							<ContextMenu name="ТекстРасходыУСНКонтекстноеМеню" id="703"/>
-							<ExtendedTooltip name="ТекстРасходыУСНРасширеннаяПодсказка" id="704"/>
-						</LabelField>
-						<UsualGroup name="ГруппаРаспределятьРасходУСН" id="921">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Распределять между УСН и ЕНВД</v8:content>
-								</v8:item>
-							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа распределять расход УСН</v8:content>
-								</v8:item>
-							</ToolTip>
-							<Group>Horizontal</Group>
-							<Representation>None</Representation>
-							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="ГруппаРаспределятьРасходУСНРасширеннаяПодсказка" id="922"/>
-							<ChildItems>
-								<CheckBoxField name="РаспределятьРасходУСН" id="705">
-									<DataPath>Объект.РасходыЕНВД_УСН</DataPath>
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Распределять между УСН и ЕНВД</v8:content>
-										</v8:item>
-									</Title>
-									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
-									<ContextMenu name="РаспределятьРасходУСНКонтекстноеМеню" id="706"/>
-									<ExtendedTooltip name="РаспределятьРасходУСНExtendedTooltip" id="707"/>
-								</CheckBoxField>
-							</ChildItems>
-						</UsualGroup>
+							<Width>10</Width>
+							<HorizontalStretch>false</HorizontalStretch>
+							<ContextMenu name="НДСУСНКонтекстноеМеню" id="700"/>
+							<ExtendedTooltip name="НДСУСНExtendedTooltip" id="701"/>
+						</InputField>
 					</ChildItems>
 				</UsualGroup>
 				<InputField name="СодержаниеУСН" id="708">
 					<DataPath>Объект.Содержание_УСН</DataPath>
+					<Visible>false</Visible>
 					<TitleLocation>Left</TitleLocation>
 					<TitleHeight>2</TitleHeight>
 					<AutoMaxWidth>false</AutoMaxWidth>
@@ -2355,6 +2434,7 @@
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаПодвалExtendedTooltip" id="628"/>
@@ -2401,6 +2481,7 @@
 						</v8:item>
 					</Title>
 					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаПодтверждениеБанкаExtendedTooltip" id="630"/>
@@ -2511,6 +2592,7 @@
 						</v8:item>
 					</Title>
 					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаКомментарийРасширеннаяПодсказка" id="639"/>
@@ -2545,10 +2627,12 @@
 				<Field>Объект.ДанныеАвтозаполнения</Field>
 				<Field>Объект.ИзмененияАвтозаполнения</Field>
 				<Field>Объект.ПеречислениеЗаработнойПлаты.УдалитьВедомость</Field>
+				<Field>Объект.РасшифровкаПлатежа.УдалитьРаспределятьРасходыУСН</Field>
 				<Field>Объект.РеквизитыКонтрагента</Field>
 				<Field>Объект.РеквизитыКонтрагента.LineNumber</Field>
 				<Field>Объект.РеквизитыКонтрагента.Представление</Field>
 				<Field>Объект.РеквизитыКонтрагента.ТипКонтрагента</Field>
+				<Field>Объект.УдалитьРасходыЕНВД_УСН</Field>
 				<Field>Объект.УдалитьРучнаяНастройка_УСН</Field>
 				<Field>Объект.УдалитьФизЛицо</Field>
 			</UseAlways>
@@ -2557,7 +2641,7 @@
 			</Columns>
 		</Attribute>
 	</Attributes>
-	<BaseForm version="2.11">
+	<BaseForm version="2.14">
 		<AutoTime>CurrentOrLast</AutoTime>
 		<UsePostingMode>Auto</UsePostingMode>
 		<RepostOnWrite>true</RepostOnWrite>
@@ -2719,9 +2803,10 @@
 					</v8:item>
 				</Title>
 				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
 				<Representation>NormalSeparation</Representation>
 				<ShowTitle>false</ShowTitle>
-				<BackColor>style:ЦветФонаНекорректногоКонтрагентаВДокументе</BackColor>
+				<BackColor>style:ЦветФонаНекорректногоЗначенияБИП</BackColor>
 				<ExtendedTooltip name="ПредупреждениеОЗаполненииРеквизитовСчетаРасширеннаяПодсказка" id="953"/>
 				<ChildItems>
 					<LabelField name="РеквизитыОрганизацииСсылка" id="954">
@@ -2743,9 +2828,10 @@
 				<HorizontalStretch>true</HorizontalStretch>
 				<Group>Horizontal</Group>
 				<VerticalAlign>Top</VerticalAlign>
+				<Behavior>Usual</Behavior>
 				<Representation>NormalSeparation</Representation>
 				<ShowTitle>false</ShowTitle>
-				<BackColor>style:ЦветФонаНекорректногоКонтрагентаВДокументе</BackColor>
+				<BackColor>style:ЦветФонаНекорректногоЗначенияБИП</BackColor>
 				<ExtendedTooltip name="ГруппаПредупреждениеОбОшибкахЗагрузкиРасширеннаяПодсказка" id="1002"/>
 				<ChildItems>
 					<LabelDecoration name="ПредупреждениеОбОшибкахЗагрузки" id="1003">
@@ -2770,6 +2856,7 @@
 						<Group>Vertical</Group>
 						<HorizontalAlign>Right</HorizontalAlign>
 						<VerticalAlign>Top</VerticalAlign>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаСкрытьРасширеннаяПодсказка" id="1007"/>
@@ -2798,6 +2885,7 @@
 						<v8:content>Предупреждение о печати чека</v8:content>
 					</v8:item>
 				</ToolTip>
+				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<BackColor>style:БыстрыеОтборыФонГруппы</BackColor>
@@ -2839,6 +2927,7 @@
 					</v8:item>
 				</Title>
 				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ГруппаШапкаExtendedTooltip" id="499"/>
@@ -2851,6 +2940,7 @@
 							</v8:item>
 						</Title>
 						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<United>false</United>
 						<ShowTitle>false</ShowTitle>
@@ -2864,6 +2954,7 @@
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаНомерДатаExtendedTooltip" id="502"/>
@@ -2928,6 +3019,7 @@
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаНомерВхДатаВхExtendedTooltip" id="510"/>
@@ -2982,6 +3074,7 @@
 									</v8:item>
 								</Title>
 								<Group>Vertical</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<United>false</United>
 								<ShowTitle>false</ShowTitle>
@@ -2990,18 +3083,6 @@
 									<InputField name="ВидОперации" id="3">
 										<DataPath>Объект.ВидОперации</DataPath>
 										<EditMode>EnterOnInput</EditMode>
-										<ChoiceParameterLinks>
-											<xr:Link>
-												<xr:Name>Отбор.Организация</xr:Name>
-												<xr:DataPath xsi:type="xs:string">1</xr:DataPath>
-												<xr:ValueChange>DontChange</xr:ValueChange>
-											</xr:Link>
-											<xr:Link>
-												<xr:Name>Отбор.СчетОрганизации</xr:Name>
-												<xr:DataPath xsi:type="xs:string">1</xr:DataPath>
-												<xr:ValueChange>DontChange</xr:ValueChange>
-											</xr:Link>
-										</ChoiceParameterLinks>
 										<ContextMenu name="ВидОперацииКонтекстноеМеню" id="4"/>
 										<ExtendedTooltip name="ВидОперацииExtendedTooltip" id="501"/>
 									</InputField>
@@ -3060,6 +3141,7 @@
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаВидНалоговогоОбязательстваПериодРасширеннаяПодсказка" id="906"/>
@@ -3141,6 +3223,7 @@
 									</v8:item>
 								</Title>
 								<Group>AlwaysHorizontal</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаЧекНПДРасширеннаяПодсказка" id="1034"/>
@@ -3152,6 +3235,7 @@
 												<v8:content>Аннулировать чек НПД</v8:content>
 											</v8:item>
 										</Title>
+										<Behavior>Usual</Behavior>
 										<United>false</United>
 										<ShowTitle>false</ShowTitle>
 										<BackColor>style:БыстрыеОтборыФонГруппы</BackColor>
@@ -3205,6 +3289,7 @@
 												<v8:content>Ожидание данных</v8:content>
 											</v8:item>
 										</Title>
+										<Behavior>Usual</Behavior>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ОжиданиеДанныхРасширеннаяПодсказка" id="1043"/>
 										<ChildItems>
@@ -3247,6 +3332,7 @@
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаКонтрагентРасширеннаяПодсказка" id="1028"/>
@@ -3327,10 +3413,10 @@
 								<ContextMenu name="РегистрацияВНалоговомОрганеКонтекстноеМеню" id="978"/>
 								<ExtendedTooltip name="РегистрацияВНалоговомОрганеРасширеннаяПодсказка" id="979"/>
 							</InputField>
-							<InputField name="БНФОНазначениеПодотчетныхСредств" id="1076">
+							<InputField name="БНФОНазначениеПодотчетныхСредств" id="1119">
 								<DataPath>Объект.БНФОНазначениеПодотчетныхСредств</DataPath>
-								<ContextMenu name="БНФОНазначениеПодотчетныхСредствКонтекстноеМеню" id="1077"/>
-								<ExtendedTooltip name="БНФОНазначениеПодотчетныхСредствРасширеннаяПодсказка" id="1078"/>
+								<ContextMenu name="БНФОНазначениеПодотчетныхСредствКонтекстноеМеню" id="1120"/>
+								<ExtendedTooltip name="БНФОНазначениеПодотчетныхСредствРасширеннаяПодсказка" id="1121"/>
 							</InputField>
 							<UsualGroup name="ГруппаПорядокОтраженияБУ" id="913">
 								<EnableContentChange>true</EnableContentChange>
@@ -3341,6 +3427,7 @@
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаПорядокОтраженияБУРасширеннаяПодсказка" id="914"/>
@@ -3361,6 +3448,7 @@
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаСуммаДокументаВалютаДокументаExtendedTooltip" id="515"/>
@@ -3451,6 +3539,7 @@
 							</v8:item>
 						</Title>
 						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<United>false</United>
 						<ShowTitle>false</ShowTitle>
@@ -3482,22 +3571,22 @@
 								<ContextMenu name="ПодразделениеОрганизацииКонтекстноеМеню" id="15"/>
 								<ExtendedTooltip name="ПодразделениеОрганизацииExtendedTooltip" id="507"/>
 							</InputField>
-							<InputField name="БНФОСчетБанк" id="1079">
+							<InputField name="БНФОСчетБанк" id="1122">
 								<DataPath>Объект.СчетБанк</DataPath>
 								<EditMode>EnterOnInput</EditMode>
-								<ContextMenu name="БНФОСчетБанкКонтекстноеМеню" id="1080"/>
-								<ExtendedTooltip name="БНФОСчетБанкРасширеннаяПодсказка" id="1081"/>
+								<ContextMenu name="БНФОСчетБанкКонтекстноеМеню" id="1123"/>
+								<ExtendedTooltip name="БНФОСчетБанкРасширеннаяПодсказка" id="1124"/>
 							</InputField>
-							<InputField name="БНФОСчетУчетаНДСОплаченный" id="1082">
+							<InputField name="БНФОСчетУчетаНДСОплаченный" id="1125">
 								<DataPath>Объект.БНФОСчетУчетаНДСОплаченный</DataPath>
-								<ContextMenu name="БНФОСчетУчетаНДСОплаченныйКонтекстноеМеню" id="1083"/>
-								<ExtendedTooltip name="БНФОСчетУчетаНДСОплаченныйРасширеннаяПодсказка" id="1084"/>
+								<ContextMenu name="БНФОСчетУчетаНДСОплаченныйКонтекстноеМеню" id="1126"/>
+								<ExtendedTooltip name="БНФОСчетУчетаНДСОплаченныйРасширеннаяПодсказка" id="1127"/>
 							</InputField>
-							<InputField name="БНФОКонверсионныйДоговор" id="1085">
+							<InputField name="БНФОКонверсионныйДоговор" id="1128">
 								<DataPath>Объект.БНФОКонверсионныйДоговор</DataPath>
 								<Visible>false</Visible>
-								<ContextMenu name="БНФОКонверсионныйДоговорКонтекстноеМеню" id="1086"/>
-								<ExtendedTooltip name="БНФОКонверсионныйДоговорРасширеннаяПодсказка" id="1087"/>
+								<ContextMenu name="БНФОКонверсионныйДоговорКонтекстноеМеню" id="1129"/>
+								<ExtendedTooltip name="БНФОКонверсионныйДоговорРасширеннаяПодсказка" id="1130"/>
 							</InputField>
 						</ChildItems>
 					</UsualGroup>
@@ -3512,6 +3601,7 @@
 					</v8:item>
 				</Title>
 				<Group>Vertical</Group>
+				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ГруппаАналитикаРасширеннаяПодсказка" id="518"/>
@@ -3524,6 +3614,7 @@
 							</v8:item>
 						</Title>
 						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаРасчетыСКонтрагентамиExtendedTooltip" id="519"/>
@@ -3536,6 +3627,7 @@
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ChildItemsWidth>Equal</ChildItemsWidth>
 								<ShowTitle>false</ShowTitle>
@@ -3555,6 +3647,7 @@
 											</v8:item>
 										</ToolTip>
 										<Group>Vertical</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<United>false</United>
 										<ShowTitle>false</ShowTitle>
@@ -3568,6 +3661,7 @@
 													</v8:item>
 												</Title>
 												<Group>Vertical</Group>
+												<Behavior>Usual</Behavior>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
 												<ExtendedTooltip name="ГруппаЛевоОбъединеннаяРасширеннаяПодсказка" id="962"/>
@@ -3576,18 +3670,6 @@
 														<ToolTipRepresentation>Button</ToolTipRepresentation>
 														<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 														<AutoMarkIncomplete>true</AutoMarkIncomplete>
-														<ChoiceParameterLinks>
-															<xr:Link>
-																<xr:Name>Отбор.Владелец</xr:Name>
-																<xr:DataPath xsi:type="xs:string">1/0:288ffbe0-8623-4ecf-985a-cb43625a86c4</xr:DataPath>
-																<xr:ValueChange>Clear</xr:ValueChange>
-															</xr:Link>
-															<xr:Link>
-																<xr:Name>Отбор.Организация</xr:Name>
-																<xr:DataPath xsi:type="xs:string">1/0:2b813188-1ee3-4827-8eef-2c5e6b29133a</xr:DataPath>
-																<xr:ValueChange>Clear</xr:ValueChange>
-															</xr:Link>
-														</ChoiceParameterLinks>
 														<ContextMenu name="РасшифровкаПлатежаДоговорКонтрагентаКонтекстноеМеню" id="792"/>
 														<ExtendedTooltip name="РасшифровкаПлатежаДоговорКонтрагентаРасширеннаяПодсказка" id="793">
 															<Title formatted="true">
@@ -3599,23 +3681,6 @@
 														</ExtendedTooltip>
 													</InputField>
 													<InputField name="РасшифровкаПлатежаСчетНаОплату" id="941">
-														<ChoiceParameterLinks>
-															<xr:Link>
-																<xr:Name>Отбор.Контрагент</xr:Name>
-																<xr:DataPath xsi:type="xs:string">1/0:288ffbe0-8623-4ecf-985a-cb43625a86c4</xr:DataPath>
-																<xr:ValueChange>Clear</xr:ValueChange>
-															</xr:Link>
-															<xr:Link>
-																<xr:Name>Отбор.Организация</xr:Name>
-																<xr:DataPath xsi:type="xs:string">1/0:2b813188-1ee3-4827-8eef-2c5e6b29133a</xr:DataPath>
-																<xr:ValueChange>Clear</xr:ValueChange>
-															</xr:Link>
-															<xr:Link>
-																<xr:Name>Отбор.ДоговорКонтрагента</xr:Name>
-																<xr:DataPath xsi:type="xs:string">44</xr:DataPath>
-																<xr:ValueChange>Clear</xr:ValueChange>
-															</xr:Link>
-														</ChoiceParameterLinks>
 														<ContextMenu name="РасшифровкаПлатежаСчетНаОплатуКонтекстноеМеню" id="942"/>
 														<ExtendedTooltip name="РасшифровкаПлатежаСчетНаОплатуРасширеннаяПодсказка" id="943"/>
 													</InputField>
@@ -3638,6 +3703,7 @@
 															</v8:item>
 														</Title>
 														<Group>Vertical</Group>
+														<Behavior>Usual</Behavior>
 														<Representation>None</Representation>
 														<ShowTitle>false</ShowTitle>
 														<ExtendedTooltip name="ГруппаРасчетыВУЕРасширеннаяПодсказка" id="966"/>
@@ -3663,6 +3729,7 @@
 																	</v8:item>
 																</Title>
 																<Group>Horizontal</Group>
+																<Behavior>Usual</Behavior>
 																<Representation>None</Representation>
 																<ShowTitle>false</ShowTitle>
 																<ExtendedTooltip name="ГруппаСуммаВзаиморасчетовРасширеннаяПодсказка" id="804"/>
@@ -3696,21 +3763,9 @@
 														<ContextMenu name="РасшифровкаПлатежаВидПлатежаПоКредитамЗаймамКонтекстноеМеню" id="939"/>
 														<ExtendedTooltip name="РасшифровкаПлатежаВидПлатежаПоКредитамЗаймамРасширеннаяПодсказка" id="940"/>
 													</InputField>
-													<InputField name="РасшифровкаПлатежаБНФОДоговорКредитаДепозита" id="1088">
+													<InputField name="РасшифровкаПлатежаБНФОДоговорКредитаДепозита" id="1131">
 														<Visible>false</Visible>
 														<AutoMarkIncomplete>true</AutoMarkIncomplete>
-														<ChoiceParameterLinks>
-															<xr:Link>
-																<xr:Name>Контрагент</xr:Name>
-																<xr:DataPath xsi:type="xs:string">1/0:288ffbe0-8623-4ecf-985a-cb43625a86c4</xr:DataPath>
-																<xr:ValueChange>Clear</xr:ValueChange>
-															</xr:Link>
-															<xr:Link>
-																<xr:Name>Отбор.Организация</xr:Name>
-																<xr:DataPath xsi:type="xs:string">1/0:2b813188-1ee3-4827-8eef-2c5e6b29133a</xr:DataPath>
-																<xr:ValueChange>Clear</xr:ValueChange>
-															</xr:Link>
-														</ChoiceParameterLinks>
 														<ChoiceParameters>
 															<app:item name="Отбор.ФормаОплаты">
 																<app:value xsi:type="FormChoiceListDesTimeValue">
@@ -3720,8 +3775,8 @@
 															</app:item>
 														</ChoiceParameters>
 														<ChoiceListHeight>4</ChoiceListHeight>
-														<ContextMenu name="РасшифровкаПлатежаБНФОДоговорКредитаДепозитаКонтекстноеМеню" id="1089"/>
-														<ExtendedTooltip name="РасшифровкаПлатежаБНФОДоговорКредитаДепозитаРасширеннаяПодсказка" id="1090"/>
+														<ContextMenu name="РасшифровкаПлатежаБНФОДоговорКредитаДепозитаКонтекстноеМеню" id="1132"/>
+														<ExtendedTooltip name="РасшифровкаПлатежаБНФОДоговорКредитаДепозитаРасширеннаяПодсказка" id="1133"/>
 													</InputField>
 												</ChildItems>
 											</UsualGroup>
@@ -3733,6 +3788,7 @@
 													</v8:item>
 												</Title>
 												<Group>Vertical</Group>
+												<Behavior>Usual</Behavior>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
 												<ExtendedTooltip name="ГруппаСтатьяДДСРасширеннаяПодсказка" id="1032"/>
@@ -3775,6 +3831,7 @@
 											</v8:item>
 										</ToolTip>
 										<Group>Vertical</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<United>false</United>
 										<ShowTitle>false</ShowTitle>
@@ -3788,6 +3845,7 @@
 													</v8:item>
 												</Title>
 												<Group>Vertical</Group>
+												<Behavior>Usual</Behavior>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
 												<ExtendedTooltip name="ГруппаПравоОбъединеннаяРасширеннаяПодсказка" id="964"/>
@@ -3806,6 +3864,7 @@
 															</v8:item>
 														</ToolTip>
 														<Group>Horizontal</Group>
+														<Behavior>Usual</Behavior>
 														<Representation>None</Representation>
 														<ShowTitle>false</ShowTitle>
 														<ExtendedTooltip name="ГруппаСчетаРасчетовРасширеннаяПодсказка" id="817"/>
@@ -3873,6 +3932,7 @@
 																<v8:content>Аналитика платежа: дополнительно</v8:content>
 															</v8:item>
 														</Title>
+														<Behavior>Usual</Behavior>
 														<Representation>None</Representation>
 														<ShowTitle>false</ShowTitle>
 														<ExtendedTooltip name="ГруппаАналитикаПлатежаДополнительноСтраницыРасширеннаяПодсказка" id="825"/>
@@ -3885,6 +3945,7 @@
 																	</v8:item>
 																</Title>
 																<Group>Vertical</Group>
+																<Behavior>Usual</Behavior>
 																<Representation>None</Representation>
 																<ShowTitle>false</ShowTitle>
 																<ExtendedTooltip name="ГруппаПогашениеЗадолженностиРасширеннаяПодсказка" id="827"/>
@@ -3904,6 +3965,7 @@
 																			</v8:item>
 																		</Title>
 																		<Group>Horizontal</Group>
+																		<Behavior>Usual</Behavior>
 																		<Representation>None</Representation>
 																		<ShowTitle>false</ShowTitle>
 																		<ExtendedTooltip name="ГруппаСделкаРасширеннаяПодсказка" id="834"/>
@@ -3916,13 +3978,6 @@
 																					</v8:item>
 																				</Title>
 																				<AutoMarkIncomplete>true</AutoMarkIncomplete>
-																				<ChoiceParameterLinks>
-																					<xr:Link>
-																						<xr:Name>Отбор.Организация</xr:Name>
-																						<xr:DataPath xsi:type="xs:string">1/0:2b813188-1ee3-4827-8eef-2c5e6b29133a</xr:DataPath>
-																						<xr:ValueChange>Clear</xr:ValueChange>
-																					</xr:Link>
-																				</ChoiceParameterLinks>
 																				<ContextMenu name="РасшифровкаПлатежаСделкаКонтекстноеМеню" id="839"/>
 																				<ExtendedTooltip name="РасшифровкаПлатежаСделкаРасширеннаяПодсказка" id="840"/>
 																			</InputField>
@@ -3931,7 +3986,6 @@
 																</ChildItems>
 															</UsualGroup>
 															<UsualGroup name="ГруппаОтражениеВУСНРасшифровкаПлатежа" id="846">
-																<Visible>false</Visible>
 																<Title>
 																	<v8:item>
 																		<v8:lang>ru</v8:lang>
@@ -3939,10 +3993,43 @@
 																	</v8:item>
 																</Title>
 																<Group>Vertical</Group>
+																<Behavior>Usual</Behavior>
 																<Representation>None</Representation>
 																<ShowTitle>false</ShowTitle>
 																<ExtendedTooltip name="ГруппаОтражениеВУСНРасшифровкаПлатежаРасширеннаяПодсказка" id="847"/>
 																<ChildItems>
+																	<InputField name="РасшифровкаПлатежаОтражениеВУСН" id="1105">
+																		<ListChoiceMode>true</ListChoiceMode>
+																		<AutoMarkIncomplete>true</AutoMarkIncomplete>
+																		<ChoiceList>
+																			<xr:Item>
+																				<xr:Presentation/>
+																				<xr:CheckState>0</xr:CheckState>
+																				<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																					<Presentation/>
+																					<Value xsi:type="xr:DesignTimeRef">Enum.ОтражениеВУСН.EnumValue.Принимаются</Value>
+																				</xr:Value>
+																			</xr:Item>
+																			<xr:Item>
+																				<xr:Presentation/>
+																				<xr:CheckState>0</xr:CheckState>
+																				<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																					<Presentation/>
+																					<Value xsi:type="xr:DesignTimeRef">Enum.ОтражениеВУСН.EnumValue.НеПринимаются</Value>
+																				</xr:Value>
+																			</xr:Item>
+																			<xr:Item>
+																				<xr:Presentation/>
+																				<xr:CheckState>0</xr:CheckState>
+																				<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																					<Presentation/>
+																					<Value xsi:type="xr:DesignTimeRef">Enum.ОтражениеВУСН.EnumValue.Распределяются</Value>
+																				</xr:Value>
+																			</xr:Item>
+																		</ChoiceList>
+																		<ContextMenu name="РасшифровкаПлатежаОтражениеВУСНКонтекстноеМеню" id="1106"/>
+																		<ExtendedTooltip name="РасшифровкаПлатежаОтражениеВУСНРасширеннаяПодсказка" id="1107"/>
+																	</InputField>
 																	<UsualGroup name="ГруппаРасходыУСН" id="848">
 																		<Title>
 																			<v8:item>
@@ -3951,6 +4038,7 @@
 																			</v8:item>
 																		</Title>
 																		<Group>Horizontal</Group>
+																		<Behavior>Usual</Behavior>
 																		<Representation>None</Representation>
 																		<ShowTitle>false</ShowTitle>
 																		<ExtendedTooltip name="ГруппаРасходыУСНРасширеннаяПодсказка" id="849"/>
@@ -3958,6 +4046,7 @@
 																			<InputField name="РасшифровкаПлатежаРасходыУСН" id="850">
 																				<Width>12</Width>
 																				<HorizontalStretch>false</HorizontalStretch>
+																				<AutoMarkIncomplete>true</AutoMarkIncomplete>
 																				<ContextMenu name="РасшифровкаПлатежаРасходыУСНКонтекстноеМеню" id="851"/>
 																				<ExtendedTooltip name="РасшифровкаПлатежаРасходыУСНРасширеннаяПодсказка" id="852"/>
 																			</InputField>
@@ -3966,69 +4055,6 @@
 																				<HorizontalStretch>false</HorizontalStretch>
 																				<ContextMenu name="РасшифровкаПлатежаНДСУСНКонтекстноеМеню" id="854"/>
 																				<ExtendedTooltip name="РасшифровкаПлатежаНДСУСНРасширеннаяПодсказка" id="855"/>
-																			</InputField>
-																		</ChildItems>
-																	</UsualGroup>
-																	<UsualGroup name="ГруппаРаспределятьРасходыУСНРасшифровкаПлатежа" id="858">
-																		<Title>
-																			<v8:item>
-																				<v8:lang>ru</v8:lang>
-																				<v8:content>Распределять расходы УСН</v8:content>
-																			</v8:item>
-																		</Title>
-																		<Group>Vertical</Group>
-																		<Representation>None</Representation>
-																		<ShowTitle>false</ShowTitle>
-																		<ExtendedTooltip name="ГруппаРаспределятьРасходыУСНРасшифровкаПлатежаРасширеннаяПодсказка" id="859"/>
-																		<ChildItems>
-																			<InputField name="РасшифровкаПлатежаРаспределятьРасходыУСН" id="860">
-																				<Title>
-																					<v8:item>
-																						<v8:lang>ru</v8:lang>
-																						<v8:content>Распределять  УСН  /  ЕНВД</v8:content>
-																					</v8:item>
-																				</Title>
-																				<TitleLocation>Left</TitleLocation>
-																				<TitleHeight>2</TitleHeight>
-																				<HorizontalStretch>true</HorizontalStretch>
-																				<ListChoiceMode>true</ListChoiceMode>
-																				<EditFormat>
-																					<v8:item>
-																						<v8:lang>ru</v8:lang>
-																						<v8:content>БЛ=Принимаются; БИ='Распределяются (УСН/ЕНВД)'</v8:content>
-																					</v8:item>
-																				</EditFormat>
-																				<ChoiceList>
-																					<xr:Item>
-																						<xr:Presentation/>
-																						<xr:CheckState>0</xr:CheckState>
-																						<xr:Value xsi:type="FormChoiceListDesTimeValue">
-																							<Presentation>
-																								<v8:item>
-																									<v8:lang>ru</v8:lang>
-																									<v8:content>Принимаются</v8:content>
-																								</v8:item>
-																							</Presentation>
-																							<Value xsi:type="xs:boolean">false</Value>
-																						</xr:Value>
-																					</xr:Item>
-																					<xr:Item>
-																						<xr:Presentation/>
-																						<xr:CheckState>0</xr:CheckState>
-																						<xr:Value xsi:type="FormChoiceListDesTimeValue">
-																							<Presentation>
-																								<v8:item>
-																									<v8:lang>ru</v8:lang>
-																									<v8:content>Распределяются (УСН/ЕНВД)</v8:content>
-																								</v8:item>
-																							</Presentation>
-																							<Value xsi:type="xs:boolean">true</Value>
-																						</xr:Value>
-																					</xr:Item>
-																				</ChoiceList>
-																				<ChoiceHistoryOnInput>DontUse</ChoiceHistoryOnInput>
-																				<ContextMenu name="РасшифровкаПлатежаРаспределятьРасходыУСНКонтекстноеМеню" id="861"/>
-																				<ExtendedTooltip name="РасшифровкаПлатежаРаспределятьРасходыУСНРасширеннаяПодсказка" id="862"/>
 																			</InputField>
 																		</ChildItems>
 																	</UsualGroup>
@@ -4053,6 +4079,7 @@
 							</v8:item>
 						</Title>
 						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаПереводНаДругойСчетExtendedTooltip" id="548"/>
@@ -4060,13 +4087,6 @@
 							<InputField name="ВторойСчетОрганизации" id="777">
 								<DataPath>Объект.СчетКонтрагента</DataPath>
 								<EditMode>EnterOnInput</EditMode>
-								<ChoiceParameterLinks>
-									<xr:Link>
-										<xr:Name>Отбор.Владелец</xr:Name>
-										<xr:DataPath xsi:type="xs:string">4</xr:DataPath>
-										<xr:ValueChange>Clear</xr:ValueChange>
-									</xr:Link>
-								</ChoiceParameterLinks>
 								<ContextMenu name="ВторойСчетОрганизацииКонтекстноеМеню" id="778"/>
 								<ExtendedTooltip name="ВторойСчетОрганизацииРасширеннаяПодсказка" id="779"/>
 							</InputField>
@@ -4100,6 +4120,7 @@
 							</v8:item>
 						</Title>
 						<Group>Horizontal</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаПеречислениеЗарплатыExtendedTooltip" id="556"/>
@@ -4112,6 +4133,7 @@
 									</v8:item>
 								</Title>
 								<Group>Vertical</Group>
+								<Behavior>Usual</Behavior>
 								<United>false</United>
 								<ExtendedTooltip name="ГруппаВыплатаЗарплатыОперацииExtendedTooltip" id="558"/>
 								<ChildItems>
@@ -4123,6 +4145,7 @@
 											</v8:item>
 										</Title>
 										<Group>Vertical</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ГруппаВыплатаЗарплатыПоВедомостямExtendedTooltip" id="560"/>
@@ -4141,13 +4164,6 @@
 												<OpenButton>true</OpenButton>
 												<AutoMarkIncomplete>true</AutoMarkIncomplete>
 												<ChooseType>false</ChooseType>
-												<ChoiceParameterLinks>
-													<xr:Link>
-														<xr:Name>Отбор.Организация</xr:Name>
-														<xr:DataPath xsi:type="xs:string">1/0:2b813188-1ee3-4827-8eef-2c5e6b29133a</xr:DataPath>
-														<xr:ValueChange>Clear</xr:ValueChange>
-													</xr:Link>
-												</ChoiceParameterLinks>
 												<ContextMenu name="ПеречислениеЗаработнойПлатыВедомостьКонтекстноеМеню" id="314"/>
 												<ExtendedTooltip name="ПеречислениеЗаработнойПлатыВедомостьExtendedTooltip" id="563"/>
 											</InputField>
@@ -4182,6 +4198,7 @@
 											</v8:item>
 										</Title>
 										<Group>Vertical</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ГруппаВыплатаЗарплатыПоОдномуРаботникуExtendedTooltip" id="566"/>
@@ -4234,6 +4251,7 @@
 									</v8:item>
 								</Title>
 								<Group>Vertical</Group>
+								<Behavior>Usual</Behavior>
 								<United>false</United>
 								<ExtendedTooltip name="ГруппаЗадержкаЗарплатыExtendedTooltip" id="570"/>
 								<ChildItems>
@@ -4245,6 +4263,7 @@
 											</v8:item>
 										</Title>
 										<Group>Horizontal</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ГруппаЗадержкаЗарплатыСубконтоРасширеннаяПодсказка" id="970"/>
@@ -4257,6 +4276,7 @@
 													</v8:item>
 												</Title>
 												<Group>Vertical</Group>
+												<Behavior>Usual</Behavior>
 												<Representation>None</Representation>
 												<United>false</United>
 												<ShowTitle>false</ShowTitle>
@@ -4314,6 +4334,7 @@
 							</v8:item>
 						</Title>
 						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаСтатьяДвиженияДенежныхСредствРасширеннаяПодсказка" id="927"/>
@@ -4349,6 +4370,7 @@
 							</v8:item>
 						</Title>
 						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаПлатежПрочиеExtendedTooltip" id="586"/>
@@ -4361,6 +4383,7 @@
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
 								<ExtendedTooltip name="ГруппаОтражениеВБУРасширеннаяПодсказка" id="682"/>
 								<ChildItems>
 									<UsualGroup name="ГруппаПоляСчетСубконтоПрочие" id="129">
@@ -4371,6 +4394,7 @@
 											</v8:item>
 										</Title>
 										<Group>Vertical</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<United>false</United>
 										<ShowTitle>false</ShowTitle>
@@ -4436,7 +4460,7 @@
 									</UsualGroup>
 								</ChildItems>
 							</UsualGroup>
-							<UsualGroup name="БНФОГруппаОтражениеВБУ" id="1091">
+							<UsualGroup name="БНФОГруппаОтражениеВБУ" id="1134">
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -4450,9 +4474,10 @@
 									</v8:item>
 								</ToolTip>
 								<Group>Horizontal</Group>
-								<ExtendedTooltip name="БНФОГруппаОтражениеВБУРасширеннаяПодсказка" id="1092"/>
+								<Behavior>Usual</Behavior>
+								<ExtendedTooltip name="БНФОГруппаОтражениеВБУРасширеннаяПодсказка" id="1135"/>
 								<ChildItems>
-									<UsualGroup name="БНФОГруппаПоляСчетСубконтоПрочие" id="1093">
+									<UsualGroup name="БНФОГруппаПоляСчетСубконтоПрочие" id="1136">
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -4466,12 +4491,13 @@
 											</v8:item>
 										</ToolTip>
 										<Group>Vertical</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<United>false</United>
 										<ShowTitle>false</ShowTitle>
-										<ExtendedTooltip name="БНФОГруппаПоляСчетСубконтоПрочиеРасширеннаяПодсказка" id="1094"/>
+										<ExtendedTooltip name="БНФОГруппаПоляСчетСубконтоПрочиеРасширеннаяПодсказка" id="1137"/>
 										<ChildItems>
-											<InputField name="БНФОСтатьяДоходовИРасходов" id="1095">
+											<InputField name="БНФОСтатьяДоходовИРасходов" id="1138">
 												<DataPath>Объект.БНФОСтатьяДоходовИРасходов</DataPath>
 												<Title>
 													<v8:item>
@@ -4479,41 +4505,41 @@
 														<v8:content>Прочие доходы и расходы</v8:content>
 													</v8:item>
 												</Title>
-												<ContextMenu name="БНФОСтатьяДоходовИРасходовКонтекстноеМеню" id="1096"/>
-												<ExtendedTooltip name="БНФОСтатьяДоходовИРасходовРасширеннаяПодсказка" id="1097"/>
+												<ContextMenu name="БНФОСтатьяДоходовИРасходовКонтекстноеМеню" id="1139"/>
+												<ExtendedTooltip name="БНФОСтатьяДоходовИРасходовРасширеннаяПодсказка" id="1140"/>
 											</InputField>
-											<InputField name="БНФОСчетУчетаПрочие" id="1098">
+											<InputField name="БНФОСчетУчетаПрочие" id="1141">
 												<DataPath>Объект.СчетУчетаРасчетовСКонтрагентом</DataPath>
 												<HorizontalStretch>true</HorizontalStretch>
 												<AutoChoiceIncomplete>true</AutoChoiceIncomplete>
 												<AutoMarkIncomplete>true</AutoMarkIncomplete>
-												<ContextMenu name="БНФОСчетУчетаПрочиеКонтекстноеМеню" id="1099"/>
-												<ExtendedTooltip name="БНФОСчетУчетаПрочиеРасширеннаяПодсказка" id="1100"/>
+												<ContextMenu name="БНФОСчетУчетаПрочиеКонтекстноеМеню" id="1142"/>
+												<ExtendedTooltip name="БНФОСчетУчетаПрочиеРасширеннаяПодсказка" id="1143"/>
 											</InputField>
-											<InputField name="БНФОСубконтоДтПрочие1" id="1101">
+											<InputField name="БНФОСубконтоДтПрочие1" id="1144">
 												<DataPath>Объект.БНФОСубконтоДт1</DataPath>
 												<EditMode>EnterOnInput</EditMode>
-												<ContextMenu name="БНФОСубконтоДтПрочие1КонтекстноеМеню" id="1102"/>
-												<ExtendedTooltip name="БНФОСубконтоДтПрочие1РасширеннаяПодсказка" id="1103"/>
+												<ContextMenu name="БНФОСубконтоДтПрочие1КонтекстноеМеню" id="1145"/>
+												<ExtendedTooltip name="БНФОСубконтоДтПрочие1РасширеннаяПодсказка" id="1146"/>
 											</InputField>
-											<InputField name="БНФОСубконтоДтПрочие2" id="1104">
+											<InputField name="БНФОСубконтоДтПрочие2" id="1147">
 												<DataPath>Объект.БНФОСубконтоДт2</DataPath>
 												<EditMode>EnterOnInput</EditMode>
-												<ContextMenu name="БНФОСубконтоДтПрочие2КонтекстноеМеню" id="1105"/>
-												<ExtendedTooltip name="БНФОСубконтоДтПрочие2РасширеннаяПодсказка" id="1106"/>
+												<ContextMenu name="БНФОСубконтоДтПрочие2КонтекстноеМеню" id="1148"/>
+												<ExtendedTooltip name="БНФОСубконтоДтПрочие2РасширеннаяПодсказка" id="1149"/>
 											</InputField>
-											<InputField name="БНФОСубконтоДтПрочие3" id="1107">
+											<InputField name="БНФОСубконтоДтПрочие3" id="1150">
 												<DataPath>Объект.БНФОСубконтоДт3</DataPath>
 												<EditMode>EnterOnInput</EditMode>
-												<ContextMenu name="БНФОСубконтоДтПрочие3КонтекстноеМеню" id="1108"/>
-												<ExtendedTooltip name="БНФОСубконтоДтПрочие3РасширеннаяПодсказка" id="1109"/>
+												<ContextMenu name="БНФОСубконтоДтПрочие3КонтекстноеМеню" id="1151"/>
+												<ExtendedTooltip name="БНФОСубконтоДтПрочие3РасширеннаяПодсказка" id="1152"/>
 											</InputField>
-											<InputField name="БНФОСтатьяДвиженияДенежныхСредствПрочие" id="1110">
+											<InputField name="БНФОСтатьяДвиженияДенежныхСредствПрочие" id="1153">
 												<DataPath>Объект.СтатьяДвиженияДенежныхСредств</DataPath>
-												<ContextMenu name="БНФОСтатьяДвиженияДенежныхСредствПрочиеКонтекстноеМеню" id="1111"/>
-												<ExtendedTooltip name="БНФОСтатьяДвиженияДенежныхСредствПрочиеРасширеннаяПодсказка" id="1112"/>
+												<ContextMenu name="БНФОСтатьяДвиженияДенежныхСредствПрочиеКонтекстноеМеню" id="1154"/>
+												<ExtendedTooltip name="БНФОСтатьяДвиженияДенежныхСредствПрочиеРасширеннаяПодсказка" id="1155"/>
 											</InputField>
-											<InputField name="БНФОПодразделениеДтПрочие" id="1113">
+											<InputField name="БНФОПодразделениеДтПрочие" id="1156">
 												<DataPath>Объект.ПодразделениеДт</DataPath>
 												<Title>
 													<v8:item>
@@ -4521,8 +4547,8 @@
 														<v8:content>Подразделение</v8:content>
 													</v8:item>
 												</Title>
-												<ContextMenu name="БНФОПодразделениеДтПрочиеКонтекстноеМеню" id="1114"/>
-												<ExtendedTooltip name="БНФОПодразделениеДтПрочиеРасширеннаяПодсказка" id="1115"/>
+												<ContextMenu name="БНФОПодразделениеДтПрочиеКонтекстноеМеню" id="1157"/>
+												<ExtendedTooltip name="БНФОПодразделениеДтПрочиеРасширеннаяПодсказка" id="1158"/>
 											</InputField>
 										</ChildItems>
 									</UsualGroup>
@@ -4539,6 +4565,7 @@
 							</v8:item>
 						</Title>
 						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаВыплатаДепонентовExtendedTooltip" id="616"/>
@@ -4556,13 +4583,6 @@
 								<ChoiceButtonRepresentation>ShowInDropList</ChoiceButtonRepresentation>
 								<OpenButton>true</OpenButton>
 								<ChooseType>false</ChooseType>
-								<ChoiceParameterLinks>
-									<xr:Link>
-										<xr:Name>Отбор.Организация</xr:Name>
-										<xr:DataPath xsi:type="xs:string">1/0:2b813188-1ee3-4827-8eef-2c5e6b29133a</xr:DataPath>
-										<xr:ValueChange>Clear</xr:ValueChange>
-									</xr:Link>
-								</ChoiceParameterLinks>
 								<ContextMenu name="ПеречислениеДепонентовВедомостьКонтекстноеМеню" id="493"/>
 								<ExtendedTooltip name="ПеречислениеДепонентовВедомостьExtendedTooltip" id="624"/>
 							</InputField>
@@ -4596,12 +4616,14 @@
 							</v8:item>
 						</Title>
 						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаСнятиеНаличныхРасширеннаяПодсказка" id="945"/>
 						<ChildItems>
 							<UsualGroup name="ГруппаСнятиеНаличныхСтатьяДДС" id="957">
 								<Group>Vertical</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>NormalSeparation</Representation>
 								<ExtendedTooltip name="ГруппаСнятиеНаличныхСтатьяДДСРасширеннаяПодсказка" id="958"/>
 								<ChildItems>
@@ -4636,6 +4658,7 @@
 							</v8:item>
 						</Title>
 						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаБезЗакрывающихДокументовРасширеннаяПодсказка" id="997"/>
@@ -4673,6 +4696,7 @@
 							</v8:item>
 						</Title>
 						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаВыплатаДивидендовРасширеннаяПодсказка" id="1020"/>
@@ -4711,6 +4735,7 @@
 							</v8:item>
 						</Title>
 						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаВыплатаПоДоговоруПодрядаРасширеннаяПодсказка" id="1054"/>
@@ -4754,6 +4779,159 @@
 							</InputField>
 						</ChildItems>
 					</UsualGroup>
+					<UsualGroup name="ГруппаВыплатыСамозанятым" id="1076">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Выплаты самозанятым</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаВыплатыСамозанятымРасширеннаяПодсказка" id="1077"/>
+						<ChildItems>
+							<UsualGroup name="ГруппаРеестр" id="1094">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Реестр</v8:content>
+									</v8:item>
+								</Title>
+								<Group>AlwaysHorizontal</Group>
+								<Behavior>Usual</Behavior>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ГруппаРеестрРасширеннаяПодсказка" id="1095"/>
+								<ChildItems>
+									<InputField name="РеестрВыплатСамозанятым" id="1078">
+										<DataPath>Объект.РеестрВыплатСамозанятым</DataPath>
+										<ContextMenu name="РеестрВыплатСамозанятымКонтекстноеМеню" id="1079"/>
+										<ExtendedTooltip name="РеестрВыплатСамозанятымРасширеннаяПодсказка" id="1080"/>
+									</InputField>
+									<LabelField name="СтатусЗагрузкиЧеков" id="1099">
+										<TitleLocation>None</TitleLocation>
+										<Width>15</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<Hiperlink>true</Hiperlink>
+										<ContextMenu name="СтатусЗагрузкиЧековКонтекстноеМеню" id="1100"/>
+										<ExtendedTooltip name="СтатусЗагрузкиЧековРасширеннаяПодсказка" id="1101"/>
+									</LabelField>
+								</ChildItems>
+							</UsualGroup>
+							<UsualGroup name="ГруппаЧекиСамозанятых" id="1084">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Чеки самозанятых</v8:content>
+									</v8:item>
+								</Title>
+								<Group>AlwaysHorizontal</Group>
+								<Behavior>Usual</Behavior>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<BackColor>style:БыстрыеОтборыФонГруппы</BackColor>
+								<ExtendedTooltip name="ГруппаЧекиСамозанятыхРасширеннаяПодсказка" id="1085"/>
+								<ChildItems>
+									<LabelDecoration name="ДекорацияЧекиСамозанятых" id="1088">
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Чеки самозанятых:</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="ДекорацияЧекиСамозанятыхКонтекстноеМеню" id="1089"/>
+										<ExtendedTooltip name="ДекорацияЧекиСамозанятыхРасширеннаяПодсказка" id="1090"/>
+									</LabelDecoration>
+									<Button name="ЗагрузитьЧекиИзФайла" id="1086">
+										<Type>UsualButton</Type>
+										<CommandName>0</CommandName>
+										<ToolTipRepresentation>Button</ToolTipRepresentation>
+										<ExtendedTooltip name="ЗагрузитьЧекиИзФайлаРасширеннаяПодсказка" id="1087">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Для корректного отражения в учете загрузите файл с реестром чеков самозанятых.
+Обычно этот файл предоставляет банк вместе с выпиской.</v8:content>
+												</v8:item>
+											</Title>
+										</ExtendedTooltip>
+									</Button>
+								</ChildItems>
+							</UsualGroup>
+							<InputField name="СтатьяДвиженияДенежныхСредствВыплатыСамозанятым" id="1081">
+								<DataPath>Объект.СтатьяДвиженияДенежныхСредств</DataPath>
+								<ToolTipRepresentation>Button</ToolTipRepresentation>
+								<ContextMenu name="СтатьяДвиженияДенежныхСредствВыплатыСамозанятымКонтекстноеМеню" id="1082"/>
+								<ExtendedTooltip name="СтатьяДвиженияДенежныхСредствВыплатыСамозанятымРасширеннаяПодсказка" id="1083">
+									<Title formatted="true">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Настроить автоматическое заполнение поля можно в справочнике &lt;link e1cib/list/Справочник.СтатьиДвиженияДенежныхСредств&gt;Статьи движения денежных средств&lt;/&gt;</v8:content>
+										</v8:item>
+									</Title>
+								</ExtendedTooltip>
+							</InputField>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаПеречислениеПоИсполнительномуЛистуРаботника" id="1108">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Перечисление по исполнительному листу работника</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаПеречислениеПоИсполнительномуЛистуРаботникаРасширеннаяПодсказка" id="1109"/>
+						<ChildItems>
+							<InputField name="Сотрудник" id="1110">
+								<DataPath>Объект.Сотрудник</DataPath>
+								<ContextMenu name="СотрудникКонтекстноеМеню" id="1111"/>
+								<ExtendedTooltip name="СотрудникРасширеннаяПодсказка" id="1112"/>
+							</InputField>
+							<InputField name="ИсполнительныйЛист" id="1113">
+								<DataPath>Объект.ИсполнительныйЛист</DataPath>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Основание</v8:content>
+									</v8:item>
+								</Title>
+								<InputHint>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Исполнительный лист</v8:content>
+									</v8:item>
+								</InputHint>
+								<ContextMenu name="ИсполнительныйЛистКонтекстноеМеню" id="1114"/>
+								<ExtendedTooltip name="ИсполнительныйЛистРасширеннаяПодсказка" id="1115"/>
+							</InputField>
+							<InputField name="СтатьяДвиженияДенежныхСредствПеречислениеПоИсполнительномуЛистуРаботника" id="1116">
+								<DataPath>Объект.СтатьяДвиженияДенежныхСредств</DataPath>
+								<TitleLocation>Left</TitleLocation>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Статья движения денег</v8:content>
+									</v8:item>
+								</ToolTip>
+								<ToolTipRepresentation>Button</ToolTipRepresentation>
+								<ContextMenu name="СтатьяДвиженияДенежныхСредствПеречислениеПоИсполнительномуЛистуРаботникаКонтекстноеМеню" id="1117"/>
+								<ExtendedTooltip name="СтатьяДвиженияДенежныхСредствПеречислениеПоИсполнительномуЛистуРаботникаРасширеннаяПодсказка" id="1118">
+									<Title formatted="true">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Настроить автоматическое заполнение поля можно в справочнике &lt;link e1cib/list/Справочник.СтатьиДвиженияДенежныхСредств&gt;Статьи движения денежных средств&lt;/&gt;</v8:content>
+										</v8:item>
+									</Title>
+								</ExtendedTooltip>
+							</InputField>
+						</ChildItems>
+					</UsualGroup>
 				</ChildItems>
 			</UsualGroup>
 			<UsualGroup name="ГруппаОтражениеВУСН" id="683">
@@ -4765,123 +4943,108 @@
 					</v8:item>
 				</Title>
 				<Group>Vertical</Group>
+				<Behavior>Usual</Behavior>
+				<ShowTitle>false</ShowTitle>
 				<ThroughAlign>Use</ThroughAlign>
 				<ExtendedTooltip name="ГруппаОтражениеВУСНExtendedTooltip" id="684"/>
 				<ChildItems>
-					<UsualGroup name="ГруппаНастройкаКУДиР" id="689">
+					<InputField name="ОтражениеВУСН" id="1102">
+						<DataPath>Объект.ОтражениеВУСН</DataPath>
+						<ListChoiceMode>true</ListChoiceMode>
+						<ChoiceList>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation/>
+									<Value xsi:type="xr:DesignTimeRef">Enum.ОтражениеВУСН.EnumValue.Принимаются</Value>
+								</xr:Value>
+							</xr:Item>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation/>
+									<Value xsi:type="xr:DesignTimeRef">Enum.ОтражениеВУСН.EnumValue.НеПринимаются</Value>
+								</xr:Value>
+							</xr:Item>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation/>
+									<Value xsi:type="xr:DesignTimeRef">Enum.ОтражениеВУСН.EnumValue.Распределяются</Value>
+								</xr:Value>
+							</xr:Item>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Принимаются частично</v8:content>
+										</v8:item>
+									</Presentation>
+									<Value xsi:type="xr:DesignTimeRef">Enum.ОтражениеВУСН.EmptyRef</Value>
+								</xr:Value>
+							</xr:Item>
+						</ChoiceList>
+						<ContextMenu name="ОтражениеВУСНКонтекстноеМеню" id="1103"/>
+						<ExtendedTooltip name="ОтражениеВУСНРасширеннаяПодсказка" id="1104"/>
+					</InputField>
+					<UsualGroup name="ГруппаСуммыРасходовУСН" id="691">
 						<Title>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
-								<v8:content>Настройка КУДиР</v8:content>
+								<v8:content>Суммы расходов УСН</v8:content>
 							</v8:item>
 						</Title>
-						<Group>Vertical</Group>
+						<Group>Horizontal</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
-						<ExtendedTooltip name="ГруппаНастройкаКУДиРExtendedTooltip" id="690"/>
+						<ExtendedTooltip name="ГруппаСуммыРасходовУСНРасширеннаяПодсказка" id="692"/>
 						<ChildItems>
-							<UsualGroup name="ГруппаРасходы" id="691">
+							<InputField name="РасходыУСН" id="693">
+								<DataPath>Объект.Графа7_УСН</DataPath>
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
-										<v8:content>Раходы</v8:content>
+										<v8:content>Сумма расходов</v8:content>
 									</v8:item>
 								</Title>
-								<Group>Horizontal</Group>
-								<Representation>None</Representation>
-								<ShowTitle>false</ShowTitle>
-								<ExtendedTooltip name="ГруппаРасходыExtendedTooltip" id="692"/>
-								<ChildItems>
-									<InputField name="РасходыУСН" id="693">
-										<DataPath>Объект.Графа7_УСН</DataPath>
-										<Title>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Расходы УСН</v8:content>
-											</v8:item>
-										</Title>
-										<Width>16</Width>
-										<EditFormat>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>ЧЦ=15; ЧДЦ=2; ЧРД=,; ЧРГ=' '; ЧГ=3,0</v8:content>
-											</v8:item>
-										</EditFormat>
-										<MinValue xsi:type="xs:decimal">0</MinValue>
-										<ContextMenu name="РасходыУСНКонтекстноеМеню" id="694"/>
-										<ExtendedTooltip name="РасходыУСНExtendedTooltip" id="695"/>
-									</InputField>
-									<LabelField name="ВалютаРасходовУСН" id="923">
-										<TitleLocation>None</TitleLocation>
-										<Width>3</Width>
-										<HorizontalStretch>false</HorizontalStretch>
-										<ContextMenu name="ВалютаРасходовУСНКонтекстноеМеню" id="924"/>
-										<ExtendedTooltip name="ВалютаРасходовУСНРасширеннаяПодсказка" id="925"/>
-									</LabelField>
-									<InputField name="НДСУСН" id="699">
-										<DataPath>Объект.НДС_УСН</DataPath>
-										<Title>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>в т.ч. НДС</v8:content>
-											</v8:item>
-										</Title>
-										<ContextMenu name="НДСУСНКонтекстноеМеню" id="700"/>
-										<ExtendedTooltip name="НДСУСНExtendedTooltip" id="701"/>
-									</InputField>
-								</ChildItems>
-							</UsualGroup>
-							<LabelField name="ТекстРасходыУСН" id="702">
+								<Width>16</Width>
+								<HorizontalStretch>false</HorizontalStretch>
+								<EditFormat>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>ЧЦ=15; ЧДЦ=2; ЧРД=,; ЧРГ=' '; ЧГ=3,0</v8:content>
+									</v8:item>
+								</EditFormat>
+								<AutoMarkIncomplete>true</AutoMarkIncomplete>
+								<MinValue xsi:type="xs:decimal">0</MinValue>
+								<ContextMenu name="РасходыУСНКонтекстноеМеню" id="694"/>
+								<ExtendedTooltip name="РасходыУСНExtendedTooltip" id="695"/>
+							</InputField>
+							<InputField name="НДСУСН" id="699">
+								<DataPath>Объект.НДС_УСН</DataPath>
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
-										<v8:content>Текст УСН</v8:content>
+										<v8:content>в т.ч. НДС</v8:content>
 									</v8:item>
 								</Title>
-								<TitleTextColor>style:FormBackColor</TitleTextColor>
-								<AutoMaxWidth>false</AutoMaxWidth>
-								<MaxWidth>95</MaxWidth>
-								<TextColor>style:ТекстИнформационнойНадписи</TextColor>
-								<ContextMenu name="ТекстРасходыУСНКонтекстноеМеню" id="703"/>
-								<ExtendedTooltip name="ТекстРасходыУСНРасширеннаяПодсказка" id="704"/>
-							</LabelField>
-							<UsualGroup name="ГруппаРаспределятьРасходУСН" id="921">
-								<Title>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Распределять между УСН и ЕНВД</v8:content>
-									</v8:item>
-								</Title>
-								<ToolTip>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Группа распределять расход УСН</v8:content>
-									</v8:item>
-								</ToolTip>
-								<Group>Horizontal</Group>
-								<Representation>None</Representation>
-								<ShowTitle>false</ShowTitle>
-								<ExtendedTooltip name="ГруппаРаспределятьРасходУСНРасширеннаяПодсказка" id="922"/>
-								<ChildItems>
-									<CheckBoxField name="РаспределятьРасходУСН" id="705">
-										<DataPath>Объект.РасходыЕНВД_УСН</DataPath>
-										<Title>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Распределять между УСН и ЕНВД</v8:content>
-											</v8:item>
-										</Title>
-										<TitleLocation>Right</TitleLocation>
-										<CheckBoxType>Auto</CheckBoxType>
-										<ContextMenu name="РаспределятьРасходУСНКонтекстноеМеню" id="706"/>
-										<ExtendedTooltip name="РаспределятьРасходУСНExtendedTooltip" id="707"/>
-									</CheckBoxField>
-								</ChildItems>
-							</UsualGroup>
+								<Width>10</Width>
+								<HorizontalStretch>false</HorizontalStretch>
+								<ContextMenu name="НДСУСНКонтекстноеМеню" id="700"/>
+								<ExtendedTooltip name="НДСУСНExtendedTooltip" id="701"/>
+							</InputField>
 						</ChildItems>
 					</UsualGroup>
 					<InputField name="СодержаниеУСН" id="708">
 						<DataPath>Объект.Содержание_УСН</DataPath>
+						<Visible>false</Visible>
 						<TitleLocation>Left</TitleLocation>
 						<TitleHeight>2</TitleHeight>
 						<AutoMaxWidth>false</AutoMaxWidth>
@@ -4902,6 +5065,7 @@
 					</v8:item>
 				</Title>
 				<Group>Vertical</Group>
+				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ГруппаПодвалExtendedTooltip" id="628"/>
@@ -4948,6 +5112,7 @@
 							</v8:item>
 						</Title>
 						<Group>Horizontal</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаПодтверждениеБанкаExtendedTooltip" id="630"/>
@@ -4980,6 +5145,7 @@
 							</v8:item>
 						</Title>
 						<Group>Horizontal</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаКомментарийРасширеннаяПодсказка" id="639"/>
@@ -5014,10 +5180,12 @@
 					<Field>Объект.ДанныеАвтозаполнения</Field>
 					<Field>Объект.ИзмененияАвтозаполнения</Field>
 					<Field>Объект.ПеречислениеЗаработнойПлаты.УдалитьВедомость</Field>
+					<Field>Объект.РасшифровкаПлатежа.УдалитьРаспределятьРасходыУСН</Field>
 					<Field>Объект.РеквизитыКонтрагента</Field>
 					<Field>Объект.РеквизитыКонтрагента.LineNumber</Field>
 					<Field>Объект.РеквизитыКонтрагента.Представление</Field>
 					<Field>Объект.РеквизитыКонтрагента.ТипКонтрагента</Field>
+					<Field>Объект.УдалитьРасходыЕНВД_УСН</Field>
 					<Field>Объект.УдалитьРучнаяНастройка_УСН</Field>
 					<Field>Объект.УдалитьФизЛицо</Field>
 				</UseAlways>

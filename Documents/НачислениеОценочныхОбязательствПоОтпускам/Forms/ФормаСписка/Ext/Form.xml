@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
@@ -18,6 +18,7 @@
 				</v8:item>
 			</ToolTip>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаБыстрыеОтборыРасширеннаяПодсказка" id="38"/>
@@ -59,10 +60,6 @@
 							<v8:content>Заполнить</v8:content>
 						</v8:item>
 					</Title>
-					<Picture>
-						<xr:Ref>0:8ca13f41-3185-4ecb-91cc-5640c93d97ff</xr:Ref>
-						<xr:LoadTransparent>true</xr:LoadTransparent>
-					</Picture>
 					<Representation>Picture</Representation>
 					<ExtendedTooltip name="ПодменюЗаполнитьРасширеннаяПодсказка" id="58"/>
 				</Popup>
@@ -79,10 +76,6 @@
 							<v8:content>Подменю отчеты</v8:content>
 						</v8:item>
 					</ToolTip>
-					<Picture>
-						<xr:Ref>0:fe5ff2f7-7bc1-4def-94e9-610520863224</xr:Ref>
-						<xr:LoadTransparent>true</xr:LoadTransparent>
-					</Picture>
 					<Representation>PictureAndText</Representation>
 					<ExtendedTooltip name="ПодменюОтчетыРасширеннаяПодсказка" id="56"/>
 				</Popup>
@@ -101,7 +94,6 @@
 			<InitialTreeView>ExpandTopLevel</InitialTreeView>
 			<EnableStartDrag>true</EnableStartDrag>
 			<FileDragMode>AsFile</FileDragMode>
-			<RowPictureDataPath>10000000</RowPictureDataPath>
 			<AutoRefresh>false</AutoRefresh>
 			<AutoRefreshPeriod>60</AutoRefreshPeriod>
 			<Period>
@@ -154,15 +146,7 @@
 						</v8:item>
 					</Title>
 					<TitleLocation>None</TitleLocation>
-					<HeaderPicture>
-						<xr:Ref>0:a103cca0-8243-40e9-bcdd-97a1cc8a3943</xr:Ref>
-						<xr:LoadTransparent>true</xr:LoadTransparent>
-					</HeaderPicture>
 					<Width>2</Width>
-					<ValuesPicture>
-						<xr:Ref>0:1c2ad932-150a-4b15-b958-62eaa8a1eebc</xr:Ref>
-						<xr:LoadTransparent>true</xr:LoadTransparent>
-					</ValuesPicture>
 					<FileDragMode>AsFile</FileDragMode>
 					<ContextMenu name="ЕстьФайлыКонтекстноеМеню" id="64"/>
 					<ExtendedTooltip name="ЕстьФайлыРасширеннаяПодсказка" id="61"/>
@@ -254,7 +238,6 @@
 	Документ.НачислениеОценочныхОбязательствПоОтпускам КАК ДокументНачислениеОценочныхОбязательствПоОтпускам
 		{ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.НаличиеФайлов КАК НаличиеФайлов
 		ПО ДокументНачислениеОценочныхОбязательствПоОтпускам.Ссылка = НаличиеФайлов.ОбъектСФайлами}</QueryText>
-				<MainTable>1:59d9c6cd-c0ce-4d66-81d7-0f2ce83e24e5</MainTable>
 				<ListSettings>
 					<dcsset:filter>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
@@ -300,7 +283,7 @@
 			<Action callType="After">pcru_ex_ЗагрузитьИзЗУППосле</Action>
 		</Command>
 	</Commands>
-	<BaseForm version="2.11">
+	<BaseForm version="2.14">
 		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 			<Autofill>false</Autofill>
 		</AutoCommandBar>
@@ -319,6 +302,7 @@
 					</v8:item>
 				</ToolTip>
 				<Group>Vertical</Group>
+				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ГруппаБыстрыеОтборыРасширеннаяПодсказка" id="38"/>

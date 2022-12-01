@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<ChildItems>
 		<UsualGroup name="ГруппаШапка" id="135">
@@ -10,6 +10,7 @@
 				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="136"/>
@@ -22,6 +23,7 @@
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаШапкаЛеваяРасширеннаяПодсказка" id="138"/>
@@ -34,6 +36,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="МесяцОрганизацияРасширеннаяПодсказка" id="438"/>
@@ -67,6 +70,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаОтраженияВБухУчетеExtendedTooltip" id="150"/>
@@ -102,6 +106,7 @@
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаШапкаПраваяРасширеннаяПодсказка" id="140"/>
@@ -114,6 +119,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ДатаНомерExtendedTooltip" id="142"/>
@@ -144,6 +150,7 @@
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<BackColor>style:ФонУправляющегоПоля</BackColor>
@@ -177,6 +184,7 @@
 				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ChildItemsWidth>LeftNarrow</ChildItemsWidth>
 			<ShowTitle>false</ShowTitle>
@@ -190,6 +198,7 @@
 						</v8:item>
 					</Title>
 					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаКомандыРасширеннаяПодсказка" id="447"/>
@@ -217,6 +226,7 @@
 					<v8:content>Страницы</v8:content>
 				</v8:item>
 			</Title>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
 			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="29"/>
 			<ChildItems>
 				<Page name="ГруппаОценочныеОбязательства" id="196">
@@ -292,13 +302,11 @@
 									<ExtendedTooltip name="ОценочныеОбязательстваПодразделениеРасширеннаяПодсказка" id="237"/>
 								</InputField>
 								<InputField name="ОценочныеОбязательстваpcru_ex_типзатрат" id="553">
-									<DataPath>1000001/0:5bd13b4a-8d2e-4dcc-af69-a53efafe4479/0:7099886f-1a1c-4037-91f3-2ebeb84de59c</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="ОценочныеОбязательстваpcru_ex_типзатратКонтекстноеМеню" id="554"/>
 									<ExtendedTooltip name="ОценочныеОбязательстваpcru_ex_типзатратРасширеннаяПодсказка" id="555"/>
 								</InputField>
 								<InputField name="ОценочныеОбязательстваProcessCode" id="550">
-									<DataPath>1000001/0:5bd13b4a-8d2e-4dcc-af69-a53efafe4479/0:c963ff51-b1de-40e8-8e02-48111f13e803</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="ОценочныеОбязательстваProcessCodeКонтекстноеМеню" id="551"/>
 									<ExtendedTooltip name="ОценочныеОбязательстваProcessCodeРасширеннаяПодсказка" id="552"/>
@@ -1370,6 +1378,7 @@
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ExtendedTooltip name="ГруппаДополнительныеРеквизитыExtendedTooltip" id="547"/>
 		</UsualGroup>
@@ -1381,6 +1390,7 @@
 				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаКомментарийОтветственныйРасширеннаяПодсказка" id="158"/>
@@ -1406,14 +1416,9 @@
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1000001">
-			<Type>
-				<v8:TypeId>f80dbc58-b3d7-4be6-bbbd-90863a387f17</v8:TypeId>
-			</Type>
+			<Type/>
 			<MainAttribute>true</MainAttribute>
 			<SavedData>true</SavedData>
-			<UseAlways>
-				<Field>1000001/-8</Field>
-			</UseAlways>
 		</Attribute>
 		<ConditionalAppearance>
 			<dcsset:item>
@@ -1492,7 +1497,7 @@
 			</dcsset:item>
 		</ConditionalAppearance>
 	</Attributes>
-	<BaseForm version="2.11">
+	<BaseForm version="2.14">
 		<AutoTime>CurrentOrLast</AutoTime>
 		<UsePostingMode>Auto</UsePostingMode>
 		<RepostOnWrite>true</RepostOnWrite>
@@ -1506,6 +1511,7 @@
 					</v8:item>
 				</Title>
 				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="136"/>
@@ -1518,6 +1524,7 @@
 							</v8:item>
 						</Title>
 						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаШапкаЛеваяРасширеннаяПодсказка" id="138"/>
@@ -1530,6 +1537,7 @@
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="МесяцОрганизацияРасширеннаяПодсказка" id="438"/>
@@ -1563,6 +1571,7 @@
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаОтраженияВБухУчетеExtendedTooltip" id="150"/>
@@ -1598,6 +1607,7 @@
 							</v8:item>
 						</Title>
 						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаШапкаПраваяРасширеннаяПодсказка" id="140"/>
@@ -1610,6 +1620,7 @@
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ДатаНомерExtendedTooltip" id="142"/>
@@ -1640,6 +1651,7 @@
 					</v8:item>
 				</Title>
 				<Group>Vertical</Group>
+				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<BackColor>style:ФонУправляющегоПоля</BackColor>
@@ -1673,6 +1685,7 @@
 					</v8:item>
 				</Title>
 				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ChildItemsWidth>LeftNarrow</ChildItemsWidth>
 				<ShowTitle>false</ShowTitle>
@@ -1686,6 +1699,7 @@
 							</v8:item>
 						</Title>
 						<Group>Horizontal</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаКомандыРасширеннаяПодсказка" id="447"/>
@@ -1713,6 +1727,7 @@
 						<v8:content>Страницы</v8:content>
 					</v8:item>
 				</Title>
+				<PagesRepresentation>TabsOnTop</PagesRepresentation>
 				<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="29"/>
 				<ChildItems>
 					<Page name="ГруппаОценочныеОбязательства" id="196">
@@ -2854,6 +2869,7 @@
 					</v8:item>
 				</Title>
 				<Group>Vertical</Group>
+				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ExtendedTooltip name="ГруппаДополнительныеРеквизитыExtendedTooltip" id="547"/>
 			</UsualGroup>
@@ -2865,6 +2881,7 @@
 					</v8:item>
 				</Title>
 				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
 				<Representation>NormalSeparation</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ГруппаКомментарийОтветственныйРасширеннаяПодсказка" id="158"/>

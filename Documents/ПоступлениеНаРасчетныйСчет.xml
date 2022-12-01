@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
 	<Document uuid="81e3ff70-a89e-42f5-adc7-89b32d203799">
 		<InternalInfo>
 			<xr:GeneratedType name="DocumentObject.ПоступлениеНаРасчетныйСчет" category="Object">
@@ -474,7 +474,7 @@
 					<Name>ИзмененияАвтозаполнения</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>3d589485-af0f-414c-b9fd-78aa2f78aa1d</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -490,7 +490,7 @@
 					<Name>ДанныеАвтозаполнения</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>70dbbc3b-5715-43be-be2a-1d72650b0484</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -506,7 +506,7 @@
 					<Name>БНФОКонверсионныйДоговор</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>fc157f2d-a9a5-46e3-a45e-cee37b9f59e8</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>cfg:DocumentRef.БНФОКонверсионныйДоговор</v8:Type>
 					</Type>
@@ -847,7 +847,7 @@
 							<Name>УслугаНПД</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>41f65a51-7b95-42e5-8e24-ba51cf8ce49b</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
 							</Type>
@@ -870,7 +870,7 @@
 					<Name>РеквизитыКонтрагента</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>9dc972cb-312d-417e-9174-643ff4c2cf4a</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 				</Properties>
 				<ChildObjects/>
 			</TabularSection>

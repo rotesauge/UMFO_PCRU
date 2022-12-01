@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
 	<InformationRegister uuid="a19e4d9b-3202-47c9-95f7-16269357de0e">
 		<InternalInfo>
 			<xr:GeneratedType name="InformationRegisterRecord.СостоянияОСОрганизаций" category="Record">
@@ -35,7 +35,7 @@
 			<Name>СостоянияОСОрганизаций</Name>
 			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
-			<ExtendedConfigurationObject>81d0f5e3-9a47-4f24-8216-ec6e2e38e52a</ExtendedConfigurationObject>
+			<ExtendedConfigurationObject/>
 			<InformationRegisterPeriodicity>RecorderPosition</InformationRegisterPeriodicity>
 			<WriteMode>RecorderSubordinate</WriteMode>
 		</Properties>
@@ -46,7 +46,7 @@
 					<Name>ДатаСостояния</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>0443011c-ada9-46b6-b35c-e71159fa81fb</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>xs:dateTime</v8:Type>
 						<v8:DateQualifiers>
@@ -61,7 +61,7 @@
 					<Name>Состояние</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>351df012-0217-4bdc-9ceb-09b5ee0e8eed</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>cfg:EnumRef.СостоянияОС</v8:Type>
 					</Type>
@@ -73,7 +73,7 @@
 					<Name>ОсновноеСредство</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>768bfa63-e219-4ac0-9622-492cedc484d6</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>cfg:CatalogRef.ОсновныеСредства</v8:Type>
 					</Type>

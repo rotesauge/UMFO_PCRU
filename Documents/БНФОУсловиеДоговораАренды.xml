@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
 	<Document uuid="25339aa9-cfb5-4c0e-b47d-b57f23349fbf">
 		<InternalInfo>
 			<xr:GeneratedType name="DocumentObject.БНФОУсловиеДоговораАренды" category="Object">
@@ -27,7 +27,7 @@
 			<Name>БНФОУсловиеДоговораАренды</Name>
 			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
-			<ExtendedConfigurationObject>b4dd438c-ed8a-422c-bd09-b18206ff9e06</ExtendedConfigurationObject>
+			<ExtendedConfigurationObject/>
 			<NumberType>String</NumberType>
 			<NumberLength>11</NumberLength>
 			<NumberAllowedLength>Fixed</NumberAllowedLength>
@@ -81,7 +81,7 @@
 					<Name>СтатьяДвиженияДенежныхСредств</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>f84511a6-5f4c-488c-ae1c-0421d230ea03</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>cfg:CatalogRef.СтатьиДвиженияДенежныхСредств</v8:Type>
 					</Type>
@@ -93,7 +93,7 @@
 					<Name>НоменклатураПроцентныйРасход</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>eb2aaa66-5be2-44d4-ac0a-ca57b21e38e9</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
 					</Type>
@@ -105,7 +105,7 @@
 					<Name>ДокументОснование</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>ad5aeb2c-59b6-4cb9-b925-12707d65dff1</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>cfg:DocumentRef.БНФОУсловиеДоговораАренды</v8:Type>
 					</Type>
@@ -117,7 +117,7 @@
 					<Name>ДатаВходящегоДокумента</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>b24d2d4e-9942-4232-8b85-7111bd914c23</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>xs:dateTime</v8:Type>
 						<v8:DateQualifiers>
@@ -132,7 +132,7 @@
 					<Name>НомерВходящегоДокумента</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>6713110e-73bc-4559-a6b1-a4ba70c17b03</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -148,7 +148,7 @@
 					<Name>СтавкаПроцентов</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>8ec88692-4773-4819-921a-5b320f09af15</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
 						<v8:NumberQualifiers>
@@ -165,7 +165,7 @@
 					<Name>ВидОперации</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>890d4512-3b3d-4208-8cd9-386f66f5e8eb</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>cfg:EnumRef.БНФОВидыОперацийУсловиеДоговораАренды</v8:Type>
 					</Type>
@@ -177,7 +177,7 @@
 					<Name>ДатаНачалаДействия</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>5014c6f2-6009-4f13-9025-3561958276c5</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>xs:dateTime</v8:Type>
 						<v8:DateQualifiers>
@@ -192,7 +192,7 @@
 					<Name>ДатаОкончанияДействия</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>877865c2-25c4-4116-9b2e-4ea891763f51</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>xs:dateTime</v8:Type>
 						<v8:DateQualifiers>
@@ -207,7 +207,7 @@
 					<Name>Организация</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>90defa31-67e7-4191-ad16-8546c2465743</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
 					</Type>
@@ -219,7 +219,7 @@
 					<Name>СуммаВключаетНДС</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>c8a248cd-282a-46f0-941a-9aff9722df5f</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
 					</Type>
@@ -231,7 +231,7 @@
 					<Name>ПодразделениеОрганизации</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>a3ac3e4d-3610-47f8-8f83-6e2bedce3d36</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>cfg:CatalogRef.ПодразделенияОрганизаций</v8:Type>
 					</Type>
@@ -243,7 +243,7 @@
 					<Name>Контрагент</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>92668ae4-b499-4b10-8d02-974ce0801063</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
 					</Type>
@@ -255,7 +255,7 @@
 					<Name>ДоговорКонтрагента</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>af8d9dbb-3983-4a82-a08f-c5cbc9d2750e</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
 					</Type>
@@ -267,7 +267,7 @@
 					<Name>ВалютаДокумента</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>d9c89afd-1a27-46b6-b9f3-0ede6fc3904e</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
 					</Type>
@@ -279,7 +279,7 @@
 					<Name>СтатьяРасходовНУ</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>4d9131fa-5cbf-462a-864f-bb506eec8d01</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>cfg:CatalogRef.ПрочиеДоходыИРасходы</v8:Type>
 					</Type>
@@ -291,7 +291,7 @@
 					<Name>ОбъектАренды</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>90e415ba-ea98-48f5-9d71-8365481beae1</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:TypeSet>cfg:DefinedType.БНФООбъектАренды</v8:TypeSet>
 					</Type>
@@ -303,7 +303,7 @@
 					<Name>ДисконтированнаяСтоимость</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>e8667c1d-47a5-40f0-9797-25af4936d5fc</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:TypeSet>cfg:DefinedType.ДенежноеПолеЛюбойЗнак</v8:TypeSet>
 					</Type>
@@ -315,7 +315,7 @@
 					<Name>ПредусмотренВыкупБазовогоАктива</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>4b16e07c-4719-46df-bb84-72073f745330</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
 					</Type>
@@ -327,7 +327,7 @@
 					<Name>СчетУчетаРасчетов</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>cfeea41f-e73c-49be-8653-63282ac26cfd</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>cfg:CatalogRef.БНФОСчетаАналитическогоУчета</v8:Type>
 					</Type>
@@ -339,7 +339,7 @@
 					<Name>СтатьяПроцентныхРасходов</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>7212e237-e760-4765-95e4-4cdcb36e7845</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>cfg:CatalogRef.ПрочиеДоходыИРасходы</v8:Type>
 					</Type>
@@ -351,7 +351,7 @@
 					<Name>СчетРасходовНУ</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>2ab028f7-8bff-4ac4-8075-c08365625caf</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>cfg:CatalogRef.БНФОСчетаАналитическогоУчета</v8:Type>
 					</Type>
@@ -363,7 +363,7 @@
 					<Name>СчетПроцентныхРасходов</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>a693bada-06e5-4b6e-84c2-d2835252c591</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>cfg:CatalogRef.БНФОСчетаАналитическогоУчета</v8:Type>
 					</Type>
@@ -375,7 +375,7 @@
 					<Name>СтавкаНДС</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>a7c9192b-0f3c-472b-8113-8f65c4c51f83</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>cfg:EnumRef.СтавкиНДС</v8:Type>
 					</Type>
@@ -387,7 +387,7 @@
 					<Name>ПериодичностьПлатежей</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>a62a6bd9-7a5b-4971-a467-2ac91a386ee3</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>cfg:EnumRef.Периодичность</v8:Type>
 					</Type>
@@ -399,7 +399,7 @@
 					<Name>Номенклатура</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>3b5f3099-fe5d-4783-ad0d-d60691644e48</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
 					</Type>
@@ -411,7 +411,7 @@
 					<Name>СуммаПлатежа</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>9bbb18a0-ac37-47d3-b7d5-2f981518a334</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
 					</Type>
@@ -423,7 +423,7 @@
 					<Name>Комментарий</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>0dea1c95-612a-4025-8063-ba7964fb26c0</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -449,7 +449,7 @@
 					<Name>ГрафикНачисленийПлатежей</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>27cb2f7f-f603-4c97-9b0a-b9f66d527c0d</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 				</Properties>
 				<ChildObjects>
 					<Attribute uuid="047fe4dd-922d-4931-9288-2335111e7f2d">
@@ -458,7 +458,7 @@
 							<Name>СуммаПогашенияОбязательств</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>47111312-93bf-40b2-a8af-daebd026f89c</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:TypeSet>cfg:DefinedType.ДенежноеПолеЛюбойЗнак</v8:TypeSet>
 							</Type>
@@ -470,7 +470,7 @@
 							<Name>ПроцентныйРасход</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>cca9787a-a4a5-46e1-9dde-4c3084330624</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:TypeSet>cfg:DefinedType.ДенежноеПолеЛюбойЗнак</v8:TypeSet>
 							</Type>
@@ -482,7 +482,7 @@
 							<Name>ДисконтированнаяСтоимость</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>1ef709fa-e54e-4a55-9910-33e573fc5175</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:TypeSet>cfg:DefinedType.ДенежноеПолеЛюбойЗнак</v8:TypeSet>
 							</Type>
@@ -494,7 +494,7 @@
 							<Name>Период</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>40325b5d-fd5d-470a-a506-a5104f276782</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:dateTime</v8:Type>
 								<v8:DateQualifiers>
@@ -509,7 +509,7 @@
 							<Name>Платеж</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>2068d91b-82c3-489d-8a22-d104b0ac6b9d</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:TypeSet>cfg:DefinedType.ДенежноеПолеЛюбойЗнак</v8:TypeSet>
 							</Type>

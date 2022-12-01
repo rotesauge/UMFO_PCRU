@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -20,6 +20,7 @@
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ШапкаРасширеннаяПодсказка" id="407"/>
@@ -157,6 +158,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаВертикальнаяОсновногоЭлементаРасширеннаяПодсказка" id="154"/>
@@ -169,6 +171,7 @@
 										</v8:item>
 									</Title>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаГоризонтальнаяНайденныеДублиРасширеннаяПодсказка" id="156"/>
@@ -341,10 +344,6 @@
 													</ToolTip>
 													<HorizontalAlign>Left</HorizontalAlign>
 													<EditMode>EnterOnInput</EditMode>
-													<HeaderPicture>
-														<xr:Ref>CommonPicture.Информация</xr:Ref>
-														<xr:LoadTransparent>true</xr:LoadTransparent>
-													</HeaderPicture>
 													<Width>4</Width>
 													<HorizontalStretch>false</HorizontalStretch>
 													<ContextMenu name="НайденныеДублиКоличествоКонтекстноеМеню" id="120"/>
@@ -485,6 +484,7 @@
 									</Title>
 									<Height>2</Height>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаГоризонтальнаяСостояниеНайденногоРасширеннаяПодсказка" id="158"/>
@@ -593,6 +593,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаВертикальнаяНеобработанныеДублиРасширеннаяПодсказка" id="239"/>
@@ -623,6 +624,7 @@
 										</v8:item>
 									</ToolTip>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаГоризонтальнаяНеобработанныеДублиРасширеннаяПодсказка" id="241"/>
@@ -965,6 +967,7 @@
 									</Title>
 									<Shortcut>Ctrl+S</Shortcut>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаПояснениеКНеобработаннымРасширеннаяПодсказка" id="284"/>
@@ -1089,6 +1092,7 @@
 				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ПанельДействийМастераРасширеннаяПодсказка" id="168"/>
@@ -1166,6 +1170,7 @@
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаКартинокРасширеннаяПодсказка" id="76"/>
@@ -1225,10 +1230,6 @@
 							<v8:content>Информация16</v8:content>
 						</v8:item>
 					</Title>
-					<Picture>
-						<xr:Ref>CommonPicture.Информация</xr:Ref>
-						<xr:LoadTransparent>false</xr:LoadTransparent>
-					</Picture>
 					<FileDragMode>AsFile</FileDragMode>
 					<ContextMenu name="Информация16КонтекстноеМеню" id="215"/>
 					<ExtendedTooltip name="Информация16РасширеннаяПодсказка" id="216"/>
@@ -2039,7 +2040,7 @@
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
-	<BaseForm version="2.11">
+	<BaseForm version="2.14">
 		<Title>
 			<v8:item>
 				<v8:lang>ru</v8:lang>
@@ -2060,6 +2061,7 @@
 					</v8:item>
 				</Title>
 				<Group>Vertical</Group>
+				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ШапкаРасширеннаяПодсказка" id="407"/>
@@ -2197,6 +2199,7 @@
 									</v8:item>
 								</Title>
 								<Group>Vertical</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаВертикальнаяОсновногоЭлементаРасширеннаяПодсказка" id="154"/>
@@ -2209,6 +2212,7 @@
 											</v8:item>
 										</Title>
 										<Group>Horizontal</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ГруппаГоризонтальнаяНайденныеДублиРасширеннаяПодсказка" id="156"/>
@@ -2381,10 +2385,6 @@
 														</ToolTip>
 														<HorizontalAlign>Left</HorizontalAlign>
 														<EditMode>EnterOnInput</EditMode>
-														<HeaderPicture>
-															<xr:Ref>CommonPicture.Информация</xr:Ref>
-															<xr:LoadTransparent>true</xr:LoadTransparent>
-														</HeaderPicture>
 														<Width>4</Width>
 														<HorizontalStretch>false</HorizontalStretch>
 														<ContextMenu name="НайденныеДублиКоличествоКонтекстноеМеню" id="120"/>
@@ -2525,6 +2525,7 @@
 										</Title>
 										<Height>2</Height>
 										<Group>Horizontal</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ГруппаГоризонтальнаяСостояниеНайденногоРасширеннаяПодсказка" id="158"/>
@@ -2633,6 +2634,7 @@
 									</v8:item>
 								</ToolTip>
 								<Group>Vertical</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаВертикальнаяНеобработанныеДублиРасширеннаяПодсказка" id="239"/>
@@ -2663,6 +2665,7 @@
 											</v8:item>
 										</ToolTip>
 										<Group>Horizontal</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ГруппаГоризонтальнаяНеобработанныеДублиРасширеннаяПодсказка" id="241"/>
@@ -3005,6 +3008,7 @@
 										</Title>
 										<Shortcut>Ctrl+S</Shortcut>
 										<Group>Horizontal</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ГруппаПояснениеКНеобработаннымРасширеннаяПодсказка" id="284"/>
@@ -3129,6 +3133,7 @@
 					</v8:item>
 				</Title>
 				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
 				<Representation>NormalSeparation</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ПанельДействийМастераРасширеннаяПодсказка" id="168"/>
@@ -3206,6 +3211,7 @@
 					</v8:item>
 				</Title>
 				<Group>Vertical</Group>
+				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ГруппаКартинокРасширеннаяПодсказка" id="76"/>
@@ -3265,10 +3271,6 @@
 								<v8:content>Информация16</v8:content>
 							</v8:item>
 						</Title>
-						<Picture>
-							<xr:Ref>CommonPicture.Информация</xr:Ref>
-							<xr:LoadTransparent>false</xr:LoadTransparent>
-						</Picture>
 						<FileDragMode>AsFile</FileDragMode>
 						<ContextMenu name="Информация16КонтекстноеМеню" id="215"/>
 						<ExtendedTooltip name="Информация16РасширеннаяПодсказка" id="216"/>

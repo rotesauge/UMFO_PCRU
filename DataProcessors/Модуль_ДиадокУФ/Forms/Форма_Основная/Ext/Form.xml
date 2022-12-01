@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -35,6 +35,7 @@
 				</v8:item>
 			</ToolTip>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ChildItemsWidth>Equal</ChildItemsWidth>
 			<ShowTitle>false</ShowTitle>
@@ -52,6 +53,7 @@
 			<HorizontalStretch>true</HorizontalStretch>
 			<Group>Horizontal</Group>
 			<HorizontalAlign>Center</HorizontalAlign>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<BackColor>#FFEDA6</BackColor>
@@ -101,6 +103,7 @@
 				</v8:item>
 			</ToolTip>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаВерхРасширеннаяПодсказка" id="2686"/>
@@ -122,6 +125,7 @@
 				<UsualGroup name="ГруппаШапка" id="393">
 					<VerticalStretch>false</VerticalStretch>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="2688"/>
@@ -129,6 +133,7 @@
 						<UsualGroup name="ГруппаАвторизацияТехподдержка" id="559">
 							<HorizontalStretch>true</HorizontalStretch>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаАвторизацияТехподдержкаРасширеннаяПодсказка" id="2689"/>
@@ -395,6 +400,24 @@
 										<CommandName>Form.Command.ПолученныеДиадокКоманднаяПанельУстановитьИнтервал</CommandName>
 										<ExtendedTooltip name="ИнтервалПолученныеРасширеннаяПодсказка" id="2712"/>
 									</Button>
+									<Button name="ТаблицаДокументовВходящихpcru_ПоказатьТабдок" id="3911">
+										<Type>CommandBarButton</Type>
+										<Representation>PictureAndText</Representation>
+										<CommandName>Form.Command.pcru_ПоказатьТабдок</CommandName>
+										<ExtendedTooltip name="ТаблицаДокументовВходящихpcru_ПоказатьТабдокРасширеннаяПодсказка" id="3912"/>
+									</Button>
+									<Button name="ТаблицаДокументовВходящихpcru_ОтправитьВДО" id="3913">
+										<Type>CommandBarButton</Type>
+										<Representation>PictureAndText</Representation>
+										<CommandName>Form.Command.pcru_ОтправитьВДО</CommandName>
+										<ExtendedTooltip name="ТаблицаДокументовВходящихpcru_ОтправитьВДОРасширеннаяПодсказка" id="3914"/>
+									</Button>
+									<Button name="ТаблицаДокументовВходящихpcru_ОтправитьВДОТест" id="3915">
+										<Type>CommandBarButton</Type>
+										<Representation>PictureAndText</Representation>
+										<CommandName>Form.Command.pcru_ОтправитьВДОТест</CommandName>
+										<ExtendedTooltip name="ТаблицаДокументовВходящихpcru_ОтправитьВДОТестРасширеннаяПодсказка" id="3916"/>
+									</Button>
 									<Button name="ТаблицаДокументовВходящихПолученныеДиадокКоманднаяПанельОбновить" id="155">
 										<Type>CommandBarButton</Type>
 										<Representation>Picture</Representation>
@@ -422,24 +445,6 @@
 										<CommandName>Form.Item.ТаблицаДокументовВходящих.StandardCommand.CancelSearch</CommandName>
 										<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
 										<ExtendedTooltip name="ТаблицаДокументовВходящихОтменитьПоискРасширеннаяПодсказка" id="2716"/>
-									</Button>
-									<Button name="ТаблицаДокументовВходящихpcru_ПоказатьТабдок" id="3099">
-										<Type>CommandBarButton</Type>
-										<Representation>PictureAndText</Representation>
-										<CommandName>Form.Command.pcru_ПоказатьТабдок</CommandName>
-										<ExtendedTooltip name="ТаблицаДокументовВходящихpcru_ПоказатьТабдокРасширеннаяПодсказка" id="3100"/>
-									</Button>
-									<Button name="ТаблицаДокументовВходящихpcru_ОтправитьВДО" id="3095">
-										<Type>CommandBarButton</Type>
-										<Representation>PictureAndText</Representation>
-										<CommandName>Form.Command.pcru_ОтправитьВДО</CommandName>
-										<ExtendedTooltip name="ТаблицаДокументовВходящихpcru_ОтправитьВДОРасширеннаяПодсказка" id="3096"/>
-									</Button>
-									<Button name="ТаблицаДокументовВходящихpcru_ОтправитьВДОТест" id="3097">
-										<Type>CommandBarButton</Type>
-										<Representation>PictureAndText</Representation>
-										<CommandName>Form.Command.pcru_ОтправитьВДОТест</CommandName>
-										<ExtendedTooltip name="ТаблицаДокументовВходящихpcru_ОтправитьВДОТестРасширеннаяПодсказка" id="3098"/>
 									</Button>
 									<ButtonGroup name="ТаблицаДокументовВходящихГруппаСортировка" id="666">
 										<ToolTip>
@@ -652,6 +657,19 @@
 									<ContextMenu name="ТаблицаДокументовВходящихСостояниеСогласованияКонтекстноеМеню" id="600"/>
 									<ExtendedTooltip name="ТаблицаДокументовВходящихСостояниеСогласованияРасширеннаяПодсказка" id="2749"/>
 								</InputField>
+								<InputField name="ТаблицаДокументовВходящихСтатусМЧД" id="3114">
+									<DataPath>ТаблицаДокументовВходящих.СтатусМЧД</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>20</Width>
+									<ContextMenu name="ТаблицаДокументовВходящихСтатусМЧДКонтекстноеМеню" id="3115"/>
+									<ExtendedTooltip name="ТаблицаДокументовВходящихСтатусМЧДРасширеннаяПодсказка" id="3116"/>
+								</InputField>
+								<InputField name="ТаблицаДокументовВходящихЕстьПрикрепленные" id="3917">
+									<DataPath>ТаблицаДокументовВходящих.ЕстьПрикрепленные</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ТаблицаДокументовВходящихЕстьПрикрепленныеКонтекстноеМеню" id="3918"/>
+									<ExtendedTooltip name="ТаблицаДокументовВходящихЕстьПрикрепленныеРасширеннаяПодсказка" id="3919"/>
+								</InputField>
 								<InputField name="ТаблицаДокументовВходящихПервичныйДокумент" id="149">
 									<DataPath>ТаблицаДокументовВходящих.ПервичныйДокумент</DataPath>
 									<EditMode>EnterOnInput</EditMode>
@@ -691,7 +709,7 @@
 						</Table>
 					</ChildItems>
 				</Page>
-				<Page name="pcru_СтраницаНеотработанныеДиадок_Счета" id="3101">
+				<Page name="pcru_СтраницаНеотработанныеДиадок_Счета" id="3117">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -706,128 +724,125 @@
 					</ToolTip>
 					<Width>20</Width>
 					<VerticalStretch>true</VerticalStretch>
-					<Picture>
-						<xr:Ref>CommonPicture.pcru_ex_Профикредит</xr:Ref>
-						<xr:LoadTransparent>true</xr:LoadTransparent>
-					</Picture>
-					<ExtendedTooltip name="pcru_СтраницаНеотработанныеДиадок_СчетаРасширеннаяПодсказка" id="3102"/>
+					<ExtendedTooltip name="pcru_СтраницаНеотработанныеДиадок_СчетаРасширеннаяПодсказка" id="3118"/>
 					<ChildItems>
-						<Table name="pcru_ТаблицаНеотработанныеДокументы_Счета" id="3369">
+						<Table name="pcru_ТаблицаНеотработанныеДокументы_Счета" id="3119">
 							<Representation>List</Representation>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
 							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>pcru_ТаблицаНеотработанныеДокументы_Счета</DataPath>
 							<SearchStringLocation>None</SearchStringLocation>
 							<ViewStatusLocation>None</ViewStatusLocation>
 							<SearchControlLocation>None</SearchControlLocation>
 							<RowFilter xsi:nil="true"/>
-							<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаКонтекстноеМеню" id="3370"/>
-							<AutoCommandBar name="pcru_ТаблицаНеотработанныеДокументы_СчетаКоманднаяПанель" id="3371">
+							<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаКонтекстноеМеню" id="3120"/>
+							<AutoCommandBar name="pcru_ТаблицаНеотработанныеДокументы_СчетаКоманднаяПанель" id="3121">
 								<Autofill>false</Autofill>
 								<ChildItems>
-									<Button name="pcru_НеотработанныеСчетаКоманднаяПанельОткрытьКарточкуДокумента" id="3629">
+									<Button name="pcru_НеотработанныеСчетаКоманднаяПанельОткрытьКарточкуДокумента" id="3180">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.pcru_НеотработанныеСчетаКоманднаяПанельОткрытьКарточкуДокумента</CommandName>
-										<ExtendedTooltip name="pcru_НеотработанныеСчетаКоманднаяПанельОткрытьКарточкуДокументаРасширеннаяПодсказка" id="3630"/>
+										<ExtendedTooltip name="pcru_НеотработанныеСчетаКоманднаяПанельОткрытьКарточкуДокументаРасширеннаяПодсказка" id="3181"/>
 									</Button>
-									<Button name="ИнтервалНеотработанныеСчета" id="3637">
+									<Button name="ИнтервалНеотработанныеСчета" id="3182">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.pcru_НеотработанныеСчетаКоманднаяПанельУстановитьИнтервал</CommandName>
-										<ExtendedTooltip name="ИнтервалНеотработанныеСчетаРасширеннаяПодсказка" id="3638"/>
+										<ExtendedTooltip name="ИнтервалНеотработанныеСчетаРасширеннаяПодсказка" id="3183"/>
 									</Button>
-									<Button name="pcru_ТаблицаНеотработанныеДокументы_СчетаЗаполнитьСписок" id="3647">
+									<Button name="pcru_ТаблицаНеотработанныеДокументы_СчетаЗаполнитьСписок" id="3184">
 										<Type>CommandBarButton</Type>
 										<Representation>Picture</Representation>
 										<CommandName>Form.Command.ЗаполнитьСписок</CommandName>
-										<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаЗаполнитьСписокРасширеннаяПодсказка" id="3648"/>
+										<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаЗаполнитьСписокРасширеннаяПодсказка" id="3185"/>
 									</Button>
-									<Button name="pcru_ТаблицаНеотработанныеДокументы_СчетаВывестиСписок" id="3655">
+									<Button name="pcru_ТаблицаНеотработанныеДокументы_СчетаВывестиСписок" id="3186">
 										<Type>CommandBarButton</Type>
 										<Representation>Picture</Representation>
-										<CommandName>Form.Item.pcru_ТаблицаНеотработанныеДокументы_Счета.StandardCommand.OutputList</CommandName>
+										<CommandName>0</CommandName>
 										<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
-										<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаВывестиСписокРасширеннаяПодсказка" id="3656"/>
+										<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаВывестиСписокРасширеннаяПодсказка" id="3187"/>
 									</Button>
-									<Button name="pcru_ТаблицаНеотработанныеДокументы_СчетаНайти" id="3663">
+									<Button name="pcru_ТаблицаНеотработанныеДокументы_СчетаНайти" id="3188">
 										<Type>CommandBarButton</Type>
 										<Representation>PictureAndText</Representation>
-										<CommandName>Form.Item.pcru_ТаблицаНеотработанныеДокументы_Счета.StandardCommand.Find</CommandName>
+										<CommandName>0</CommandName>
 										<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
-										<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаНайтиРасширеннаяПодсказка" id="3664"/>
+										<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаНайтиРасширеннаяПодсказка" id="3189"/>
 									</Button>
-									<Button name="pcru_ТаблицаНеотработанныеДокументы_СчетаОтменитьПоиск" id="3665">
+									<Button name="pcru_ТаблицаНеотработанныеДокументы_СчетаОтменитьПоиск" id="3190">
 										<Type>CommandBarButton</Type>
 										<Representation>Picture</Representation>
-										<CommandName>Form.Item.pcru_ТаблицаНеотработанныеДокументы_Счета.StandardCommand.CancelSearch</CommandName>
+										<CommandName>0</CommandName>
 										<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
-										<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаОтменитьПоискРасширеннаяПодсказка" id="3666"/>
+										<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаОтменитьПоискРасширеннаяПодсказка" id="3191"/>
 									</Button>
-									<Button name="pcru_ТаблицаНеотработанныеДокументы_СчетаСортироватьСписокПоВозрастанию" id="3679">
+									<Button name="pcru_ТаблицаНеотработанныеДокументы_СчетаСортироватьСписокПоВозрастанию" id="3192">
 										<Type>CommandBarButton</Type>
 										<Representation>PictureAndText</Representation>
-										<CommandName>Form.Item.pcru_ТаблицаНеотработанныеДокументы_Счета.StandardCommand.SortListAsc</CommandName>
-										<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаСортироватьСписокПоВозрастаниюРасширеннаяПодсказка" id="3680"/>
+										<CommandName>0</CommandName>
+										<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаСортироватьСписокПоВозрастаниюРасширеннаяПодсказка" id="3193"/>
 									</Button>
-									<Button name="pcru_ТаблицаНеотработанныеДокументы_СчетаСортироватьСписокПоУбыванию" id="3681">
+									<Button name="pcru_ТаблицаНеотработанныеДокументы_СчетаСортироватьСписокПоУбыванию" id="3194">
 										<Type>CommandBarButton</Type>
 										<Representation>PictureAndText</Representation>
-										<CommandName>Form.Item.pcru_ТаблицаНеотработанныеДокументы_Счета.StandardCommand.SortListDesc</CommandName>
-										<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаСортироватьСписокПоУбываниюРасширеннаяПодсказка" id="3682"/>
+										<CommandName>0</CommandName>
+										<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаСортироватьСписокПоУбываниюРасширеннаяПодсказка" id="3195"/>
 									</Button>
-									<Button name="pcru_ТаблицаНеотработанныеДокументы_Счетаpcru_ПоказатьТабдок" id="3697">
+									<Button name="pcru_ТаблицаНеотработанныеДокументы_Счетаpcru_ПоказатьТабдок" id="3196">
 										<Type>CommandBarButton</Type>
 										<Representation>PictureAndText</Representation>
 										<CommandName>Form.Command.pcru_ПоказатьТабдок</CommandName>
 										<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
-										<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_Счетаpcru_ПоказатьТабдокРасширеннаяПодсказка" id="3698"/>
+										<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_Счетаpcru_ПоказатьТабдокРасширеннаяПодсказка" id="3197"/>
 									</Button>
-									<Button name="pcru_ТаблицаНеотработанныеДокументы_Счетаpcru_ОтправитьВДО" id="3701">
+									<Button name="pcru_ТаблицаНеотработанныеДокументы_Счетаpcru_ОтправитьВДО" id="3198">
 										<Type>CommandBarButton</Type>
 										<Representation>PictureAndText</Representation>
 										<CommandName>Form.Command.pcru_ОтправитьВДО</CommandName>
 										<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
-										<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_Счетаpcru_ОтправитьВДОРасширеннаяПодсказка" id="3702"/>
+										<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_Счетаpcru_ОтправитьВДОРасширеннаяПодсказка" id="3199"/>
 									</Button>
-									<Button name="pcru_ТаблицаНеотработанныеДокументы_Счетаpcru_ОтправитьВДОТест" id="3703">
+									<Button name="pcru_ТаблицаНеотработанныеДокументы_Счетаpcru_ОтправитьВДОТест" id="3200">
 										<Type>CommandBarButton</Type>
 										<Representation>PictureAndText</Representation>
 										<CommandName>Form.Command.pcru_ОтправитьВДОТест</CommandName>
 										<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
-										<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_Счетаpcru_ОтправитьВДОТестРасширеннаяПодсказка" id="3704"/>
+										<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_Счетаpcru_ОтправитьВДОТестРасширеннаяПодсказка" id="3201"/>
 									</Button>
-									<Button name="pcru_ПометитьКакОтработанный" id="3645">
+									<Button name="pcru_ПометитьКакОтработанный" id="3202">
 										<Type>CommandBarButton</Type>
-										<CommandName>Form.Command.pcru_ПометитьКакОтработанный</CommandName>
+										<CommandName>Form.Command.pcru_ВРаботеКоманднаяПанельУстановитьИнтервал</CommandName>
 										<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
-										<ExtendedTooltip name="pcru_ПометитьКакОтработанныйРасширеннаяПодсказка" id="3646"/>
+										<ExtendedTooltip name="pcru_ПометитьКакОтработанныйРасширеннаяПодсказка" id="3203"/>
 									</Button>
 								</ChildItems>
 							</AutoCommandBar>
-							<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаРасширеннаяПодсказка" id="3372"/>
-							<SearchStringAddition name="pcru_ТаблицаНеотработанныеДокументы_СчетаСтрокаПоиска" id="3373">
+							<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаРасширеннаяПодсказка" id="3122"/>
+							<SearchStringAddition name="pcru_ТаблицаНеотработанныеДокументы_СчетаСтрокаПоиска" id="3123">
 								<AdditionSource>
 									<Item>pcru_ТаблицаНеотработанныеДокументы_Счета</Item>
 									<Type>SearchStringRepresentation</Type>
 								</AdditionSource>
-								<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаСтрокаПоискаКонтекстноеМеню" id="3374"/>
-								<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаСтрокаПоискаРасширеннаяПодсказка" id="3375"/>
+								<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаСтрокаПоискаКонтекстноеМеню" id="3124"/>
+								<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаСтрокаПоискаРасширеннаяПодсказка" id="3125"/>
 							</SearchStringAddition>
-							<ViewStatusAddition name="pcru_ТаблицаНеотработанныеДокументы_СчетаСостояниеПросмотра" id="3376">
+							<ViewStatusAddition name="pcru_ТаблицаНеотработанныеДокументы_СчетаСостояниеПросмотра" id="3126">
 								<AdditionSource>
 									<Item>pcru_ТаблицаНеотработанныеДокументы_Счета</Item>
 									<Type>ViewStatusRepresentation</Type>
 								</AdditionSource>
-								<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаСостояниеПросмотраКонтекстноеМеню" id="3377"/>
-								<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаСостояниеПросмотраРасширеннаяПодсказка" id="3378"/>
+								<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаСостояниеПросмотраКонтекстноеМеню" id="3127"/>
+								<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаСостояниеПросмотраРасширеннаяПодсказка" id="3128"/>
 							</ViewStatusAddition>
-							<SearchControlAddition name="pcru_ТаблицаНеотработанныеДокументы_СчетаУправлениеПоиском" id="3379">
+							<SearchControlAddition name="pcru_ТаблицаНеотработанныеДокументы_СчетаУправлениеПоиском" id="3129">
 								<AdditionSource>
 									<Item>pcru_ТаблицаНеотработанныеДокументы_Счета</Item>
 									<Type>SearchControl</Type>
 								</AdditionSource>
-								<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаУправлениеПоискомКонтекстноеМеню" id="3380"/>
-								<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаУправлениеПоискомРасширеннаяПодсказка" id="3381"/>
+								<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаУправлениеПоискомКонтекстноеМеню" id="3130"/>
+								<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаУправлениеПоискомРасширеннаяПодсказка" id="3131"/>
 							</SearchControlAddition>
 							<Events>
 								<Event name="Selection">pcru_ТаблицаНеотработанныеДокументы_СчетаВыбор</Event>
@@ -837,113 +852,248 @@
 								<Event name="BeforeRowChange">pcru_ТаблицаНеотработанныеДокументы_СчетаПередНачаломИзменения</Event>
 							</Events>
 							<ChildItems>
-								<PictureField name="pcru_ТаблицаНеотработанныеДокументы_СчетаИндексИконкиПакета" id="3445">
-									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Счета.ИндексИконкиПакета</DataPath>
-									<TitleLocation>None</TitleLocation>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаИндексИконкиПакетаКонтекстноеМеню" id="3446"/>
-									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаИндексИконкиПакетаРасширеннаяПодсказка" id="3447"/>
-								</PictureField>
-								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаТипДокумента" id="3382">
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаТипДокумента" id="3443">
 									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Счета.ТипДокумента</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаТипДокументаКонтекстноеМеню" id="3383"/>
-									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаТипДокументаРасширеннаяПодсказка" id="3384"/>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаТипДокументаКонтекстноеМеню" id="3444"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаТипДокументаРасширеннаяПодсказка" id="3445"/>
 								</InputField>
-								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаНомер" id="3385">
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаНомер" id="3446">
 									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Счета.Номер</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаНомерКонтекстноеМеню" id="3386"/>
-									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаНомерРасширеннаяПодсказка" id="3387"/>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаНомерКонтекстноеМеню" id="3447"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаНомерРасширеннаяПодсказка" id="3448"/>
 								</InputField>
-								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаДата" id="3388">
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаДата" id="3449">
 									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Счета.Дата</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаДатаКонтекстноеМеню" id="3389"/>
-									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаДатаРасширеннаяПодсказка" id="3390"/>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаДатаКонтекстноеМеню" id="3450"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаДатаРасширеннаяПодсказка" id="3451"/>
 								</InputField>
-								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаПокупатель" id="3391">
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаПокупатель" id="3452">
 									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Счета.Покупатель</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаПокупательКонтекстноеМеню" id="3392"/>
-									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаПокупательРасширеннаяПодсказка" id="3393"/>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаПокупательКонтекстноеМеню" id="3453"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаПокупательРасширеннаяПодсказка" id="3454"/>
 								</InputField>
-								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаПодразделение" id="3394">
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаПодразделение" id="3455">
 									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Счета.Подразделение</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаПодразделениеКонтекстноеМеню" id="3395"/>
-									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаПодразделениеРасширеннаяПодсказка" id="3396"/>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаПодразделениеКонтекстноеМеню" id="3456"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаПодразделениеРасширеннаяПодсказка" id="3457"/>
 								</InputField>
-								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаПродавец" id="3397">
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаПродавец" id="3458">
 									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Счета.Продавец</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаПродавецКонтекстноеМеню" id="3398"/>
-									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаПродавецРасширеннаяПодсказка" id="3399"/>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаПродавецКонтекстноеМеню" id="3459"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаПродавецРасширеннаяПодсказка" id="3460"/>
 								</InputField>
-								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаДатаУчета" id="3400">
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаДатаУчета" id="3461">
 									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Счета.ДатаУчета</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаДатаУчетаКонтекстноеМеню" id="3401"/>
-									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаДатаУчетаРасширеннаяПодсказка" id="3402"/>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаДатаУчетаКонтекстноеМеню" id="3462"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаДатаУчетаРасширеннаяПодсказка" id="3463"/>
 								</InputField>
-								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаСумма" id="3403">
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаСумма" id="3464">
 									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Счета.Сумма</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаСуммаКонтекстноеМеню" id="3404"/>
-									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаСуммаРасширеннаяПодсказка" id="3405"/>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаСуммаКонтекстноеМеню" id="3465"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаСуммаРасширеннаяПодсказка" id="3466"/>
 								</InputField>
-								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаСостояниеДокументооборота" id="3406">
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаСостояниеДокументооборота" id="3467">
 									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Счета.СостояниеДокументооборота</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаСостояниеДокументооборотаКонтекстноеМеню" id="3407"/>
-									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаСостояниеДокументооборотаРасширеннаяПодсказка" id="3408"/>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаСостояниеДокументооборотаКонтекстноеМеню" id="3468"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаСостояниеДокументооборотаРасширеннаяПодсказка" id="3469"/>
 								</InputField>
-								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаСостояниеСогласования" id="3439">
-									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Счета.СостояниеСогласования</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаСостояниеСогласованияКонтекстноеМеню" id="3440"/>
-									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаСостояниеСогласованияРасширеннаяПодсказка" id="3441"/>
-								</InputField>
-								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаПервичныйДокумент" id="3409">
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаПервичныйДокумент" id="3470">
 									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Счета.ПервичныйДокумент</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаПервичныйДокументКонтекстноеМеню" id="3410"/>
-									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаПервичныйДокументРасширеннаяПодсказка" id="3411"/>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаПервичныйДокументКонтекстноеМеню" id="3471"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаПервичныйДокументРасширеннаяПодсказка" id="3472"/>
 								</InputField>
-								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаТекстОшибки" id="3412">
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаТекстОшибки" id="3473">
 									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Счета.ТекстОшибки</DataPath>
-									<Visible>false</Visible>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаТекстОшибкиКонтекстноеМеню" id="3413"/>
-									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаТекстОшибкиРасширеннаяПодсказка" id="3414"/>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаТекстОшибкиКонтекстноеМеню" id="3474"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаТекстОшибкиРасширеннаяПодсказка" id="3475"/>
 								</InputField>
-								<CheckBoxField name="pcru_ТаблицаНеотработанныеДокументы_СчетаЭтоТестовыйДок" id="3433">
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаВалюта" id="3476">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Счета.Валюта</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаВалютаКонтекстноеМеню" id="3477"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаВалютаРасширеннаяПодсказка" id="3478"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаBoxID" id="3479">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Счета.BoxID</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаBoxIDКонтекстноеМеню" id="3480"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаBoxIDРасширеннаяПодсказка" id="3481"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаDocumentId" id="3482">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Счета.DocumentId</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаDocumentIdКонтекстноеМеню" id="3483"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаDocumentIdРасширеннаяПодсказка" id="3484"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаDocumentType" id="3485">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Счета.DocumentType</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаDocumentTypeКонтекстноеМеню" id="3486"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаDocumentTypeРасширеннаяПодсказка" id="3487"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаFileGUID" id="3488">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Счета.FileGUID</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаFileGUIDКонтекстноеМеню" id="3489"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаFileGUIDРасширеннаяПодсказка" id="3490"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаСуммаНДС" id="3491">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Счета.СуммаНДС</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаСуммаНДСКонтекстноеМеню" id="3492"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаСуммаНДСРасширеннаяПодсказка" id="3493"/>
+								</InputField>
+								<CheckBoxField name="pcru_ТаблицаНеотработанныеДокументы_СчетаЭтоТестовыйДок" id="3494">
 									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Счета.ЭтоТестовыйДок</DataPath>
-									<Visible>false</Visible>
 									<EditMode>EnterOnInput</EditMode>
 									<CheckBoxType>Auto</CheckBoxType>
-									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаЭтоТестовыйДокКонтекстноеМеню" id="3434"/>
-									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаЭтоТестовыйДокРасширеннаяПодсказка" id="3435"/>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаЭтоТестовыйДокКонтекстноеМеню" id="3495"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаЭтоТестовыйДокРасширеннаяПодсказка" id="3496"/>
 								</CheckBoxField>
-								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаMessageID" id="3442">
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаCounteragentId" id="3497">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Счета.CounteragentId</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаCounteragentIdКонтекстноеМеню" id="3498"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаCounteragentIdРасширеннаяПодсказка" id="3499"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаСостояниеСогласования" id="3500">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Счета.СостояниеСогласования</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаСостояниеСогласованияКонтекстноеМеню" id="3501"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаСостояниеСогласованияРасширеннаяПодсказка" id="3502"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаMessageID" id="3503">
 									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Счета.MessageID</DataPath>
-									<Visible>false</Visible>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаMessageIDКонтекстноеМеню" id="3443"/>
-									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаMessageIDРасширеннаяПодсказка" id="3444"/>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаMessageIDКонтекстноеМеню" id="3504"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаMessageIDРасширеннаяПодсказка" id="3505"/>
 								</InputField>
-								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаПозицияСортировки" id="3448">
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаИндексИконкиПакета" id="3506">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Счета.ИндексИконкиПакета</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаИндексИконкиПакетаКонтекстноеМеню" id="3507"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаИндексИконкиПакетаРасширеннаяПодсказка" id="3508"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаПозицияСортировки" id="3509">
 									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Счета.ПозицияСортировки</DataPath>
-									<Visible>false</Visible>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаПозицияСортировкиКонтекстноеМеню" id="3449"/>
-									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаПозицияСортировкиРасширеннаяПодсказка" id="3450"/>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаПозицияСортировкиКонтекстноеМеню" id="3510"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаПозицияСортировкиРасширеннаяПодсказка" id="3511"/>
 								</InputField>
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаИндексИконкиПакетаКопия" id="3512">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Счета.ИндексИконкиПакетаКопия</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаИндексИконкиПакетаКопияКонтекстноеМеню" id="3513"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаИндексИконкиПакетаКопияРасширеннаяПодсказка" id="3514"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаResolutions" id="3515">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Счета.Resolutions</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаResolutionsКонтекстноеМеню" id="3516"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаResolutionsРасширеннаяПодсказка" id="3517"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаStatus" id="3518">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Счета.Status</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаStatusКонтекстноеМеню" id="3519"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаStatusРасширеннаяПодсказка" id="3520"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаRevocationStatus" id="3521">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Счета.RevocationStatus</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаRevocationStatusКонтекстноеМеню" id="3522"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаRevocationStatusРасширеннаяПодсказка" id="3523"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаContentType" id="3524">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Счета.ContentType</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаContentTypeКонтекстноеМеню" id="3525"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаContentTypeРасширеннаяПодсказка" id="3526"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаDocumentFunction" id="3527">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Счета.DocumentFunction</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаDocumentFunctionКонтекстноеМеню" id="3528"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаDocumentFunctionРасширеннаяПодсказка" id="3529"/>
+								</InputField>
+								<CheckBoxField name="pcru_ТаблицаНеотработанныеДокументы_СчетаЕстьInitialDocuments" id="3530">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Счета.ЕстьInitialDocuments</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаЕстьInitialDocumentsКонтекстноеМеню" id="3531"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаЕстьInitialDocumentsРасширеннаяПодсказка" id="3532"/>
+								</CheckBoxField>
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаDocumentDirection" id="3533">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Счета.DocumentDirection</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаDocumentDirectionКонтекстноеМеню" id="3534"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаDocumentDirectionРасширеннаяПодсказка" id="3535"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаAttachmentVersion" id="3536">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Счета.AttachmentVersion</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаAttachmentVersionКонтекстноеМеню" id="3537"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаAttachmentVersionРасширеннаяПодсказка" id="3538"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаDepartmentKpp" id="3539">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Счета.DepartmentKpp</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаDepartmentKppКонтекстноеМеню" id="3540"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаDepartmentKppРасширеннаяПодсказка" id="3541"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаСуммаДокументаЗначение" id="3542">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Счета.СуммаДокументаЗначение</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаСуммаДокументаЗначениеКонтекстноеМеню" id="3543"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаСуммаДокументаЗначениеРасширеннаяПодсказка" id="3544"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаDepartmentId" id="3545">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Счета.DepartmentId</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаDepartmentIdКонтекстноеМеню" id="3546"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаDepartmentIdРасширеннаяПодсказка" id="3547"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаFileName" id="3548">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Счета.FileName</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаFileNameКонтекстноеМеню" id="3549"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаFileNameРасширеннаяПодсказка" id="3550"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаФорматОтправки" id="3551">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Счета.ФорматОтправки</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаФорматОтправкиКонтекстноеМеню" id="3552"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаФорматОтправкиРасширеннаяПодсказка" id="3553"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_СчетаЭлектронныйДокумент" id="3554">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Счета.ЭлектронныйДокумент</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаЭлектронныйДокументКонтекстноеМеню" id="3555"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаЭлектронныйДокументРасширеннаяПодсказка" id="3556"/>
+								</InputField>
+								<CheckBoxField name="pcru_ТаблицаНеотработанныеДокументы_СчетаУстаревшийФормат" id="3557">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Счета.УстаревшийФормат</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_СчетаУстаревшийФорматКонтекстноеМеню" id="3558"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_СчетаУстаревшийФорматРасширеннаяПодсказка" id="3559"/>
+								</CheckBoxField>
 							</ChildItems>
 						</Table>
 					</ChildItems>
 				</Page>
-				<Page name="pcru_СтраницаНеотработанныеДиадок_Прочие" id="3103">
+				<Page name="pcru_СтраницаНеотработанныеДиадок_Прочие" id="3204">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -958,50 +1108,46 @@
 					</ToolTip>
 					<Width>20</Width>
 					<VerticalStretch>true</VerticalStretch>
-					<Picture>
-						<xr:Ref>CommonPicture.pcru_ex_Профикредит</xr:Ref>
-						<xr:LoadTransparent>true</xr:LoadTransparent>
-					</Picture>
-					<ExtendedTooltip name="pcru_СтраницаНеотработанныеДиадок_ПрочиеРасширеннаяПодсказка" id="3104"/>
+					<ExtendedTooltip name="pcru_СтраницаНеотработанныеДиадок_ПрочиеРасширеннаяПодсказка" id="3205"/>
 					<ChildItems>
-						<Table name="pcru_ТаблицаНеотработанныеДокументы_Прочие" id="3499">
+						<Table name="pcru_ТаблицаНеотработанныеДокументы_Прочие" id="3206">
 							<Representation>List</Representation>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
 							<DataPath>pcru_ТаблицаНеотработанныеДокументы_Прочие</DataPath>
 							<RowFilter xsi:nil="true"/>
-							<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеКонтекстноеМеню" id="3500"/>
-							<AutoCommandBar name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеКоманднаяПанель" id="3501">
+							<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеКонтекстноеМеню" id="3207"/>
+							<AutoCommandBar name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеКоманднаяПанель" id="3208">
 								<Autofill>false</Autofill>
 								<ChildItems>
-									<Button name="pcru_НеотработанныеПрочиеКоманднаяПанельОткрытьКарточкуДокумента" id="3631">
+									<Button name="pcru_НеотработанныеПрочиеКоманднаяПанельОткрытьКарточкуДокумента" id="3267">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.pcru_НеотработанныеПрочиеКоманднаяПанельОткрытьКарточкуДокумента</CommandName>
-										<ExtendedTooltip name="pcru_НеотработанныеПрочиеКоманднаяПанельОткрытьКарточкуДокументаРасширеннаяПодсказка" id="3632"/>
+										<ExtendedTooltip name="pcru_НеотработанныеПрочиеКоманднаяПанельОткрытьКарточкуДокументаРасширеннаяПодсказка" id="3268"/>
 									</Button>
-									<Button name="ИнтервалНеотработанныеПрочие" id="3639">
+									<Button name="ИнтервалНеотработанныеПрочие" id="3269">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.pcru_НеотработанныеПрочиеКоманднаяПанельУстановитьИнтервал</CommandName>
-										<ExtendedTooltip name="ИнтервалНеотработанныеПрочиеРасширеннаяПодсказка" id="3640"/>
+										<ExtendedTooltip name="ИнтервалНеотработанныеПрочиеРасширеннаяПодсказка" id="3270"/>
 									</Button>
-									<Button name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеЗаполнитьСписок" id="3649">
+									<Button name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеЗаполнитьСписок" id="3271">
 										<Type>CommandBarButton</Type>
 										<Representation>Picture</Representation>
 										<CommandName>Form.Command.ЗаполнитьСписок</CommandName>
-										<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеЗаполнитьСписокРасширеннаяПодсказка" id="3650"/>
+										<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеЗаполнитьСписокРасширеннаяПодсказка" id="3272"/>
 									</Button>
-									<Button name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеВывестиСписок" id="3657">
+									<Button name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеВывестиСписок" id="3273">
 										<Type>CommandBarButton</Type>
 										<Representation>Picture</Representation>
-										<CommandName>Form.Item.pcru_ТаблицаНеотработанныеДокументы_Прочие.StandardCommand.OutputList</CommandName>
+										<CommandName>0</CommandName>
 										<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
-										<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеВывестиСписокРасширеннаяПодсказка" id="3658"/>
+										<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеВывестиСписокРасширеннаяПодсказка" id="3274"/>
 									</Button>
-									<Button name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеНайти" id="3667">
+									<Button name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеНайти" id="3275">
 										<Type>CommandBarButton</Type>
 										<Representation>PictureAndText</Representation>
-										<CommandName>Form.Item.pcru_ТаблицаНеотработанныеДокументы_Прочие.StandardCommand.Find</CommandName>
+										<CommandName>0</CommandName>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -1009,60 +1155,60 @@
 											</v8:item>
 										</Title>
 										<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
-										<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеНайтиРасширеннаяПодсказка" id="3668"/>
+										<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеНайтиРасширеннаяПодсказка" id="3276"/>
 									</Button>
-									<Button name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеОтменитьПоиск" id="3669">
+									<Button name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеОтменитьПоиск" id="3277">
 										<Type>CommandBarButton</Type>
 										<Representation>Picture</Representation>
-										<CommandName>Form.Item.pcru_ТаблицаНеотработанныеДокументы_Прочие.StandardCommand.CancelSearch</CommandName>
+										<CommandName>0</CommandName>
 										<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
-										<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеОтменитьПоискРасширеннаяПодсказка" id="3670"/>
+										<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеОтменитьПоискРасширеннаяПодсказка" id="3278"/>
 									</Button>
-									<Button name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеСортироватьСписокПоВозрастанию" id="3687">
+									<Button name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеСортироватьСписокПоВозрастанию" id="3279">
 										<Type>CommandBarButton</Type>
 										<Representation>PictureAndText</Representation>
-										<CommandName>Form.Item.pcru_ТаблицаНеотработанныеДокументы_Прочие.StandardCommand.SortListAsc</CommandName>
-										<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеСортироватьСписокПоВозрастаниюРасширеннаяПодсказка" id="3688"/>
+										<CommandName>0</CommandName>
+										<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеСортироватьСписокПоВозрастаниюРасширеннаяПодсказка" id="3280"/>
 									</Button>
-									<Button name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеСортироватьСписокПоУбыванию" id="3685">
+									<Button name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеСортироватьСписокПоУбыванию" id="3281">
 										<Type>CommandBarButton</Type>
 										<Representation>PictureAndText</Representation>
-										<CommandName>Form.Item.pcru_ТаблицаНеотработанныеДокументы_Прочие.StandardCommand.SortListDesc</CommandName>
-										<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеСортироватьСписокПоУбываниюРасширеннаяПодсказка" id="3686"/>
+										<CommandName>0</CommandName>
+										<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеСортироватьСписокПоУбываниюРасширеннаяПодсказка" id="3282"/>
 									</Button>
-									<Button name="pcru_ТаблицаНеотработанныеДокументы_Прочиеpcru_ПоказатьТабдок" id="3699">
+									<Button name="pcru_ТаблицаНеотработанныеДокументы_Прочиеpcru_ПоказатьТабдок" id="3283">
 										<Type>CommandBarButton</Type>
 										<Representation>PictureAndText</Representation>
 										<CommandName>Form.Command.pcru_ПоказатьТабдок</CommandName>
 										<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
-										<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_Прочиеpcru_ПоказатьТабдокРасширеннаяПодсказка" id="3700"/>
+										<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_Прочиеpcru_ПоказатьТабдокРасширеннаяПодсказка" id="3284"/>
 									</Button>
 								</ChildItems>
 							</AutoCommandBar>
-							<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеРасширеннаяПодсказка" id="3502"/>
-							<SearchStringAddition name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеСтрокаПоиска" id="3503">
+							<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеРасширеннаяПодсказка" id="3209"/>
+							<SearchStringAddition name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеСтрокаПоиска" id="3210">
 								<AdditionSource>
 									<Item>pcru_ТаблицаНеотработанныеДокументы_Прочие</Item>
 									<Type>SearchStringRepresentation</Type>
 								</AdditionSource>
-								<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеСтрокаПоискаКонтекстноеМеню" id="3504"/>
-								<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеСтрокаПоискаРасширеннаяПодсказка" id="3505"/>
+								<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеСтрокаПоискаКонтекстноеМеню" id="3211"/>
+								<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеСтрокаПоискаРасширеннаяПодсказка" id="3212"/>
 							</SearchStringAddition>
-							<ViewStatusAddition name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеСостояниеПросмотра" id="3506">
+							<ViewStatusAddition name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеСостояниеПросмотра" id="3213">
 								<AdditionSource>
 									<Item>pcru_ТаблицаНеотработанныеДокументы_Прочие</Item>
 									<Type>ViewStatusRepresentation</Type>
 								</AdditionSource>
-								<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеСостояниеПросмотраКонтекстноеМеню" id="3507"/>
-								<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеСостояниеПросмотраРасширеннаяПодсказка" id="3508"/>
+								<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеСостояниеПросмотраКонтекстноеМеню" id="3214"/>
+								<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеСостояниеПросмотраРасширеннаяПодсказка" id="3215"/>
 							</ViewStatusAddition>
-							<SearchControlAddition name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеУправлениеПоиском" id="3509">
+							<SearchControlAddition name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеУправлениеПоиском" id="3216">
 								<AdditionSource>
 									<Item>pcru_ТаблицаНеотработанныеДокументы_Прочие</Item>
 									<Type>SearchControl</Type>
 								</AdditionSource>
-								<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеУправлениеПоискомКонтекстноеМеню" id="3510"/>
-								<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеУправлениеПоискомРасширеннаяПодсказка" id="3511"/>
+								<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеУправлениеПоискомКонтекстноеМеню" id="3217"/>
+								<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеУправлениеПоискомРасширеннаяПодсказка" id="3218"/>
 							</SearchControlAddition>
 							<Events>
 								<Event name="Selection">pcru_ТаблицаНеотработанныеДокументы_ПрочиеВыбор</Event>
@@ -1072,113 +1218,248 @@
 								<Event name="BeforeRowChange">pcru_ТаблицаНеотработанныеДокументы_ПрочиеПередНачаломИзменения</Event>
 							</Events>
 							<ChildItems>
-								<PictureField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеИндексИконкиПакета" id="3575">
-									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Прочие.ИндексИконкиПакета</DataPath>
-									<TitleLocation>None</TitleLocation>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеИндексИконкиПакетаКонтекстноеМеню" id="3576"/>
-									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеИндексИконкиПакетаРасширеннаяПодсказка" id="3577"/>
-								</PictureField>
-								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеТипДокумента" id="3512">
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеТипДокумента" id="3560">
 									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Прочие.ТипДокумента</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеТипДокументаКонтекстноеМеню" id="3513"/>
-									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеТипДокументаРасширеннаяПодсказка" id="3514"/>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеТипДокументаКонтекстноеМеню" id="3561"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеТипДокументаРасширеннаяПодсказка" id="3562"/>
 								</InputField>
-								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеНомер" id="3515">
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеНомер" id="3563">
 									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Прочие.Номер</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеНомерКонтекстноеМеню" id="3516"/>
-									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеНомерРасширеннаяПодсказка" id="3517"/>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеНомерКонтекстноеМеню" id="3564"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеНомерРасширеннаяПодсказка" id="3565"/>
 								</InputField>
-								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеДата" id="3518">
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеДата" id="3566">
 									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Прочие.Дата</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеДатаКонтекстноеМеню" id="3519"/>
-									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеДатаРасширеннаяПодсказка" id="3520"/>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеДатаКонтекстноеМеню" id="3567"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеДатаРасширеннаяПодсказка" id="3568"/>
 								</InputField>
-								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеПокупатель" id="3521">
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеПокупатель" id="3569">
 									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Прочие.Покупатель</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеПокупательКонтекстноеМеню" id="3522"/>
-									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеПокупательРасширеннаяПодсказка" id="3523"/>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеПокупательКонтекстноеМеню" id="3570"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеПокупательРасширеннаяПодсказка" id="3571"/>
 								</InputField>
-								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеПодразделение" id="3524">
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеПодразделение" id="3572">
 									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Прочие.Подразделение</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеПодразделениеКонтекстноеМеню" id="3525"/>
-									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеПодразделениеРасширеннаяПодсказка" id="3526"/>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеПодразделениеКонтекстноеМеню" id="3573"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеПодразделениеРасширеннаяПодсказка" id="3574"/>
 								</InputField>
-								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеПродавец" id="3527">
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеПродавец" id="3575">
 									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Прочие.Продавец</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеПродавецКонтекстноеМеню" id="3528"/>
-									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеПродавецРасширеннаяПодсказка" id="3529"/>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеПродавецКонтекстноеМеню" id="3576"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеПродавецРасширеннаяПодсказка" id="3577"/>
 								</InputField>
-								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеДатаУчета" id="3530">
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеДатаУчета" id="3578">
 									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Прочие.ДатаУчета</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеДатаУчетаКонтекстноеМеню" id="3531"/>
-									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеДатаУчетаРасширеннаяПодсказка" id="3532"/>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеДатаУчетаКонтекстноеМеню" id="3579"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеДатаУчетаРасширеннаяПодсказка" id="3580"/>
 								</InputField>
-								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеСумма" id="3533">
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеСумма" id="3581">
 									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Прочие.Сумма</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеСуммаКонтекстноеМеню" id="3534"/>
-									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеСуммаРасширеннаяПодсказка" id="3535"/>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеСуммаКонтекстноеМеню" id="3582"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеСуммаРасширеннаяПодсказка" id="3583"/>
 								</InputField>
-								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеСостояниеДокументооборота" id="3536">
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеСостояниеДокументооборота" id="3584">
 									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Прочие.СостояниеДокументооборота</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеСостояниеДокументооборотаКонтекстноеМеню" id="3537"/>
-									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеСостояниеДокументооборотаРасширеннаяПодсказка" id="3538"/>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеСостояниеДокументооборотаКонтекстноеМеню" id="3585"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеСостояниеДокументооборотаРасширеннаяПодсказка" id="3586"/>
 								</InputField>
-								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеПервичныйДокумент" id="3539">
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеПервичныйДокумент" id="3587">
 									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Прочие.ПервичныйДокумент</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеПервичныйДокументКонтекстноеМеню" id="3540"/>
-									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеПервичныйДокументРасширеннаяПодсказка" id="3541"/>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеПервичныйДокументКонтекстноеМеню" id="3588"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеПервичныйДокументРасширеннаяПодсказка" id="3589"/>
 								</InputField>
-								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеСостояниеСогласования" id="3569">
-									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Прочие.СостояниеСогласования</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеСостояниеСогласованияКонтекстноеМеню" id="3570"/>
-									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеСостояниеСогласованияРасширеннаяПодсказка" id="3571"/>
-								</InputField>
-								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеТекстОшибки" id="3542">
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеТекстОшибки" id="3590">
 									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Прочие.ТекстОшибки</DataPath>
-									<Visible>false</Visible>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеТекстОшибкиКонтекстноеМеню" id="3543"/>
-									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеТекстОшибкиРасширеннаяПодсказка" id="3544"/>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеТекстОшибкиКонтекстноеМеню" id="3591"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеТекстОшибкиРасширеннаяПодсказка" id="3592"/>
 								</InputField>
-								<CheckBoxField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеЭтоТестовыйДок" id="3563">
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеВалюта" id="3593">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Прочие.Валюта</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеВалютаКонтекстноеМеню" id="3594"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеВалютаРасширеннаяПодсказка" id="3595"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеBoxID" id="3596">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Прочие.BoxID</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеBoxIDКонтекстноеМеню" id="3597"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеBoxIDРасширеннаяПодсказка" id="3598"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеDocumentId" id="3599">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Прочие.DocumentId</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеDocumentIdКонтекстноеМеню" id="3600"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеDocumentIdРасширеннаяПодсказка" id="3601"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеDocumentType" id="3602">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Прочие.DocumentType</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеDocumentTypeКонтекстноеМеню" id="3603"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеDocumentTypeРасширеннаяПодсказка" id="3604"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеFileGUID" id="3605">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Прочие.FileGUID</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеFileGUIDКонтекстноеМеню" id="3606"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеFileGUIDРасширеннаяПодсказка" id="3607"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеСуммаНДС" id="3608">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Прочие.СуммаНДС</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеСуммаНДСКонтекстноеМеню" id="3609"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеСуммаНДСРасширеннаяПодсказка" id="3610"/>
+								</InputField>
+								<CheckBoxField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеЭтоТестовыйДок" id="3611">
 									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Прочие.ЭтоТестовыйДок</DataPath>
-									<Visible>false</Visible>
 									<EditMode>EnterOnInput</EditMode>
 									<CheckBoxType>Auto</CheckBoxType>
-									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеЭтоТестовыйДокКонтекстноеМеню" id="3564"/>
-									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеЭтоТестовыйДокРасширеннаяПодсказка" id="3565"/>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеЭтоТестовыйДокКонтекстноеМеню" id="3612"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеЭтоТестовыйДокРасширеннаяПодсказка" id="3613"/>
 								</CheckBoxField>
-								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеMessageID" id="3572">
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеCounteragentId" id="3614">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Прочие.CounteragentId</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеCounteragentIdКонтекстноеМеню" id="3615"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеCounteragentIdРасширеннаяПодсказка" id="3616"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеСостояниеСогласования" id="3617">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Прочие.СостояниеСогласования</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеСостояниеСогласованияКонтекстноеМеню" id="3618"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеСостояниеСогласованияРасширеннаяПодсказка" id="3619"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеMessageID" id="3620">
 									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Прочие.MessageID</DataPath>
-									<Visible>false</Visible>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеMessageIDКонтекстноеМеню" id="3573"/>
-									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеMessageIDРасширеннаяПодсказка" id="3574"/>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеMessageIDКонтекстноеМеню" id="3621"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеMessageIDРасширеннаяПодсказка" id="3622"/>
 								</InputField>
-								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеПозицияСортировки" id="3578">
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеИндексИконкиПакета" id="3623">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Прочие.ИндексИконкиПакета</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеИндексИконкиПакетаКонтекстноеМеню" id="3624"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеИндексИконкиПакетаРасширеннаяПодсказка" id="3625"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеПозицияСортировки" id="3626">
 									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Прочие.ПозицияСортировки</DataPath>
-									<Visible>false</Visible>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеПозицияСортировкиКонтекстноеМеню" id="3579"/>
-									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеПозицияСортировкиРасширеннаяПодсказка" id="3580"/>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеПозицияСортировкиКонтекстноеМеню" id="3627"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеПозицияСортировкиРасширеннаяПодсказка" id="3628"/>
 								</InputField>
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеИндексИконкиПакетаКопия" id="3629">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Прочие.ИндексИконкиПакетаКопия</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеИндексИконкиПакетаКопияКонтекстноеМеню" id="3630"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеИндексИконкиПакетаКопияРасширеннаяПодсказка" id="3631"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеResolutions" id="3632">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Прочие.Resolutions</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеResolutionsКонтекстноеМеню" id="3633"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеResolutionsРасширеннаяПодсказка" id="3634"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеStatus" id="3635">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Прочие.Status</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеStatusКонтекстноеМеню" id="3636"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеStatusРасширеннаяПодсказка" id="3637"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеRevocationStatus" id="3638">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Прочие.RevocationStatus</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеRevocationStatusКонтекстноеМеню" id="3639"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеRevocationStatusРасширеннаяПодсказка" id="3640"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеContentType" id="3641">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Прочие.ContentType</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеContentTypeКонтекстноеМеню" id="3642"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеContentTypeРасширеннаяПодсказка" id="3643"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеDocumentFunction" id="3644">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Прочие.DocumentFunction</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеDocumentFunctionКонтекстноеМеню" id="3645"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеDocumentFunctionРасширеннаяПодсказка" id="3646"/>
+								</InputField>
+								<CheckBoxField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеЕстьInitialDocuments" id="3647">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Прочие.ЕстьInitialDocuments</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеЕстьInitialDocumentsКонтекстноеМеню" id="3648"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеЕстьInitialDocumentsРасширеннаяПодсказка" id="3649"/>
+								</CheckBoxField>
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеDocumentDirection" id="3650">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Прочие.DocumentDirection</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеDocumentDirectionКонтекстноеМеню" id="3651"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеDocumentDirectionРасширеннаяПодсказка" id="3652"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеAttachmentVersion" id="3653">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Прочие.AttachmentVersion</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеAttachmentVersionКонтекстноеМеню" id="3654"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеAttachmentVersionРасширеннаяПодсказка" id="3655"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеDepartmentKpp" id="3656">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Прочие.DepartmentKpp</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеDepartmentKppКонтекстноеМеню" id="3657"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеDepartmentKppРасширеннаяПодсказка" id="3658"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеСуммаДокументаЗначение" id="3659">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Прочие.СуммаДокументаЗначение</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеСуммаДокументаЗначениеКонтекстноеМеню" id="3660"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеСуммаДокументаЗначениеРасширеннаяПодсказка" id="3661"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеDepartmentId" id="3662">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Прочие.DepartmentId</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеDepartmentIdКонтекстноеМеню" id="3663"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеDepartmentIdРасширеннаяПодсказка" id="3664"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеFileName" id="3665">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Прочие.FileName</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеFileNameКонтекстноеМеню" id="3666"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеFileNameРасширеннаяПодсказка" id="3667"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеФорматОтправки" id="3668">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Прочие.ФорматОтправки</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеФорматОтправкиКонтекстноеМеню" id="3669"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеФорматОтправкиРасширеннаяПодсказка" id="3670"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеЭлектронныйДокумент" id="3671">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Прочие.ЭлектронныйДокумент</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеЭлектронныйДокументКонтекстноеМеню" id="3672"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеЭлектронныйДокументРасширеннаяПодсказка" id="3673"/>
+								</InputField>
+								<CheckBoxField name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеУстаревшийФормат" id="3674">
+									<DataPath>pcru_ТаблицаНеотработанныеДокументы_Прочие.УстаревшийФормат</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеУстаревшийФорматКонтекстноеМеню" id="3675"/>
+									<ExtendedTooltip name="pcru_ТаблицаНеотработанныеДокументы_ПрочиеУстаревшийФорматРасширеннаяПодсказка" id="3676"/>
+								</CheckBoxField>
 							</ChildItems>
 						</Table>
 					</ChildItems>
 				</Page>
-				<Page name="pcru_СтраницаВРаботеДиадок" id="3105">
+				<Page name="pcru_СтраницаВРаботеДиадок" id="3285">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1193,50 +1474,46 @@
 					</ToolTip>
 					<Width>20</Width>
 					<VerticalStretch>true</VerticalStretch>
-					<Picture>
-						<xr:Ref>CommonPicture.pcru_ex_Профикредит</xr:Ref>
-						<xr:LoadTransparent>true</xr:LoadTransparent>
-					</Picture>
-					<ExtendedTooltip name="pcru_СтраницаВРаботеДиадокРасширеннаяПодсказка" id="3106"/>
+					<ExtendedTooltip name="pcru_СтраницаВРаботеДиадокРасширеннаяПодсказка" id="3286"/>
 					<ChildItems>
-						<Table name="pcru_ТаблицаВРаботеДокументы" id="3239">
+						<Table name="pcru_ТаблицаВРаботеДокументы" id="3287">
 							<Representation>List</Representation>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
 							<DataPath>pcru_ТаблицаВРаботеДокументы</DataPath>
 							<RowFilter xsi:nil="true"/>
-							<ContextMenu name="pcru_ТаблицаВРаботеДокументыКонтекстноеМеню" id="3240"/>
-							<AutoCommandBar name="pcru_ТаблицаВРаботеДокументыКоманднаяПанель" id="3241">
+							<ContextMenu name="pcru_ТаблицаВРаботеДокументыКонтекстноеМеню" id="3288"/>
+							<AutoCommandBar name="pcru_ТаблицаВРаботеДокументыКоманднаяПанель" id="3289">
 								<Autofill>false</Autofill>
 								<ChildItems>
-									<Button name="pcru_ВРаботеКоманднаяПанельОткрытьКарточкуДокумента" id="3633">
+									<Button name="pcru_ВРаботеКоманднаяПанельОткрытьКарточкуДокумента" id="3348">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.pcru_ВРаботеКоманднаяПанельОткрытьКарточкуДокумента</CommandName>
-										<ExtendedTooltip name="pcru_ВРаботеКоманднаяПанельОткрытьКарточкуДокументаРасширеннаяПодсказка" id="3634"/>
+										<ExtendedTooltip name="pcru_ВРаботеКоманднаяПанельОткрытьКарточкуДокументаРасширеннаяПодсказка" id="3349"/>
 									</Button>
-									<Button name="ИнтервалВРаботе" id="3641">
+									<Button name="ИнтервалВРаботе" id="3350">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.pcru_ВРаботеКоманднаяПанельУстановитьИнтервал</CommandName>
-										<ExtendedTooltip name="ИнтервалВРаботеРасширеннаяПодсказка" id="3642"/>
+										<ExtendedTooltip name="ИнтервалВРаботеРасширеннаяПодсказка" id="3351"/>
 									</Button>
-									<Button name="pcru_ТаблицаВРаботеДокументыЗаполнитьСписок" id="3651">
+									<Button name="pcru_ТаблицаВРаботеДокументыЗаполнитьСписок" id="3352">
 										<Type>CommandBarButton</Type>
 										<Representation>Picture</Representation>
 										<CommandName>Form.Command.ЗаполнитьСписок</CommandName>
-										<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыЗаполнитьСписокРасширеннаяПодсказка" id="3652"/>
+										<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыЗаполнитьСписокРасширеннаяПодсказка" id="3353"/>
 									</Button>
-									<Button name="pcru_ТаблицаВРаботеДокументыВывестиСписок" id="3659">
+									<Button name="pcru_ТаблицаВРаботеДокументыВывестиСписок" id="3354">
 										<Type>CommandBarButton</Type>
 										<Representation>Picture</Representation>
-										<CommandName>Form.Item.pcru_ТаблицаВРаботеДокументы.StandardCommand.OutputList</CommandName>
+										<CommandName>0</CommandName>
 										<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
-										<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыВывестиСписокРасширеннаяПодсказка" id="3660"/>
+										<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыВывестиСписокРасширеннаяПодсказка" id="3355"/>
 									</Button>
-									<Button name="pcru_ТаблицаВРаботеДокументыНайти" id="3671">
+									<Button name="pcru_ТаблицаВРаботеДокументыНайти" id="3356">
 										<Type>CommandBarButton</Type>
 										<Representation>PictureAndText</Representation>
-										<CommandName>Form.Item.pcru_ТаблицаВРаботеДокументы.StandardCommand.Find</CommandName>
+										<CommandName>0</CommandName>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -1244,53 +1521,53 @@
 											</v8:item>
 										</Title>
 										<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
-										<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыНайтиРасширеннаяПодсказка" id="3672"/>
+										<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыНайтиРасширеннаяПодсказка" id="3357"/>
 									</Button>
-									<Button name="pcru_ТаблицаВРаботеДокументыОтменитьПоиск" id="3673">
+									<Button name="pcru_ТаблицаВРаботеДокументыОтменитьПоиск" id="3358">
 										<Type>CommandBarButton</Type>
 										<Representation>Picture</Representation>
-										<CommandName>Form.Item.pcru_ТаблицаВРаботеДокументы.StandardCommand.CancelSearch</CommandName>
+										<CommandName>0</CommandName>
 										<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
-										<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыОтменитьПоискРасширеннаяПодсказка" id="3674"/>
+										<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыОтменитьПоискРасширеннаяПодсказка" id="3359"/>
 									</Button>
-									<Button name="pcru_ТаблицаВРаботеДокументыСортироватьСписокПоВозрастанию" id="3689">
+									<Button name="pcru_ТаблицаВРаботеДокументыСортироватьСписокПоВозрастанию" id="3360">
 										<Type>CommandBarButton</Type>
 										<Representation>PictureAndText</Representation>
-										<CommandName>Form.Item.pcru_ТаблицаВРаботеДокументы.StandardCommand.SortListAsc</CommandName>
-										<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыСортироватьСписокПоВозрастаниюРасширеннаяПодсказка" id="3690"/>
+										<CommandName>0</CommandName>
+										<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыСортироватьСписокПоВозрастаниюРасширеннаяПодсказка" id="3361"/>
 									</Button>
-									<Button name="pcru_ТаблицаВРаботеДокументыСортироватьСписокПоУбыванию" id="3691">
+									<Button name="pcru_ТаблицаВРаботеДокументыСортироватьСписокПоУбыванию" id="3362">
 										<Type>CommandBarButton</Type>
 										<Representation>PictureAndText</Representation>
-										<CommandName>Form.Item.pcru_ТаблицаВРаботеДокументы.StandardCommand.SortListDesc</CommandName>
-										<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыСортироватьСписокПоУбываниюРасширеннаяПодсказка" id="3692"/>
+										<CommandName>0</CommandName>
+										<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыСортироватьСписокПоУбываниюРасширеннаяПодсказка" id="3363"/>
 									</Button>
 								</ChildItems>
 							</AutoCommandBar>
-							<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыРасширеннаяПодсказка" id="3242"/>
-							<SearchStringAddition name="pcru_ТаблицаВРаботеДокументыСтрокаПоиска" id="3243">
+							<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыРасширеннаяПодсказка" id="3290"/>
+							<SearchStringAddition name="pcru_ТаблицаВРаботеДокументыСтрокаПоиска" id="3291">
 								<AdditionSource>
 									<Item>pcru_ТаблицаВРаботеДокументы</Item>
 									<Type>SearchStringRepresentation</Type>
 								</AdditionSource>
-								<ContextMenu name="pcru_ТаблицаВРаботеДокументыСтрокаПоискаКонтекстноеМеню" id="3244"/>
-								<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыСтрокаПоискаРасширеннаяПодсказка" id="3245"/>
+								<ContextMenu name="pcru_ТаблицаВРаботеДокументыСтрокаПоискаКонтекстноеМеню" id="3292"/>
+								<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыСтрокаПоискаРасширеннаяПодсказка" id="3293"/>
 							</SearchStringAddition>
-							<ViewStatusAddition name="pcru_ТаблицаВРаботеДокументыСостояниеПросмотра" id="3246">
+							<ViewStatusAddition name="pcru_ТаблицаВРаботеДокументыСостояниеПросмотра" id="3294">
 								<AdditionSource>
 									<Item>pcru_ТаблицаВРаботеДокументы</Item>
 									<Type>ViewStatusRepresentation</Type>
 								</AdditionSource>
-								<ContextMenu name="pcru_ТаблицаВРаботеДокументыСостояниеПросмотраКонтекстноеМеню" id="3247"/>
-								<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыСостояниеПросмотраРасширеннаяПодсказка" id="3248"/>
+								<ContextMenu name="pcru_ТаблицаВРаботеДокументыСостояниеПросмотраКонтекстноеМеню" id="3295"/>
+								<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыСостояниеПросмотраРасширеннаяПодсказка" id="3296"/>
 							</ViewStatusAddition>
-							<SearchControlAddition name="pcru_ТаблицаВРаботеДокументыУправлениеПоиском" id="3249">
+							<SearchControlAddition name="pcru_ТаблицаВРаботеДокументыУправлениеПоиском" id="3297">
 								<AdditionSource>
 									<Item>pcru_ТаблицаВРаботеДокументы</Item>
 									<Type>SearchControl</Type>
 								</AdditionSource>
-								<ContextMenu name="pcru_ТаблицаВРаботеДокументыУправлениеПоискомКонтекстноеМеню" id="3250"/>
-								<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыУправлениеПоискомРасширеннаяПодсказка" id="3251"/>
+								<ContextMenu name="pcru_ТаблицаВРаботеДокументыУправлениеПоискомКонтекстноеМеню" id="3298"/>
+								<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыУправлениеПоискомРасширеннаяПодсказка" id="3299"/>
 							</SearchControlAddition>
 							<Events>
 								<Event name="Selection">pcru_ТаблицаВРаботеДокументыВыбор</Event>
@@ -1300,113 +1577,248 @@
 								<Event name="BeforeRowChange">pcru_ТаблицаВРаботеДокументыПередНачаломИзменения</Event>
 							</Events>
 							<ChildItems>
-								<PictureField name="pcru_ТаблицаВРаботеДокументыИндексИконкиПакета" id="3315">
-									<DataPath>pcru_ТаблицаВРаботеДокументы.ИндексИконкиПакета</DataPath>
-									<TitleLocation>None</TitleLocation>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаВРаботеДокументыИндексИконкиПакетаКонтекстноеМеню" id="3316"/>
-									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыИндексИконкиПакетаРасширеннаяПодсказка" id="3317"/>
-								</PictureField>
-								<InputField name="pcru_ТаблицаВРаботеДокументыТипДокумента" id="3252">
+								<InputField name="pcru_ТаблицаВРаботеДокументыТипДокумента" id="3677">
 									<DataPath>pcru_ТаблицаВРаботеДокументы.ТипДокумента</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаВРаботеДокументыТипДокументаКонтекстноеМеню" id="3253"/>
-									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыТипДокументаРасширеннаяПодсказка" id="3254"/>
+									<ContextMenu name="pcru_ТаблицаВРаботеДокументыТипДокументаКонтекстноеМеню" id="3678"/>
+									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыТипДокументаРасширеннаяПодсказка" id="3679"/>
 								</InputField>
-								<InputField name="pcru_ТаблицаВРаботеДокументыНомер" id="3255">
+								<InputField name="pcru_ТаблицаВРаботеДокументыНомер" id="3680">
 									<DataPath>pcru_ТаблицаВРаботеДокументы.Номер</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаВРаботеДокументыНомерКонтекстноеМеню" id="3256"/>
-									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыНомерРасширеннаяПодсказка" id="3257"/>
+									<ContextMenu name="pcru_ТаблицаВРаботеДокументыНомерКонтекстноеМеню" id="3681"/>
+									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыНомерРасширеннаяПодсказка" id="3682"/>
 								</InputField>
-								<InputField name="pcru_ТаблицаВРаботеДокументыДата" id="3258">
+								<InputField name="pcru_ТаблицаВРаботеДокументыДата" id="3683">
 									<DataPath>pcru_ТаблицаВРаботеДокументы.Дата</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаВРаботеДокументыДатаКонтекстноеМеню" id="3259"/>
-									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыДатаРасширеннаяПодсказка" id="3260"/>
+									<ContextMenu name="pcru_ТаблицаВРаботеДокументыДатаКонтекстноеМеню" id="3684"/>
+									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыДатаРасширеннаяПодсказка" id="3685"/>
 								</InputField>
-								<InputField name="pcru_ТаблицаВРаботеДокументыПокупатель" id="3261">
+								<InputField name="pcru_ТаблицаВРаботеДокументыПокупатель" id="3686">
 									<DataPath>pcru_ТаблицаВРаботеДокументы.Покупатель</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаВРаботеДокументыПокупательКонтекстноеМеню" id="3262"/>
-									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыПокупательРасширеннаяПодсказка" id="3263"/>
+									<ContextMenu name="pcru_ТаблицаВРаботеДокументыПокупательКонтекстноеМеню" id="3687"/>
+									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыПокупательРасширеннаяПодсказка" id="3688"/>
 								</InputField>
-								<InputField name="pcru_ТаблицаВРаботеДокументыПодразделение" id="3264">
+								<InputField name="pcru_ТаблицаВРаботеДокументыПодразделение" id="3689">
 									<DataPath>pcru_ТаблицаВРаботеДокументы.Подразделение</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаВРаботеДокументыПодразделениеКонтекстноеМеню" id="3265"/>
-									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыПодразделениеРасширеннаяПодсказка" id="3266"/>
+									<ContextMenu name="pcru_ТаблицаВРаботеДокументыПодразделениеКонтекстноеМеню" id="3690"/>
+									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыПодразделениеРасширеннаяПодсказка" id="3691"/>
 								</InputField>
-								<InputField name="pcru_ТаблицаВРаботеДокументыПродавец" id="3267">
+								<InputField name="pcru_ТаблицаВРаботеДокументыПродавец" id="3692">
 									<DataPath>pcru_ТаблицаВРаботеДокументы.Продавец</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаВРаботеДокументыПродавецКонтекстноеМеню" id="3268"/>
-									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыПродавецРасширеннаяПодсказка" id="3269"/>
+									<ContextMenu name="pcru_ТаблицаВРаботеДокументыПродавецКонтекстноеМеню" id="3693"/>
+									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыПродавецРасширеннаяПодсказка" id="3694"/>
 								</InputField>
-								<InputField name="pcru_ТаблицаВРаботеДокументыДатаУчета" id="3270">
+								<InputField name="pcru_ТаблицаВРаботеДокументыДатаУчета" id="3695">
 									<DataPath>pcru_ТаблицаВРаботеДокументы.ДатаУчета</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаВРаботеДокументыДатаУчетаКонтекстноеМеню" id="3271"/>
-									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыДатаУчетаРасширеннаяПодсказка" id="3272"/>
+									<ContextMenu name="pcru_ТаблицаВРаботеДокументыДатаУчетаКонтекстноеМеню" id="3696"/>
+									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыДатаУчетаРасширеннаяПодсказка" id="3697"/>
 								</InputField>
-								<InputField name="pcru_ТаблицаВРаботеДокументыСумма" id="3273">
+								<InputField name="pcru_ТаблицаВРаботеДокументыСумма" id="3698">
 									<DataPath>pcru_ТаблицаВРаботеДокументы.Сумма</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаВРаботеДокументыСуммаКонтекстноеМеню" id="3274"/>
-									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыСуммаРасширеннаяПодсказка" id="3275"/>
+									<ContextMenu name="pcru_ТаблицаВРаботеДокументыСуммаКонтекстноеМеню" id="3699"/>
+									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыСуммаРасширеннаяПодсказка" id="3700"/>
 								</InputField>
-								<InputField name="pcru_ТаблицаВРаботеДокументыСостояниеДокументооборота" id="3276">
+								<InputField name="pcru_ТаблицаВРаботеДокументыСостояниеДокументооборота" id="3701">
 									<DataPath>pcru_ТаблицаВРаботеДокументы.СостояниеДокументооборота</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаВРаботеДокументыСостояниеДокументооборотаКонтекстноеМеню" id="3277"/>
-									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыСостояниеДокументооборотаРасширеннаяПодсказка" id="3278"/>
+									<ContextMenu name="pcru_ТаблицаВРаботеДокументыСостояниеДокументооборотаКонтекстноеМеню" id="3702"/>
+									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыСостояниеДокументооборотаРасширеннаяПодсказка" id="3703"/>
 								</InputField>
-								<InputField name="pcru_ТаблицаВРаботеДокументыСостояниеСогласования" id="3309">
-									<DataPath>pcru_ТаблицаВРаботеДокументы.СостояниеСогласования</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаВРаботеДокументыСостояниеСогласованияКонтекстноеМеню" id="3310"/>
-									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыСостояниеСогласованияРасширеннаяПодсказка" id="3311"/>
-								</InputField>
-								<InputField name="pcru_ТаблицаВРаботеДокументыПервичныйДокумент" id="3279">
+								<InputField name="pcru_ТаблицаВРаботеДокументыПервичныйДокумент" id="3704">
 									<DataPath>pcru_ТаблицаВРаботеДокументы.ПервичныйДокумент</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаВРаботеДокументыПервичныйДокументКонтекстноеМеню" id="3280"/>
-									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыПервичныйДокументРасширеннаяПодсказка" id="3281"/>
+									<ContextMenu name="pcru_ТаблицаВРаботеДокументыПервичныйДокументКонтекстноеМеню" id="3705"/>
+									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыПервичныйДокументРасширеннаяПодсказка" id="3706"/>
 								</InputField>
-								<InputField name="pcru_ТаблицаВРаботеДокументыТекстОшибки" id="3282">
+								<InputField name="pcru_ТаблицаВРаботеДокументыТекстОшибки" id="3707">
 									<DataPath>pcru_ТаблицаВРаботеДокументы.ТекстОшибки</DataPath>
-									<Visible>false</Visible>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаВРаботеДокументыТекстОшибкиКонтекстноеМеню" id="3283"/>
-									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыТекстОшибкиРасширеннаяПодсказка" id="3284"/>
+									<ContextMenu name="pcru_ТаблицаВРаботеДокументыТекстОшибкиКонтекстноеМеню" id="3708"/>
+									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыТекстОшибкиРасширеннаяПодсказка" id="3709"/>
 								</InputField>
-								<CheckBoxField name="pcru_ТаблицаВРаботеДокументыЭтоТестовыйДок" id="3303">
+								<InputField name="pcru_ТаблицаВРаботеДокументыВалюта" id="3710">
+									<DataPath>pcru_ТаблицаВРаботеДокументы.Валюта</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаВРаботеДокументыВалютаКонтекстноеМеню" id="3711"/>
+									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыВалютаРасширеннаяПодсказка" id="3712"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаВРаботеДокументыBoxID" id="3713">
+									<DataPath>pcru_ТаблицаВРаботеДокументы.BoxID</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаВРаботеДокументыBoxIDКонтекстноеМеню" id="3714"/>
+									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыBoxIDРасширеннаяПодсказка" id="3715"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаВРаботеДокументыDocumentId" id="3716">
+									<DataPath>pcru_ТаблицаВРаботеДокументы.DocumentId</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаВРаботеДокументыDocumentIdКонтекстноеМеню" id="3717"/>
+									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыDocumentIdРасширеннаяПодсказка" id="3718"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаВРаботеДокументыDocumentType" id="3719">
+									<DataPath>pcru_ТаблицаВРаботеДокументы.DocumentType</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаВРаботеДокументыDocumentTypeКонтекстноеМеню" id="3720"/>
+									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыDocumentTypeРасширеннаяПодсказка" id="3721"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаВРаботеДокументыFileGUID" id="3722">
+									<DataPath>pcru_ТаблицаВРаботеДокументы.FileGUID</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаВРаботеДокументыFileGUIDКонтекстноеМеню" id="3723"/>
+									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыFileGUIDРасширеннаяПодсказка" id="3724"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаВРаботеДокументыСуммаНДС" id="3725">
+									<DataPath>pcru_ТаблицаВРаботеДокументы.СуммаНДС</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаВРаботеДокументыСуммаНДСКонтекстноеМеню" id="3726"/>
+									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыСуммаНДСРасширеннаяПодсказка" id="3727"/>
+								</InputField>
+								<CheckBoxField name="pcru_ТаблицаВРаботеДокументыЭтоТестовыйДок" id="3728">
 									<DataPath>pcru_ТаблицаВРаботеДокументы.ЭтоТестовыйДок</DataPath>
-									<Visible>false</Visible>
 									<EditMode>EnterOnInput</EditMode>
 									<CheckBoxType>Auto</CheckBoxType>
-									<ContextMenu name="pcru_ТаблицаВРаботеДокументыЭтоТестовыйДокКонтекстноеМеню" id="3304"/>
-									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыЭтоТестовыйДокРасширеннаяПодсказка" id="3305"/>
+									<ContextMenu name="pcru_ТаблицаВРаботеДокументыЭтоТестовыйДокКонтекстноеМеню" id="3729"/>
+									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыЭтоТестовыйДокРасширеннаяПодсказка" id="3730"/>
 								</CheckBoxField>
-								<InputField name="pcru_ТаблицаВРаботеДокументыMessageID" id="3312">
+								<InputField name="pcru_ТаблицаВРаботеДокументыCounteragentId" id="3731">
+									<DataPath>pcru_ТаблицаВРаботеДокументы.CounteragentId</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаВРаботеДокументыCounteragentIdКонтекстноеМеню" id="3732"/>
+									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыCounteragentIdРасширеннаяПодсказка" id="3733"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаВРаботеДокументыСостояниеСогласования" id="3734">
+									<DataPath>pcru_ТаблицаВРаботеДокументы.СостояниеСогласования</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаВРаботеДокументыСостояниеСогласованияКонтекстноеМеню" id="3735"/>
+									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыСостояниеСогласованияРасширеннаяПодсказка" id="3736"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаВРаботеДокументыMessageID" id="3737">
 									<DataPath>pcru_ТаблицаВРаботеДокументы.MessageID</DataPath>
-									<Visible>false</Visible>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаВРаботеДокументыMessageIDКонтекстноеМеню" id="3313"/>
-									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыMessageIDРасширеннаяПодсказка" id="3314"/>
+									<ContextMenu name="pcru_ТаблицаВРаботеДокументыMessageIDКонтекстноеМеню" id="3738"/>
+									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыMessageIDРасширеннаяПодсказка" id="3739"/>
 								</InputField>
-								<InputField name="pcru_ТаблицаВРаботеДокументыПозицияСортировки" id="3318">
+								<InputField name="pcru_ТаблицаВРаботеДокументыИндексИконкиПакета" id="3740">
+									<DataPath>pcru_ТаблицаВРаботеДокументы.ИндексИконкиПакета</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаВРаботеДокументыИндексИконкиПакетаКонтекстноеМеню" id="3741"/>
+									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыИндексИконкиПакетаРасширеннаяПодсказка" id="3742"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаВРаботеДокументыПозицияСортировки" id="3743">
 									<DataPath>pcru_ТаблицаВРаботеДокументы.ПозицияСортировки</DataPath>
-									<Visible>false</Visible>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаВРаботеДокументыПозицияСортировкиКонтекстноеМеню" id="3319"/>
-									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыПозицияСортировкиРасширеннаяПодсказка" id="3320"/>
+									<ContextMenu name="pcru_ТаблицаВРаботеДокументыПозицияСортировкиКонтекстноеМеню" id="3744"/>
+									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыПозицияСортировкиРасширеннаяПодсказка" id="3745"/>
 								</InputField>
+								<InputField name="pcru_ТаблицаВРаботеДокументыИндексИконкиПакетаКопия" id="3746">
+									<DataPath>pcru_ТаблицаВРаботеДокументы.ИндексИконкиПакетаКопия</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаВРаботеДокументыИндексИконкиПакетаКопияКонтекстноеМеню" id="3747"/>
+									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыИндексИконкиПакетаКопияРасширеннаяПодсказка" id="3748"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаВРаботеДокументыResolutions" id="3749">
+									<DataPath>pcru_ТаблицаВРаботеДокументы.Resolutions</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаВРаботеДокументыResolutionsКонтекстноеМеню" id="3750"/>
+									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыResolutionsРасширеннаяПодсказка" id="3751"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаВРаботеДокументыStatus" id="3752">
+									<DataPath>pcru_ТаблицаВРаботеДокументы.Status</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаВРаботеДокументыStatusКонтекстноеМеню" id="3753"/>
+									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыStatusРасширеннаяПодсказка" id="3754"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаВРаботеДокументыRevocationStatus" id="3755">
+									<DataPath>pcru_ТаблицаВРаботеДокументы.RevocationStatus</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаВРаботеДокументыRevocationStatusКонтекстноеМеню" id="3756"/>
+									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыRevocationStatusРасширеннаяПодсказка" id="3757"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаВРаботеДокументыContentType" id="3758">
+									<DataPath>pcru_ТаблицаВРаботеДокументы.ContentType</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаВРаботеДокументыContentTypeКонтекстноеМеню" id="3759"/>
+									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыContentTypeРасширеннаяПодсказка" id="3760"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаВРаботеДокументыDocumentFunction" id="3761">
+									<DataPath>pcru_ТаблицаВРаботеДокументы.DocumentFunction</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаВРаботеДокументыDocumentFunctionКонтекстноеМеню" id="3762"/>
+									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыDocumentFunctionРасширеннаяПодсказка" id="3763"/>
+								</InputField>
+								<CheckBoxField name="pcru_ТаблицаВРаботеДокументыЕстьInitialDocuments" id="3764">
+									<DataPath>pcru_ТаблицаВРаботеДокументы.ЕстьInitialDocuments</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="pcru_ТаблицаВРаботеДокументыЕстьInitialDocumentsКонтекстноеМеню" id="3765"/>
+									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыЕстьInitialDocumentsРасширеннаяПодсказка" id="3766"/>
+								</CheckBoxField>
+								<InputField name="pcru_ТаблицаВРаботеДокументыDocumentDirection" id="3767">
+									<DataPath>pcru_ТаблицаВРаботеДокументы.DocumentDirection</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаВРаботеДокументыDocumentDirectionКонтекстноеМеню" id="3768"/>
+									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыDocumentDirectionРасширеннаяПодсказка" id="3769"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаВРаботеДокументыAttachmentVersion" id="3770">
+									<DataPath>pcru_ТаблицаВРаботеДокументы.AttachmentVersion</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаВРаботеДокументыAttachmentVersionКонтекстноеМеню" id="3771"/>
+									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыAttachmentVersionРасширеннаяПодсказка" id="3772"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаВРаботеДокументыDepartmentKpp" id="3773">
+									<DataPath>pcru_ТаблицаВРаботеДокументы.DepartmentKpp</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаВРаботеДокументыDepartmentKppКонтекстноеМеню" id="3774"/>
+									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыDepartmentKppРасширеннаяПодсказка" id="3775"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаВРаботеДокументыСуммаДокументаЗначение" id="3776">
+									<DataPath>pcru_ТаблицаВРаботеДокументы.СуммаДокументаЗначение</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаВРаботеДокументыСуммаДокументаЗначениеКонтекстноеМеню" id="3777"/>
+									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыСуммаДокументаЗначениеРасширеннаяПодсказка" id="3778"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаВРаботеДокументыDepartmentId" id="3779">
+									<DataPath>pcru_ТаблицаВРаботеДокументы.DepartmentId</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаВРаботеДокументыDepartmentIdКонтекстноеМеню" id="3780"/>
+									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыDepartmentIdРасширеннаяПодсказка" id="3781"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаВРаботеДокументыFileName" id="3782">
+									<DataPath>pcru_ТаблицаВРаботеДокументы.FileName</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаВРаботеДокументыFileNameКонтекстноеМеню" id="3783"/>
+									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыFileNameРасширеннаяПодсказка" id="3784"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаВРаботеДокументыФорматОтправки" id="3785">
+									<DataPath>pcru_ТаблицаВРаботеДокументы.ФорматОтправки</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаВРаботеДокументыФорматОтправкиКонтекстноеМеню" id="3786"/>
+									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыФорматОтправкиРасширеннаяПодсказка" id="3787"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаВРаботеДокументыЭлектронныйДокумент" id="3788">
+									<DataPath>pcru_ТаблицаВРаботеДокументы.ЭлектронныйДокумент</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаВРаботеДокументыЭлектронныйДокументКонтекстноеМеню" id="3789"/>
+									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыЭлектронныйДокументРасширеннаяПодсказка" id="3790"/>
+								</InputField>
+								<CheckBoxField name="pcru_ТаблицаВРаботеДокументыУстаревшийФормат" id="3791">
+									<DataPath>pcru_ТаблицаВРаботеДокументы.УстаревшийФормат</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="pcru_ТаблицаВРаботеДокументыУстаревшийФорматКонтекстноеМеню" id="3792"/>
+									<ExtendedTooltip name="pcru_ТаблицаВРаботеДокументыУстаревшийФорматРасширеннаяПодсказка" id="3793"/>
+								</CheckBoxField>
 							</ChildItems>
 						</Table>
 					</ChildItems>
 				</Page>
-				<Page name="pcru_СтраницаОтработанныеДиадок" id="3107">
+				<Page name="pcru_СтраницаОтработанныеДиадок" id="3364">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1421,50 +1833,46 @@
 					</ToolTip>
 					<Width>20</Width>
 					<VerticalStretch>true</VerticalStretch>
-					<Picture>
-						<xr:Ref>CommonPicture.pcru_ex_Профикредит</xr:Ref>
-						<xr:LoadTransparent>true</xr:LoadTransparent>
-					</Picture>
-					<ExtendedTooltip name="pcru_СтраницаОтработанныеДиадокРасширеннаяПодсказка" id="3108"/>
+					<ExtendedTooltip name="pcru_СтраницаОтработанныеДиадокРасширеннаяПодсказка" id="3365"/>
 					<ChildItems>
-						<Table name="pcru_ТаблицаОтработанныеДокументы" id="3109">
+						<Table name="pcru_ТаблицаОтработанныеДокументы" id="3366">
 							<Representation>List</Representation>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
 							<DataPath>pcru_ТаблицаОтработанныеДокументы</DataPath>
 							<RowFilter xsi:nil="true"/>
-							<ContextMenu name="pcru_ТаблицаОтработанныеДокументыКонтекстноеМеню" id="3110"/>
-							<AutoCommandBar name="pcru_ТаблицаОтработанныеДокументыКоманднаяПанель" id="3111">
+							<ContextMenu name="pcru_ТаблицаОтработанныеДокументыКонтекстноеМеню" id="3367"/>
+							<AutoCommandBar name="pcru_ТаблицаОтработанныеДокументыКоманднаяПанель" id="3368">
 								<Autofill>false</Autofill>
 								<ChildItems>
-									<Button name="pcru_ОтработанныеКоманднаяПанельОткрытьКарточкуДокумента" id="3635">
+									<Button name="pcru_ОтработанныеКоманднаяПанельОткрытьКарточкуДокумента" id="3427">
 										<Type>CommandBarButton</Type>
-										<CommandName>Form.Command.pcru_ОтработанныеКоманднаяПанельОткрытьКарточкуДокумента</CommandName>
-										<ExtendedTooltip name="pcru_ОтработанныеКоманднаяПанельОткрытьКарточкуДокументаРасширеннаяПодсказка" id="3636"/>
+										<CommandName>Form.Command.pcru_ОтправитьВДОТест</CommandName>
+										<ExtendedTooltip name="pcru_ОтработанныеКоманднаяПанельОткрытьКарточкуДокументаРасширеннаяПодсказка" id="3428"/>
 									</Button>
-									<Button name="ИнтервалОтработанные" id="3643">
+									<Button name="ИнтервалОтработанные" id="3429">
 										<Type>CommandBarButton</Type>
-										<CommandName>Form.Command.pcru_ОтработанныеКоманднаяПанельУстановитьИнтервал</CommandName>
-										<ExtendedTooltip name="ИнтервалОтработанныеРасширеннаяПодсказка" id="3644"/>
+										<CommandName>Form.Command.pcru_НеотработанныеПрочиеКоманднаяПанельУстановитьИнтервал</CommandName>
+										<ExtendedTooltip name="ИнтервалОтработанныеРасширеннаяПодсказка" id="3430"/>
 									</Button>
-									<Button name="pcru_ТаблицаОтработанныеДокументыЗаполнитьСписок" id="3653">
+									<Button name="pcru_ТаблицаОтработанныеДокументыЗаполнитьСписок" id="3431">
 										<Type>CommandBarButton</Type>
 										<Representation>Picture</Representation>
 										<CommandName>Form.Command.ЗаполнитьСписок</CommandName>
-										<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыЗаполнитьСписокРасширеннаяПодсказка" id="3654"/>
+										<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыЗаполнитьСписокРасширеннаяПодсказка" id="3432"/>
 									</Button>
-									<Button name="pcru_ТаблицаОтработанныеДокументыВывестиСписок" id="3661">
+									<Button name="pcru_ТаблицаОтработанныеДокументыВывестиСписок" id="3433">
 										<Type>CommandBarButton</Type>
 										<Representation>Picture</Representation>
-										<CommandName>Form.Item.pcru_ТаблицаОтработанныеДокументы.StandardCommand.OutputList</CommandName>
+										<CommandName>0</CommandName>
 										<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
-										<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыВывестиСписокРасширеннаяПодсказка" id="3662"/>
+										<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыВывестиСписокРасширеннаяПодсказка" id="3434"/>
 									</Button>
-									<Button name="pcru_ТаблицаОтработанныеДокументыНайти" id="3675">
+									<Button name="pcru_ТаблицаОтработанныеДокументыНайти" id="3435">
 										<Type>CommandBarButton</Type>
 										<Representation>PictureAndText</Representation>
-										<CommandName>Form.Item.pcru_ТаблицаОтработанныеДокументы.StandardCommand.Find</CommandName>
+										<CommandName>0</CommandName>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -1472,53 +1880,53 @@
 											</v8:item>
 										</Title>
 										<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
-										<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыНайтиРасширеннаяПодсказка" id="3676"/>
+										<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыНайтиРасширеннаяПодсказка" id="3436"/>
 									</Button>
-									<Button name="pcru_ТаблицаОтработанныеДокументыОтменитьПоиск" id="3677">
+									<Button name="pcru_ТаблицаОтработанныеДокументыОтменитьПоиск" id="3437">
 										<Type>CommandBarButton</Type>
 										<Representation>Picture</Representation>
-										<CommandName>Form.Item.pcru_ТаблицаОтработанныеДокументы.StandardCommand.CancelSearch</CommandName>
+										<CommandName>0</CommandName>
 										<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
-										<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыОтменитьПоискРасширеннаяПодсказка" id="3678"/>
+										<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыОтменитьПоискРасширеннаяПодсказка" id="3438"/>
 									</Button>
-									<Button name="pcru_ТаблицаОтработанныеДокументыСортироватьСписокПоВозрастанию" id="3693">
+									<Button name="pcru_ТаблицаОтработанныеДокументыСортироватьСписокПоВозрастанию" id="3439">
 										<Type>CommandBarButton</Type>
 										<Representation>PictureAndText</Representation>
-										<CommandName>Form.Item.pcru_ТаблицаОтработанныеДокументы.StandardCommand.SortListAsc</CommandName>
-										<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыСортироватьСписокПоВозрастаниюРасширеннаяПодсказка" id="3694"/>
+										<CommandName>0</CommandName>
+										<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыСортироватьСписокПоВозрастаниюРасширеннаяПодсказка" id="3440"/>
 									</Button>
-									<Button name="pcru_ТаблицаОтработанныеДокументыСортироватьСписокПоУбыванию" id="3695">
+									<Button name="pcru_ТаблицаОтработанныеДокументыСортироватьСписокПоУбыванию" id="3441">
 										<Type>CommandBarButton</Type>
 										<Representation>PictureAndText</Representation>
-										<CommandName>Form.Item.pcru_ТаблицаОтработанныеДокументы.StandardCommand.SortListDesc</CommandName>
-										<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыСортироватьСписокПоУбываниюРасширеннаяПодсказка" id="3696"/>
+										<CommandName>0</CommandName>
+										<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыСортироватьСписокПоУбываниюРасширеннаяПодсказка" id="3442"/>
 									</Button>
 								</ChildItems>
 							</AutoCommandBar>
-							<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыРасширеннаяПодсказка" id="3112"/>
-							<SearchStringAddition name="pcru_ТаблицаОтработанныеДокументыСтрокаПоиска" id="3113">
+							<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыРасширеннаяПодсказка" id="3369"/>
+							<SearchStringAddition name="pcru_ТаблицаОтработанныеДокументыСтрокаПоиска" id="3370">
 								<AdditionSource>
 									<Item>pcru_ТаблицаОтработанныеДокументы</Item>
 									<Type>SearchStringRepresentation</Type>
 								</AdditionSource>
-								<ContextMenu name="pcru_ТаблицаОтработанныеДокументыСтрокаПоискаКонтекстноеМеню" id="3114"/>
-								<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыСтрокаПоискаРасширеннаяПодсказка" id="3115"/>
+								<ContextMenu name="pcru_ТаблицаОтработанныеДокументыСтрокаПоискаКонтекстноеМеню" id="3371"/>
+								<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыСтрокаПоискаРасширеннаяПодсказка" id="3372"/>
 							</SearchStringAddition>
-							<ViewStatusAddition name="pcru_ТаблицаОтработанныеДокументыСостояниеПросмотра" id="3116">
+							<ViewStatusAddition name="pcru_ТаблицаОтработанныеДокументыСостояниеПросмотра" id="3373">
 								<AdditionSource>
 									<Item>pcru_ТаблицаОтработанныеДокументы</Item>
 									<Type>ViewStatusRepresentation</Type>
 								</AdditionSource>
-								<ContextMenu name="pcru_ТаблицаОтработанныеДокументыСостояниеПросмотраКонтекстноеМеню" id="3117"/>
-								<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыСостояниеПросмотраРасширеннаяПодсказка" id="3118"/>
+								<ContextMenu name="pcru_ТаблицаОтработанныеДокументыСостояниеПросмотраКонтекстноеМеню" id="3374"/>
+								<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыСостояниеПросмотраРасширеннаяПодсказка" id="3375"/>
 							</ViewStatusAddition>
-							<SearchControlAddition name="pcru_ТаблицаОтработанныеДокументыУправлениеПоиском" id="3119">
+							<SearchControlAddition name="pcru_ТаблицаОтработанныеДокументыУправлениеПоиском" id="3376">
 								<AdditionSource>
 									<Item>pcru_ТаблицаОтработанныеДокументы</Item>
 									<Type>SearchControl</Type>
 								</AdditionSource>
-								<ContextMenu name="pcru_ТаблицаОтработанныеДокументыУправлениеПоискомКонтекстноеМеню" id="3120"/>
-								<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыУправлениеПоискомРасширеннаяПодсказка" id="3121"/>
+								<ContextMenu name="pcru_ТаблицаОтработанныеДокументыУправлениеПоискомКонтекстноеМеню" id="3377"/>
+								<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыУправлениеПоискомРасширеннаяПодсказка" id="3378"/>
 							</SearchControlAddition>
 							<Events>
 								<Event name="Selection">pcru_ТаблицаОтработанныеДокументыВыбор</Event>
@@ -1528,108 +1936,243 @@
 								<Event name="BeforeRowChange">pcru_ТаблицаОтработанныеДокументыПередНачаломИзменения</Event>
 							</Events>
 							<ChildItems>
-								<PictureField name="pcru_ТаблицаОтработанныеДокументыИндексИконкиПакета" id="3185">
-									<DataPath>pcru_ТаблицаОтработанныеДокументы.ИндексИконкиПакета</DataPath>
-									<TitleLocation>None</TitleLocation>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыИндексИконкиПакетаКонтекстноеМеню" id="3186"/>
-									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыИндексИконкиПакетаРасширеннаяПодсказка" id="3187"/>
-								</PictureField>
-								<InputField name="pcru_ТаблицаОтработанныеДокументыТипДокумента" id="3122">
+								<InputField name="pcru_ТаблицаОтработанныеДокументыТипДокумента" id="3794">
 									<DataPath>pcru_ТаблицаОтработанныеДокументы.ТипДокумента</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыТипДокументаКонтекстноеМеню" id="3123"/>
-									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыТипДокументаРасширеннаяПодсказка" id="3124"/>
+									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыТипДокументаКонтекстноеМеню" id="3795"/>
+									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыТипДокументаРасширеннаяПодсказка" id="3796"/>
 								</InputField>
-								<InputField name="pcru_ТаблицаОтработанныеДокументыНомер" id="3125">
+								<InputField name="pcru_ТаблицаОтработанныеДокументыНомер" id="3797">
 									<DataPath>pcru_ТаблицаОтработанныеДокументы.Номер</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыНомерКонтекстноеМеню" id="3126"/>
-									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыНомерРасширеннаяПодсказка" id="3127"/>
+									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыНомерКонтекстноеМеню" id="3798"/>
+									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыНомерРасширеннаяПодсказка" id="3799"/>
 								</InputField>
-								<InputField name="pcru_ТаблицаОтработанныеДокументыДата" id="3128">
+								<InputField name="pcru_ТаблицаОтработанныеДокументыДата" id="3800">
 									<DataPath>pcru_ТаблицаОтработанныеДокументы.Дата</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыДатаКонтекстноеМеню" id="3129"/>
-									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыДатаРасширеннаяПодсказка" id="3130"/>
+									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыДатаКонтекстноеМеню" id="3801"/>
+									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыДатаРасширеннаяПодсказка" id="3802"/>
 								</InputField>
-								<InputField name="pcru_ТаблицаОтработанныеДокументыПокупатель" id="3131">
+								<InputField name="pcru_ТаблицаОтработанныеДокументыПокупатель" id="3803">
 									<DataPath>pcru_ТаблицаОтработанныеДокументы.Покупатель</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыПокупательКонтекстноеМеню" id="3132"/>
-									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыПокупательРасширеннаяПодсказка" id="3133"/>
+									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыПокупательКонтекстноеМеню" id="3804"/>
+									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыПокупательРасширеннаяПодсказка" id="3805"/>
 								</InputField>
-								<InputField name="pcru_ТаблицаОтработанныеДокументыПодразделение" id="3134">
+								<InputField name="pcru_ТаблицаОтработанныеДокументыПодразделение" id="3806">
 									<DataPath>pcru_ТаблицаОтработанныеДокументы.Подразделение</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыПодразделениеКонтекстноеМеню" id="3135"/>
-									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыПодразделениеРасширеннаяПодсказка" id="3136"/>
+									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыПодразделениеКонтекстноеМеню" id="3807"/>
+									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыПодразделениеРасширеннаяПодсказка" id="3808"/>
 								</InputField>
-								<InputField name="pcru_ТаблицаОтработанныеДокументыПродавец" id="3137">
+								<InputField name="pcru_ТаблицаОтработанныеДокументыПродавец" id="3809">
 									<DataPath>pcru_ТаблицаОтработанныеДокументы.Продавец</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыПродавецКонтекстноеМеню" id="3138"/>
-									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыПродавецРасширеннаяПодсказка" id="3139"/>
+									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыПродавецКонтекстноеМеню" id="3810"/>
+									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыПродавецРасширеннаяПодсказка" id="3811"/>
 								</InputField>
-								<InputField name="pcru_ТаблицаОтработанныеДокументыДатаУчета" id="3140">
+								<InputField name="pcru_ТаблицаОтработанныеДокументыДатаУчета" id="3812">
 									<DataPath>pcru_ТаблицаОтработанныеДокументы.ДатаУчета</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыДатаУчетаКонтекстноеМеню" id="3141"/>
-									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыДатаУчетаРасширеннаяПодсказка" id="3142"/>
+									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыДатаУчетаКонтекстноеМеню" id="3813"/>
+									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыДатаУчетаРасширеннаяПодсказка" id="3814"/>
 								</InputField>
-								<InputField name="pcru_ТаблицаОтработанныеДокументыСумма" id="3143">
+								<InputField name="pcru_ТаблицаОтработанныеДокументыСумма" id="3815">
 									<DataPath>pcru_ТаблицаОтработанныеДокументы.Сумма</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыСуммаКонтекстноеМеню" id="3144"/>
-									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыСуммаРасширеннаяПодсказка" id="3145"/>
+									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыСуммаКонтекстноеМеню" id="3816"/>
+									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыСуммаРасширеннаяПодсказка" id="3817"/>
 								</InputField>
-								<InputField name="pcru_ТаблицаОтработанныеДокументыСостояниеДокументооборота" id="3146">
+								<InputField name="pcru_ТаблицаОтработанныеДокументыСостояниеДокументооборота" id="3818">
 									<DataPath>pcru_ТаблицаОтработанныеДокументы.СостояниеДокументооборота</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыСостояниеДокументооборотаКонтекстноеМеню" id="3147"/>
-									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыСостояниеДокументооборотаРасширеннаяПодсказка" id="3148"/>
+									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыСостояниеДокументооборотаКонтекстноеМеню" id="3819"/>
+									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыСостояниеДокументооборотаРасширеннаяПодсказка" id="3820"/>
 								</InputField>
-								<InputField name="pcru_ТаблицаОтработанныеДокументыСостояниеСогласования" id="3179">
-									<DataPath>pcru_ТаблицаОтработанныеДокументы.СостояниеСогласования</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыСостояниеСогласованияКонтекстноеМеню" id="3180"/>
-									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыСостояниеСогласованияРасширеннаяПодсказка" id="3181"/>
-								</InputField>
-								<InputField name="pcru_ТаблицаОтработанныеДокументыПервичныйДокумент" id="3149">
+								<InputField name="pcru_ТаблицаОтработанныеДокументыПервичныйДокумент" id="3821">
 									<DataPath>pcru_ТаблицаОтработанныеДокументы.ПервичныйДокумент</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыПервичныйДокументКонтекстноеМеню" id="3150"/>
-									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыПервичныйДокументРасширеннаяПодсказка" id="3151"/>
+									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыПервичныйДокументКонтекстноеМеню" id="3822"/>
+									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыПервичныйДокументРасширеннаяПодсказка" id="3823"/>
 								</InputField>
-								<InputField name="pcru_ТаблицаОтработанныеДокументыТекстОшибки" id="3152">
+								<InputField name="pcru_ТаблицаОтработанныеДокументыТекстОшибки" id="3824">
 									<DataPath>pcru_ТаблицаОтработанныеДокументы.ТекстОшибки</DataPath>
-									<Visible>false</Visible>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыТекстОшибкиКонтекстноеМеню" id="3153"/>
-									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыТекстОшибкиРасширеннаяПодсказка" id="3154"/>
+									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыТекстОшибкиКонтекстноеМеню" id="3825"/>
+									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыТекстОшибкиРасширеннаяПодсказка" id="3826"/>
 								</InputField>
-								<CheckBoxField name="pcru_ТаблицаОтработанныеДокументыЭтоТестовыйДок" id="3173">
+								<InputField name="pcru_ТаблицаОтработанныеДокументыВалюта" id="3827">
+									<DataPath>pcru_ТаблицаОтработанныеДокументы.Валюта</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыВалютаКонтекстноеМеню" id="3828"/>
+									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыВалютаРасширеннаяПодсказка" id="3829"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаОтработанныеДокументыBoxID" id="3830">
+									<DataPath>pcru_ТаблицаОтработанныеДокументы.BoxID</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыBoxIDКонтекстноеМеню" id="3831"/>
+									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыBoxIDРасширеннаяПодсказка" id="3832"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаОтработанныеДокументыDocumentId" id="3833">
+									<DataPath>pcru_ТаблицаОтработанныеДокументы.DocumentId</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыDocumentIdКонтекстноеМеню" id="3834"/>
+									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыDocumentIdРасширеннаяПодсказка" id="3835"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаОтработанныеДокументыDocumentType" id="3836">
+									<DataPath>pcru_ТаблицаОтработанныеДокументы.DocumentType</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыDocumentTypeКонтекстноеМеню" id="3837"/>
+									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыDocumentTypeРасширеннаяПодсказка" id="3838"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаОтработанныеДокументыFileGUID" id="3839">
+									<DataPath>pcru_ТаблицаОтработанныеДокументы.FileGUID</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыFileGUIDКонтекстноеМеню" id="3840"/>
+									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыFileGUIDРасширеннаяПодсказка" id="3841"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаОтработанныеДокументыСуммаНДС" id="3842">
+									<DataPath>pcru_ТаблицаОтработанныеДокументы.СуммаНДС</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыСуммаНДСКонтекстноеМеню" id="3843"/>
+									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыСуммаНДСРасширеннаяПодсказка" id="3844"/>
+								</InputField>
+								<CheckBoxField name="pcru_ТаблицаОтработанныеДокументыЭтоТестовыйДок" id="3845">
 									<DataPath>pcru_ТаблицаОтработанныеДокументы.ЭтоТестовыйДок</DataPath>
-									<Visible>false</Visible>
 									<EditMode>EnterOnInput</EditMode>
 									<CheckBoxType>Auto</CheckBoxType>
-									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыЭтоТестовыйДокКонтекстноеМеню" id="3174"/>
-									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыЭтоТестовыйДокРасширеннаяПодсказка" id="3175"/>
+									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыЭтоТестовыйДокКонтекстноеМеню" id="3846"/>
+									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыЭтоТестовыйДокРасширеннаяПодсказка" id="3847"/>
 								</CheckBoxField>
-								<InputField name="pcru_ТаблицаОтработанныеДокументыMessageID" id="3182">
+								<InputField name="pcru_ТаблицаОтработанныеДокументыCounteragentId" id="3848">
+									<DataPath>pcru_ТаблицаОтработанныеДокументы.CounteragentId</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыCounteragentIdКонтекстноеМеню" id="3849"/>
+									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыCounteragentIdРасширеннаяПодсказка" id="3850"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаОтработанныеДокументыСостояниеСогласования" id="3851">
+									<DataPath>pcru_ТаблицаОтработанныеДокументы.СостояниеСогласования</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыСостояниеСогласованияКонтекстноеМеню" id="3852"/>
+									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыСостояниеСогласованияРасширеннаяПодсказка" id="3853"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаОтработанныеДокументыMessageID" id="3854">
 									<DataPath>pcru_ТаблицаОтработанныеДокументы.MessageID</DataPath>
-									<Visible>false</Visible>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыMessageIDКонтекстноеМеню" id="3183"/>
-									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыMessageIDРасширеннаяПодсказка" id="3184"/>
+									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыMessageIDКонтекстноеМеню" id="3855"/>
+									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыMessageIDРасширеннаяПодсказка" id="3856"/>
 								</InputField>
-								<InputField name="pcru_ТаблицаОтработанныеДокументыПозицияСортировки" id="3188">
+								<InputField name="pcru_ТаблицаОтработанныеДокументыИндексИконкиПакета" id="3857">
+									<DataPath>pcru_ТаблицаОтработанныеДокументы.ИндексИконкиПакета</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыИндексИконкиПакетаКонтекстноеМеню" id="3858"/>
+									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыИндексИконкиПакетаРасширеннаяПодсказка" id="3859"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаОтработанныеДокументыПозицияСортировки" id="3860">
 									<DataPath>pcru_ТаблицаОтработанныеДокументы.ПозицияСортировки</DataPath>
-									<Visible>false</Visible>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыПозицияСортировкиКонтекстноеМеню" id="3189"/>
-									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыПозицияСортировкиРасширеннаяПодсказка" id="3190"/>
+									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыПозицияСортировкиКонтекстноеМеню" id="3861"/>
+									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыПозицияСортировкиРасширеннаяПодсказка" id="3862"/>
 								</InputField>
+								<InputField name="pcru_ТаблицаОтработанныеДокументыИндексИконкиПакетаКопия" id="3863">
+									<DataPath>pcru_ТаблицаОтработанныеДокументы.ИндексИконкиПакетаКопия</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыИндексИконкиПакетаКопияКонтекстноеМеню" id="3864"/>
+									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыИндексИконкиПакетаКопияРасширеннаяПодсказка" id="3865"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаОтработанныеДокументыResolutions" id="3866">
+									<DataPath>pcru_ТаблицаОтработанныеДокументы.Resolutions</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыResolutionsКонтекстноеМеню" id="3867"/>
+									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыResolutionsРасширеннаяПодсказка" id="3868"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаОтработанныеДокументыStatus" id="3869">
+									<DataPath>pcru_ТаблицаОтработанныеДокументы.Status</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыStatusКонтекстноеМеню" id="3870"/>
+									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыStatusРасширеннаяПодсказка" id="3871"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаОтработанныеДокументыRevocationStatus" id="3872">
+									<DataPath>pcru_ТаблицаОтработанныеДокументы.RevocationStatus</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыRevocationStatusКонтекстноеМеню" id="3873"/>
+									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыRevocationStatusРасширеннаяПодсказка" id="3874"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаОтработанныеДокументыContentType" id="3875">
+									<DataPath>pcru_ТаблицаОтработанныеДокументы.ContentType</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыContentTypeКонтекстноеМеню" id="3876"/>
+									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыContentTypeРасширеннаяПодсказка" id="3877"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаОтработанныеДокументыDocumentFunction" id="3878">
+									<DataPath>pcru_ТаблицаОтработанныеДокументы.DocumentFunction</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыDocumentFunctionКонтекстноеМеню" id="3879"/>
+									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыDocumentFunctionРасширеннаяПодсказка" id="3880"/>
+								</InputField>
+								<CheckBoxField name="pcru_ТаблицаОтработанныеДокументыЕстьInitialDocuments" id="3881">
+									<DataPath>pcru_ТаблицаОтработанныеДокументы.ЕстьInitialDocuments</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыЕстьInitialDocumentsКонтекстноеМеню" id="3882"/>
+									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыЕстьInitialDocumentsРасширеннаяПодсказка" id="3883"/>
+								</CheckBoxField>
+								<InputField name="pcru_ТаблицаОтработанныеДокументыDocumentDirection" id="3884">
+									<DataPath>pcru_ТаблицаОтработанныеДокументы.DocumentDirection</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыDocumentDirectionКонтекстноеМеню" id="3885"/>
+									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыDocumentDirectionРасширеннаяПодсказка" id="3886"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаОтработанныеДокументыAttachmentVersion" id="3887">
+									<DataPath>pcru_ТаблицаОтработанныеДокументы.AttachmentVersion</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыAttachmentVersionКонтекстноеМеню" id="3888"/>
+									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыAttachmentVersionРасширеннаяПодсказка" id="3889"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаОтработанныеДокументыDepartmentKpp" id="3890">
+									<DataPath>pcru_ТаблицаОтработанныеДокументы.DepartmentKpp</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыDepartmentKppКонтекстноеМеню" id="3891"/>
+									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыDepartmentKppРасширеннаяПодсказка" id="3892"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаОтработанныеДокументыСуммаДокументаЗначение" id="3893">
+									<DataPath>pcru_ТаблицаОтработанныеДокументы.СуммаДокументаЗначение</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыСуммаДокументаЗначениеКонтекстноеМеню" id="3894"/>
+									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыСуммаДокументаЗначениеРасширеннаяПодсказка" id="3895"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаОтработанныеДокументыDepartmentId" id="3896">
+									<DataPath>pcru_ТаблицаОтработанныеДокументы.DepartmentId</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыDepartmentIdКонтекстноеМеню" id="3897"/>
+									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыDepartmentIdРасширеннаяПодсказка" id="3898"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаОтработанныеДокументыFileName" id="3899">
+									<DataPath>pcru_ТаблицаОтработанныеДокументы.FileName</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыFileNameКонтекстноеМеню" id="3900"/>
+									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыFileNameРасширеннаяПодсказка" id="3901"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаОтработанныеДокументыФорматОтправки" id="3902">
+									<DataPath>pcru_ТаблицаОтработанныеДокументы.ФорматОтправки</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыФорматОтправкиКонтекстноеМеню" id="3903"/>
+									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыФорматОтправкиРасширеннаяПодсказка" id="3904"/>
+								</InputField>
+								<InputField name="pcru_ТаблицаОтработанныеДокументыЭлектронныйДокумент" id="3905">
+									<DataPath>pcru_ТаблицаОтработанныеДокументы.ЭлектронныйДокумент</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыЭлектронныйДокументКонтекстноеМеню" id="3906"/>
+									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыЭлектронныйДокументРасширеннаяПодсказка" id="3907"/>
+								</InputField>
+								<CheckBoxField name="pcru_ТаблицаОтработанныеДокументыУстаревшийФормат" id="3908">
+									<DataPath>pcru_ТаблицаОтработанныеДокументы.УстаревшийФормат</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="pcru_ТаблицаОтработанныеДокументыУстаревшийФорматКонтекстноеМеню" id="3909"/>
+									<ExtendedTooltip name="pcru_ТаблицаОтработанныеДокументыУстаревшийФорматРасширеннаяПодсказка" id="3910"/>
+								</CheckBoxField>
 							</ChildItems>
 						</Table>
 					</ChildItems>
@@ -1944,6 +2487,13 @@
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="ТаблицаДокументовИсходящихСостояниеСогласованияКонтекстноеМеню" id="598"/>
 									<ExtendedTooltip name="ТаблицаДокументовИсходящихСостояниеСогласованияРасширеннаяПодсказка" id="2794"/>
+								</InputField>
+								<InputField name="ТаблицаДокументовИсходящихСтатусМЧД" id="3111">
+									<DataPath>ТаблицаДокументовИсходящих.СтатусМЧД</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>20</Width>
+									<ContextMenu name="ТаблицаДокументовИсходящихСтатусМЧДКонтекстноеМеню" id="3112"/>
+									<ExtendedTooltip name="ТаблицаДокументовИсходящихСтатусМЧДРасширеннаяПодсказка" id="3113"/>
 								</InputField>
 								<InputField name="ТаблицаДокументовИсходящихПервичныйДокумент" id="121">
 									<DataPath>ТаблицаДокументовИсходящих.ПервичныйДокумент</DataPath>
@@ -2571,6 +3121,7 @@
 									<v8:content>Страницы документов</v8:content>
 								</v8:item>
 							</ToolTip>
+							<PagesRepresentation>TabsOnTop</PagesRepresentation>
 							<ExtendedTooltip name="СтраницыДокументовРасширеннаяПодсказка" id="2883"/>
 							<Events>
 								<Event name="OnCurrentPageChange">СтраницыДокументовПриСменеСтраницы</Event>
@@ -3119,6 +3670,7 @@
 									<v8:content>Страницы настроек</v8:content>
 								</v8:item>
 							</ToolTip>
+							<PagesRepresentation>TabsOnTop</PagesRepresentation>
 							<ExtendedTooltip name="СтраницыНастроекРасширеннаяПодсказка" id="2951"/>
 							<Events>
 								<Event name="OnCurrentPageChange">СтраницыНастроекПриСменеСтраницы</Event>
@@ -3202,6 +3754,11 @@
 															</Button>
 														</ChildItems>
 													</ButtonGroup>
+													<Button name="СписокПочтовыхЯщиковКонтекстноеМенюНастройкаМашиночитаемыхДоверенностей" id="3109">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.НастройкаМашиночитаемыхДоверенностей</CommandName>
+														<ExtendedTooltip name="СписокПочтовыхЯщиковКонтекстноеМенюНастройкаМашиночитаемыхДоверенностейРасширеннаяПодсказка" id="3110"/>
+													</Button>
 												</ChildItems>
 											</ContextMenu>
 											<AutoCommandBar name="СписокПочтовыхЯщиковКоманднаяПанель" id="23">
@@ -3272,6 +3829,11 @@
 															</v8:item>
 														</Title>
 														<ExtendedTooltip name="СписокПочтовыхЯщиковПараметрыОтправкиРасширеннаяПодсказка" id="2965"/>
+													</Button>
+													<Button name="СписокПочтовыхЯщиковНастройкаМашиночитаемыхДоверенностей" id="3107">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.НастройкаМашиночитаемыхДоверенностей</CommandName>
+														<ExtendedTooltip name="СписокПочтовыхЯщиковНастройкаМашиночитаемыхДоверенностейРасширеннаяПодсказка" id="3108"/>
 													</Button>
 												</ChildItems>
 											</AutoCommandBar>
@@ -3369,12 +3931,14 @@
 										<UsualGroup name="Группа1" id="1772">
 											<Enabled>false</Enabled>
 											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="2981"/>
 											<ChildItems>
 												<UsualGroup name="ГруппаПроксиЗаголовки" id="1765">
 													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаПроксиЗаголовкиРасширеннаяПодсказка" id="2982"/>
@@ -3434,6 +3998,7 @@
 												<UsualGroup name="ГруппаПроксиЗначения" id="1767">
 													<HorizontalStretch>true</HorizontalStretch>
 													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаПроксиЗначенияРасширеннаяПодсказка" id="2988"/>
@@ -3467,6 +4032,7 @@
 												</UsualGroup>
 												<UsualGroup name="Группа3" id="410">
 													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="2994"/>
@@ -3524,6 +4090,7 @@
 									<ChildItems>
 										<UsualGroup name="ГруппаИспользоватьПодключаемыйМодуль" id="1413">
 											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаИспользоватьПодключаемыйМодульРасширеннаяПодсказка" id="3017"/>
@@ -3558,6 +4125,7 @@
 										</UsualGroup>
 										<UsualGroup name="ГруппаРасположениеПодключениеПМ" id="1402">
 											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаРасположениеПодключениеПМРасширеннаяПодсказка" id="3019"/>
@@ -3732,6 +4300,7 @@
 										</RadioButtonField>
 										<UsualGroup name="ГруппаСохранитьШаблонПМ" id="1359">
 											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаСохранитьШаблонПМРасширеннаяПодсказка" id="3037"/>
@@ -3762,6 +4331,7 @@
 												</v8:item>
 											</ToolTip>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаГруппаОткрытьФормуОбновлениеМанифестаВертикальРасширеннаяПодсказка" id="3040"/>
@@ -3785,6 +4355,7 @@
 														</v8:item>
 													</ToolTip>
 													<Group>Horizontal</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаОткрытьФормуОбновлениеМанифестаРасширеннаяПодсказка" id="3042"/>
@@ -3817,12 +4388,14 @@
 									<ChildItems>
 										<UsualGroup name="ГруппаГоризонтальнаяГруппировка" id="3065">
 											<Group>AlwaysHorizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаГоризонтальнаяГруппировкаРасширеннаяПодсказка" id="3066"/>
 											<ChildItems>
 												<UsualGroup name="ГруппаОпцииКолонка1" id="3067">
 													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаОпцииКолонка1РасширеннаяПодсказка" id="3068"/>
@@ -3842,6 +4415,7 @@
 															</ToolTip>
 															<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 															<Group>Horizontal</Group>
+															<Behavior>Usual</Behavior>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="ГруппаТоностьЦеныСФРасширеннаяПодсказка" id="2998"/>
@@ -3881,6 +4455,7 @@
 																</v8:item>
 															</ToolTip>
 															<Group>Vertical</Group>
+															<Behavior>Usual</Behavior>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="ГруппаРасширениеКонфигурацииРасширеннаяПодсказка" id="3001"/>
@@ -3908,6 +4483,7 @@
 												</LabelDecoration>
 												<UsualGroup name="ГруппаОпцииКолонка2" id="3072">
 													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаОпцииКолонка2РасширеннаяПодсказка" id="3073"/>
@@ -4041,174 +4617,236 @@
 									</ToolTip>
 									<ExtendedTooltip name="СервисРасширеннаяПодсказка" id="3059"/>
 									<ChildItems>
-										<UsualGroup name="ГруппаМодульИнтеграции" id="3081">
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Интеграционный модуль</v8:content>
-												</v8:item>
-											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Группа модуль интеграции</v8:content>
-												</v8:item>
-											</ToolTip>
+										<UsualGroup name="СервисГоризонтальнаяГруппировка" id="3095">
+											<ToolTipRepresentation>None</ToolTipRepresentation>
+											<Group>AlwaysHorizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
-											<ExtendedTooltip name="ГруппаМодульИнтеграцииРасширеннаяПодсказка" id="3082"/>
+											<United>false</United>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="СервисГоризонтальнаяГруппировкаРасширеннаяПодсказка" id="3096"/>
 											<ChildItems>
-												<LabelField name="ТекстМодульИнтеграции" id="3083">
-													<DataPath>ТекстМодульИнтеграции</DataPath>
-													<TitleLocation>None</TitleLocation>
-													<ContextMenu name="ТекстМодульИнтеграцииКонтекстноеМеню" id="3084"/>
-													<ExtendedTooltip name="ТекстМодульИнтеграцииРасширеннаяПодсказка" id="3085"/>
-													<Events>
-														<Event name="URLProcessing">ТекстМодульИнтеграцииОбработкаНавигационнойСсылки</Event>
-													</Events>
-												</LabelField>
-											</ChildItems>
-										</UsualGroup>
-										<UsualGroup name="Отладка" id="1758">
-											<EnableContentChange>true</EnableContentChange>
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Отладка интеграционного модуля</v8:content>
-												</v8:item>
-											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Отладка</v8:content>
-												</v8:item>
-											</ToolTip>
-											<Group>Vertical</Group>
-											<Representation>None</Representation>
-											<ExtendedTooltip name="ОтладкаРасширеннаяПодсказка" id="3003"/>
-											<ChildItems>
-												<CheckBoxField name="РежимОтладкиСервера" id="1333">
-													<DataPath>РежимОтладкиСервера</DataPath>
-													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
-													<ContextMenu name="РежимОтладкиСервераКонтекстноеМеню" id="1334"/>
-													<ExtendedTooltip name="РежимОтладкиСервераРасширеннаяПодсказка" id="3004"/>
-													<Events>
-														<Event name="OnChange">РежимОтладкиСервераПриИзменении</Event>
-													</Events>
-												</CheckBoxField>
-												<UsualGroup name="ГруппаОтладкаГоризонтальная" id="3056">
-													<Title>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>Группа отладка горизонтальная</v8:content>
-														</v8:item>
-													</Title>
-													<ToolTip>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>Группа отладка горизонтальная</v8:content>
-														</v8:item>
-													</ToolTip>
+												<UsualGroup name="СервисЛеваяКолонка" id="3097">
+													<ToolTipRepresentation>None</ToolTipRepresentation>
+													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
-													<ExtendedTooltip name="ГруппаОтладкаГоризонтальнаяРасширеннаяПодсказка" id="3057"/>
+													<ExtendedTooltip name="СервисЛеваяКолонкаРасширеннаяПодсказка" id="3098"/>
 													<ChildItems>
-														<InputField name="КаталогМодулейСервера" id="1336">
-															<DataPath>КаталогМодулейСервера</DataPath>
+														<UsualGroup name="ГруппаМодульИнтеграции" id="3081">
 															<Title>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
-																	<v8:content>Корневой каталог</v8:content>
+																	<v8:content>Интеграционный модуль</v8:content>
 																</v8:item>
 															</Title>
-															<TitleLocation>Top</TitleLocation>
 															<ToolTip>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
-																	<v8:content>В каталоге должны находиться папки include и libs с файлами вложенных обработок</v8:content>
+																	<v8:content>Группа модуль интеграции</v8:content>
+																</v8:item>
+															</ToolTip>
+															<Behavior>Usual</Behavior>
+															<Representation>None</Representation>
+															<ExtendedTooltip name="ГруппаМодульИнтеграцииРасширеннаяПодсказка" id="3082"/>
+															<ChildItems>
+																<LabelField name="ТекстМодульИнтеграции" id="3083">
+																	<DataPath>ТекстМодульИнтеграции</DataPath>
+																	<TitleLocation>None</TitleLocation>
+																	<ContextMenu name="ТекстМодульИнтеграцииКонтекстноеМеню" id="3084"/>
+																	<ExtendedTooltip name="ТекстМодульИнтеграцииРасширеннаяПодсказка" id="3085"/>
+																	<Events>
+																		<Event name="URLProcessing">ТекстМодульИнтеграцииОбработкаНавигационнойСсылки</Event>
+																	</Events>
+																</LabelField>
+															</ChildItems>
+														</UsualGroup>
+														<UsualGroup name="Отладка" id="1758">
+															<EnableContentChange>true</EnableContentChange>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Отладка интеграционного модуля</v8:content>
+																</v8:item>
+															</Title>
+															<ToolTip>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Отладка</v8:content>
+																</v8:item>
+															</ToolTip>
+															<Group>Vertical</Group>
+															<Behavior>Usual</Behavior>
+															<Representation>None</Representation>
+															<ExtendedTooltip name="ОтладкаРасширеннаяПодсказка" id="3003"/>
+															<ChildItems>
+																<CheckBoxField name="РежимОтладкиСервера" id="1333">
+																	<DataPath>РежимОтладкиСервера</DataPath>
+																	<TitleLocation>Right</TitleLocation>
+																	<CheckBoxType>Auto</CheckBoxType>
+																	<ContextMenu name="РежимОтладкиСервераКонтекстноеМеню" id="1334"/>
+																	<ExtendedTooltip name="РежимОтладкиСервераРасширеннаяПодсказка" id="3004"/>
+																	<Events>
+																		<Event name="OnChange">РежимОтладкиСервераПриИзменении</Event>
+																	</Events>
+																</CheckBoxField>
+																<UsualGroup name="ГруппаОтладкаГоризонтальная" id="3056">
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Группа отладка горизонтальная</v8:content>
+																		</v8:item>
+																	</Title>
+																	<ToolTip>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Группа отладка горизонтальная</v8:content>
+																		</v8:item>
+																	</ToolTip>
+																	<Behavior>Usual</Behavior>
+																	<Representation>None</Representation>
+																	<ShowTitle>false</ShowTitle>
+																	<ExtendedTooltip name="ГруппаОтладкаГоризонтальнаяРасширеннаяПодсказка" id="3057"/>
+																	<ChildItems>
+																		<InputField name="КаталогМодулейСервера" id="1336">
+																			<DataPath>КаталогМодулейСервера</DataPath>
+																			<Title>
+																				<v8:item>
+																					<v8:lang>ru</v8:lang>
+																					<v8:content>Корневой каталог</v8:content>
+																				</v8:item>
+																			</Title>
+																			<TitleLocation>Top</TitleLocation>
+																			<ToolTip>
+																				<v8:item>
+																					<v8:lang>ru</v8:lang>
+																					<v8:content>В каталоге должны находиться папки include и libs с файлами вложенных обработок</v8:content>
+																				</v8:item>
+																			</ToolTip>
+																			<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+																			<ChoiceButton>true</ChoiceButton>
+																			<ContextMenu name="КаталогМодулейСервераКонтекстноеМеню" id="1337"/>
+																			<ExtendedTooltip name="КаталогМодулейСервераРасширеннаяПодсказка" id="3007"/>
+																			<Events>
+																				<Event name="OnChange">КаталогМодулейСервераПриИзменении</Event>
+																				<Event name="StartChoice">КаталогМодулейСервераНачалоВыбора</Event>
+																			</Events>
+																		</InputField>
+																		<Button name="ВыгрузитьСерверныеМодули" id="1408">
+																			<Type>UsualButton</Type>
+																			<CommandName>Form.Command.ВыгрузитьСерверныеМодули</CommandName>
+																			<ExtendedTooltip name="ВыгрузитьСерверныеМодулиРасширеннаяПодсказка" id="3008"/>
+																		</Button>
+																	</ChildItems>
+																</UsualGroup>
+															</ChildItems>
+														</UsualGroup>
+														<UsualGroup name="ГруппаПутьКМодульСсылка" id="2283">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Обновление модуля</v8:content>
+																</v8:item>
+															</Title>
+															<ToolTip>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Группа путь к модуль ссылка</v8:content>
+																</v8:item>
+															</ToolTip>
+															<Group>Vertical</Group>
+															<Behavior>Usual</Behavior>
+															<Representation>None</Representation>
+															<ExtendedTooltip name="ГруппаПутьКМодульСсылкаРасширеннаяПодсказка" id="3014"/>
+															<ChildItems>
+																<CheckBoxField name="ОтключитьАвтоматическоеОбновлениеМодуля" id="3104">
+																	<DataPath>ОтключитьАвтоматическоеОбновлениеМодуля</DataPath>
+																	<TitleLocation>Right</TitleLocation>
+																	<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+																	<CheckBoxType>Auto</CheckBoxType>
+																	<ContextMenu name="ОтключитьАвтоматическоеОбновлениеМодуляКонтекстноеМеню" id="3105"/>
+																	<ExtendedTooltip name="ОтключитьАвтоматическоеОбновлениеМодуляРасширеннаяПодсказка" id="3106">
+																		<Title formatted="true">
+																			<v8:item>
+																				<v8:lang>ru</v8:lang>
+																				<v8:content>Автоматическое обновление модуля не влияет на работу 1С.
+При включении настройки модуль Диадока потребуется обновлять вручную. &lt;link https://wiki.diadoc.ru/&gt;Подробнее&lt;/&gt;</v8:content>
+																			</v8:item>
+																		</Title>
+																		<Events>
+																			<Event name="URLProcessing">ОтключитьАвтоматическоеОбновлениеМодуляРасширеннаяПодсказкаОбработкаНавигационнойСсылки</Event>
+																		</Events>
+																	</ExtendedTooltip>
+																	<Events>
+																		<Event name="OnChange">ОтключитьАвтоматическоеОбновлениеМодуляПриИзменении</Event>
+																	</Events>
+																</CheckBoxField>
+																<InputField name="ПутьКМодулюВСправочнике1С" id="2285">
+																	<DataPath>ПутьКМодулюВСправочнике1С</DataPath>
+																	<TitleLocation>Top</TitleLocation>
+																	<ContextMenu name="ПутьКМодулюВСправочнике1СКонтекстноеМеню" id="2286"/>
+																	<ExtendedTooltip name="ПутьКМодулюВСправочнике1СРасширеннаяПодсказка" id="3015"/>
+																	<Events>
+																		<Event name="OnChange">ПутьКМодулюВСправочнике1СПриИзменении</Event>
+																	</Events>
+																</InputField>
+															</ChildItems>
+														</UsualGroup>
+													</ChildItems>
+												</UsualGroup>
+												<LabelDecoration name="Декорация_РазделительКолонокСервис" id="3101">
+													<ContextMenu name="Декорация_РазделительКолонокСервисКонтекстноеМеню" id="3102"/>
+													<ExtendedTooltip name="Декорация_РазделительКолонокСервисРасширеннаяПодсказка" id="3103"/>
+												</LabelDecoration>
+												<UsualGroup name="СервисПраваяКолона" id="3099">
+													<ToolTipRepresentation>None</ToolTipRepresentation>
+													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="СервисПраваяКолонаРасширеннаяПодсказка" id="3100"/>
+													<ChildItems>
+														<UsualGroup name="ГруппаСборМетрик" id="3060">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Сведения об использовании модуля</v8:content>
+																</v8:item>
+															</Title>
+															<ToolTip>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Для повышения качества работы модуля выполняется сбор данных об использовании программного продукта. При включении настройки отправка данных будет приостановлена</v8:content>
 																</v8:item>
 															</ToolTip>
 															<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-															<ChoiceButton>true</ChoiceButton>
-															<ContextMenu name="КаталогМодулейСервераКонтекстноеМеню" id="1337"/>
-															<ExtendedTooltip name="КаталогМодулейСервераРасширеннаяПодсказка" id="3007"/>
-															<Events>
-																<Event name="OnChange">КаталогМодулейСервераПриИзменении</Event>
-																<Event name="StartChoice">КаталогМодулейСервераНачалоВыбора</Event>
-															</Events>
-														</InputField>
-														<Button name="ВыгрузитьСерверныеМодули" id="1408">
-															<Type>UsualButton</Type>
-															<CommandName>Form.Command.ВыгрузитьСерверныеМодули</CommandName>
-															<ExtendedTooltip name="ВыгрузитьСерверныеМодулиРасширеннаяПодсказка" id="3008"/>
-														</Button>
+															<Behavior>Usual</Behavior>
+															<CollapsedRepresentationTitle>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Настройки отправки данных об использовании модуля</v8:content>
+																</v8:item>
+															</CollapsedRepresentationTitle>
+															<ControlRepresentation>Picture</ControlRepresentation>
+															<Representation>None</Representation>
+															<ExtendedTooltip name="ГруппаСборМетрикРасширеннаяПодсказка" id="3061"/>
+															<ChildItems>
+																<CheckBoxField name="ЗапретитьРаботуСМетриками" id="3062">
+																	<DataPath>ЗапретитьРаботуСМетриками</DataPath>
+																	<TitleLocation>Right</TitleLocation>
+																	<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+																	<CheckBoxType>Auto</CheckBoxType>
+																	<ContextMenu name="ЗапретитьРаботуСМетрикамиКонтекстноеМеню" id="3063"/>
+																	<ExtendedTooltip name="ЗапретитьРаботуСМетрикамиРасширеннаяПодсказка" id="3064"/>
+																	<Events>
+																		<Event name="OnChange">ЗапретитьРаботуСМетрикамиПриИзменении</Event>
+																	</Events>
+																</CheckBoxField>
+															</ChildItems>
+														</UsualGroup>
 													</ChildItems>
 												</UsualGroup>
-											</ChildItems>
-										</UsualGroup>
-										<UsualGroup name="ГруппаПутьКМодульСсылка" id="2283">
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Обновление модуля</v8:content>
-												</v8:item>
-											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Группа путь к модуль ссылка</v8:content>
-												</v8:item>
-											</ToolTip>
-											<Group>Horizontal</Group>
-											<Representation>None</Representation>
-											<ExtendedTooltip name="ГруппаПутьКМодульСсылкаРасширеннаяПодсказка" id="3014"/>
-											<ChildItems>
-												<InputField name="ПутьКМодулюВСправочнике1С" id="2285">
-													<DataPath>ПутьКМодулюВСправочнике1С</DataPath>
-													<TitleLocation>Top</TitleLocation>
-													<ContextMenu name="ПутьКМодулюВСправочнике1СКонтекстноеМеню" id="2286"/>
-													<ExtendedTooltip name="ПутьКМодулюВСправочнике1СРасширеннаяПодсказка" id="3015"/>
-													<Events>
-														<Event name="OnChange">ПутьКМодулюВСправочнике1СПриИзменении</Event>
-													</Events>
-												</InputField>
-											</ChildItems>
-										</UsualGroup>
-										<UsualGroup name="ГруппаСборМетрик" id="3060">
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Сведения об использовании модуля</v8:content>
-												</v8:item>
-											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Для повышения качества работы модуля выполняется сбор данных об использовании программного продукта. При включении настройки отправка данных будет приостановлена</v8:content>
-												</v8:item>
-											</ToolTip>
-											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<CollapsedRepresentationTitle>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Настройки отправки данных об использовании модуля</v8:content>
-												</v8:item>
-											</CollapsedRepresentationTitle>
-											<ControlRepresentation>Picture</ControlRepresentation>
-											<Representation>None</Representation>
-											<ExtendedTooltip name="ГруппаСборМетрикРасширеннаяПодсказка" id="3061"/>
-											<ChildItems>
-												<CheckBoxField name="ЗапретитьРаботуСМетриками" id="3062">
-													<DataPath>ЗапретитьРаботуСМетриками</DataPath>
-													<TitleLocation>Right</TitleLocation>
-													<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-													<CheckBoxType>Auto</CheckBoxType>
-													<ContextMenu name="ЗапретитьРаботуСМетрикамиКонтекстноеМеню" id="3063"/>
-													<ExtendedTooltip name="ЗапретитьРаботуСМетрикамиРасширеннаяПодсказка" id="3064"/>
-													<Events>
-														<Event name="OnChange">ЗапретитьРаботуСМетрикамиПриИзменении</Event>
-													</Events>
-												</CheckBoxField>
 											</ChildItems>
 										</UsualGroup>
 									</ChildItems>
@@ -4240,6 +4878,7 @@
 		</Button>
 		<UsualGroup name="Группа4" id="2670">
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="3045"/>
@@ -4278,6 +4917,7 @@
 		</UsualGroup>
 		<UsualGroup name="Группа2" id="2294">
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="3048"/>
@@ -5604,6 +6244,47 @@
 						<v8:Type>xs:boolean</v8:Type>
 					</Type>
 				</Column>
+				<Column name="СтатусМЧД" id="40">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Статус МЧД</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="СтатусМЧДКритичность" id="41">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Статус МЧДКритичность</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ЕстьПрикрепленные" id="42">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Есть прикрепленные</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
 			</Columns>
 		</Attribute>
 		<Attribute name="ТаблицаДокументовИсходящих" id="31">
@@ -6066,6 +6747,36 @@
 					</Title>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="СтатусМЧД" id="33">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Статус МЧД</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="СтатусМЧДКритичность" id="34">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Статус МЧДКритичность</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
 					</Type>
 				</Column>
 			</Columns>
@@ -7020,7 +7731,54 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="pcru_ТаблицаНеотработанныеДокументы_Счета" id="9">
+		<Attribute name="ТребуетсяПроверитьУведомления" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Требуется проверить уведомления</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ДанныеДляОбновленияМодуля" id="10">
+			<Type/>
+		</Attribute>
+		<Attribute name="ОтключитьАвтоматическоеОбновлениеМодуля" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отключить автоматическое обновление модуля</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="БылаВыполненаПопыткаАвтообновления" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Была выполнена попытка автообновления</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="УведомилиПользователяОбАвтообновлении" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уведомили пользователя об автообновлении</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="pcru_ТаблицаОтработанныеДокументы" id="12">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -7581,7 +8339,7 @@
 				</Column>
 			</Columns>
 		</Attribute>
-		<Attribute name="pcru_ТаблицаНеотработанныеДокументы_Прочие" id="10">
+		<Attribute name="pcru_ТаблицаНеотработанныеДокументы_Счета" id="18">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -8142,7 +8900,7 @@
 				</Column>
 			</Columns>
 		</Attribute>
-		<Attribute name="pcru_ТаблицаВРаботеДокументы" id="12">
+		<Attribute name="pcru_ТаблицаНеотработанныеДокументы_Прочие" id="21">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -8703,7 +9461,7 @@
 				</Column>
 			</Columns>
 		</Attribute>
-		<Attribute name="pcru_ТаблицаОтработанныеДокументы" id="13">
+		<Attribute name="pcru_ТаблицаВРаботеДокументы" id="22">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -9933,7 +10691,42 @@
 			</ToolTip>
 			<Action>ПоказатьИнструкцию_ПереотправкаДокументов</Action>
 		</Command>
-		<Command name="pcru_ПоказатьТабдок" id="21">
+		<Command name="НастройкаМашиночитаемыхДоверенностей" id="21">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Доверенности</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройка машиночитаемых доверенностей</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>НастройкаМашиночитаемыхДоверенностей</Action>
+		</Command>
+		<Command name="pcru_ПометитьКакОтработанный" id="23">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пометить как отработанный</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Pcru пометить как отработанный</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.pcru_ex_Профикредит</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>pcru_ПометитьКакОтработанный</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="pcru_ПоказатьТабдок" id="41">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -9953,89 +10746,28 @@
 			<Action>pcru_ПоказатьТабдок</Action>
 			<Representation>TextPicture</Representation>
 		</Command>
-		<Command name="pcru_ОтправитьВДО" id="23">
+		<Command name="pcru_ОтработанныеКоманднаяПанельУстановитьИнтервал" id="42">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Отправить как Заявку на оплату</v8:content>
+					<v8:content>Интервал</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Pcru отправить ВДО</v8:content>
+					<v8:content>Установить интервал</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
-				<xr:Ref>CommonPicture.pcru_ex_Профикредит</xr:Ref>
+				<xr:Ref>StdPicture.SetDateInterval</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
-			<Action>ОтправитьВДО</Action>
-			<Representation>TextPicture</Representation>
-		</Command>
-		<Command name="pcru_ОтправитьВДОТест" id="41">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Отправить как Договор</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Отправить ВДО</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Picture>
-				<xr:Ref>CommonPicture.pcru_ex_Профикредит</xr:Ref>
-				<xr:LoadTransparent>true</xr:LoadTransparent>
-			</Picture>
-			<Action>ОтправитьВДОТест</Action>
-			<Representation>TextPicture</Representation>
-		</Command>
-		<Command name="pcru_НеотработанныеСчетаКоманднаяПанельОткрытьКарточкуДокумента" id="42">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Карточка документа</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Открыть карточку документа</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Picture>
-				<xr:Ref>StdPicture.InputFieldOpen</xr:Ref>
-				<xr:LoadTransparent>true</xr:LoadTransparent>
-			</Picture>
-			<Action>pcru_НеотработанныеСчетаКоманднаяПанельОткрытьКарточкуДокумента</Action>
+			<Action>КомандаПолученныеДиадокКоманднаяПанельУстановитьИнтервал</Action>
 			<Representation>TextPicture</Representation>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="pcru_НеотработанныеПрочиеКоманднаяПанельОткрытьКарточкуДокумента" id="43">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Карточка документа</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Открыть карточку документа</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Picture>
-				<xr:Ref>StdPicture.InputFieldOpen</xr:Ref>
-				<xr:LoadTransparent>true</xr:LoadTransparent>
-			</Picture>
-			<Action>pcru_НеотработанныеПрочиеКоманднаяПанельОткрытьКарточкуДокумента</Action>
-			<Representation>TextPicture</Representation>
-			<CurrentRowUse>DontUse</CurrentRowUse>
-		</Command>
-		<Command name="pcru_ОтработанныеКоманднаяПанельОткрытьКарточкуДокумента" id="44">
+		<Command name="pcru_ОтработанныеКоманднаяПанельОткрытьКарточкуДокумента" id="43">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -10056,26 +10788,45 @@
 			<Representation>TextPicture</Representation>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="pcru_ВРаботеКоманднаяПанельОткрытьКарточкуДокумента" id="45">
+		<Command name="pcru_ОтправитьВДОТест" id="44">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Карточка документа</v8:content>
+					<v8:content>Отправить как Договор</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Открыть карточку документа</v8:content>
+					<v8:content>Отправить ВДО</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
-				<xr:Ref>StdPicture.InputFieldOpen</xr:Ref>
+				<xr:Ref>CommonPicture.pcru_ex_Профикредит</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
-			<Action>pcru_ВРаботеКоманднаяПанельОткрытьКарточкуДокумента</Action>
+			<Action>ОтправитьВДОТест</Action>
 			<Representation>TextPicture</Representation>
-			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="pcru_ОтправитьВДО" id="45">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить как Заявку на оплату</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Pcru отправить ВДО</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.pcru_ex_Профикредит</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ОтправитьВДО</Action>
+			<Representation>TextPicture</Representation>
 		</Command>
 		<Command name="pcru_НеотработанныеСчетаКоманднаяПанельУстановитьИнтервал" id="46">
 			<Title>
@@ -10098,7 +10849,28 @@
 			<Representation>TextPicture</Representation>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="pcru_НеотработанныеПрочиеКоманднаяПанельУстановитьИнтервал" id="47">
+		<Command name="pcru_НеотработанныеСчетаКоманднаяПанельОткрытьКарточкуДокумента" id="47">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Карточка документа</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть карточку документа</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.InputFieldOpen</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>pcru_НеотработанныеСчетаКоманднаяПанельОткрытьКарточкуДокумента</Action>
+			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="pcru_НеотработанныеПрочиеКоманднаяПанельУстановитьИнтервал" id="48">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -10119,7 +10891,28 @@
 			<Representation>TextPicture</Representation>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="pcru_ОтработанныеКоманднаяПанельУстановитьИнтервал" id="48">
+		<Command name="pcru_НеотработанныеПрочиеКоманднаяПанельОткрытьКарточкуДокумента" id="49">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Карточка документа</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть карточку документа</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.InputFieldOpen</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>pcru_НеотработанныеПрочиеКоманднаяПанельОткрытьКарточкуДокумента</Action>
+			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="pcru_ВРаботеКоманднаяПанельУстановитьИнтервал" id="50">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -10140,46 +10933,26 @@
 			<Representation>TextPicture</Representation>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="pcru_ВРаботеКоманднаяПанельУстановитьИнтервал" id="49">
+		<Command name="pcru_ВРаботеКоманднаяПанельОткрытьКарточкуДокумента" id="51">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Интервал</v8:content>
+					<v8:content>Карточка документа</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Установить интервал</v8:content>
+					<v8:content>Открыть карточку документа</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
-				<xr:Ref>StdPicture.SetDateInterval</xr:Ref>
+				<xr:Ref>StdPicture.InputFieldOpen</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
-			<Action>КомандаПолученныеДиадокКоманднаяПанельУстановитьИнтервал</Action>
+			<Action>pcru_ВРаботеКоманднаяПанельОткрытьКарточкуДокумента</Action>
 			<Representation>TextPicture</Representation>
 			<CurrentRowUse>DontUse</CurrentRowUse>
-		</Command>
-		<Command name="pcru_ПометитьКакОтработанный" id="50">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Пометить как отработанный</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Pcru пометить как отработанный</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Picture>
-				<xr:Ref>CommonPicture.pcru_ex_Профикредит</xr:Ref>
-				<xr:LoadTransparent>true</xr:LoadTransparent>
-			</Picture>
-			<Action>pcru_ПометитьКакОтработанный</Action>
-			<Representation>TextPicture</Representation>
 		</Command>
 	</Commands>
 </Form>

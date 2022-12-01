@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
+	<Enum uuid="4c83b7e5-84da-483b-9848-e20dc7a09a89">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СостоянияЧековНПД" category="Ref">
+				<xr:TypeId>46bcab8d-a925-4657-90f1-1bb30affb4bd</xr:TypeId>
+				<xr:ValueId>c00e06f7-f83f-466c-9d24-f9299d631779</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СостоянияЧековНПД" category="Manager">
+				<xr:TypeId>cd780da0-4d50-4aa2-a6ea-b173d2bd9963</xr:TypeId>
+				<xr:ValueId>ca27853a-0835-438e-94db-a018cd8b1a05</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СостоянияЧековНПД" category="List">
+				<xr:TypeId>18523541-41c5-4634-907d-22461e744ae9</xr:TypeId>
+				<xr:ValueId>de88b270-ee63-46a4-a110-293b5348e1b7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СостоянияЧековНПД</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject/>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="00e24b49-1121-4f62-a90e-ddf4c35d40c6">
+				<InternalInfo/>
+				<Properties>
+					<Name>ОжидаетОтправкиВФНС</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
 	<Configuration uuid="411f687c-4d21-4de3-87c5-01ea28e7b01a">
 		<InternalInfo>
 			<xr:ContainedObject>
@@ -96,6 +96,9 @@
 			<StyleItem>ЦветШрифтаСеройПодсказки</StyleItem>
 			<StyleItem>ГруппаОперацийФонГруппы</StyleItem>
 			<StyleItem>ЦветГиперссылкиБРО</StyleItem>
+			<StyleItem>ЦветФонаНекорректногоЗначенияБИП</StyleItem>
+			<StyleItem>ШрифтТекстаБаннера</StyleItem>
+			<StyleItem>ШрифтЗаголовкаРазделаМонитораРуководителя</StyleItem>
 			<Style>СтильПортала</Style>
 			<CommonPicture>pcru_ex_Профикредит</CommonPicture>
 			<CommonPicture>БНФОВнимание16</CommonPicture>
@@ -116,7 +119,6 @@
 			<CommonPicture>Зашифрован</CommonPicture>
 			<CommonPicture>ЗначокОтчет</CommonPicture>
 			<CommonPicture>ИнтернетПоддержкаПользователей</CommonPicture>
-			<CommonPicture>Информация</CommonPicture>
 			<CommonPicture>Информация32</CommonPicture>
 			<CommonPicture>ИнформацияПоНедоступнымПолям</CommonPicture>
 			<CommonPicture>КоллекцияПиктограммФайлов</CommonPicture>
@@ -160,6 +162,9 @@
 			<CommonPicture>ПрослеживаемыйТовар</CommonPicture>
 			<CommonPicture>ОперацияВыполненаУспешно</CommonPicture>
 			<CommonPicture>ДокументЗагруженИзБанка</CommonPicture>
+			<CommonPicture>ЧекиНПДОжиданиеОтправки</CommonPicture>
+			<CommonPicture>СтрелкаВправо</CommonPicture>
+			<CommonPicture>ОчиститьЗначение</CommonPicture>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<CommonModule>pcru_CRM</CommonModule>
 			<CommonModule>pcru_ex_NAV</CommonModule>
@@ -516,7 +521,10 @@
 			<Document>БНФОРегламентнаяОперация</Document>
 			<Document>БНФОУсловиеДоговораАренды</Document>
 			<Document>АЭ_РегламентнаяОперация</Document>
+			<Document>ВыплатыСамозанятым</Document>
+			<Document>ИсполнительныйЛист</Document>
 			<DocumentJournal>Деньги</DocumentJournal>
+			<DocumentJournal>БНФОДеньги</DocumentJournal>
 			<Enum>pcru_ex_ТипыРегламентныхЗаданий</Enum>
 			<Enum>АЭ_ВидыПлатежейПоЗаймам</Enum>
 			<Enum>АЭ_ПериодичностьПроцентнойСтавки</Enum>
@@ -634,6 +642,7 @@
 			<Enum>СпособыУчетаМатериаловПоСотрудникам</Enum>
 			<Enum>ВидыОперацийАвансовыйОтчет</Enum>
 			<Enum>СтатусыДокументовПоступления</Enum>
+			<Enum>СостоянияЧековНПД</Enum>
 			<Report>ДосьеКонтрагента</Report>
 			<Report>БНФОВедомостьАмортизацииОСБухгалтерскийУчет</Report>
 			<Report>КнигаПродаж</Report>
@@ -695,6 +704,9 @@
 			<InformationRegister>УчетныеЗаписиЭДО</InformationRegister>
 			<InformationRegister>СостоянияПоОбъектамУчетаЭДО</InformationRegister>
 			<InformationRegister>PCRU_СтатусыДокументов</InformationRegister>
+			<InformationRegister>БанковскиеСчетаИнтеграцииСБанком</InformationRegister>
+			<InformationRegister>ЧекиНПД</InformationRegister>
+			<InformationRegister>ПредупрежденияПриЗагрузкеВыписки</InformationRegister>
 			<ChartOfCharacteristicTypes>ВидыСубконтоХозрасчетные</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>БНФОВидыАналитикСчетовАналитическогоУчета</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>БНФОВидыСубконтоБанковские</ChartOfCharacteristicTypes>

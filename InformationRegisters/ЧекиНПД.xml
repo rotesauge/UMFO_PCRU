@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
+	<InformationRegister uuid="7ba2c899-d2b6-40b6-aa6f-c5518820625a">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ЧекиНПД" category="Record">
+				<xr:TypeId>fd19a7ae-6f35-42e2-a41e-644a19ffebd1</xr:TypeId>
+				<xr:ValueId>a6a5d0de-c21d-43d2-aa31-188cedd97368</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ЧекиНПД" category="Manager">
+				<xr:TypeId>6090ea61-4121-4090-b316-904bcaead796</xr:TypeId>
+				<xr:ValueId>f5c90abf-e2b6-4d85-a418-dd52bd711c09</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ЧекиНПД" category="Selection">
+				<xr:TypeId>f8fbb23c-2677-47bf-8eac-8162cdd69dfe</xr:TypeId>
+				<xr:ValueId>7b7e4965-8a2e-43e7-85eb-e1068218fa38</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ЧекиНПД" category="List">
+				<xr:TypeId>67a67a9a-21fe-4f4b-bd5b-a15fbbb3f239</xr:TypeId>
+				<xr:ValueId>4bc2021b-f87b-4347-b9b6-07e69a5124bc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ЧекиНПД" category="RecordSet">
+				<xr:TypeId>7755ff9a-29d3-4c19-9abb-d6f9c2253b3d</xr:TypeId>
+				<xr:ValueId>ec619d72-570e-429e-a561-dcd0054bd54c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ЧекиНПД" category="RecordKey">
+				<xr:TypeId>e3b1b564-fc41-48fc-bf30-dd93bb9ef8af</xr:TypeId>
+				<xr:ValueId>a53ccff0-8099-4458-b29f-c29689cb9fa3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ЧекиНПД" category="RecordManager">
+				<xr:TypeId>48a2068b-4c06-4bd0-806e-d7909c43b57b</xr:TypeId>
+				<xr:ValueId>e70905cf-bd19-4767-8261-5f86c25ca87b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЧекиНПД</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject/>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="45a9ffae-eb6f-4ded-85f7-5ec01ce55d27">
+				<InternalInfo/>
+				<Properties>
+					<Name>НомерЧека</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject/>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="2c6af52b-16c7-4ffc-912f-71981fc54306">
+				<InternalInfo/>
+				<Properties>
+					<Name>Состояние</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject/>
+					<Type>
+						<v8:Type>cfg:EnumRef.СостоянияЧековНПД</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="4f06454a-7ee3-4215-8dd0-06c7ca70f6c2">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПроизведенВозвратПоЧеку</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject/>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="c92f6a1c-79fa-41f3-b85b-bdb1ccd25381">
+				<InternalInfo/>
+				<Properties>
+					<Name>ДатаАннулированияЧека</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject/>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="93969e04-3c96-477c-ac63-2ce19fa3ce43">
+				<InternalInfo/>
+				<Properties>
+					<Name>Организация</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="469165ca-1068-4f1c-bfcc-4f8cfa9e3f83">
+				<InternalInfo/>
+				<Properties>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject/>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
+	<Document uuid="a3f8e4cf-7d16-468f-a969-38ecf3b46bbe">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ИсполнительныйЛист" category="Object">
+				<xr:TypeId>49dfafa8-1a57-4368-aff7-139a3e680c68</xr:TypeId>
+				<xr:ValueId>581330fe-3d4e-4bad-b7b6-377b56aa8e36</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ИсполнительныйЛист" category="Ref">
+				<xr:TypeId>0ce00803-210c-457b-95ee-2173e46c0aad</xr:TypeId>
+				<xr:ValueId>26789c45-3bb1-41d7-a789-b9217a95b2db</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ИсполнительныйЛист" category="Selection">
+				<xr:TypeId>e385aed7-3b37-441e-8223-f57c562db5c4</xr:TypeId>
+				<xr:ValueId>966d2858-7959-40e6-8b5e-aa90f2f543a8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ИсполнительныйЛист" category="List">
+				<xr:TypeId>294f5487-e50a-48b2-8638-bea7f42b2a46</xr:TypeId>
+				<xr:ValueId>87a81f01-3e11-4636-b8bd-5d4ca0e97f32</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ИсполнительныйЛист" category="Manager">
+				<xr:TypeId>2415e76d-6845-4384-9e70-d8c710f91d45</xr:TypeId>
+				<xr:ValueId>51868812-81d0-4c93-8a2e-840c4c22a313</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИсполнительныйЛист</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject/>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

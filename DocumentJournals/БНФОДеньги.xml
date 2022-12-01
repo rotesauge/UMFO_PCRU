@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
+	<DocumentJournal uuid="d0904285-8c63-4597-9633-b186f685bc37">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentJournalSelection.БНФОДеньги" category="Selection">
+				<xr:TypeId>1b145366-512f-4ab5-b0b6-e9cbddd745d2</xr:TypeId>
+				<xr:ValueId>17a10c26-1b20-4f54-a84e-887aba1dd878</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalList.БНФОДеньги" category="List">
+				<xr:TypeId>dafbdd41-5d25-45bd-a13b-ecda20b5db88</xr:TypeId>
+				<xr:ValueId>cb2d7e2a-bb34-4cc1-966c-9cc82bc71ee7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalManager.БНФОДеньги" category="Manager">
+				<xr:TypeId>cce86595-6f89-4312-a616-f974edd70ad9</xr:TypeId>
+				<xr:ValueId>0402de51-7dc0-4cb3-b2d0-44e27928fc3e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БНФОДеньги</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject/>
+			<RegisteredDocuments>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПоступлениеНаРасчетныйСчет</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.СписаниеСРасчетногоСчета</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПриходныйКассовыйОрдер</xr:Item>
+			</RegisteredDocuments>
+		</Properties>
+		<ChildObjects>
+			<Column uuid="27f11913-5b85-4d35-b0cf-3e315058f36f">
+				<InternalInfo/>
+				<Properties>
+					<Name>Ответственный</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject/>
+				</Properties>
+			</Column>
+			<Column uuid="176d0cfc-3c13-4b7c-a261-7e711166eca0">
+				<InternalInfo/>
+				<Properties>
+					<Name>ДатаВходящегоДокумента</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject/>
+				</Properties>
+			</Column>
+			<Column uuid="9cd98ce1-b3d0-4caf-9ea8-24cf4d6bd58d">
+				<InternalInfo/>
+				<Properties>
+					<Name>Организация</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject/>
+				</Properties>
+			</Column>
+			<Column uuid="ded6c200-28e8-4597-a843-04e688fe7ca1">
+				<InternalInfo/>
+				<Properties>
+					<Name>Контрагент</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject/>
+				</Properties>
+			</Column>
+			<Column uuid="50f8ccac-95ed-423e-af2f-02dd60345916">
+				<InternalInfo/>
+				<Properties>
+					<Name>БанковскийСчет</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject/>
+				</Properties>
+			</Column>
+			<Column uuid="b5c7aa93-c788-4997-a20f-e5354e54c0e7">
+				<InternalInfo/>
+				<Properties>
+					<Name>Доход</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject/>
+				</Properties>
+			</Column>
+			<Column uuid="b11f3266-dfd1-495f-8b17-3e17c5601aba">
+				<InternalInfo/>
+				<Properties>
+					<Name>Расход</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject/>
+				</Properties>
+			</Column>
+			<Column uuid="d26f8037-16e8-403e-bc44-cad8acb69217">
+				<InternalInfo/>
+				<Properties>
+					<Name>Валюта</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject/>
+				</Properties>
+			</Column>
+			<Column uuid="3c4189e8-85b6-46bf-b012-b11e22c7e4c2">
+				<InternalInfo/>
+				<Properties>
+					<Name>ВидОперации</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject/>
+				</Properties>
+			</Column>
+			<Column uuid="255da50c-f361-48bf-911d-a51ca111ee0a">
+				<InternalInfo/>
+				<Properties>
+					<Name>НомерВходящегоДокумента</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject/>
+				</Properties>
+			</Column>
+			<Column uuid="cf35c6e8-3c5b-47c8-a07c-c7452b1bc056">
+				<InternalInfo/>
+				<Properties>
+					<Name>РучнаяКорректировка</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject/>
+				</Properties>
+			</Column>
+			<Column uuid="8f1d713f-7522-4d56-9085-f569f9bd9de8">
+				<InternalInfo/>
+				<Properties>
+					<Name>НазначениеПлатежа</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject/>
+				</Properties>
+			</Column>
+			<Column uuid="8669fb51-1a1b-481c-9ab1-be621b622a9d">
+				<InternalInfo/>
+				<Properties>
+					<Name>Комментарий</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject/>
+				</Properties>
+			</Column>
+			<Form>БанковскиеВыписки</Form>
+		</ChildObjects>
+	</DocumentJournal>
+</MetaDataObject>

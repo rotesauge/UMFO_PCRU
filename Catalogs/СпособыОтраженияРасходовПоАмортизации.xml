@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
 	<Catalog uuid="52c140f9-51d4-4215-9f9f-52f00275a916">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.СпособыОтраженияРасходовПоАмортизации" category="Object">
@@ -44,7 +44,7 @@
 					<Name>БНФОСпособы</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>8e1fa085-b392-4148-81d8-41ee3273f40a</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 				</Properties>
 				<ChildObjects>
 					<Attribute uuid="24e0d3fb-3ba7-46b1-b23c-7b186710dced">
@@ -53,7 +53,7 @@
 							<Name>СтатьяЗатрат</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>dce4f0bc-0575-4b59-89dc-83f4dae26a98</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>cfg:CatalogRef.ПрочиеДоходыИРасходы</v8:Type>
 							</Type>
@@ -65,7 +65,7 @@
 							<Name>ПодразделениеОрганизации</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>a7d0e615-00d9-47ff-8920-b1f94d8d8fcf</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>cfg:CatalogRef.ПодразделенияОрганизаций</v8:Type>
 							</Type>

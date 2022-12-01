@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
@@ -28,6 +28,7 @@
 					<v8:content>Страницы</v8:content>
 				</v8:item>
 			</ToolTip>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
 			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="26"/>
 			<ChildItems>
 				<Page name="ОСН" id="27">
@@ -60,6 +61,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>StrongSeparation</Representation>
 							<ExtendedTooltip name="ГруппаСчетСубконтоДт_ОснРасширеннаяПодсказка" id="66"/>
 							<ChildItems>
@@ -99,6 +101,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<ExtendedTooltip name="ГруппаСуммаДт_ОснРасширеннаяПодсказка" id="417"/>
 							<ChildItems>
 								<CheckBoxField name="pcru_ex_Сумму_В_НУ_ОСН_Дт" id="418">
@@ -135,6 +138,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>StrongSeparation</Representation>
 							<ExtendedTooltip name="ГруппаСчетСубконтоКт_ОснРасширеннаяПодсказка" id="70"/>
 							<ChildItems>
@@ -174,6 +178,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>NormalSeparation</Representation>
 							<ExtendedTooltip name="ГруппаСуммаКт_ОснРасширеннаяПодсказка" id="322"/>
 							<ChildItems>
@@ -229,6 +234,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>StrongSeparation</Representation>
 							<ExtendedTooltip name="ГруппаСчетСубконтоДт_ДоПредельнойВеличиныРасширеннаяПодсказка" id="72"/>
 							<ChildItems>
@@ -268,6 +274,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<ExtendedTooltip name="ГруппаСуммаДт_ДоПредельнойВеличиныРасширеннаяПодсказка" id="437"/>
 							<ChildItems>
 								<CheckBoxField name="pcru_ex_Сумму_В_НУ_ПФРДоПредельнойВеличины_Дт" id="440">
@@ -304,6 +311,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>StrongSeparation</Representation>
 							<ExtendedTooltip name="ГруппаСчетСубконтоКт_ДоПредельнойВеличиныРасширеннаяПодсказка" id="76"/>
 							<ChildItems>
@@ -343,6 +351,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<ExtendedTooltip name="ГруппаСуммаКт_ДоПредельнойВеличиныРасширеннаяПодсказка" id="439"/>
 							<ChildItems>
 								<CheckBoxField name="pcru_ex_Сумму_В_НУ_ПФРДоПредельнойВеличины_Кт" id="449">
@@ -397,6 +406,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>StrongSeparation</Representation>
 							<ExtendedTooltip name="ГруппаСчетСубконтоДт_ПФРСПревышенияРасширеннаяПодсказка" id="80"/>
 							<ChildItems>
@@ -436,6 +446,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<ExtendedTooltip name="ГруппаСуммаДт_ПФРСПревышенияРасширеннаяПодсказка" id="459"/>
 							<ChildItems>
 								<CheckBoxField name="pcru_ex_Сумму_В_НУ_ПФРСПревышения_Дт" id="471">
@@ -472,6 +483,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>StrongSeparation</Representation>
 							<ExtendedTooltip name="ГруппаСчетСубконтоКт_ПФРСПревышенияРасширеннаяПодсказка" id="84"/>
 							<ChildItems>
@@ -511,6 +523,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<ExtendedTooltip name="ГруппаСуммаКт_ПФРСПревышенияРасширеннаяПодсказка" id="461"/>
 							<ChildItems>
 								<CheckBoxField name="pcru_ex_Сумму_В_НУ_ПФРСПревышения_Кт" id="462">
@@ -565,6 +578,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>StrongSeparation</Representation>
 							<ExtendedTooltip name="ГруппаСчетСубконтоДт_ФССРасширеннаяПодсказка" id="88"/>
 							<ChildItems>
@@ -604,6 +618,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<ExtendedTooltip name="ГруппаСуммаДт_ФССРасширеннаяПодсказка" id="481"/>
 							<ChildItems>
 								<CheckBoxField name="pcru_ex_Сумму_В_НУ_ФСС_Дт" id="484">
@@ -640,6 +655,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>StrongSeparation</Representation>
 							<ExtendedTooltip name="ГруппаСчетСубконтоКт_ФССРасширеннаяПодсказка" id="92"/>
 							<ChildItems>
@@ -679,6 +695,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<ExtendedTooltip name="ГруппаСуммаКт_ФССРасширеннаяПодсказка" id="483"/>
 							<ChildItems>
 								<CheckBoxField name="pcru_ex_Сумму_В_НУ_ФСС_Кт" id="493">
@@ -733,6 +750,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>StrongSeparation</Representation>
 							<ExtendedTooltip name="ГруппаСчетСубконтоДт_ФССНесчастныеСлучаиРасширеннаяПодсказка" id="96"/>
 							<ChildItems>
@@ -772,6 +790,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<ExtendedTooltip name="ГруппаСуммаДт_ФССНесчастныеСлучаиРасширеннаяПодсказка" id="503"/>
 							<ChildItems>
 								<CheckBoxField name="pcru_ex_Сумму_В_НУ_ФССНесчастныеСлучаи_Дт" id="515">
@@ -808,6 +827,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>StrongSeparation</Representation>
 							<ExtendedTooltip name="ГруппаСчетСубконтоКт_ФССНесчастныеСлучаиРасширеннаяПодсказка" id="100"/>
 							<ChildItems>
@@ -847,6 +867,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<ExtendedTooltip name="ГруппаСуммаКт_ФССНесчастныеСлучаиРасширеннаяПодсказка" id="505"/>
 							<ChildItems>
 								<CheckBoxField name="pcru_ex_Сумму_В_НУ_ФССНесчастныеСлучаи_Кт" id="506">
@@ -901,6 +922,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>StrongSeparation</Representation>
 							<ExtendedTooltip name="ГруппаСчетСубконтоДт_ФФОМСРасширеннаяПодсказка" id="104"/>
 							<ChildItems>
@@ -940,6 +962,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<ExtendedTooltip name="ГруппаСуммаДт_ФФОМСРасширеннаяПодсказка" id="525"/>
 							<ChildItems>
 								<CheckBoxField name="pcru_ex_Сумму_В_НУ_ФФОМС_Дт" id="528">
@@ -976,6 +999,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>StrongSeparation</Representation>
 							<ExtendedTooltip name="ГруппаСчетСубконтоКт_ФФОМСРасширеннаяПодсказка" id="108"/>
 							<ChildItems>
@@ -1015,6 +1039,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<ExtendedTooltip name="ГруппаСуммаКт_ФФОМСРасширеннаяПодсказка" id="527"/>
 							<ChildItems>
 								<CheckBoxField name="pcru_ex_Сумму_В_НУ_ФФОМС_Кт" id="537">
@@ -1073,6 +1098,7 @@
 							<ShowRoot>true</ShowRoot>
 							<AllowRootChoice>false</AllowRootChoice>
 							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 							<ContextMenu name="ДопСведенияКонтекстноеМеню" id="7"/>
 							<AutoCommandBar name="ДопСведенияКоманднаяПанель" id="8"/>
 							<ExtendedTooltip name="ДопСведенияРасширеннаяПодсказка" id="9"/>
@@ -1239,7 +1265,7 @@
 			</Settings>
 		</Attribute>
 	</Attributes>
-	<BaseForm version="2.11">
+	<BaseForm version="2.14">
 		<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 		<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>

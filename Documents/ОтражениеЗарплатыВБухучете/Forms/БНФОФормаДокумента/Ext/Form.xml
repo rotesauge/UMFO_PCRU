@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
 	<VerticalScroll>useIfNecessary</VerticalScroll>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<ChildItems>
@@ -11,6 +11,7 @@
 				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
 			<ChildItemsWidth>Equal</ChildItemsWidth>
 			<ShowTitle>false</ShowTitle>
@@ -24,6 +25,7 @@
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаШапкаЛеваяExtendedTooltip" id="175"/>
@@ -55,6 +57,7 @@
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="АвторизацияExtendedTooltip" id="178"/>
@@ -67,6 +70,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ДатаНомерExtendedTooltip" id="179"/>
@@ -93,6 +97,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаОтраженияВБухУчетеExtendedTooltip" id="183"/>
@@ -128,6 +133,7 @@
 				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ОсновныеКомандыExtendedTooltip" id="186"/>
@@ -135,7 +141,7 @@
 				<Button name="Заполнить" id="119">
 					<Type>UsualButton</Type>
 					<Height>1</Height>
-					<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<CommandName>0</CommandName>
 					<Font ref="style:LargeTextFont" kind="StyleItem"/>
 					<ExtendedTooltip name="ЗаполнитьExtendedTooltip" id="187"/>
 				</Button>
@@ -148,6 +154,7 @@
 					<v8:content>Страницы</v8:content>
 				</v8:item>
 			</Title>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
 			<ExtendedTooltip name="СтраницыExtendedTooltip" id="188"/>
 			<ChildItems>
 				<Page name="ГруппаНачисленнаяЗарплатаИВзносы" id="14">
@@ -226,13 +233,11 @@
 									<ExtendedTooltip name="НачисленнаяЗарплатаИВзносыПодразделениеExtendedTooltip" id="193"/>
 								</InputField>
 								<InputField name="НачисленнаяЗарплатаИВзносыProcessCode" id="403">
-									<DataPath>1000001/0:b544ff6f-8e6d-4d5c-9286-d50d0bc18d08/0:95690db1-4069-4ca4-aa7b-b2f5d04c281c</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="НачисленнаяЗарплатаИВзносыProcessCodeКонтекстноеМеню" id="404"/>
 									<ExtendedTooltip name="НачисленнаяЗарплатаИВзносыProcessCodeРасширеннаяПодсказка" id="405"/>
 								</InputField>
 								<InputField name="НачисленнаяЗарплатаИВзносыpcru_ex_ТипЗатрат" id="406">
-									<DataPath>1000001/0:b544ff6f-8e6d-4d5c-9286-d50d0bc18d08/0:44ddf6c0-ec1a-4a86-b25f-1d10b85ca4e3</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="НачисленнаяЗарплатаИВзносыpcru_ex_ТипЗатратКонтекстноеМеню" id="407"/>
 									<ExtendedTooltip name="НачисленнаяЗарплатаИВзносыpcru_ex_ТипЗатратРасширеннаяПодсказка" id="408"/>
@@ -524,13 +529,6 @@
 								<InputField name="НачисленныйНДФЛРегистрацияВНалоговомОргане" id="136">
 									<EditMode>EnterOnInput</EditMode>
 									<AutoMarkIncomplete>true</AutoMarkIncomplete>
-									<ChoiceParameterLinks>
-										<xr:Link>
-											<xr:Name>Отбор.Владелец</xr:Name>
-											<xr:DataPath xsi:type="xs:string">9</xr:DataPath>
-											<xr:ValueChange>Clear</xr:ValueChange>
-										</xr:Link>
-									</ChoiceParameterLinks>
 									<ContextMenu name="НачисленныйНДФЛРегистрацияВНалоговомОрганеКонтекстноеМеню" id="137"/>
 									<ExtendedTooltip name="НачисленныйНДФЛРегистрацияВНалоговомОрганеExtendedTooltip" id="217"/>
 								</InputField>
@@ -772,6 +770,7 @@
 				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаКомментарийОтветственныйРасширеннаяПодсказка" id="240"/>
@@ -797,17 +796,12 @@
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1000001">
-			<Type>
-				<v8:TypeId>30ed2d36-881b-4e02-a7ce-6c30f1c4faf7</v8:TypeId>
-			</Type>
+			<Type/>
 			<MainAttribute>true</MainAttribute>
 			<SavedData>true</SavedData>
-			<UseAlways>
-				<Field>1000001/-8</Field>
-			</UseAlways>
 		</Attribute>
 	</Attributes>
-	<BaseForm version="2.11">
+	<BaseForm version="2.14">
 		<VerticalScroll>useIfNecessary</VerticalScroll>
 		<AutoTime>CurrentOrLast</AutoTime>
 		<UsePostingMode>Auto</UsePostingMode>
@@ -822,6 +816,7 @@
 					</v8:item>
 				</Title>
 				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
 				<Representation>NormalSeparation</Representation>
 				<ChildItemsWidth>Equal</ChildItemsWidth>
 				<ShowTitle>false</ShowTitle>
@@ -835,6 +830,7 @@
 							</v8:item>
 						</Title>
 						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаШапкаЛеваяExtendedTooltip" id="175"/>
@@ -866,6 +862,7 @@
 							</v8:item>
 						</Title>
 						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="АвторизацияExtendedTooltip" id="178"/>
@@ -878,6 +875,7 @@
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ДатаНомерExtendedTooltip" id="179"/>
@@ -904,6 +902,7 @@
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаОтраженияВБухУчетеExtendedTooltip" id="183"/>
@@ -939,6 +938,7 @@
 					</v8:item>
 				</Title>
 				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ОсновныеКомандыExtendedTooltip" id="186"/>
@@ -959,6 +959,7 @@
 						<v8:content>Страницы</v8:content>
 					</v8:item>
 				</Title>
+				<PagesRepresentation>TabsOnTop</PagesRepresentation>
 				<ExtendedTooltip name="СтраницыExtendedTooltip" id="188"/>
 				<ChildItems>
 					<Page name="ГруппаНачисленнаяЗарплатаИВзносы" id="14">
@@ -1323,13 +1324,6 @@
 									<InputField name="НачисленныйНДФЛРегистрацияВНалоговомОргане" id="136">
 										<EditMode>EnterOnInput</EditMode>
 										<AutoMarkIncomplete>true</AutoMarkIncomplete>
-										<ChoiceParameterLinks>
-											<xr:Link>
-												<xr:Name>Отбор.Владелец</xr:Name>
-												<xr:DataPath xsi:type="xs:string">9</xr:DataPath>
-												<xr:ValueChange>Clear</xr:ValueChange>
-											</xr:Link>
-										</ChoiceParameterLinks>
 										<ContextMenu name="НачисленныйНДФЛРегистрацияВНалоговомОрганеКонтекстноеМеню" id="137"/>
 										<ExtendedTooltip name="НачисленныйНДФЛРегистрацияВНалоговомОрганеExtendedTooltip" id="217"/>
 									</InputField>
@@ -1571,6 +1565,7 @@
 					</v8:item>
 				</Title>
 				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
 				<Representation>NormalSeparation</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ГруппаКомментарийОтветственныйРасширеннаяПодсказка" id="240"/>

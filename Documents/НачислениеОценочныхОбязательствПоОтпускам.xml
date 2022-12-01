@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
 	<Document uuid="6bd78bdb-cc29-4e62-bb01-7b1f2ed410ef">
 		<InternalInfo>
 			<xr:GeneratedType name="DocumentObject.НачислениеОценочныхОбязательствПоОтпускам" category="Object">
@@ -116,7 +116,7 @@
 					<Name>Бухгалтер</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>eb4a6e09-0675-49bd-91c3-a94a0a475df3</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
 					</Type>
@@ -128,7 +128,7 @@
 					<Name>ДоляРасходов</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>0f9dd867-d5f8-4277-b2b2-05ffb33bc861</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
 						<v8:NumberQualifiers>
@@ -537,7 +537,7 @@
 							<Name>ОблагаетсяЕНВД</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>e80ae97a-2eea-4d0d-b2e9-23c01552042c</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:boolean</v8:Type>
 							</Type>
@@ -609,7 +609,7 @@
 							<Name>ОтпускАвансом</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>b843634d-2d7c-4b98-9932-6e464351b68d</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -626,7 +626,7 @@
 							<Name>СуммаРезерваИсчисленоНУ</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>794fed40-3eb6-419d-bdb1-d11361c2db00</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -643,7 +643,7 @@
 							<Name>СуммаРезерваНакопленоНУ</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>2d571bc1-1644-4f45-9102-29d88eb63d8b</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -660,7 +660,7 @@
 							<Name>СуммаРезерваФССНесчастныеСлучаиНакопленоНУ</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>0ec8d006-3aa1-497d-b133-02f95bebf66f</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -677,7 +677,7 @@
 							<Name>ТекущаяСтавкаСтраховыхВзносов</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>27c6ed9c-46e5-4523-ab68-f4ab44df5a9a</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -694,7 +694,7 @@
 							<Name>ФОТ</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>6e8a2689-e188-4ef6-8c75-0ed755737639</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -711,7 +711,7 @@
 							<Name>СуммаРезерваФССНесчастныеСлучаи</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>1d12e6d6-4ba9-4047-8888-b3bb628b56db</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -728,7 +728,7 @@
 							<Name>СуммаРезерваИсчислено</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>7e0d78ba-37c6-4ede-b00e-54add1f8974c</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -745,7 +745,7 @@
 							<Name>СуммаРезерваСтраховыхВзносов</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>c0f6283f-ed04-4124-a7ed-46cdb0009ea9</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -762,7 +762,7 @@
 							<Name>ТекущаяСтавкаФССНесчастныеСлучаи</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>5f6754b2-52dc-4e1c-a2bb-a4febbeeaf2b</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -779,7 +779,7 @@
 							<Name>СуммаРезерваФССНесчастныеСлучаиИсчисленоНУ</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>2f1a8d28-13c2-4e79-9a2e-fb5ccbc5e33e</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -796,7 +796,7 @@
 							<Name>СтраховыеВзносы</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>75a9356b-518b-4771-a26a-867a8e037a09</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -813,7 +813,7 @@
 							<Name>ОстатокОтпуска</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>26136f8b-dd28-4620-ba8c-4c8158e9ce94</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -830,7 +830,7 @@
 							<Name>СуммаРезерва</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>0c04cd4b-6e9c-439e-a882-6dd9132cf243</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -847,7 +847,7 @@
 							<Name>Сотрудник</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>3eb8b013-afb6-4f72-93c5-667c22bc5627</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
 							</Type>
@@ -859,7 +859,7 @@
 							<Name>СреднийЗаработок</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>480d9e04-da57-42f4-bbe7-599dc0973628</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -876,7 +876,7 @@
 							<Name>ФССНесчастныеСлучаи</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>abb382ee-b0f4-45a9-98c4-e8a272f0d652</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -893,7 +893,7 @@
 							<Name>СуммаРезерваНакоплено</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>34f7444c-fa75-4f83-b65b-4675ea6e0ea0</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -910,7 +910,7 @@
 							<Name>СуммаРезерваСтраховыхВзносовИсчисленоНУ</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>8010ab8c-8763-4460-a810-39c8d9365d60</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -927,7 +927,7 @@
 							<Name>СуммаРезерваФССНесчастныеСлучаиНУ</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>51d9cd4c-83c0-422c-92c6-2fbecfa19410</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -944,7 +944,7 @@
 							<Name>СуммаРезерваНУ</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>39ba7a90-8db7-4262-b9e4-5f885c8c4831</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -961,7 +961,7 @@
 							<Name>СуммаРезерваСтраховыхВзносовИсчислено</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>dba0dbdf-377f-4e4c-ad5e-3fce920d68b7</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -978,7 +978,7 @@
 							<Name>СуммаРезерваСтраховыхВзносовНакоплено</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>92f4d12f-4b9c-44a8-aabf-4ebd30084693</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -995,7 +995,7 @@
 							<Name>СуммаРезерваСтраховыхВзносовНакопленоНУ</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>06f3edad-21f6-481d-97ae-1cfdc3582127</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -1012,7 +1012,7 @@
 							<Name>СуммаРезерваСтраховыхВзносовНУ</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>7154fcf1-8302-4ee3-9052-9ab04e527d41</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -1029,7 +1029,7 @@
 							<Name>СуммаРезерваФССНесчастныеСлучаиИсчислено</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>78ba03e3-109d-4a57-81b0-1ad0c19abf8a</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -1046,7 +1046,7 @@
 							<Name>СуммаРезерваФССНесчастныеСлучаиНакоплено</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<ExtendedConfigurationObject>ae6a6263-3e96-46d8-86be-5e7b24cbd164</ExtendedConfigurationObject>
+							<ExtendedConfigurationObject/>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>

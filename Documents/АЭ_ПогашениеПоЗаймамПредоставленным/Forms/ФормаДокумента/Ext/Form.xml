@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
 	<AutoTime>CurrentOrLast</AutoTime>
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
@@ -97,6 +97,7 @@
 		<UsualGroup name="ГруппаШапка" id="7">
 			<GroupHorizontalAlign>Left</GroupHorizontalAlign>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="8"/>
@@ -105,11 +106,13 @@
 					<HorizontalStretch>false</HorizontalStretch>
 					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаШапкаЛеваяРасширеннаяПодсказка" id="10"/>
 					<ChildItems>
 						<UsualGroup name="ГруппаВидОперации" id="365">
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<BackColor>style:ФонУправляющегоПоля</BackColor>
@@ -124,6 +127,7 @@
 						</UsualGroup>
 						<UsualGroup name="ГруппаНомерДата" id="13">
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаНомерДатаРасширеннаяПодсказка" id="14"/>
@@ -185,6 +189,7 @@
 				</UsualGroup>
 				<UsualGroup name="ГруппаШапкаПравая" id="11">
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаШапкаПраваяРасширеннаяПодсказка" id="12"/>
@@ -207,6 +212,7 @@
 									<v8:content>Группа подразделение</v8:content>
 								</v8:item>
 							</ToolTip>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаПодразделениеРасширеннаяПодсказка" id="1280"/>
@@ -239,6 +245,7 @@
 						</UsualGroup>
 						<UsualGroup name="ГруппаВидПогашения" id="1356">
 							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаВидПогашенияРасширеннаяПодсказка" id="1357"/>
@@ -403,11 +410,13 @@
 		</UsualGroup>
 		<UsualGroup name="ГруппаТабличнаяЧасть" id="810">
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаТабличнаяЧастьРасширеннаяПодсказка" id="811"/>
 			<ChildItems>
 				<UsualGroup name="ГруппаТабличнаяЧастьЛево" id="812">
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаТабличнаяЧастьЛевоРасширеннаяПодсказка" id="813"/>
@@ -1112,6 +1121,7 @@
 					</ChildItems>
 				</UsualGroup>
 				<UsualGroup name="ГруппаТабличнаяЧастьПраво" id="814">
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаТабличнаяЧастьПравоРасширеннаяПодсказка" id="815"/>
@@ -1130,11 +1140,13 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ExtendedTooltip name="ГруппаПараметрыРаспределенияРасширеннаяПодсказка" id="1016"/>
 							<ChildItems>
 								<UsualGroup name="ГруппаПараметрыРаспределенияДетально" id="1026">
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<BackColor>style:ГруппаОперацийФонГруппы</BackColor>
@@ -1176,6 +1188,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ExtendedTooltip name="ГруппаОстатокТекущихРасчетовРасширеннаяПодсказка" id="879"/>
 							<ChildItems>
@@ -1192,6 +1205,7 @@
 											<v8:content>Группа остаток текущих расчетов детально</v8:content>
 										</v8:item>
 									</ToolTip>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<BackColor>style:ГруппаОперацийФонГруппы</BackColor>
@@ -1251,6 +1265,7 @@
 									<v8:content>Группа задолженность и распределение оплаты</v8:content>
 								</v8:item>
 							</ToolTip>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ExtendedTooltip name="ГруппаЗадолженностьИОплатаРасширеннаяПодсказка" id="890"/>
 							<ChildItems>
@@ -1262,6 +1277,7 @@
 										</v8:item>
 									</Title>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<BackColor>style:ГруппаОперацийФонГруппы</BackColor>
@@ -1401,6 +1417,7 @@
 										</v8:item>
 									</Title>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<BackColor>style:ГруппаОперацийФонГруппы</BackColor>
@@ -1534,6 +1551,7 @@
 										</v8:item>
 									</Title>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<BackColor>style:ГруппаОперацийФонГруппы</BackColor>
@@ -1667,6 +1685,7 @@
 										</v8:item>
 									</Title>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<BackColor>style:ФонУправляющегоПоля</BackColor>
@@ -1803,11 +1822,13 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ExtendedTooltip name="ГруппаОплатаНаСчетТекущихРасчетовРасширеннаяПодсказка" id="1003"/>
 							<ChildItems>
 								<UsualGroup name="ГруппаОплатаНаСчетТекущихРасчетовДетально" id="1013">
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<BackColor>style:ГруппаОперацийФонГруппы</BackColor>
@@ -1873,6 +1894,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ExtendedTooltip name="ГруппаПрочиеСведенияРасширеннаяПодсказка" id="1211"/>
 							<ChildItems>
@@ -1890,6 +1912,7 @@
 										</v8:item>
 									</ToolTip>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<BackColor>style:ГруппаОперацийФонГруппы</BackColor>
@@ -1933,11 +1956,13 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ExtendedTooltip name="ГруппаДосрочноеПогашениеПоЗаявлениюРасширеннаяПодсказка" id="1221"/>
 							<ChildItems>
 								<UsualGroup name="ГруппаДосрочноеПогашениеПоЗаявлениюДетально" id="1222">
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<BackColor>style:ГруппаОперацийФонГруппы</BackColor>
@@ -1976,6 +2001,7 @@
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="ГруппаТабличнаяЧастьПроизволныеОплаты" id="1028">
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаТабличнаяЧастьПроизволныеОплатыРасширеннаяПодсказка" id="1029"/>
@@ -2466,6 +2492,7 @@
 		</UsualGroup>
 		<UsualGroup name="ГруппаПодвал" id="21">
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаПодвалРасширеннаяПодсказка" id="22"/>
@@ -2492,6 +2519,7 @@
 					<v8:content>Идентификатор объекта</v8:content>
 				</v8:item>
 			</Title>
+			<Behavior>Usual</Behavior>
 			<ExtendedTooltip name="ГруппаИдентификаторРасширеннаяПодсказка" id="995"/>
 			<ChildItems>
 				<InputField name="Идентификатор" id="996">
@@ -2884,7 +2912,7 @@
 			</dcsset:item>
 		</ConditionalAppearance>
 	</Attributes>
-	<BaseForm version="2.11">
+	<BaseForm version="2.14">
 		<AutoTime>CurrentOrLast</AutoTime>
 		<UsePostingMode>Auto</UsePostingMode>
 		<RepostOnWrite>true</RepostOnWrite>
@@ -2982,6 +3010,7 @@
 			<UsualGroup name="ГруппаШапка" id="7">
 				<GroupHorizontalAlign>Left</GroupHorizontalAlign>
 				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="8"/>
@@ -2990,11 +3019,13 @@
 						<HorizontalStretch>false</HorizontalStretch>
 						<GroupHorizontalAlign>Center</GroupHorizontalAlign>
 						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаШапкаЛеваяРасширеннаяПодсказка" id="10"/>
 						<ChildItems>
 							<UsualGroup name="ГруппаВидОперации" id="365">
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<BackColor>style:ФонУправляющегоПоля</BackColor>
@@ -3009,6 +3040,7 @@
 							</UsualGroup>
 							<UsualGroup name="ГруппаНомерДата" id="13">
 								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаНомерДатаРасширеннаяПодсказка" id="14"/>
@@ -3070,6 +3102,7 @@
 					</UsualGroup>
 					<UsualGroup name="ГруппаШапкаПравая" id="11">
 						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаШапкаПраваяРасширеннаяПодсказка" id="12"/>
@@ -3092,6 +3125,7 @@
 										<v8:content>Группа подразделение</v8:content>
 									</v8:item>
 								</ToolTip>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаПодразделениеРасширеннаяПодсказка" id="1280"/>
@@ -3124,6 +3158,7 @@
 							</UsualGroup>
 							<UsualGroup name="ГруппаВидПогашения" id="1356">
 								<Group>AlwaysHorizontal</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаВидПогашенияРасширеннаяПодсказка" id="1357"/>
@@ -3288,11 +3323,13 @@
 			</UsualGroup>
 			<UsualGroup name="ГруппаТабличнаяЧасть" id="810">
 				<Group>Vertical</Group>
+				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ГруппаТабличнаяЧастьРасширеннаяПодсказка" id="811"/>
 				<ChildItems>
 					<UsualGroup name="ГруппаТабличнаяЧастьЛево" id="812">
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаТабличнаяЧастьЛевоРасширеннаяПодсказка" id="813"/>
@@ -3991,6 +4028,7 @@
 						</ChildItems>
 					</UsualGroup>
 					<UsualGroup name="ГруппаТабличнаяЧастьПраво" id="814">
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаТабличнаяЧастьПравоРасширеннаяПодсказка" id="815"/>
@@ -4009,11 +4047,13 @@
 									</v8:item>
 								</ToolTip>
 								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ExtendedTooltip name="ГруппаПараметрыРаспределенияРасширеннаяПодсказка" id="1016"/>
 								<ChildItems>
 									<UsualGroup name="ГруппаПараметрыРаспределенияДетально" id="1026">
 										<Group>Horizontal</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<BackColor>style:ГруппаОперацийФонГруппы</BackColor>
@@ -4055,6 +4095,7 @@
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ExtendedTooltip name="ГруппаОстатокТекущихРасчетовРасширеннаяПодсказка" id="879"/>
 								<ChildItems>
@@ -4071,6 +4112,7 @@
 												<v8:content>Группа остаток текущих расчетов детально</v8:content>
 											</v8:item>
 										</ToolTip>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<BackColor>style:ГруппаОперацийФонГруппы</BackColor>
@@ -4130,6 +4172,7 @@
 										<v8:content>Группа задолженность и распределение оплаты</v8:content>
 									</v8:item>
 								</ToolTip>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ExtendedTooltip name="ГруппаЗадолженностьИОплатаРасширеннаяПодсказка" id="890"/>
 								<ChildItems>
@@ -4141,6 +4184,7 @@
 											</v8:item>
 										</Title>
 										<Group>Horizontal</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<BackColor>style:ГруппаОперацийФонГруппы</BackColor>
@@ -4280,6 +4324,7 @@
 											</v8:item>
 										</Title>
 										<Group>Horizontal</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<BackColor>style:ГруппаОперацийФонГруппы</BackColor>
@@ -4413,6 +4458,7 @@
 											</v8:item>
 										</Title>
 										<Group>Horizontal</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<BackColor>style:ГруппаОперацийФонГруппы</BackColor>
@@ -4546,6 +4592,7 @@
 											</v8:item>
 										</Title>
 										<Group>Horizontal</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<BackColor>style:ФонУправляющегоПоля</BackColor>
@@ -4682,11 +4729,13 @@
 									</v8:item>
 								</ToolTip>
 								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ExtendedTooltip name="ГруппаОплатаНаСчетТекущихРасчетовРасширеннаяПодсказка" id="1003"/>
 								<ChildItems>
 									<UsualGroup name="ГруппаОплатаНаСчетТекущихРасчетовДетально" id="1013">
 										<Group>Horizontal</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<BackColor>style:ГруппаОперацийФонГруппы</BackColor>
@@ -4752,6 +4801,7 @@
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ExtendedTooltip name="ГруппаПрочиеСведенияРасширеннаяПодсказка" id="1211"/>
 								<ChildItems>
@@ -4769,6 +4819,7 @@
 											</v8:item>
 										</ToolTip>
 										<Group>Horizontal</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<BackColor>style:ГруппаОперацийФонГруппы</BackColor>
@@ -4812,11 +4863,13 @@
 									</v8:item>
 								</ToolTip>
 								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ExtendedTooltip name="ГруппаДосрочноеПогашениеПоЗаявлениюРасширеннаяПодсказка" id="1221"/>
 								<ChildItems>
 									<UsualGroup name="ГруппаДосрочноеПогашениеПоЗаявлениюДетально" id="1222">
 										<Group>Horizontal</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<BackColor>style:ГруппаОперацийФонГруппы</BackColor>
@@ -4855,6 +4908,7 @@
 				</ChildItems>
 			</UsualGroup>
 			<UsualGroup name="ГруппаТабличнаяЧастьПроизволныеОплаты" id="1028">
+				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ГруппаТабличнаяЧастьПроизволныеОплатыРасширеннаяПодсказка" id="1029"/>
@@ -5345,6 +5399,7 @@
 			</UsualGroup>
 			<UsualGroup name="ГруппаПодвал" id="21">
 				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ГруппаПодвалРасширеннаяПодсказка" id="22"/>
@@ -5371,6 +5426,7 @@
 						<v8:content>Идентификатор объекта</v8:content>
 					</v8:item>
 				</Title>
+				<Behavior>Usual</Behavior>
 				<ExtendedTooltip name="ГруппаИдентификаторРасширеннаяПодсказка" id="995"/>
 				<ChildItems>
 					<InputField name="Идентификатор" id="996">
